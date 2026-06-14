@@ -74,14 +74,9 @@
   ],
 
   
-  "exclude_groups": [
-  "USA - Movies"
-],
-  
   "exclude_categories": [
     "xxx",
-    "adult",
-    "movies"
+    "adult"
   ],
 
   "exclude_labels_containing": [
