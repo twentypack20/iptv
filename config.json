@@ -88,9 +88,7 @@
   "exclude_name_contains": [
     "Radio",
     "Audio Only",
-    "Audio-only",
-    "Movie",
-    "Movies"
+    "Audio-only"
   ],
   
   "include_name_contains": [],
