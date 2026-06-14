@@ -1,0 +1,33 @@
+name: Build IPTV Playlist
+
+on:
+  schedule:
+    # Daily at 6:20 AM UTC
+    - cron: "20 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build playlist
+        run: python scripts/build_playlist.py
+
+      - name: Commit generated playlist
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update generated IPTV playlist"
+          file_pattern: "docs/index.m3u docs/report.json"
