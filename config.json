@@ -1,18 +1,51 @@
 {
-  "output_name": "index.m3u",
   "playlist_name": "Custom IPTV - US English",
-  "epg_url": "https://iptv-org.github.io/epg/guides/us.xml",
-  "tvg_shift": "-5",
+  "output_name": "index.m3u",
+
+  "site_base_url": "https://twentypack20.github.io/iptv",
+
   "timezone": "America/New_York",
-  "keep_countries": [
-    "US"
+  "tvg_shift": "0",
+  "epg_url": "",
+
+  "keep_countries": ["us"],
+  "keep_languages": ["eng"],
+
+  "exclude_closed_channels": true,
+  "exclude_nsfw": true,
+  "exclude_audio_only": true,
+
+  "min_quality_p": 480,
+  "exclude_unknown_quality": false,
+
+  "dedupe_by_channel": true,
+
+  "use_generated_posters": true,
+  "show_quality_in_name": false,
+
+  "poster_width": 1000,
+  "poster_height": 1500,
+  "poster_background": "#09071a",
+  "poster_panel_background": "#14122a",
+  "poster_text_color": "#f4e2b7",
+  "poster_muted_text_color": "#8f87c8",
+  "poster_title_font_size": 68,
+  "poster_title_line_height": 86,
+  "poster_footer_font_size": 34,
+  "poster_footer_text": "Live Channel",
+
+  "prefer_quality_order": [
+    "2160p",
+    "1080p",
+    "720p",
+    "576p",
+    "540p",
+    "480p"
   ],
-  "keep_languages": [
-    "eng"
-  ],
+
   "keep_categories": [
-    "auto",
     "animation",
+    "auto",
     "business",
     "classic",
     "comedy",
@@ -23,7 +56,6 @@
     "entertainment",
     "family",
     "general",
-    "interactive",
     "kids",
     "legislative",
     "lifestyle",
@@ -31,7 +63,6 @@
     "music",
     "news",
     "outdoor",
-    "public",
     "relax",
     "religious",
     "series",
@@ -41,113 +72,76 @@
     "travel",
     "weather"
   ],
+
   "exclude_categories": [
-    "xxx"
+    "xxx",
+    "adult"
   ],
-  "exclude_nsfw": true,
-  "exclude_closed_channels": true,
-  "exclude_audio_only": true,
-  "min_quality_p": 480,
-  "exclude_unknown_quality": false,
+
   "exclude_labels_containing": [
     "Geo-blocked",
     "Not 24/7",
     "Offline"
   ],
+
   "exclude_name_contains": [
-    "radio",
-    "audio only",
-    "audio-only",
-    "podcast"
+    "Radio",
+    "Audio Only",
+    "Audio-only"
   ],
+
   "include_name_contains": [],
-  "prefer_quality_order": [
-    "2160p",
-    "1080p",
-    "720p",
-    "480p"
-  ],
-  "dedupe_by_channel": true,
+
+  "fallback_group": "USA - Other",
+
   "group_rules": [
     {
-      "group": "USA - Local / Public",
-      "categories": [
-        "public",
-        "legislative"
-      ]
+      "categories": ["news", "weather"],
+      "group": "USA - News"
     },
     {
-      "group": "USA - News",
-      "categories": [
-        "news",
-        "weather"
-      ]
+      "categories": ["sports"],
+      "group": "USA - Sports"
     },
     {
-      "group": "USA - Sports",
-      "categories": [
-        "sports",
-        "outdoor"
-      ]
+      "categories": ["movies", "classic"],
+      "group": "USA - Movies"
     },
     {
-      "group": "USA - Movies",
-      "categories": [
-        "movies",
-        "classic"
-      ]
+      "categories": ["series"],
+      "group": "USA - Series"
     },
     {
-      "group": "USA - Series",
-      "categories": [
-        "series"
-      ]
+      "categories": ["kids", "family", "animation"],
+      "group": "USA - Kids & Family"
     },
     {
-      "group": "USA - Kids & Family",
-      "categories": [
-        "kids",
-        "family",
-        "animation"
-      ]
+      "categories": ["documentary", "education", "science", "culture"],
+      "group": "USA - Documentary / Education"
     },
     {
-      "group": "USA - Documentary / Education",
-      "categories": [
-        "documentary",
-        "education",
-        "science",
-        "culture"
-      ]
+      "categories": ["music"],
+      "group": "USA - Music"
     },
     {
-      "group": "USA - Lifestyle",
-      "categories": [
-        "lifestyle",
-        "cooking",
-        "travel",
-        "relax"
-      ]
+      "categories": ["lifestyle", "cooking", "travel", "outdoor", "relax"],
+      "group": "USA - Lifestyle"
     },
     {
-      "group": "USA - Music",
-      "categories": [
-        "music"
-      ]
+      "categories": ["business", "shop"],
+      "group": "USA - Business / Shopping"
     },
     {
-      "group": "USA - Entertainment",
-      "categories": [
-        "entertainment",
-        "general",
-        "comedy",
-        "auto",
-        "business",
-        "interactive",
-        "shop",
-        "religious"
-      ]
+      "categories": ["religious"],
+      "group": "USA - Religious"
+    },
+    {
+      "categories": ["legislative"],
+      "group": "USA - Local / Public"
+    },
+    {
+      "categories": ["general", "entertainment", "comedy"],
+      "group": "USA - Entertainment"
     }
-  ],
-  "fallback_group": "USA - Other"
+  ]
 }
