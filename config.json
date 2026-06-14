@@ -93,9 +93,11 @@
   "exclude_name_contains": [
     "Radio",
     "Audio Only",
-    "Audio-only"
+    "Audio-only",
+    "Movie",
+    "Movies"
   ],
-
+  
   "include_name_contains": [],
 
   "fallback_group": "USA - Other",
