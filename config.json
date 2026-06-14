@@ -73,6 +73,11 @@
     "weather"
   ],
 
+  
+  "exclude_groups": [
+  "USA - Movies"
+],
+  
   "exclude_categories": [
     "xxx",
     "adult",
