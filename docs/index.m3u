@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-14 20:58:37 UTC
+# Generated: 2026-06-14 21:06:10 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1023,42 +1023,6 @@ https://livestream.telvue.com/yumaaz1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playl
 https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Yuma77.us" tvg-name="Yuma77" tvg-logo="https://twentypack20.github.io/iptv/posters/yuma77.us.png" group-title="USA - Local / Public",Yuma77
 https://securestream10.champds.com/LIVE/YumaCoAZLIVE/YumaCoAZLIVE.m3u8
-#EXTINF:-1 tvg-id="BeverlyHillbillies.us" tvg-name="Beverly Hillbillies" tvg-logo="https://twentypack20.github.io/iptv/posters/beverlyhillbillies.us.png" group-title="USA - Movies",Beverly Hillbillies
-https://jmp2.uk/plu-5f7796e470510900070d4e3d.m3u8
-#EXTINF:-1 tvg-id="CinevaultWesterns.us" tvg-name="Cinevault Westerns" tvg-logo="https://twentypack20.github.io/iptv/posters/cinevaultwesterns.us.png" group-title="USA - Movies",Cinevault Westerns
-https://aegis-cloudfront-1.tubi.video/72b8dd6b-391b-401c-a3e4-03f9c29555c8/playlist.m3u8
-#EXTINF:-1 tvg-id="ClassicTVDrama.us" tvg-name="Classic TV Drama" tvg-logo="https://twentypack20.github.io/iptv/posters/classictvdrama.us.png" group-title="USA - Movies",Classic TV Drama
-https://jmp2.uk/plu-5f15e3cccf49290007053c67.m3u8
-#EXTINF:-1 tvg-id="ClassicTVFamilies.us" tvg-name="Classic TV: Families" tvg-logo="https://twentypack20.github.io/iptv/posters/classictvfamilies.us.png" group-title="USA - Movies",Classic TV: Families
-https://jmp2.uk/plu-62e91af00c43540007f2bb43.m3u8
-#EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseclassictv.us.png" group-title="USA - Movies",FilmRise Classic TV
-https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTheTwilightZone.us" tvg-name="Pluto TV The Twilight Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvthetwilightzone.us.png" group-title="USA - Movies",Pluto TV The Twilight Zone
-https://jmp2.uk/plu-6512ec9f3a0d700008db4f0c.m3u8
-#EXTINF:-1 tvg-id="RetroCrush.us" tvg-name="RetroCrush" tvg-logo="https://twentypack20.github.io/iptv/posters/retrocrush.us.png" group-title="USA - Movies",RetroCrush
-https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="SamuelGoldwynClassics.us" tvg-name="Samuel Goldwyn Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/samuelgoldwynclassics.us.png" group-title="USA - Movies",Samuel Goldwyn Classics
-https://samuelgoldwyn-classics-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVSHollywoodHistory.us" tvg-name="TVS Hollywood History" tvg-logo="https://twentypack20.github.io/iptv/posters/tvshollywoodhistory.us.png" group-title="USA - Movies",TVS Hollywood History
-https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8
-#EXTINF:-1 tvg-id="TVSNostalgiaMovies.us" tvg-name="TVS Nostalgia Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/tvsnostalgiamovies.us.png" group-title="USA - Movies",TVS Nostalgia Movies
-https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
-#EXTINF:-1 tvg-id="TVSQuizShowNetwork.us" tvg-name="TVS Quiz Show Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvsquizshownetwork.us.png" group-title="USA - Movies",TVS Quiz Show Network
-https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
-#EXTINF:-1 tvg-id="TVSTavern.us" tvg-name="TVS Tavern" tvg-logo="https://twentypack20.github.io/iptv/posters/tvstavern.us.png" group-title="USA - Movies",TVS Tavern
-https://rpn.bozztv.com/gusa/gusa-tavern/index.m3u8
-#EXTINF:-1 tvg-id="TheAndyGriffithShow.us" tvg-name="The Andy Griffith Show" tvg-logo="https://twentypack20.github.io/iptv/posters/theandygriffithshow.us.png" group-title="USA - Movies",The Andy Griffith Show
-https://jmp2.uk/plu-62e9145ec07f2a00070e68dc.m3u8
-#EXTINF:-1 tvg-id="TheArchive.us" tvg-name="The Archive" tvg-logo="https://twentypack20.github.io/iptv/posters/thearchive.us.png" group-title="USA - Movies",The Archive
-https://linear-1080.frequency.stream/dist/cineverse/1080/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCarolBurnettShow.us" tvg-name="The Carol Burnett Show" tvg-logo="https://twentypack20.github.io/iptv/posters/thecarolburnettshow.us.png" group-title="USA - Movies",The Carol Burnett Show
-https://carolburnett-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TheLoveBoat.us" tvg-name="The Love Boat" tvg-logo="https://twentypack20.github.io/iptv/posters/theloveboat.us.png" group-title="USA - Movies",The Love Boat
-https://jmp2.uk/plu-62e91563ce7ce300076f917e.m3u8
-#EXTINF:-1 tvg-id="WantedDeadorAlive.us" tvg-name="Wanted: Dead or Alive" tvg-logo="https://twentypack20.github.io/iptv/posters/wanteddeadoralive.us.png" group-title="USA - Movies",Wanted: Dead or Alive
-https://aegis-cloudfront-1.tubi.video/d5171dc7-f8c6-469c-81eb-e1ffaaed5721/playlist.m3u8
-#EXTINF:-1 tvg-id="WesternTV.us" tvg-name="Western TV" tvg-logo="https://twentypack20.github.io/iptv/posters/westerntv.us.png" group-title="USA - Movies",Western TV
-https://jmp2.uk/plu-5e8df4bc16e34700077e77d3.m3u8
 #EXTINF:-1 tvg-id="30AMusic.us" tvg-name="30A Music" tvg-logo="https://twentypack20.github.io/iptv/posters/30amusic.us.png" group-title="USA - Music",30A Music
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="3ABNPraiseHimMusicNetwork.us" tvg-name="3ABN Praise Him Music Network" tvg-logo="https://twentypack20.github.io/iptv/posters/3abnpraisehimmusicnetwork.us.png" group-title="USA - Music",3ABN Praise Him Music Network
