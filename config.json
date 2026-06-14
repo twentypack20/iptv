@@ -75,7 +75,8 @@
 
   "exclude_categories": [
     "xxx",
-    "adult"
+    "adult",
+    "movies"
   ],
 
   "exclude_labels_containing": [
