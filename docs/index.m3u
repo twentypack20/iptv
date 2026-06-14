@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-14 21:24:58 UTC
+# Generated: 2026-06-14 21:34:59 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -729,8 +729,6 @@ https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAnime.us" tvg-name="Pluto TV Anime" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvanime.us.png" group-title="USA - Kids and Family",Pluto TV Anime
 https://jmp2.uk/plu-68d25b620a0f3829b116bb6f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnimeMovies.us" tvg-name="Pluto TV Anime Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvanimemovies.us.png" group-title="USA - Kids and Family",Pluto TV Anime Movies
-https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKids.us" tvg-name="Pluto TV Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvkids.us.png" group-title="USA - Kids and Family",Pluto TV Kids
 https://jmp2.uk/plu-5ad8d54be738977e2c310940.m3u8
 #EXTINF:-1 tvg-id="PlutoTVPokemon.us" tvg-name="Pluto TV Pokemon" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvpokemon.us.png" group-title="USA - Kids and Family",Pluto TV Pokemon
