@@ -1,33 +1,47 @@
 name: Build IPTV Playlist
 
 on:
-  schedule:
-    # Daily at 6:20 AM UTC
-    - cron: "20 6 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "18 8 * * *"
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+    paths:
+      - "config.json"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
 
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repo
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
-      - name: Build playlist
-        run: python scripts/build_playlist.py
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pillow
 
-      - name: Commit generated playlist
+      - name: Build playlist and posters
+        run: |
+          python scripts/build_playlist.py
+
+      - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update generated IPTV playlist"
-          file_pattern: "docs/index.m3u docs/report.json"
+          file_pattern: "docs/index.m3u docs/report.json docs/posters/*.png"
