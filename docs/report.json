@@ -1,35 +1,29 @@
 {
-  "generated": "2026-06-14 08:48:06 UTC",
-  "kept": 891,
-  "candidate_streams_before_dedupe": 1688,
+  "generated": "2026-06-14 09:26:04 UTC",
+  "kept": 0,
+  "candidate_streams_before_dedupe": 0,
   "timezone": "America/New_York",
-  "tvg_shift": "-5",
+  "tvg_shift": "0",
+  "epg_url": "",
   "min_quality_p": 480,
   "exclude_unknown_quality": false,
+  "use_generated_posters": true,
+  "show_quality_in_name": false,
+  "poster_count": 0,
   "skipped": {
     "no_channel": 2796,
-    "country": 9784,
-    "language": 484,
-    "category": 217,
+    "country": 12452,
+    "language": 0,
+    "category": 0,
     "nsfw": 0,
-    "closed": 10,
-    "label": 214,
-    "name": 3,
+    "closed": 0,
+    "label": 0,
+    "name": 0,
     "url": 0,
     "audio_only": 0,
-    "below_min_quality": 52,
-    "unknown_quality": 0
+    "below_min_quality": 0,
+    "unknown_quality": 0,
+    "poster_failed": 0
   },
-  "groups": {
-    "USA - Documentary / Education": 75,
-    "USA - Entertainment": 298,
-    "USA - Kids & Family": 59,
-    "USA - Lifestyle": 39,
-    "USA - Local / Public": 72,
-    "USA - Movies": 73,
-    "USA - Music": 29,
-    "USA - News": 80,
-    "USA - Series": 100,
-    "USA - Sports": 66
-  }
+  "groups": {}
 }
