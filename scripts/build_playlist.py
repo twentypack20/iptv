@@ -26,7 +26,7 @@ API = {
 }
 
 AUDIO_EXTENSIONS = {".mp3", ".aac", ".m4a", ".ogg", ".opus", ".flac", ".wav"}
-USER_AGENT = "custom-iptv-playlist-builder/2.0"
+USER_AGENT = "custom-iptv-playlist-builder/2.1"
 
 
 def fetch_json(url: str):
@@ -46,6 +46,10 @@ def clean_text(value):
     return value
 
 
+def clean_key(value):
+    return clean_text(value).lower()
+
+
 def clean_attr(value):
     value = clean_text(value)
     value = value.replace('"', "'")
@@ -60,8 +64,12 @@ def safe_filename(value):
 
 
 def contains_any(value: str, needles):
-    value = clean_text(value).lower()
-    return any(clean_text(n).lower() in value for n in needles)
+    value = clean_key(value)
+    return any(clean_key(n) in value for n in needles)
+
+
+def normalize_set(values):
+    return {clean_key(x) for x in (values or [])}
 
 
 def parse_quality_p(q):
@@ -102,7 +110,7 @@ def looks_audio_only(channel, stream):
     if any(x in combined for x in ["audio only", "audio-only", "radio stream", "radio only"]):
         return True
 
-    categories = set(channel.get("categories") or [])
+    categories = normalize_set(channel.get("categories") or [])
     if "radio" in categories:
         return True
 
@@ -133,10 +141,11 @@ def pick_logo(channel_id, logos_by_channel):
 
 
 def group_for_channel(channel, cfg):
-    cats = set(channel.get("categories") or [])
+    cats = normalize_set(channel.get("categories") or [])
 
     for rule in cfg.get("group_rules", []):
-        if cats.intersection(set(rule.get("categories", []))):
+        rule_categories = normalize_set(rule.get("categories") or [])
+        if cats.intersection(rule_categories):
             return clean_text(rule.get("group") or cfg.get("fallback_group", "Other"))
 
     return clean_text(cfg.get("fallback_group", "Other"))
@@ -199,18 +208,9 @@ def load_logo_image(url):
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = resp.read()
 
-        img = Image.open(io.BytesIO(data)).convert("RGBA")
-        return img
+        return Image.open(io.BytesIO(data)).convert("RGBA")
     except Exception:
         return None
-
-
-def make_logo_shadow(logo):
-    shadow = Image.new("RGBA", logo.size, (0, 0, 0, 0))
-    alpha = logo.getchannel("A")
-    shadow.putalpha(alpha)
-    shadow = shadow.filter(ImageFilter.GaussianBlur(12)) if False else shadow
-    return shadow
 
 
 def generate_poster(channel_id, channel_name, logo_url, cfg):
@@ -238,7 +238,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
     logo_box_w = poster_w - (side_pad * 2)
     logo_box_h = int(poster_h * 0.52)
 
-    # subtle logo/panel area
     draw.rounded_rectangle(
         [side_pad, top_pad, poster_w - side_pad, top_pad + logo_box_h],
         radius=50,
@@ -246,7 +245,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
     )
 
     if logo:
-        # Respect the source logo's aspect ratio; never crop.
         fitted = ImageOps.contain(logo, (int(logo_box_w * 0.82), int(logo_box_h * 0.75)))
 
         x = (poster_w - fitted.width) // 2
@@ -254,7 +252,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
 
         poster.alpha_composite(fitted, (x, y))
     else:
-        # Fallback initials if no logo exists.
         initials = "".join([p[:1] for p in channel_name.split()[:3]]).upper() or "TV"
         font_initials = get_font(170, bold=True)
         bbox = draw.textbbox((0, 0), initials, font=font_initials)
@@ -264,7 +261,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
         y = top_pad + (logo_box_h - text_h) // 2
         draw.text((x, y), initials, font=font_initials, fill=text_color)
 
-    # Divider line
     divider_y = top_pad + logo_box_h + 55
     draw.rounded_rectangle(
         [side_pad, divider_y, poster_w - side_pad, divider_y + 6],
@@ -272,7 +268,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
         fill="#2b2750",
     )
 
-    # Channel name
     font_title = get_font(int(cfg.get("poster_title_font_size", 68)), bold=True)
     font_small = get_font(int(cfg.get("poster_footer_font_size", 34)), bold=False)
 
@@ -281,7 +276,6 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
 
     lines = wrap_text(draw, channel_name, font_title, title_max_w)
 
-    # Avoid huge title blocks.
     if len(lines) > 4:
         lines = lines[:4]
         lines[-1] = lines[-1].rstrip(".") + "..."
@@ -295,13 +289,13 @@ def generate_poster(channel_id, channel_name, logo_url, cfg):
         draw.text((x, title_y), line, font=font_title, fill=text_color)
         title_y += line_height
 
-    # Footer
     footer = clean_text(cfg.get("poster_footer_text", "Live Channel"))
-    bbox = draw.textbbox((0, 0), footer, font=font_small)
-    footer_w = bbox[2] - bbox[0]
-    footer_x = (poster_w - footer_w) // 2
-    footer_y = poster_h - int(poster_h * 0.08)
-    draw.text((footer_x, footer_y), footer, font=font_small, fill=muted_color)
+    if footer:
+        bbox = draw.textbbox((0, 0), footer, font=font_small)
+        footer_w = bbox[2] - bbox[0]
+        footer_x = (poster_w - footer_w) // 2
+        footer_y = poster_h - int(poster_h * 0.08)
+        draw.text((footer_x, footer_y), footer, font=font_small, fill=muted_color)
 
     rel_path = Path("posters") / f"{safe_filename(channel_id)}.png"
     abs_path = DOCS_DIR / rel_path
@@ -361,7 +355,6 @@ def main():
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     POSTERS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Defaults that keep the repo working even if config.json does not have the new keys yet.
     cfg.setdefault("site_base_url", "https://twentypack20.github.io/iptv")
     cfg.setdefault("use_generated_posters", True)
     cfg.setdefault("show_quality_in_name", False)
@@ -384,10 +377,12 @@ def main():
         if ch:
             logos_by_channel.setdefault(ch, []).append(logo)
 
-    keep_countries = set(cfg.get("keep_countries") or [])
-    keep_languages = set(cfg.get("keep_languages") or [])
-    keep_categories = set(cfg.get("keep_categories") or [])
-    exclude_categories = set(cfg.get("exclude_categories") or [])
+    keep_countries = normalize_set(cfg.get("keep_countries") or [])
+    keep_languages = normalize_set(cfg.get("keep_languages") or [])
+    keep_categories = normalize_set(cfg.get("keep_categories") or [])
+    exclude_categories = normalize_set(cfg.get("exclude_categories") or [])
+    exclude_groups = normalize_set(cfg.get("exclude_groups") or [])
+
     exclude_labels = cfg.get("exclude_labels_containing") or []
     exclude_names = cfg.get("exclude_name_contains") or []
     include_names = cfg.get("include_name_contains") or []
@@ -402,6 +397,7 @@ def main():
         "country": 0,
         "language": 0,
         "category": 0,
+        "group": 0,
         "nsfw": 0,
         "closed": 0,
         "label": 0,
@@ -428,9 +424,10 @@ def main():
 
         channel = channels_by_id[channel_id]
         name = clean_text(channel.get("name") or stream.get("title") or channel_id)
-        cats = set(channel.get("categories") or [])
+        cats = normalize_set(channel.get("categories") or [])
 
-        if keep_countries and channel.get("country") not in keep_countries:
+        channel_country = clean_key(channel.get("country"))
+        if keep_countries and channel_country not in keep_countries:
             skipped["country"] += 1
             continue
 
@@ -450,6 +447,11 @@ def main():
             skipped["category"] += 1
             continue
 
+        group = group_for_channel(channel, cfg)
+        if exclude_groups and clean_key(group) in exclude_groups:
+            skipped["group"] += 1
+            continue
+
         if cfg.get("exclude_audio_only", True) and looks_audio_only(channel, stream):
             skipped["audio_only"] += 1
             continue
@@ -465,7 +467,7 @@ def main():
                 continue
 
         feed = feeds_by_key.get((stream.get("channel"), stream.get("feed")))
-        feed_langs = set((feed or {}).get("languages") or [])
+        feed_langs = normalize_set((feed or {}).get("languages") or [])
 
         if keep_languages and feed_langs and not feed_langs.intersection(keep_languages):
             skipped["language"] += 1
@@ -503,7 +505,7 @@ def main():
         candidates.append({
             "channel": channel,
             "stream": stream,
-            "group": group_for_channel(channel, cfg),
+            "group": group,
             "logo": final_logo,
             "rank": quality_rank(stream.get("quality"), quality_order),
         })
