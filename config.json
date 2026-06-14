@@ -8,7 +8,7 @@
   "tvg_shift": "0",
   "epg_url": "",
 
-  "keep_countries": ["us"],
+  "keep_countries": ["US"],
   "keep_languages": ["eng"],
 
   "exclude_closed_channels": true,
