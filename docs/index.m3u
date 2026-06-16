@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-15 14:38:40 UTC
+# Generated: 2026-06-16 13:07:47 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -511,7 +511,7 @@ https://reflect-npa.cablecast.tv/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="NCTV79.us" tvg-name="NCTV79" tvg-logo="https://twentypack20.github.io/iptv/posters/nctv79.us.png" group-title="USA - Entertainment",NCTV79
 https://livestream.telvue.com/nctv791/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTV.us" tvg-name="NTD TV" tvg-logo="https://twentypack20.github.io/iptv/posters/ntdtv.us.png" group-title="USA - Entertainment",NTD TV
-https://live.ntdtv.com/live900/playlist.m3u8
+https://ntd02.akamaized.net/HD-NY/index.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us" tvg-name="NTD TV Canada" tvg-logo="https://twentypack20.github.io/iptv/posters/ntdtvcanada.us.png" group-title="USA - Entertainment",NTD TV Canada
 https://live.ntdtv.com/mllive860/playlist.m3u8
 #EXTINF:-1 tvg-id="NatickPublicAccessChannel.us" tvg-name="Natick Public Access Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/natickpublicaccesschannel.us.png" group-title="USA - Entertainment",Natick Public Access Channel
@@ -1261,8 +1261,6 @@ https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master_400
 https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master_4000.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive8.us" tvg-name="ABC News Live 8" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive8.us.png" group-title="USA - News",ABC News Live 8
 https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master_4000.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive9.us" tvg-name="ABC News Live 9" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive9.us.png" group-title="USA - News",ABC News Live 9
-https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master_4000.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us" tvg-name="AccuWeather NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernow.us.png" group-title="USA - News",AccuWeather NOW
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="America's Voice" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoice.us.png" group-title="USA - News",America's Voice
