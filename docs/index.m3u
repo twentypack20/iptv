@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-18 12:00:57 UTC
+# Generated: 2026-06-19 12:21:04 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -243,6 +243,8 @@ http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
 https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="BATV.us" tvg-name="BATV" tvg-logo="https://twentypack20.github.io/iptv/posters/batv.us.png" group-title="USA - Entertainment",BATV
 https://reflect-batv.cablecast.tv/live-5/live/live.m3u8
+#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBC America" tvg-logo="https://twentypack20.github.io/iptv/posters/bbcamerica.us.png" group-title="USA - Entertainment",BBC America
+http://23.239.31.26:8989/bbcamerica/index.m3u8
 #EXTINF:-1 tvg-id="BETPlutoTV.us" tvg-name="BET Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/betplutotv.us.png" group-title="USA - Entertainment",BET Pluto TV
 https://jmp2.uk/plu-5ca670f6593a5d78f0e85aed.m3u8
 #EXTINF:-1 tvg-id="BIGCivicChannel.us" tvg-name="BIG Civic Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/bigcivicchannel.us.png" group-title="USA - Entertainment",BIG Civic Channel
@@ -341,8 +343,6 @@ https://reflect-fcpublicmedia.cablecast.tv/live-5/live/stream-1/live.m3u8
 https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="FX.us" tvg-name="FX" tvg-logo="https://twentypack20.github.io/iptv/posters/fx.us.png" group-title="USA - Entertainment",FX
 http://23.237.104.106:8080/USA_FX/index.m3u8
-#EXTINF:-1 tvg-id="FXX.us" tvg-name="FXX" tvg-logo="https://twentypack20.github.io/iptv/posters/fxx.us.png" group-title="USA - Entertainment",FXX
-https://cdn.telecloud.tv/CH3255/index.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us" tvg-name="FailArmy" tvg-logo="https://twentypack20.github.io/iptv/posters/failarmy.us.png" group-title="USA - Entertainment",FailArmy
 https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us" tvg-name="FilAmTV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/filamtvnetwork.us.png" group-title="USA - Entertainment",FilAmTV Network
@@ -1310,23 +1310,25 @@ https://30a-tv.com/loomer.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name="ABC News Live" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive.us.png" group-title="USA - News",ABC News Live
 https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive1.us" tvg-name="ABC News Live 1" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive1.us.png" group-title="USA - News",ABC News Live 1
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive10.us" tvg-name="ABC News Live 10" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive10.us.png" group-title="USA - News",ABC News Live 10
-https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive2.us" tvg-name="ABC News Live 2" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive2.us.png" group-title="USA - News",ABC News Live 2
-https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive3.us" tvg-name="ABC News Live 3" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive3.us.png" group-title="USA - News",ABC News Live 3
-https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive4.us" tvg-name="ABC News Live 4" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive4.us.png" group-title="USA - News",ABC News Live 4
-https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive5.us" tvg-name="ABC News Live 5" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive5.us.png" group-title="USA - News",ABC News Live 5
-https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive6.us" tvg-name="ABC News Live 6" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive6.us.png" group-title="USA - News",ABC News Live 6
-https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive7.us" tvg-name="ABC News Live 7" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive7.us.png" group-title="USA - News",ABC News Live 7
-https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive8.us" tvg-name="ABC News Live 8" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive8.us.png" group-title="USA - News",ABC News Live 8
-https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master_4000.m3u8
+https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive9.us" tvg-name="ABC News Live 9" tvg-logo="https://twentypack20.github.io/iptv/posters/abcnewslive9.us.png" group-title="USA - News",ABC News Live 9
+https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us" tvg-name="AccuWeather NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernow.us.png" group-title="USA - News",AccuWeather NOW
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="America's Voice" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoice.us.png" group-title="USA - News",America's Voice
@@ -1374,7 +1376,7 @@ https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar
 #EXTINF:-1 tvg-id="EntertainmentTonight.us" tvg-name="Entertainment Tonight" tvg-logo="https://twentypack20.github.io/iptv/posters/entertainmenttonight.us.png" group-title="USA - News",Entertainment Tonight
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewschannel.us.png" group-title="USA - News",Fox News Channel
-http://41.205.93.154/FOX-NEWS/index.m3u8
+http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us" tvg-name="Fox Weather" tvg-logo="https://twentypack20.github.io/iptv/posters/foxweather.us.png" group-title="USA - News",Fox Weather
 https://foxweather-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://twentypack20.github.io/iptv/posters/freespeechtv.us.png" group-title="USA - News",Free Speech TV
