@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-21 11:27:41 UTC
+# Generated: 2026-06-22 13:47:20 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -398,6 +398,8 @@ https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8
 https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="KCCI81.us" tvg-name="KCCI 8.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kcci81.us.png" group-title="USA - Entertainment",KCCI 8.1
 https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playlist.m3u8
+#EXTINF:-1 tvg-id="KCKSLD253.us" tvg-name="KCKS-LD 25.3" tvg-logo="https://twentypack20.github.io/iptv/posters/kcksld253.us.png" group-title="USA - Entertainment",KCKS-LD 25.3
+https://2-fss-1.streamhoster.com/pl_154/amlst:205432-2055980/playlist.m3u8
 #EXTINF:-1 tvg-id="KCPQ131.us" tvg-name="KCPQ 13.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kcpq131.us.png" group-title="USA - Entertainment",KCPQ 13.1
 https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8
 #EXTINF:-1 tvg-id="KCRATV581.us" tvg-name="KCRA-TV 58.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kcratv581.us.png" group-title="USA - Entertainment",KCRA-TV 58.1
@@ -879,8 +881,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="KNOVCD411.us" tvg-name="KNOV-CD 41.1" tvg-logo="https://twentypack20.github.io/iptv/posters/knovcd411.us.png" group-title="USA - Lifestyle",KNOV-CD 41.1
 http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="KaloopyTV.us" tvg-name="Kaloopy TV" tvg-logo="https://twentypack20.github.io/iptv/posters/kaloopytv.us.png" group-title="USA - Lifestyle",Kaloopy TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8?ads.vf=rcUK9fMyEw0
+https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
 #EXTINF:-1 tvg-id="Localish.us" tvg-name="Localish" tvg-logo="https://twentypack20.github.io/iptv/posters/localish.us.png" group-title="USA - Lifestyle",Localish
 https://dnmfq3sh1jipj.cloudfront.net/DisneyLocalish.m3u8
 #EXTINF:-1 tvg-id="OutdoorAmerica.us" tvg-name="Outdoor America" tvg-logo="https://twentypack20.github.io/iptv/posters/outdooramerica.us.png" group-title="USA - Lifestyle",Outdoor America
@@ -1087,6 +1088,9 @@ https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
 http://23.239.31.26:8989/amc/index.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us" tvg-name="ARTFLIX Movie Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/artflixmovieclassics.us.png" group-title="USA - Movies",ARTFLIX Movie Classics
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="AXNAdria.us" tvg-name="AXN Adria" tvg-logo="https://twentypack20.github.io/iptv/posters/axnadria.us.png" group-title="USA - Movies",AXN Adria
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://5.57.74.130:8000/play/a0at/index.m3u8
 #EXTINF:-1 tvg-id="AXNBlack.us" tvg-name="AXN Black" tvg-logo="https://twentypack20.github.io/iptv/posters/axnblack.us.png" group-title="USA - Movies",AXN Black
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://88.212.15.19/live/test_black/playlist.m3u8
@@ -1433,7 +1437,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="Newsy.us" tvg-name="Newsy" tvg-logo="https://twentypack20.github.io/iptv/posters/newsy.us.png" group-title="USA - News",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 tvg-id="NowMediaTelevision.us" tvg-name="NowMedia Television" tvg-logo="https://twentypack20.github.io/iptv/posters/nowmediatelevision.us.png" group-title="USA - News",NowMedia Television
-https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/tracks-v1/index.fmp4.m3u8
+https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8
 #EXTINF:-1 tvg-id="OANPlus.us" tvg-name="OAN Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/oanplus.us.png" group-title="USA - News",OAN Plus
 https://oan-plus-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network" tvg-logo="https://twentypack20.github.io/iptv/posters/oneamericanewsnetwork.us.png" group-title="USA - News",One America News Network
