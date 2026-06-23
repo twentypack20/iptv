@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-22 13:47:20 UTC",
+  "generated": "2026-06-23 11:35:47 UTC",
   "kept": 954,
-  "candidate_streams_before_dedupe": 1728,
+  "candidate_streams_before_dedupe": 1730,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -12,9 +12,9 @@
   "poster_count": 954,
   "skipped": {
     "no_channel": 2566,
-    "country": 10792,
-    "language": 485,
-    "category": 225,
+    "country": 10904,
+    "language": 490,
+    "category": 227,
     "group": 0,
     "nsfw": 0,
     "closed": 10,
@@ -28,7 +28,7 @@
   },
   "groups": {
     "USA - Business / Shopping": 17,
-    "USA - Documentary / Education": 76,
+    "USA - Documentary / Education": 77,
     "USA - Entertainment": 246,
     "USA - Kids and Family": 66,
     "USA - Lifestyle": 52,
@@ -39,6 +39,6 @@
     "USA - Other": 5,
     "USA - Religious": 48,
     "USA - Series": 100,
-    "USA - Sports": 61
+    "USA - Sports": 60
   }
 }
