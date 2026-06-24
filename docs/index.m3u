@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-23 11:35:47 UTC
+# Generated: 2026-06-24 11:20:45 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -10,6 +10,8 @@ https://30a-tv.com/beachy.m3u8
 https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC" tvg-logo="https://twentypack20.github.io/iptv/posters/cnbc.us.png" group-title="USA - Business / Shopping",CNBC
 http://rezofoot.tv/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us" tvg-name="Fox Business Network" tvg-logo="https://twentypack20.github.io/iptv/posters/foxbusinessnetwork.us.png" group-title="USA - Business / Shopping",Fox Business Network
+https://trs1.aynaott.com/foxbusiness/index.m3u8
 #EXTINF:-1 tvg-id="GemShoppingNetwork.us" tvg-name="Gem Shopping Network" tvg-logo="https://twentypack20.github.io/iptv/posters/gemshoppingnetwork.us.png" group-title="USA - Business / Shopping",Gem Shopping Network
 https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HSN.us" tvg-name="HSN" tvg-logo="https://twentypack20.github.io/iptv/posters/hsn.us.png" group-title="USA - Business / Shopping",HSN
@@ -217,8 +219,7 @@ https://a-cdn.klowdtv.com/live1/awee/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEInternational.us" tvg-name="AWE International" tvg-logo="https://twentypack20.github.io/iptv/posters/aweinternational.us.png" group-title="USA - Entertainment",AWE International
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.us" tvg-name="AXN White" tvg-logo="https://twentypack20.github.io/iptv/posters/axnwhite.us.png" group-title="USA - Entertainment",AXN White
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-https://dokagents.site/live/axnw/mono.m3u8
+http://82.78.243.219:45739/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://twentypack20.github.io/iptv/posters/absoluterealitybywetv.us.png" group-title="USA - Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AccessHumboldt.us" tvg-name="Access Humboldt" tvg-logo="https://twentypack20.github.io/iptv/posters/accesshumboldt.us.png" group-title="USA - Entertainment",Access Humboldt
@@ -285,6 +286,8 @@ https://cantv.streamguys1.com/cantv/cantv21hls/playlist.m3u8
 https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8
 #EXTINF:-1 tvg-id="CANTV36.us" tvg-name="CAN TV36" tvg-logo="https://twentypack20.github.io/iptv/posters/cantv36.us.png" group-title="USA - Entertainment",CAN TV36
 https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us" tvg-name="CBS" tvg-logo="https://twentypack20.github.io/iptv/posters/cbs.us.png" group-title="USA - Entertainment",CBS
+https://trs1.aynaott.com/cbs/index.m3u8
 #EXTINF:-1 tvg-id="CCX1.us" tvg-name="CCX1" tvg-logo="https://twentypack20.github.io/iptv/posters/ccx1.us.png" group-title="USA - Entertainment",CCX1
 http://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CMAC1.us" tvg-name="CMAC 1" tvg-logo="https://twentypack20.github.io/iptv/posters/cmac1.us.png" group-title="USA - Entertainment",CMAC 1
@@ -494,6 +497,8 @@ https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
 https://aegis-cloudfront-1.tubi.video/54f95462-b44d-4c99-b74b-af49467454fa/playlist.m3u8
 #EXTINF:-1 tvg-id="LPTV.us" tvg-name="LPTV" tvg-logo="https://twentypack20.github.io/iptv/posters/lptv.us.png" group-title="USA - Entertainment",LPTV
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="Laff.us" tvg-name="Laff" tvg-logo="https://twentypack20.github.io/iptv/posters/laff.us.png" group-title="USA - Entertainment",Laff
+https://trs1.aynaott.com/laff/index.m3u8
 #EXTINF:-1 tvg-id="LasVegasTonightwithDaleDavidson.us" tvg-name="Las Vegas Tonight with Dale Davidson" tvg-logo="https://twentypack20.github.io/iptv/posters/lasvegastonightwithdaledavidson.us.png" group-title="USA - Entertainment",Las Vegas Tonight with Dale Davidson
 https://cdn.vegasplus.us/vegas/lasvegastonight/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinoChannelTV.us" tvg-name="Latino Channel TV" tvg-logo="https://twentypack20.github.io/iptv/posters/latinochanneltv.us.png" group-title="USA - Entertainment",Latino Channel TV
@@ -723,7 +728,7 @@ https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us" tvg-name="FilmRise Anime" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseanime.us.png" group-title="USA - Kids and Family",FilmRise Anime
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="ForeverKids.us" tvg-name="Forever Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/foreverkids.us.png" group-title="USA - Kids and Family",Forever Kids
-https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
+https://trs1.aynaott.com/ForeverKids/index.m3u8
 #EXTINF:-1 tvg-id="Freeform.us" tvg-name="Freeform" tvg-logo="https://twentypack20.github.io/iptv/posters/freeform.us.png" group-title="USA - Kids and Family",Freeform
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="GarfieldandFriends.us" tvg-name="Garfield and Friends" tvg-logo="https://twentypack20.github.io/iptv/posters/garfieldandfriends.us.png" group-title="USA - Kids and Family",Garfield and Friends
@@ -804,6 +809,8 @@ https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSPinballNetwork.us" tvg-name="TVS Pinball Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvspinballnetwork.us.png" group-title="USA - Kids and Family",TVS Pinball Network
 https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
+#EXTINF:-1 tvg-id="TeenNick.us" tvg-name="TeenNick" tvg-logo="https://twentypack20.github.io/iptv/posters/teennick.us.png" group-title="USA - Kids and Family",TeenNick
+https://trs1.aynaott.com/teennick/index.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us" tvg-name="The Pet Collective" tvg-logo="https://twentypack20.github.io/iptv/posters/thepetcollective.us.png" group-title="USA - Kids and Family",The Pet Collective
 https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us" tvg-name="ToonGoggles" tvg-logo="https://twentypack20.github.io/iptv/posters/toongoggles.us.png" group-title="USA - Kids and Family",ToonGoggles
