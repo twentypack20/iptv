@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-24 11:20:45 UTC
+# Generated: 2026-06-25 11:12:22 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -100,6 +100,10 @@ https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccda
 https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Getfactual.us" tvg-name="Get.factual" tvg-logo="https://twentypack20.github.io/iptv/posters/getfactual.us.png" group-title="USA - Documentary / Education",Get.factual
 https://d1nhni5l2n8hjt.cloudfront.net/gf.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us" tvg-name="Gillette Public Access Television Channel 189" tvg-logo="https://twentypack20.github.io/iptv/posters/gillettepublicaccesstelevisionchannel189.us.png" group-title="USA - Documentary / Education",Gillette Public Access Television Channel 189
+https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
+#EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us" tvg-name="HCTV Educational Access Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/hctveducationalaccesschannel.us.png" group-title="USA - Documentary / Education",HCTV Educational Access Channel
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="History.us" tvg-name="History" tvg-logo="https://twentypack20.github.io/iptv/posters/history.us.png" group-title="USA - Documentary / Education",History
 http://84.17.50.102/history/index.m3u8
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/historyasia.us.png" group-title="USA - Documentary / Education",History Asia
@@ -219,9 +223,12 @@ https://a-cdn.klowdtv.com/live1/awee/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEInternational.us" tvg-name="AWE International" tvg-logo="https://twentypack20.github.io/iptv/posters/aweinternational.us.png" group-title="USA - Entertainment",AWE International
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.us" tvg-name="AXN White" tvg-logo="https://twentypack20.github.io/iptv/posters/axnwhite.us.png" group-title="USA - Entertainment",AXN White
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://82.78.243.219:45739/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://twentypack20.github.io/iptv/posters/absoluterealitybywetv.us.png" group-title="USA - Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Access4PAC.us" tvg-name="Access 4 PAC" tvg-logo="https://twentypack20.github.io/iptv/posters/access4pac.us.png" group-title="USA - Entertainment",Access 4 PAC
+https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="AccessHumboldt.us" tvg-name="Access Humboldt" tvg-logo="https://twentypack20.github.io/iptv/posters/accesshumboldt.us.png" group-title="USA - Entertainment",Access Humboldt
 https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8
 #EXTINF:-1 tvg-id="AccessNashua.us" tvg-name="Access Nashua" tvg-logo="https://twentypack20.github.io/iptv/posters/accessnashua.us.png" group-title="USA - Entertainment",Access Nashua
@@ -370,6 +377,8 @@ https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8
 https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
 #EXTINF:-1 tvg-id="GetTV.us" tvg-name="GetTV" tvg-logo="https://twentypack20.github.io/iptv/posters/gettv.us.png" group-title="USA - Entertainment",GetTV
 https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us" tvg-name="Gillette Public Access Television Channel 190" tvg-logo="https://twentypack20.github.io/iptv/posters/gillettepublicaccesstelevisionchannel190.us.png" group-title="USA - Entertainment",Gillette Public Access Television Channel 190
+https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8
 #EXTINF:-1 tvg-id="GlobalWorldTV.us" tvg-name="GlobalWorldTV" tvg-logo="https://twentypack20.github.io/iptv/posters/globalworldtv.us.png" group-title="USA - Entertainment",GlobalWorldTV
 https://media.streambrothers.com:1936/8052/8052/playlist.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us" tvg-name="Grit Xtra" tvg-logo="https://twentypack20.github.io/iptv/posters/gritxtra.us.png" group-title="USA - Entertainment",Grit Xtra
@@ -380,6 +389,8 @@ https://stream.ads.ottera.tv/cl/260421d7jmp97108ighs2i413g/1280x720_2300000_0_f.
 https://livechannel.mdc.akamaized.net/stitch/livechannel/1342/master1400000.m3u8;session=live_stream_1342
 #EXTINF:-1 tvg-id="HBTV.us" tvg-name="HBTV" tvg-logo="https://twentypack20.github.io/iptv/posters/hbtv.us.png" group-title="USA - Entertainment",HBTV
 https://reflect-huntingtonbeach.cablecast.tv/live-4/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="HCTVPublicAccessChannel.us" tvg-name="HCTV Public Access Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/hctvpublicaccesschannel.us.png" group-title="USA - Entertainment",HCTV Public Access Channel
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8
 #EXTINF:-1 tvg-id="Heartland.us" tvg-name="Heartland" tvg-logo="https://twentypack20.github.io/iptv/posters/heartland.us.png" group-title="USA - Entertainment",Heartland
 https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8
 #EXTINF:-1 tvg-id="HiYAH.us" tvg-name="Hi-YAH!" tvg-logo="https://twentypack20.github.io/iptv/posters/hiyah.us.png" group-title="USA - Entertainment",Hi-YAH!
@@ -960,6 +971,8 @@ https://irctv.cablecast.tv/live/stream-1/live.m3u8
 https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch3/video.m3u8
 #EXTINF:-1 tvg-id="Channel10.us" tvg-name="Channel 10" tvg-logo="https://twentypack20.github.io/iptv/posters/channel10.us.png" group-title="USA - Local / Public",Channel 10
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/santa-paula/G0930_002/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel18GAC.us" tvg-name="Channel 18 GAC" tvg-logo="https://twentypack20.github.io/iptv/posters/channel18gac.us.png" group-title="USA - Local / Public",Channel 18 GAC
+https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-13/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CityofFortPierce.us" tvg-name="City of Fort Pierce" tvg-logo="https://twentypack20.github.io/iptv/posters/cityoffortpierce.us.png" group-title="USA - Local / Public",City of Fort Pierce
 https://edge-f.swagit.com/live/fortpiercefl/live-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="CityofMonroeGovernmentChannel.us" tvg-name="City of Monroe Government Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/cityofmonroegovernmentchannel.us.png" group-title="USA - Local / Public",City of Monroe Government Channel
@@ -992,10 +1005,14 @@ https://video.oct.dc.gov/out/u/DCN.m3u8
 https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
 #EXTINF:-1 tvg-id="G10TV.us" tvg-name="G10TV" tvg-logo="https://twentypack20.github.io/iptv/posters/g10tv.us.png" group-title="USA - Local / Public",G10TV
 https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel192.us" tvg-name="Gillette Public Access Television Channel 192" tvg-logo="https://twentypack20.github.io/iptv/posters/gillettepublicaccesstelevisionchannel192.us.png" group-title="USA - Local / Public",Gillette Public Access Television Channel 192
+https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8
 #EXTINF:-1 tvg-id="GovernmentTV16.us" tvg-name="Government TV 16" tvg-logo="https://twentypack20.github.io/iptv/posters/governmenttv16.us.png" group-title="USA - Local / Public",Government TV 16
 https://livestream.telvue.com/nashuanh3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="GreensboroTV.us" tvg-name="Greensboro TV" tvg-logo="https://twentypack20.github.io/iptv/posters/greensborotv.us.png" group-title="USA - Local / Public",Greensboro TV
 https://lin12.isilive.ca/live/greensboro/GTN/index.m3u8
+#EXTINF:-1 tvg-id="HCTVGovernmentChannel.us" tvg-name="HCTV Government Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/hctvgovernmentchannel.us.png" group-title="USA - Local / Public",HCTV Government Channel
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="HTV1HoustonTelevision.us" tvg-name="HTV 1 Houston Television" tvg-logo="https://twentypack20.github.io/iptv/posters/htv1houstontelevision.us.png" group-title="USA - Local / Public",HTV 1 Houston Television
 https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
 #EXTINF:-1 tvg-id="HTV2HoustonTelevision.us" tvg-name="HTV 2 Houston Television" tvg-logo="https://twentypack20.github.io/iptv/posters/htv2houstontelevision.us.png" group-title="USA - Local / Public",HTV 2 Houston Television
@@ -1586,8 +1603,12 @@ https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
 https://5d12bc59c4748.streamlock.net/redirect/ocnbroadcasting.com/ocnbroadcasting2?type=m3u8
 #EXTINF:-1 tvg-id="PTLTVNetwork.us" tvg-name="PTL TV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/ptltvnetwork.us.png" group-title="USA - Religious",PTL TV Network
 https://storage.sardius.media/archives/-KyMV-J0vDqnClcSXs8p/events/site_1a4721d3BA/playlist.m3u8
+#EXTINF:-1 tvg-id="SBNTV.us" tvg-name="SBN TV" tvg-logo="https://twentypack20.github.io/iptv/posters/sbntv.us.png" group-title="USA - Religious",SBN TV
+https://watch.sardius.media/channels/Ea867F3e1F56B06/site_c5402f016A/live.m3u8
+#EXTINF:-1 tvg-id="SBNTVGlobal.us" tvg-name="SBN TV Global" tvg-logo="https://twentypack20.github.io/iptv/posters/sbntvglobal.us.png" group-title="USA - Religious",SBN TV Global
+https://watch.sardius.media/channels/Ea867F3e1F56B06/site_8D363D13Eb/live.m3u8
 #EXTINF:-1 tvg-id="SBNTVInternational.us" tvg-name="SBN TV International" tvg-logo="https://twentypack20.github.io/iptv/posters/sbntvinternational.us.png" group-title="USA - Religious",SBN TV International
-http://trn03.bozztv.com/gin-sbntv/index.m3u8
+https://watch.sardius.media/channels/Ea867F3e1F56B06/site_09a4778E89/live.m3u8
 #EXTINF:-1 tvg-id="SUMtvEnglish.us" tvg-name="SUMtv English" tvg-logo="https://twentypack20.github.io/iptv/posters/sumtvenglish.us.png" group-title="USA - Religious",SUMtv English
 https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShalomWorld.us" tvg-name="Shalom World" tvg-logo="https://twentypack20.github.io/iptv/posters/shalomworld.us.png" group-title="USA - Religious",Shalom World
