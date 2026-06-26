@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-25 11:12:22 UTC
+# Generated: 2026-06-26 11:17:53 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -84,6 +84,8 @@ https://d1si3n1st4nkgb.cloudfront.net/10502/88896029/hls/master.m3u8?ads.xumo_ch
 https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
 #EXTINF:-1 tvg-id="DerryTV23.us" tvg-name="DerryTV 23" tvg-logo="https://twentypack20.github.io/iptv/posters/derrytv23.us.png" group-title="USA - Documentary / Education",DerryTV 23
 https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel22.us" tvg-name="Detroit Channel 22" tvg-logo="https://twentypack20.github.io/iptv/posters/detroitchannel22.us.png" group-title="USA - Documentary / Education",Detroit Channel 22
+https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-id="DocumentaryPlus.us" tvg-name="Documentary+" tvg-logo="https://twentypack20.github.io/iptv/posters/documentaryplus.us.png" group-title="USA - Documentary / Education",Documentary+
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="Docurama.us" tvg-name="Docurama" tvg-logo="https://twentypack20.github.io/iptv/posters/docurama.us.png" group-title="USA - Documentary / Education",Docurama
@@ -227,6 +229,8 @@ https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
 http://82.78.243.219:45739/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://twentypack20.github.io/iptv/posters/absoluterealitybywetv.us.png" group-title="USA - Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Access19.us" tvg-name="Access 19" tvg-logo="https://twentypack20.github.io/iptv/posters/access19.us.png" group-title="USA - Entertainment",Access 19
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-id="Access4PAC.us" tvg-name="Access 4 PAC" tvg-logo="https://twentypack20.github.io/iptv/posters/access4pac.us.png" group-title="USA - Entertainment",Access 4 PAC
 https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="AccessHumboldt.us" tvg-name="Access Humboldt" tvg-logo="https://twentypack20.github.io/iptv/posters/accesshumboldt.us.png" group-title="USA - Entertainment",Access Humboldt
@@ -345,6 +349,10 @@ https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8
 https://reflect-creatv.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="CrimePlusInvestigation.us" tvg-name="Crime + Investigation" tvg-logo="https://twentypack20.github.io/iptv/posters/crimeplusinvestigation.us.png" group-title="USA - Entertainment",Crime + Investigation
 http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel21.us" tvg-name="Detroit Channel 21" tvg-logo="https://twentypack20.github.io/iptv/posters/detroitchannel21.us.png" group-title="USA - Entertainment",Detroit Channel 21
+https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel68.us" tvg-name="Detroit Channel 68" tvg-logo="https://twentypack20.github.io/iptv/posters/detroitchannel68.us.png" group-title="USA - Entertainment",Detroit Channel 68
+https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8
 #EXTINF:-1 tvg-id="DryBarComedyPlus.us" tvg-name="Dry Bar Comedy+" tvg-logo="https://twentypack20.github.io/iptv/posters/drybarcomedyplus.us.png" group-title="USA - Entertainment",Dry Bar Comedy+
 https://drybar-drybarcomedy-1-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="E.us" tvg-name="E!" tvg-logo="https://twentypack20.github.io/iptv/posters/e.us.png" group-title="USA - Entertainment",E!
@@ -546,6 +554,8 @@ https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8
 https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="MonroeCommunityMediaPublicAccessChannel.us" tvg-name="Monroe Community Media Public Access Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/monroecommunitymediapublicaccesschannel.us.png" group-title="USA - Entertainment",Monroe Community Media Public Access Channel
 https://reflect-monroe-public-access.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 tvg-id="MontgomeryChannel.us" tvg-name="Montgomery Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/montgomerychannel.us.png" group-title="USA - Entertainment",Montgomery Channel
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="MoreTVDrama.us" tvg-name="More TV Drama" tvg-logo="https://twentypack20.github.io/iptv/posters/moretvdrama.us.png" group-title="USA - Entertainment",More TV Drama
 https://jmp2.uk/plu-613260e4bdb71c00070d63fa.m3u8
 #EXTINF:-1 tvg-id="MoreTVSitcoms.us" tvg-name="More TV Sitcoms" tvg-logo="https://twentypack20.github.io/iptv/posters/moretvsitcoms.us.png" group-title="USA - Entertainment",More TV Sitcoms
@@ -947,6 +957,8 @@ https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
 https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACTV.us" tvg-name="ACTV" tvg-logo="https://twentypack20.github.io/iptv/posters/actv.us.png" group-title="USA - Local / Public",ACTV
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
+#EXTINF:-1 tvg-id="ATL26.us" tvg-name="ATL 26" tvg-logo="https://twentypack20.github.io/iptv/posters/atl26.us.png" group-title="USA - Local / Public",ATL 26
+https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
 #EXTINF:-1 tvg-id="ATXN1.us" tvg-name="ATXN1" tvg-logo="https://twentypack20.github.io/iptv/posters/atxn1.us.png" group-title="USA - Local / Public",ATXN1
 https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(616d6f49-eaec-6f7e-7186-2bbaf66c69c0)/index.m3u8
 #EXTINF:-1 tvg-id="ATXN2.us" tvg-name="ATXN2" tvg-logo="https://twentypack20.github.io/iptv/posters/atxn2.us.png" group-title="USA - Local / Public",ATXN2
@@ -999,10 +1011,14 @@ https://video.oct.dc.gov/out/u/15_12.m3u8
 https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/denver/G0080_002/playlist.m3u8
 #EXTINF:-1 tvg-id="DerryTV17.us" tvg-name="DerryTV 17" tvg-logo="https://twentypack20.github.io/iptv/posters/derrytv17.us.png" group-title="USA - Local / Public",DerryTV 17
 https://livestream.telvue.com/derrynh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel10.us" tvg-name="Detroit Channel 10" tvg-logo="https://twentypack20.github.io/iptv/posters/detroitchannel10.us.png" group-title="USA - Local / Public",Detroit Channel 10
+https://reflect-detroit-vod.cablecast.tv/live-2/live/stream-6/live.m3u8
 #EXTINF:-1 tvg-id="DistrictofColumbiaNetwork.us" tvg-name="District of Columbia Network" tvg-logo="https://twentypack20.github.io/iptv/posters/districtofcolumbianetwork.us.png" group-title="USA - Local / Public",District of Columbia Network
 https://video.oct.dc.gov/out/u/DCN.m3u8
 #EXTINF:-1 tvg-id="EscambiaCountyTV.us" tvg-name="Escambia County TV" tvg-logo="https://twentypack20.github.io/iptv/posters/escambiacountytv.us.png" group-title="USA - Local / Public",Escambia County TV
 https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
+#EXTINF:-1 tvg-id="FGTV.us" tvg-name="FGTV" tvg-logo="https://twentypack20.github.io/iptv/posters/fgtv.us.png" group-title="USA - Local / Public",FGTV
+https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8
 #EXTINF:-1 tvg-id="G10TV.us" tvg-name="G10TV" tvg-logo="https://twentypack20.github.io/iptv/posters/g10tv.us.png" group-title="USA - Local / Public",G10TV
 https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel192.us" tvg-name="Gillette Public Access Television Channel 192" tvg-logo="https://twentypack20.github.io/iptv/posters/gillettepublicaccesstelevisionchannel192.us.png" group-title="USA - Local / Public",Gillette Public Access Television Channel 192
