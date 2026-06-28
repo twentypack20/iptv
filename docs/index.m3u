@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-27 10:26:27 UTC
+# Generated: 2026-06-28 10:38:42 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1259,6 +1259,8 @@ https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8
 https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
 #EXTINF:-1 tvg-id="PlutoTVWesterns.us" tvg-name="Pluto TV Westerns" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvwesterns.us.png" group-title="USA - Movies",Pluto TV Westerns
 https://jmp2.uk/plu-62bdacc96a3751000811842d.m3u8
+#EXTINF:-1 tvg-id="RetroTV.us" tvg-name="Retro TV" tvg-logo="https://twentypack20.github.io/iptv/posters/retrotv.us.png" group-title="USA - Movies",Retro TV
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8
 #EXTINF:-1 tvg-id="RetroCrush.us" tvg-name="RetroCrush" tvg-logo="https://twentypack20.github.io/iptv/posters/retrocrush.us.png" group-title="USA - Movies",RetroCrush
 https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RevryHer.us" tvg-name="Revry Her" tvg-logo="https://twentypack20.github.io/iptv/posters/revryher.us.png" group-title="USA - Movies",Revry Her
@@ -1299,13 +1301,16 @@ https://jmp2.uk/plu-62e91563ce7ce300076f917e.m3u8
 #EXTINF:-1 tvg-id="TimelessTV.us" tvg-name="Timeless TV" tvg-logo="https://twentypack20.github.io/iptv/posters/timelesstv.us.png" group-title="USA - Movies",Timeless TV
 https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8
 #EXTINF:-1 tvg-id="UniversalCinema.us" tvg-name="Universal Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/universalcinema.us.png" group-title="USA - Movies",Universal Cinema
-http://190.2.212.209:8050/play/a0q3
+https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/universalcinema/playlist.m3u8
 #EXTINF:-1 tvg-id="UniversalComedy.us" tvg-name="Universal Comedy" tvg-logo="https://twentypack20.github.io/iptv/posters/universalcomedy.us.png" group-title="USA - Movies",Universal Comedy
-http://190.2.212.209:8050/play/a0q4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
 #EXTINF:-1 tvg-id="WantedDeadorAlive.us" tvg-name="Wanted: Dead or Alive" tvg-logo="https://twentypack20.github.io/iptv/posters/wanteddeadoralive.us.png" group-title="USA - Movies",Wanted: Dead or Alive
 https://aegis-cloudfront-1.tubi.video/d5171dc7-f8c6-469c-81eb-e1ffaaed5721/playlist.m3u8
 #EXTINF:-1 tvg-id="WesternTV.us" tvg-name="Western TV" tvg-logo="https://twentypack20.github.io/iptv/posters/westerntv.us.png" group-title="USA - Movies",Western TV
 https://jmp2.uk/plu-5e8df4bc16e34700077e77d3.m3u8
+#EXTINF:-1 tvg-id="Westerns4U.us" tvg-name="Westerns 4U" tvg-logo="https://twentypack20.github.io/iptv/posters/westerns4u.us.png" group-title="USA - Movies",Westerns 4U
+http://181.224.255.210:8001/play/a0rq/index.m3u8
 #EXTINF:-1 tvg-id="WhiplashCinema.us" tvg-name="Whiplash Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/whiplashcinema.us.png" group-title="USA - Movies",Whiplash Cinema
 https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
 #EXTINF:-1 tvg-id="WuTangCollection.us" tvg-name="Wu Tang Collection" tvg-logo="https://twentypack20.github.io/iptv/posters/wutangcollection.us.png" group-title="USA - Movies",Wu Tang Collection
@@ -1838,7 +1843,8 @@ https://6df6888a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV
 #EXTINF:-1 tvg-id="Tosh0.us" tvg-name="Tosh.0" tvg-logo="https://twentypack20.github.io/iptv/posters/tosh0.us.png" group-title="USA - Series",Tosh.0
 https://jmp2.uk/plu-65e977042873090008b48be9.m3u8
 #EXTINF:-1 tvg-id="UniversalCrime.us" tvg-name="Universal Crime" tvg-logo="https://twentypack20.github.io/iptv/posters/universalcrime.us.png" group-title="USA - Series",Universal Crime
-https://xumo-xumoent-vc-107-xmuvk.fast.nbcuni.com/live/master.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcrime/playlist.m3u8
 #EXTINF:-1 tvg-id="UnsolvedMysteries.us" tvg-name="Unsolved Mysteries" tvg-logo="https://twentypack20.github.io/iptv/posters/unsolvedmysteries.us.png" group-title="USA - Series",Unsolved Mysteries
 https://d31z96rdrmwfsp.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="WeTV.us" tvg-name="We TV" tvg-logo="https://twentypack20.github.io/iptv/posters/wetv.us.png" group-title="USA - Series",We TV
@@ -1967,7 +1973,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannel
 #EXTINF:-1 tvg-id="USANetwork.us" tvg-name="USA Network" tvg-logo="https://twentypack20.github.io/iptv/posters/usanetwork.us.png" group-title="USA - Sports",USA Network
 http://185.246.209.113/DISCOVERYHD/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us" tvg-name="Unbeaten" tvg-logo="https://twentypack20.github.io/iptv/posters/unbeaten.us.png" group-title="USA - Sports",Unbeaten
-https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/UnbeatenSports/playlist.m3u8
 #EXTINF:-1 tvg-id="W14DKD145.us" tvg-name="W14DK-D 14.5" tvg-logo="https://twentypack20.github.io/iptv/posters/w14dkd145.us.png" group-title="USA - Sports",W14DK-D 14.5
 https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
 #EXTINF:-1 tvg-id="Willow.us" tvg-name="Willow" tvg-logo="https://twentypack20.github.io/iptv/posters/willow.us.png" group-title="USA - Sports",Willow
