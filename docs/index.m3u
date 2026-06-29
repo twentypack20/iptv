@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-06-28 10:38:42 UTC
+# Generated: 2026-06-29 12:45:19 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -74,8 +74,6 @@ https://create.lls.pbs.org/index.m3u8
 https://eb3933ec.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV9DcmltZTM2MF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="DKN.us" tvg-name="DKN" tvg-logo="https://twentypack20.github.io/iptv/posters/dkn.us.png" group-title="USA - Documentary / Education",DKN
 https://video.oct.dc.gov/out/u/DKN.m3u8
-#EXTINF:-1 tvg-id="DallasCowboysCheerleaders.us" tvg-name="Dallas Cowboys Cheerleaders" tvg-logo="https://twentypack20.github.io/iptv/posters/dallascowboyscheerleaders.us.png" group-title="USA - Documentary / Education",Dallas Cowboys Cheerleaders
-https://jmp2.uk/plu-64e87c6b28cec700088ceb55.m3u8
 #EXTINF:-1 tvg-id="DangerTV.us" tvg-name="Danger TV" tvg-logo="https://twentypack20.github.io/iptv/posters/dangertv.us.png" group-title="USA - Documentary / Education",Danger TV
 https://dk0n7jh428tzj.cloudfront.net/v1/dangertv/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Dateline247.us" tvg-name="Dateline 24/7" tvg-logo="https://twentypack20.github.io/iptv/posters/dateline247.us.png" group-title="USA - Documentary / Education",Dateline 24/7
@@ -263,6 +261,8 @@ https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 https://reflect-batv.cablecast.tv/live-5/live/live.m3u8
 #EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBC America" tvg-logo="https://twentypack20.github.io/iptv/posters/bbcamerica.us.png" group-title="USA - Entertainment",BBC America
 http://23.239.31.26:8989/bbcamerica/index.m3u8
+#EXTINF:-1 tvg-id="BETClassicsPlutoTV.us" tvg-name="BET Classics Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/betclassicsplutotv.us.png" group-title="USA - Entertainment",BET Classics Pluto TV
+https://jmp2.uk/plu-60f85644a9493e0007a1f035.m3u8
 #EXTINF:-1 tvg-id="BETHer.us" tvg-name="BET Her" tvg-logo="https://twentypack20.github.io/iptv/posters/bether.us.png" group-title="USA - Entertainment",BET Her
 http://41.205.93.154/BETHER/index.m3u8
 #EXTINF:-1 tvg-id="BETPlutoTV.us" tvg-name="BET Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/betplutotv.us.png" group-title="USA - Entertainment",BET Pluto TV
@@ -542,6 +542,8 @@ https://livestream.telvue.com/madrivervalleytv2/f7b44cfafd5c52223d5498196c8a2e7b
 http://198.58.104.90:8989/mtv/index.m3u8
 #EXTINF:-1 tvg-id="MTVPlutoTV.us" tvg-name="MTV Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvplutotv.us.png" group-title="USA - Entertainment",MTV Pluto TV
 https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
+#EXTINF:-1 tvg-id="MTVRidiculousness.us" tvg-name="MTV Ridiculousness" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvridiculousness.us.png" group-title="USA - Entertainment",MTV Ridiculousness
+https://jmp2.uk/plu-68641eb4852dfe78698c3390.m3u8
 #EXTINF:-1 tvg-id="MTVenEspanol.us" tvg-name="MTV en Espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvenespanol.us.png" group-title="USA - Entertainment",MTV en Espanol
 https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
 #EXTINF:-1 tvg-id="MTV2.us" tvg-name="MTV2" tvg-logo="https://twentypack20.github.io/iptv/posters/mtv2.us.png" group-title="USA - Entertainment",MTV2
@@ -720,20 +722,22 @@ https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimexHIDIVE.us" tvg-name="Anime x HIDIVE" tvg-logo="https://twentypack20.github.io/iptv/posters/animexhidive.us.png" group-title="USA - Kids and Family",Anime x HIDIVE
 https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
-#EXTINF:-1 tvg-id="Avatar.us" tvg-name="Avatar" tvg-logo="https://twentypack20.github.io/iptv/posters/avatar.us.png" group-title="USA - Kids and Family",Avatar
-https://jmp2.uk/plu-61c09b48d6d97900076e91c5.m3u8
 #EXTINF:-1 tvg-id="BBCKids.us" tvg-name="BBC Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/bbckids.us.png" group-title="USA - Kids and Family",BBC Kids
 https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="BabySharkTV.us" tvg-name="Baby Shark TV" tvg-logo="https://twentypack20.github.io/iptv/posters/babysharktv.us.png" group-title="USA - Kids and Family",Baby Shark TV
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us" tvg-name="BabyFirst" tvg-logo="https://twentypack20.github.io/iptv/posters/babyfirst.us.png" group-title="USA - Kids and Family",BabyFirst
 https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
+#EXTINF:-1 tvg-id="Bobleponge.us" tvg-name="Bob l'eponge" tvg-logo="https://twentypack20.github.io/iptv/posters/bobleponge.us.png" group-title="USA - Kids and Family",Bob l'eponge
+https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
 #EXTINF:-1 tvg-id="BratTV.us" tvg-name="Brat TV" tvg-logo="https://twentypack20.github.io/iptv/posters/brattv.us.png" group-title="USA - Kids and Family",Brat TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04072b68-dc6a-4d5e-98af-f356ba8d5063/playlist.m3u8
 #EXTINF:-1 tvg-id="CampSpoopy.us" tvg-name="Camp Spoopy" tvg-logo="https://twentypack20.github.io/iptv/posters/campspoopy.us.png" group-title="USA - Kids and Family",Camp Spoopy
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:-1 tvg-id="ChristianYouthChannelCYC.us" tvg-name="Christian Youth Channel CYC" tvg-logo="https://twentypack20.github.io/iptv/posters/christianyouthchannelcyc.us.png" group-title="USA - Kids and Family",Christian Youth Channel CYC
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralSouthPark.us" tvg-name="Comedy Central South Park" tvg-logo="https://twentypack20.github.io/iptv/posters/comedycentralsouthpark.us.png" group-title="USA - Kids and Family",Comedy Central South Park
+https://jmp2.uk/plu-609ae66b359b270007869ff1.m3u8
 #EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll" tvg-logo="https://twentypack20.github.io/iptv/posters/crunchyroll.us.png" group-title="USA - Kids and Family",Crunchyroll
 https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/disneychannel.us.png" group-title="USA - Kids and Family",Disney Channel
@@ -770,6 +774,8 @@ https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
 http://181.78.121.15:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="LEGOKidsTV.us" tvg-name="LEGO Kids TV" tvg-logo="https://twentypack20.github.io/iptv/posters/legokidstv.us.png" group-title="USA - Kids and Family",LEGO Kids TV
 https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8
+#EXTINF:-1 tvg-id="LasTortugasNinja.us" tvg-name="Las Tortugas Ninja" tvg-logo="https://twentypack20.github.io/iptv/posters/lastortugasninja.us.png" group-title="USA - Kids and Family",Las Tortugas Ninja
+https://jmp2.uk/plu-61373f1a12dd9f00077dcd6f.m3u8
 #EXTINF:-1 tvg-id="LegoChannel.us" tvg-name="Lego Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/legochannel.us.png" group-title="USA - Kids and Family",Lego Channel
 https://dltiqboxjw21d.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="LittleStarsUniverse.us" tvg-name="Little Stars Universe" tvg-logo="https://twentypack20.github.io/iptv/posters/littlestarsuniverse.us.png" group-title="USA - Kids and Family",Little Stars Universe
@@ -812,14 +818,16 @@ https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8
 https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
 #EXTINF:-1 tvg-id="PositivTV.us" tvg-name="Positiv TV" tvg-logo="https://twentypack20.github.io/iptv/posters/positivtv.us.png" group-title="USA - Kids and Family",Positiv TV
 https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/.m3u8
+#EXTINF:-1 tvg-id="Rugrats.us" tvg-name="Rugrats" tvg-logo="https://twentypack20.github.io/iptv/posters/rugrats.us.png" group-title="USA - Kids and Family",Rugrats
+https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us" tvg-name="Ryan and Friends" tvg-logo="https://twentypack20.github.io/iptv/posters/ryanandfriends.us.png" group-title="USA - Kids and Family",Ryan and Friends
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="SabrinaTeenageWitch.us" tvg-name="Sabrina Teenage Witch" tvg-logo="https://twentypack20.github.io/iptv/posters/sabrinateenagewitch.us.png" group-title="USA - Kids and Family",Sabrina Teenage Witch
-https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8
 #EXTINF:-1 tvg-id="ShowtimeFamilyZone.us" tvg-name="Showtime Family Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/showtimefamilyzone.us.png" group-title="USA - Kids and Family",Showtime Family Zone
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us" tvg-name="Skwad Play" tvg-logo="https://twentypack20.github.io/iptv/posters/skwadplay.us.png" group-title="USA - Kids and Family",Skwad Play
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71
+#EXTINF:-1 tvg-id="SouthPark.us" tvg-name="South Park" tvg-logo="https://twentypack20.github.io/iptv/posters/southpark.us.png" group-title="USA - Kids and Family",South Park
+https://jmp2.uk/plu-62bdb1c5e25122000798ac79.m3u8
 #EXTINF:-1 tvg-id="StarzKidsFamily.us" tvg-name="Starz Kids & Family" tvg-logo="https://twentypack20.github.io/iptv/posters/starzkidsfamily.us.png" group-title="USA - Kids and Family",Starz Kids & Family
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SuperSimpleSongs.us" tvg-name="Super Simple Songs" tvg-logo="https://twentypack20.github.io/iptv/posters/supersimplesongs.us.png" group-title="USA - Kids and Family",Super Simple Songs
@@ -838,8 +846,10 @@ https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonamiAftermath.us" tvg-name="Toonami Aftermath" tvg-logo="https://twentypack20.github.io/iptv/posters/toonamiaftermath.us.png" group-title="USA - Kids and Family",Toonami Aftermath
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 tvg-id="TortuesNinjaTV.us" tvg-name="Tortues Ninja TV" tvg-logo="https://twentypack20.github.io/iptv/posters/tortuesninjatv.us.png" group-title="USA - Kids and Family",Tortues Ninja TV
+https://jmp2.uk/plu-62e9566e27ce19000732ec85.m3u8
 #EXTINF:-1 tvg-id="TotallyTurtles.us" tvg-name="Totally Turtles" tvg-logo="https://twentypack20.github.io/iptv/posters/totallyturtles.us.png" group-title="USA - Kids and Family",Totally Turtles
-https://jmp2.uk/plu-62e95265c9fd030007268fb9.m3u8
+https://jmp2.uk/plu-5d6792bd6be2998ad0ccce30.m3u8
 #EXTINF:-1 tvg-id="WatchitKID.us" tvg-name="Watch it KID!" tvg-logo="https://twentypack20.github.io/iptv/posters/watchitkid.us.png" group-title="USA - Kids and Family",Watch it KID!
 https://stream-us-east-1.getpublica.com/cl/260415d7g24jv4hnf3ahfafgog/318x234_424101_3_f.m3u8?i=513_2256
 #EXTINF:-1 tvg-id="YuGiOh.us" tvg-name="Yu-Gi-Oh!" tvg-logo="https://twentypack20.github.io/iptv/posters/yugioh.us.png" group-title="USA - Kids and Family",Yu-Gi-Oh!
@@ -1171,6 +1181,8 @@ https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playl
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseWestern.us" tvg-name="FilmRise Western" tvg-logo="https://twentypack20.github.io/iptv/posters/filmrisewestern.us.png" group-title="USA - Movies",FilmRise Western
 https://dz05z8iljgvbe.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="FilmesSuspense.us" tvg-name="Filmes Suspense" tvg-logo="https://twentypack20.github.io/iptv/posters/filmessuspense.us.png" group-title="USA - Movies",Filmes Suspense
+https://jmp2.uk/plu-5f171d3442a0500007362f22.m3u8
 #EXTINF:-1 tvg-id="FlicksofFury.us" tvg-name="Flicks of Fury" tvg-logo="https://twentypack20.github.io/iptv/posters/flicksoffury.us.png" group-title="USA - Movies",Flicks of Fury
 https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
 #EXTINF:-1 tvg-id="GirlfriendsFilms.us" tvg-name="Girlfriends Films" tvg-logo="https://twentypack20.github.io/iptv/posters/girlfriendsfilms.us.png" group-title="USA - Movies",Girlfriends Films
@@ -1340,7 +1352,7 @@ https://live-evg10.tv360.bitel.com.pe/bitel/musictv/playlist.m3u8
 #EXTINF:-1 tvg-id="LIVExLIVE.us" tvg-name="LIVExLIVE" tvg-logo="https://twentypack20.github.io/iptv/posters/livexlive.us.png" group-title="USA - Music",LIVExLIVE
 https://livestream.liveone.com/lc1/p1.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvbiggestpop.us.png" group-title="USA - Music",MTV Biggest Pop
-https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
+https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-id="MTVLive.us" tvg-name="MTV Live" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvlive.us.png" group-title="USA - Music",MTV Live
 http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="MTVSpankinNew.us" tvg-name="MTV Spankin' New" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvspankinnew.us.png" group-title="USA - Music",MTV Spankin' New
@@ -1661,8 +1673,6 @@ https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8
 https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8
 #EXTINF:-1 tvg-id="5Cops.us" tvg-name="5 Cops" tvg-logo="https://twentypack20.github.io/iptv/posters/5cops.us.png" group-title="USA - Series",5 Cops
 https://jmp2.uk/plu-5d2c571faeb3e2738ae27933.m3u8
-#EXTINF:-1 tvg-id="90210.us" tvg-name="90210" tvg-logo="https://twentypack20.github.io/iptv/posters/90210.us.png" group-title="USA - Series",90210
-https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.us" tvg-name="Acapulco Shore" tvg-logo="https://twentypack20.github.io/iptv/posters/acapulcoshore.us.png" group-title="USA - Series",Acapulco Shore
 https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
 #EXTINF:-1 tvg-id="AllRealitybyWEtv.us" tvg-name="All Reality by WE tv" tvg-logo="https://twentypack20.github.io/iptv/posters/allrealitybywetv.us.png" group-title="USA - Series",All Reality by WE tv
@@ -1683,18 +1693,20 @@ https://bbc-antiquesroadshowuk-1-us.roku.wurl.tv/playlist.m3u8
 https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="AtHomewithFamilyHandyman.us" tvg-name="At Home with Family Handyman" tvg-logo="https://twentypack20.github.io/iptv/posters/athomewithfamilyhandyman.us.png" group-title="USA - Series",At Home with Family Handyman
 https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="AuctionHunters.us" tvg-name="Auction Hunters" tvg-logo="https://twentypack20.github.io/iptv/posters/auctionhunters.us.png" group-title="USA - Series",Auction Hunters
-https://jmp2.uk/plu-5ede45d077746000072be0fe.m3u8
 #EXTINF:-1 tvg-id="BarRescue.us" tvg-name="Bar Rescue" tvg-logo="https://twentypack20.github.io/iptv/posters/barrescue.us.png" group-title="USA - Series",Bar Rescue
 https://jmp2.uk/plu-655f2ee6c0fc88000877d26c.m3u8
 #EXTINF:-1 tvg-id="Baywatch.us" tvg-name="Baywatch" tvg-logo="https://twentypack20.github.io/iptv/posters/baywatch.us.png" group-title="USA - Series",Baywatch
 https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="BeverlyHills90210.us" tvg-name="Beverly Hills 90210" tvg-logo="https://twentypack20.github.io/iptv/posters/beverlyhills90210.us.png" group-title="USA - Series",Beverly Hills 90210
+https://jmp2.uk/plu-60afb576053df900076fa2f0.m3u8
 #EXTINF:-1 tvg-id="BlackInkCrew.us" tvg-name="Black Ink Crew" tvg-logo="https://twentypack20.github.io/iptv/posters/blackinkcrew.us.png" group-title="USA - Series",Black Ink Crew
 https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8
 #EXTINF:-1 tvg-id="BlueBloods.us" tvg-name="Blue Bloods" tvg-logo="https://twentypack20.github.io/iptv/posters/bluebloods.us.png" group-title="USA - Series",Blue Bloods
 https://jmp2.uk/plu-66f55a9a747bfa0008521859.m3u8
 #EXTINF:-1 tvg-id="CSI.us" tvg-name="CSI" tvg-logo="https://twentypack20.github.io/iptv/posters/csi.us.png" group-title="USA - Series",CSI
 https://jmp2.uk/plu-6525419dc52b3600083db9c3.m3u8
+#EXTINF:-1 tvg-id="Cheers.us" tvg-name="Cheers" tvg-logo="https://twentypack20.github.io/iptv/posters/cheers.us.png" group-title="USA - Series",Cheers
+https://jmp2.uk/plu-62bdb7f0db2eb30007376d4d.m3u8
 #EXTINF:-1 tvg-id="Choppertown.us" tvg-name="Choppertown" tvg-logo="https://twentypack20.github.io/iptv/posters/choppertown.us.png" group-title="USA - Series",Choppertown
 https://linear-11.frequency.stream/dist/glewedtv/11/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="ColdCaseFiles.us" tvg-name="Cold Case Files" tvg-logo="https://twentypack20.github.io/iptv/posters/coldcasefiles.us.png" group-title="USA - Series",Cold Case Files
@@ -1754,12 +1766,20 @@ https://jmp2.uk/plu-6442508e5a0cd500083edd3c.m3u8
 https://aegis-cloudfront-1.tubi.video/475550ae-8708-46a5-a7c3-54acb3d91480/playlist.m3u8
 #EXTINF:-1 tvg-id="JudgeNosey.us" tvg-name="Judge Nosey" tvg-logo="https://twentypack20.github.io/iptv/posters/judgenosey.us.png" group-title="USA - Series",Judge Nosey
 https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="KenanKel.us" tvg-name="Kenan & Kel" tvg-logo="https://twentypack20.github.io/iptv/posters/kenankel.us.png" group-title="USA - Series",Kenan & Kel
+https://jmp2.uk/plu-5ffcc5130fd98c0007f2e216.m3u8
 #EXTINF:-1 tvg-id="LoveHipHop.us" tvg-name="Love & Hip Hop" tvg-logo="https://twentypack20.github.io/iptv/posters/lovehiphop.us.png" group-title="USA - Series",Love & Hip Hop
 https://jmp2.uk/plu-5d51ddf0369acdb278dfb05e.m3u8
 #EXTINF:-1 tvg-id="MST3K.us" tvg-name="MST3K" tvg-logo="https://twentypack20.github.io/iptv/posters/mst3k.us.png" group-title="USA - Series",MST3K
 https://mst3k-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MTVAreyoutheOne.us" tvg-name="MTV Are you the One?" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvareyoutheone.us.png" group-title="USA - Series",MTV Are you the One?
+https://jmp2.uk/plu-5f6108d8cc331900075e98e4.m3u8
+#EXTINF:-1 tvg-id="MTVComoEx.us" tvg-name="MTV Com o Ex" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvcomoex.us.png" group-title="USA - Series",MTV Com o Ex
+https://jmp2.uk/plu-61a528267e1b8b0007357920.m3u8
 #EXTINF:-1 tvg-id="MTVDating.us" tvg-name="MTV Dating" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvdating.us.png" group-title="USA - Series",MTV Dating
-https://jmp2.uk/plu-6851407c21f49d1b9d177493.m3u8
+https://jmp2.uk/plu-5caf330ea5068259a32320fd.m3u8
+#EXTINF:-1 tvg-id="MTVTeenMom.us" tvg-name="MTV Teen Mom" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvteenmom.us.png" group-title="USA - Series",MTV Teen Mom
+https://jmp2.uk/plu-5cffcf5686dfe15595fb3f56.m3u8
 #EXTINF:-1 tvg-id="MarriedwithChildren.us" tvg-name="Married with Children" tvg-logo="https://twentypack20.github.io/iptv/posters/marriedwithchildren.us.png" group-title="USA - Series",Married with Children
 https://jmp2.uk/plu-66bb3212fe11e5000883ea6b.m3u8
 #EXTINF:-1 tvg-id="Matlock.us" tvg-name="Matlock" tvg-logo="https://twentypack20.github.io/iptv/posters/matlock.us.png" group-title="USA - Series",Matlock
