@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-02 11:04:35 UTC
+# Generated: 2026-07-03 10:54:13 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -923,6 +923,8 @@ https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSPinballNetwork.us" tvg-name="TVS Pinball Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvspinballnetwork.us.png" group-title="USA - Kids and Family",TVS Pinball Network
 https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
+#EXTINF:-1 tvg-id="TeenNick.us" tvg-name="TeenNick" tvg-logo="https://twentypack20.github.io/iptv/posters/teennick.us.png" group-title="USA - Kids and Family",TeenNick
+http://206.212.244.63/670/index.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us" tvg-name="The Pet Collective" tvg-logo="https://twentypack20.github.io/iptv/posters/thepetcollective.us.png" group-title="USA - Kids and Family",The Pet Collective
 https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us" tvg-name="ToonGoggles" tvg-logo="https://twentypack20.github.io/iptv/posters/toongoggles.us.png" group-title="USA - Kids and Family",ToonGoggles
@@ -1287,6 +1289,8 @@ http://206.212.244.63/81/index.m3u8
 http://206.212.244.63/85/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us" tvg-name="Hallmark Movies & More" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkmoviesmore.us.png" group-title="USA - Movies",Hallmark Movies & More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="HallmarkMoviesMysteries.us" tvg-name="Hallmark Movies & Mysteries" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkmoviesmysteries.us.png" group-title="USA - Movies",Hallmark Movies & Mysteries
+http://206.212.244.63/86/index.m3u8
 #EXTINF:-1 tvg-id="HogansHeroes.us" tvg-name="Hogan's Heroes" tvg-logo="https://twentypack20.github.io/iptv/posters/hogansheroes.us.png" group-title="USA - Movies",Hogan's Heroes
 https://jmp2.uk/plu-68939e206727ec919bb39061.m3u8
 #EXTINF:-1 tvg-id="ILoveLucy.us" tvg-name="I Love Lucy" tvg-logo="https://twentypack20.github.io/iptv/posters/ilovelucy.us.png" group-title="USA - Movies",I Love Lucy
@@ -1392,6 +1396,8 @@ https://jmp2.uk/plu-6086d3f420fc8500075f8dbf.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="SamuelGoldwynClassics.us" tvg-name="Samuel Goldwyn Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/samuelgoldwynclassics.us.png" group-title="USA - Movies",Samuel Goldwyn Classics
 https://samuelgoldwyn-classics-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Screamfest.us" tvg-name="Screamfest" tvg-logo="https://twentypack20.github.io/iptv/posters/screamfest.us.png" group-title="USA - Movies",Screamfest
+http://206.212.244.63/147/index.m3u8
 #EXTINF:-1 tvg-id="StarTrekDeepSpaceNine.us" tvg-name="Star Trek: Deep Space Nine" tvg-logo="https://twentypack20.github.io/iptv/posters/startrekdeepspacenine.us.png" group-title="USA - Movies",Star Trek: Deep Space Nine
 https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8
 #EXTINF:-1 tvg-id="StarTrekTheNextGeneration.us" tvg-name="Star Trek: The Next Generation" tvg-logo="https://twentypack20.github.io/iptv/posters/startrekthenextgeneration.us.png" group-title="USA - Movies",Star Trek: The Next Generation
@@ -2074,12 +2080,16 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/p
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="MLB.us" tvg-name="MLB" tvg-logo="https://twentypack20.github.io/iptv/posters/mlb.us.png" group-title="USA - Sports",MLB
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
+#EXTINF:-1 tvg-id="MLBStrikeZone.us" tvg-name="MLB Strike Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/mlbstrikezone.us.png" group-title="USA - Sports",MLB Strike Zone
+http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="MMATV.us" tvg-name="MMA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/mmatv.us.png" group-title="USA - Sports",MMA TV
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us" tvg-name="MSG" tvg-logo="https://twentypack20.github.io/iptv/posters/msg.us.png" group-title="USA - Sports",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us" tvg-name="Monster Jam" tvg-logo="https://twentypack20.github.io/iptv/posters/monsterjam.us.png" group-title="USA - Sports",Monster Jam
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
+#EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nbatv.us.png" group-title="USA - Sports",NBA TV
+http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsnow.us.png" group-title="USA - Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="NESN.us" tvg-name="NESN" tvg-logo="https://twentypack20.github.io/iptv/posters/nesn.us.png" group-title="USA - Sports",NESN
