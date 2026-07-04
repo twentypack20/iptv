@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-03 10:54:13 UTC
+# Generated: 2026-07-04 10:30:21 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -166,7 +166,7 @@ https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8
 #EXTINF:-1 tvg-id="OnTheCase.us" tvg-name="On The Case" tvg-logo="https://twentypack20.github.io/iptv/posters/onthecase.us.png" group-title="USA - Documentary / Education",On The Case
 https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8
 #EXTINF:-1 tvg-id="Ovation.us" tvg-name="Ovation" tvg-logo="https://twentypack20.github.io/iptv/posters/ovation.us.png" group-title="USA - Documentary / Education",Ovation
-http://206.212.244.63/134/index.m3u8
+http://40.160.24.55/OVATION/index.m3u8
 #EXTINF:-1 tvg-id="PSDTV.us" tvg-name="PSD TV" tvg-logo="https://twentypack20.github.io/iptv/posters/psdtv.us.png" group-title="USA - Documentary / Education",PSD TV
 https://reflect-broadcast-psdschools.cablecast.tv/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHistory.us" tvg-name="Pluto TV History" tvg-logo="https://twentypack20.github.io/iptv/posters/plutotvhistory.us.png" group-title="USA - Documentary / Education",Pluto TV History
@@ -426,6 +426,8 @@ https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
 https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8
 #EXTINF:-1 tvg-id="GlobalWorldTV.us" tvg-name="GlobalWorldTV" tvg-logo="https://twentypack20.github.io/iptv/posters/globalworldtv.us.png" group-title="USA - Entertainment",GlobalWorldTV
 https://media.streambrothers.com:1936/8052/8052/playlist.m3u8
+#EXTINF:-1 tvg-id="GreatEntertainmentTelevision.us" tvg-name="Great Entertainment Television" tvg-logo="https://twentypack20.github.io/iptv/posters/greatentertainmenttelevision.us.png" group-title="USA - Entertainment",Great Entertainment Television
+http://206.212.244.63/80/index.m3u8
 #EXTINF:-1 tvg-id="Grit.us" tvg-name="Grit" tvg-logo="https://twentypack20.github.io/iptv/posters/grit.us.png" group-title="USA - Entertainment",Grit
 http://206.212.244.63/83/index.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us" tvg-name="Grit Xtra" tvg-logo="https://twentypack20.github.io/iptv/posters/gritxtra.us.png" group-title="USA - Entertainment",Grit Xtra
@@ -1283,6 +1285,8 @@ https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
 https://jmp2.uk/plu-66ba1e4446762a000855cd87.m3u8
 #EXTINF:-1 tvg-id="GravitasMovies.us" tvg-name="Gravitas Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/gravitasmovies.us.png" group-title="USA - Movies",Gravitas Movies
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
+#EXTINF:-1 tvg-id="GreatAmericanFaithLiving.us" tvg-name="Great American Faith & Living" tvg-logo="https://twentypack20.github.io/iptv/posters/greatamericanfaithliving.us.png" group-title="USA - Movies",Great American Faith & Living
+http://206.212.244.63/82/index.m3u8
 #EXTINF:-1 tvg-id="GreatAmericanFamily.us" tvg-name="Great American Family" tvg-logo="https://twentypack20.github.io/iptv/posters/greatamericanfamily.us.png" group-title="USA - Movies",Great American Family
 http://206.212.244.63/81/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkFamily.us" tvg-name="Hallmark Family" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkfamily.us.png" group-title="USA - Movies",Hallmark Family
@@ -1557,6 +1561,8 @@ https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u
 https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us" tvg-name="AccuWeather NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernow.us.png" group-title="USA - News",AccuWeather NOW
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="AccuWeatherNetwork.us" tvg-name="AccuWeather Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernetwork.us.png" group-title="USA - News",AccuWeather Network
+http://206.212.244.63/674/index.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="America's Voice" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoice.us.png" group-title="USA - News",America's Voice
 https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 #EXTINF:-1 tvg-id="AmericasVoiceNews.us" tvg-name="America's Voice News" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoicenews.us.png" group-title="USA - News",America's Voice News
@@ -1599,6 +1605,8 @@ https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us" tvg-name="Cheddar News" tvg-logo="https://twentypack20.github.io/iptv/posters/cheddarnews.us.png" group-title="USA - News",Cheddar News
 https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar/samsung_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="ESPNews.us" tvg-name="ESPNews" tvg-logo="https://twentypack20.github.io/iptv/posters/espnews.us.png" group-title="USA - News",ESPNews
+http://41.223.30.230/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="EntertainmentTonight.us" tvg-name="Entertainment Tonight" tvg-logo="https://twentypack20.github.io/iptv/posters/entertainmenttonight.us.png" group-title="USA - News",Entertainment Tonight
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewschannel.us.png" group-title="USA - News",Fox News Channel
@@ -1635,7 +1643,7 @@ https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b6
 #EXTINF:-1 tvg-id="OANPlus.us" tvg-name="OAN Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/oanplus.us.png" group-title="USA - News",OAN Plus
 https://2-fss-2.streamhoster.com/pl_118/206858-4404458-1/playlist.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network" tvg-logo="https://twentypack20.github.io/iptv/posters/oneamericanewsnetwork.us.png" group-title="USA - News",One America News Network
-https://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+http://40.160.24.55/ONE_AMERICA_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.us" tvg-name="Payvand TV" tvg-logo="https://twentypack20.github.io/iptv/posters/payvandtv.us.png" group-title="USA - News",Payvand TV
 https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8
 #EXTINF:-1 tvg-id="RedseatTheFirst.us" tvg-name="Redseat The First" tvg-logo="https://twentypack20.github.io/iptv/posters/redseatthefirst.us.png" group-title="USA - News",Redseat The First
@@ -2148,7 +2156,7 @@ https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="Tennis Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/tennischannel.us.png" group-title="USA - Sports",Tennis Channel
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="USANetwork.us" tvg-name="USA Network" tvg-logo="https://twentypack20.github.io/iptv/posters/usanetwork.us.png" group-title="USA - Sports",USA Network
-http://185.246.209.113/DISCOVERYHD/index.m3u8
+http://40.160.24.55/USA_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us" tvg-name="Unbeaten" tvg-logo="https://twentypack20.github.io/iptv/posters/unbeaten.us.png" group-title="USA - Sports",Unbeaten
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/UnbeatenSports/playlist.m3u8
 #EXTINF:-1 tvg-id="W14DKD145.us" tvg-name="W14DK-D 14.5" tvg-logo="https://twentypack20.github.io/iptv/posters/w14dkd145.us.png" group-title="USA - Sports",W14DK-D 14.5
