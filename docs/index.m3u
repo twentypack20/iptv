@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-05 10:31:02 UTC
+# Generated: 2026-07-06 12:18:17 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -26,8 +26,6 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
 https://content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8
 #EXTINF:-1 tvg-id="JewelryTV2.us" tvg-name="Jewelry TV 2" tvg-logo="https://twentypack20.github.io/iptv/posters/jewelrytv2.us.png" group-title="USA - Business / Shopping",Jewelry TV 2
 https://cdn.jwplayer.com/live/broadcast/0rrJ3kkM.m3u8
-#EXTINF:-1 tvg-id="OnTV4U.us" tvg-name="OnTV4U" tvg-logo="https://twentypack20.github.io/iptv/posters/ontv4u.us.png" group-title="USA - Business / Shopping",OnTV4U
-https://cdn13.crtvnoc.com/ONTV4U-on-DistroTV/index.m3u8
 #EXTINF:-1 tvg-id="QVC.us" tvg-name="QVC" tvg-logo="https://twentypack20.github.io/iptv/posters/qvc.us.png" group-title="USA - Business / Shopping",QVC
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
 #EXTINF:-1 tvg-id="QVC2.us" tvg-name="QVC2" tvg-logo="https://twentypack20.github.io/iptv/posters/qvc2.us.png" group-title="USA - Business / Shopping",QVC2
@@ -125,6 +123,8 @@ https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8
 https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
 #EXTINF:-1 tvg-id="KOCTChannel19.us" tvg-name="KOCT Channel 19" tvg-logo="https://twentypack20.github.io/iptv/posters/koctchannel19.us.png" group-title="USA - Documentary / Education",KOCT Channel 19
 https://securestream10.champds.com/LIVE/KOCTCALIVE2/KOCTCALIVE2.m3u8
+#EXTINF:-1 tvg-id="KPVMLD256.us" tvg-name="KPVM-LD 25.6" tvg-logo="https://twentypack20.github.io/iptv/posters/kpvmld256.us.png" group-title="USA - Documentary / Education",KPVM-LD 25.6
+https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KTOOTV33.us" tvg-name="KTOO-TV 3.3" tvg-logo="https://twentypack20.github.io/iptv/posters/ktootv33.us.png" group-title="USA - Documentary / Education",KTOO-TV 3.3
 https://api.v3.invintus.com/StreamURI/persis/2147483647/KTOO360TV.stream/media.m3u8
 #EXTINF:-1 tvg-id="LA36.us" tvg-name="LA36" tvg-logo="https://twentypack20.github.io/iptv/posters/la36.us.png" group-title="USA - Documentary / Education",LA36
@@ -314,6 +314,8 @@ https://cantv.streamguys1.com/cantv/cantv21hls/playlist.m3u8
 https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8
 #EXTINF:-1 tvg-id="CANTV36.us" tvg-name="CAN TV36" tvg-logo="https://twentypack20.github.io/iptv/posters/cantv36.us.png" group-title="USA - Entertainment",CAN TV36
 https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8
+#EXTINF:-1 tvg-id="CBS.us" tvg-name="CBS" tvg-logo="https://twentypack20.github.io/iptv/posters/cbs.us.png" group-title="USA - Entertainment",CBS
+http://stream.cammonitorplus.net/1783/index.m3u8
 #EXTINF:-1 tvg-id="CBSenespanol.us" tvg-name="CBS en espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/cbsenespanol.us.png" group-title="USA - Entertainment",CBS en espanol
 https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8
 #EXTINF:-1 tvg-id="CCX1.us" tvg-name="CCX1" tvg-logo="https://twentypack20.github.io/iptv/posters/ccx1.us.png" group-title="USA - Entertainment",CCX1
@@ -411,7 +413,7 @@ https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us" tvg-name="FilAmTV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/filamtvnetwork.us.png" group-title="USA - Entertainment",FilAmTV Network
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us" tvg-name="Fox" tvg-logo="https://twentypack20.github.io/iptv/posters/fox.us.png" group-title="USA - Entertainment",Fox
-http://84.17.50.102/fox/index.m3u8
+http://stream.cammonitorplus.net/1799/index.m3u8
 #EXTINF:-1 tvg-id="FunnyAF.us" tvg-name="Funny AF" tvg-logo="https://twentypack20.github.io/iptv/posters/funnyaf.us.png" group-title="USA - Entertainment",Funny AF
 https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
 #EXTINF:-1 tvg-id="Fuse.us" tvg-name="Fuse" tvg-logo="https://twentypack20.github.io/iptv/posters/fuse.us.png" group-title="USA - Entertainment",Fuse
@@ -519,6 +521,8 @@ https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-kokibreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="KOMOTV511.us" tvg-name="KOMO-TV 51.1" tvg-logo="https://twentypack20.github.io/iptv/posters/komotv511.us.png" group-title="USA - Entertainment",KOMO-TV 51.1
 https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="KPVMLD251.us" tvg-name="KPVM-LD 25.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kpvmld251.us.png" group-title="USA - Entertainment",KPVM-LD 25.1
+https://2-fss-1.streamhoster.com/pl_122/206858-4405346-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KQED92.us" tvg-name="KQED 9.2" tvg-logo="https://twentypack20.github.io/iptv/posters/kqed92.us.png" group-title="USA - Entertainment",KQED 9.2
 https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8
 #EXTINF:-1 tvg-id="KRCA71.us" tvg-name="KRCA 7.1" tvg-logo="https://twentypack20.github.io/iptv/posters/krca71.us.png" group-title="USA - Entertainment",KRCA 7.1
@@ -627,6 +631,8 @@ https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8
 https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8
 #EXTINF:-1 tvg-id="MysteryTV.us" tvg-name="Mystery TV" tvg-logo="https://twentypack20.github.io/iptv/posters/mysterytv.us.png" group-title="USA - Entertainment",Mystery TV
 https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us" tvg-name="NBC" tvg-logo="https://twentypack20.github.io/iptv/posters/nbc.us.png" group-title="USA - Entertainment",NBC
+http://stream.cammonitorplus.net/1785/index.m3u8
 #EXTINF:-1 tvg-id="NBCComedyVault.us" tvg-name="NBC Comedy Vault" tvg-logo="https://twentypack20.github.io/iptv/posters/nbccomedyvault.us.png" group-title="USA - Entertainment",NBC Comedy Vault
 https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="NBCUniverso.us" tvg-name="NBC Universo" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcuniverso.us.png" group-title="USA - Entertainment",NBC Universo
@@ -1303,6 +1309,8 @@ https://jmp2.uk/plu-68939e206727ec919bb39061.m3u8
 https://jmp2.uk/plu-63a2f1dda0d69700078b7cba.m3u8
 #EXTINF:-1 tvg-id="IFC.us" tvg-name="IFC" tvg-logo="https://twentypack20.github.io/iptv/posters/ifc.us.png" group-title="USA - Movies",IFC
 http://23.237.104.106:8080/USA_IFC/index.m3u8
+#EXTINF:-1 tvg-id="KPVMLD252.us" tvg-name="KPVM-LD 25.2" tvg-logo="https://twentypack20.github.io/iptv/posters/kpvmld252.us.png" group-title="USA - Movies",KPVM-LD 25.2
+https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KidsMovieClub.us" tvg-name="Kids Movie Club" tvg-logo="https://twentypack20.github.io/iptv/posters/kidsmovieclub.us.png" group-title="USA - Movies",Kids Movie Club
 https://jmp2.uk/plu-5db0ad56edc89300090d2ebb.m3u8
 #EXTINF:-1 tvg-id="LifetimeMovies.us" tvg-name="Lifetime Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/lifetimemovies.us.png" group-title="USA - Movies",Lifetime Movies
@@ -1316,13 +1324,14 @@ https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us" tvg-name="MovieSphere" tvg-logo="https://twentypack20.github.io/iptv/posters/moviesphere.us.png" group-title="USA - Movies",MovieSphere
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="Movies.us" tvg-name="Movies!" tvg-logo="https://twentypack20.github.io/iptv/posters/movies.us.png" group-title="USA - Movies",Movies!
-https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
+https://bozztv.com/dvrfl03/hdirect/hdirect-ovair1-movies!/index.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" tvg-name="MyTime Movie Network East" tvg-logo="https://twentypack20.github.io/iptv/posters/mytimemovienetworkeast.us.png" group-title="USA - Movies",MyTime Movie Network East
 https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NEWKMOVIES.us" tvg-name="NEW K.MOVIES" tvg-logo="https://twentypack20.github.io/iptv/posters/newkmovies.us.png" group-title="USA - Movies",NEW K.MOVIES
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus
 #EXTINF:-1 tvg-id="NOST.us" tvg-name="NOST" tvg-logo="https://twentypack20.github.io/iptv/posters/nost.us.png" group-title="USA - Movies",NOST
-https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/nost-the-nostalgia-network/nost1.m3u8?ads.vf=oIGRNR7C3qe
 #EXTINF:-1 tvg-id="OuterSphere.us" tvg-name="OuterSphere" tvg-logo="https://twentypack20.github.io/iptv/posters/outersphere.us.png" group-title="USA - Movies",OuterSphere
 https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
 #EXTINF:-1 tvg-id="ParamountMovieChannel.us" tvg-name="Paramount Movie Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/paramountmoviechannel.us.png" group-title="USA - Movies",Paramount Movie Channel
@@ -1621,6 +1630,10 @@ https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/cha
 https://bozztv.com/hwotta/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="InfoWars.us" tvg-name="InfoWars" tvg-logo="https://twentypack20.github.io/iptv/posters/infowars.us.png" group-title="USA - News",InfoWars
 https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
+#EXTINF:-1 tvg-id="KPVMLD253.us" tvg-name="KPVM-LD 25.3" tvg-logo="https://twentypack20.github.io/iptv/posters/kpvmld253.us.png" group-title="USA - News",KPVM-LD 25.3
+https://2-fss-2.streamhoster.com/pl_118/206858-4404454-1/playlist.m3u8
+#EXTINF:-1 tvg-id="KPVMLD254.us" tvg-name="KPVM-LD 25.4" tvg-logo="https://twentypack20.github.io/iptv/posters/kpvmld254.us.png" group-title="USA - News",KPVM-LD 25.4
+https://2-fss-2.streamhoster.com/pl_118/206858-4404458-1/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us" tvg-name="LiveNOW from FOX" tvg-logo="https://twentypack20.github.io/iptv/posters/livenowfromfox.us.png" group-title="USA - News",LiveNOW from FOX
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MSNOW.us" tvg-name="MS NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/msnow.us.png" group-title="USA - News",MS NOW
@@ -1636,14 +1649,13 @@ http://206.212.244.63/712/index.m3u8
 #EXTINF:-1 tvg-id="Newsmax2.us" tvg-name="Newsmax 2" tvg-logo="https://twentypack20.github.io/iptv/posters/newsmax2.us.png" group-title="USA - News",Newsmax 2
 https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsmaxTV.us" tvg-name="Newsmax TV" tvg-logo="https://twentypack20.github.io/iptv/posters/newsmaxtv.us.png" group-title="USA - News",Newsmax TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/newsmax-tv/index.m3u8?ads.vf=Td2nCUXB4ha
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="Newsy.us" tvg-name="Newsy" tvg-logo="https://twentypack20.github.io/iptv/posters/newsy.us.png" group-title="USA - News",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 tvg-id="NowMediaTelevision.us" tvg-name="NowMedia Television" tvg-logo="https://twentypack20.github.io/iptv/posters/nowmediatelevision.us.png" group-title="USA - News",NowMedia Television
 https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8
 #EXTINF:-1 tvg-id="OANPlus.us" tvg-name="OAN Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/oanplus.us.png" group-title="USA - News",OAN Plus
-https://2-fss-2.streamhoster.com/pl_118/206858-4404458-1/playlist.m3u8
+https://oan-plus-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network" tvg-logo="https://twentypack20.github.io/iptv/posters/oneamericanewsnetwork.us.png" group-title="USA - News",One America News Network
 http://40.160.24.55/ONE_AMERICA_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.us" tvg-name="Payvand TV" tvg-logo="https://twentypack20.github.io/iptv/posters/payvandtv.us.png" group-title="USA - News",Payvand TV
@@ -2098,6 +2110,8 @@ http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us" tvg-name="MSG" tvg-logo="https://twentypack20.github.io/iptv/posters/msg.us.png" group-title="USA - Sports",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
+#EXTINF:-1 tvg-id="MTRSPT1.us" tvg-name="MTRSPT1" tvg-logo="https://twentypack20.github.io/iptv/posters/mtrspt1.us.png" group-title="USA - Sports",MTRSPT1
+https://amg02873-kravemedia-mtrspt1-distrotv-mnsrl.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us" tvg-name="Monster Jam" tvg-logo="https://twentypack20.github.io/iptv/posters/monsterjam.us.png" group-title="USA - Sports",Monster Jam
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nbatv.us.png" group-title="USA - Sports",NBA TV
