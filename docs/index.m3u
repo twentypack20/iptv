@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-06 12:18:17 UTC
+# Generated: 2026-07-07 11:22:59 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -827,6 +827,8 @@ http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
 #EXTINF:-1 tvg-id="DoveChannel.us" tvg-name="Dove Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/dovechannel.us.png" group-title="USA - Kids and Family",Dove Channel
 https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="FETV.us" tvg-name="FETV" tvg-logo="https://twentypack20.github.io/iptv/posters/fetv.us.png" group-title="USA - Kids and Family",FETV
+http://206.212.244.63/60/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us" tvg-name="FilmRise Anime" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseanime.us.png" group-title="USA - Kids and Family",FilmRise Anime
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="ForeverKids.us" tvg-name="Forever Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/foreverkids.us.png" group-title="USA - Kids and Family",Forever Kids
@@ -2088,7 +2090,7 @@ https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playl
 #EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="Fox Deportes" tvg-logo="https://twentypack20.github.io/iptv/posters/foxdeportes.us.png" group-title="USA - Sports",Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://twentypack20.github.io/iptv/posters/foxsports1.us.png" group-title="USA - Sports",Fox Sports 1
-http://cdn.haititivi.com/Fox_Sports_1/index.m3u8
+https://streamvidex.qzz.io/videx/fox1usa/index.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us" tvg-name="Fubo Sports Network" tvg-logo="https://twentypack20.github.io/iptv/posters/fubosportsnetwork.us.png" group-title="USA - Sports",Fubo Sports Network
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="GloryKickboxing.us" tvg-name="Glory Kickboxing" tvg-logo="https://twentypack20.github.io/iptv/posters/glorykickboxing.us.png" group-title="USA - Sports",Glory Kickboxing
