@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-08 10:34:08 UTC
+# Generated: 2026-07-09 11:22:27 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -818,9 +818,9 @@ http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll" tvg-logo="https://twentypack20.github.io/iptv/posters/crunchyroll.us.png" group-title="USA - Kids and Family",Crunchyroll
 https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/disneychannel.us.png" group-title="USA - Kids and Family",Disney Channel
-https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/disney/index.m3u8
+http://206.212.244.63/650/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us" tvg-name="Disney Junior" tvg-logo="https://twentypack20.github.io/iptv/posters/disneyjunior.us.png" group-title="USA - Kids and Family",Disney Junior
-https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/disneyjr/index.m3u8
+http://206.212.244.63/655/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="Disney XD" tvg-logo="https://twentypack20.github.io/iptv/posters/disneyxd.us.png" group-title="USA - Kids and Family",Disney XD
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="DoraTV.us" tvg-name="Dora TV" tvg-logo="https://twentypack20.github.io/iptv/posters/doratv.us.png" group-title="USA - Kids and Family",Dora TV
@@ -935,8 +935,6 @@ https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSPinballNetwork.us" tvg-name="TVS Pinball Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvspinballnetwork.us.png" group-title="USA - Kids and Family",TVS Pinball Network
 https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-#EXTINF:-1 tvg-id="TeenNick.us" tvg-name="TeenNick" tvg-logo="https://twentypack20.github.io/iptv/posters/teennick.us.png" group-title="USA - Kids and Family",TeenNick
-http://206.212.244.63/670/index.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us" tvg-name="The Pet Collective" tvg-logo="https://twentypack20.github.io/iptv/posters/thepetcollective.us.png" group-title="USA - Kids and Family",The Pet Collective
 https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us" tvg-name="ToonGoggles" tvg-logo="https://twentypack20.github.io/iptv/posters/toongoggles.us.png" group-title="USA - Kids and Family",ToonGoggles
@@ -1239,6 +1237,8 @@ https://jmp2.uk/plu-5f4d86f519358a00072b978e.m3u8
 https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
 #EXTINF:-1 tvg-id="AMC.us" tvg-name="AMC" tvg-logo="https://twentypack20.github.io/iptv/posters/amc.us.png" group-title="USA - Movies",AMC
 http://41.223.30.230/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us" tvg-name="AMC Latin America" tvg-logo="https://twentypack20.github.io/iptv/posters/amclatinamerica.us.png" group-title="USA - Movies",AMC Latin America
+http://177.234.249.178:8888/AMC/index.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us" tvg-name="ARTFLIX Movie Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/artflixmovieclassics.us.png" group-title="USA - Movies",ARTFLIX Movie Classics
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNAdria.us" tvg-name="AXN Adria" tvg-logo="https://twentypack20.github.io/iptv/posters/axnadria.us.png" group-title="USA - Movies",AXN Adria
@@ -2004,6 +2004,8 @@ http://206.212.244.63/150/index.m3u8
 https://jmp2.uk/plu-5f24662bebe0f0000767de32.m3u8
 #EXTINF:-1 tvg-id="Survivor.us" tvg-name="Survivor" tvg-logo="https://twentypack20.github.io/iptv/posters/survivor.us.png" group-title="USA - Series",Survivor
 https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.us" tvg-name="TNT Novelas" tvg-logo="https://twentypack20.github.io/iptv/posters/tntnovelas.us.png" group-title="USA - Series",TNT Novelas
+http://138.186.23.7:8082/TNTNOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoTelenovelasClasicas.us" tvg-name="Telemundo Telenovelas Clasicas" tvg-logo="https://twentypack20.github.io/iptv/posters/telemundotelenovelasclasicas.us.png" group-title="USA - Series",Telemundo Telenovelas Clasicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
 #EXTINF:-1 tvg-id="TheAddamsFamily.us" tvg-name="The Addams Family" tvg-logo="https://twentypack20.github.io/iptv/posters/theaddamsfamily.us.png" group-title="USA - Series",The Addams Family
