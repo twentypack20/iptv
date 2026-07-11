@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-10 11:23:25 UTC
+# Generated: 2026-07-11 09:52:25 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -223,6 +223,8 @@ https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch1/video.m3u8
 http://206.212.244.63/11/index.m3u8
 #EXTINF:-1 tvg-id="AWEInternational.us" tvg-name="AWE International" tvg-logo="https://twentypack20.github.io/iptv/posters/aweinternational.us.png" group-title="USA - Entertainment",AWE International
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
+#EXTINF:-1 tvg-id="AWEPlus.us" tvg-name="AWE Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/aweplus.us.png" group-title="USA - Entertainment",AWE Plus
+https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.us" tvg-name="AXN White" tvg-logo="https://twentypack20.github.io/iptv/posters/axnwhite.us.png" group-title="USA - Entertainment",AXN White
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://82.78.243.219:45739/play/a00n/index.m3u8
@@ -340,6 +342,10 @@ https://livestream.telvue.com/cvtv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlis
 https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8
 #EXTINF:-1 tvg-id="CarChase.us" tvg-name="Car Chase" tvg-logo="https://twentypack20.github.io/iptv/posters/carchase.us.png" group-title="USA - Entertainment",Car Chase
 https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8
+#EXTINF:-1 tvg-id="CatchyComedy.us" tvg-name="Catchy Comedy" tvg-logo="https://twentypack20.github.io/iptv/posters/catchycomedy.us.png" group-title="USA - Entertainment",Catchy Comedy
+http://40.160.24.52/DECADES/index.m3u8
+#EXTINF:-1 tvg-id="CheddarU.us" tvg-name="CheddarU" tvg-logo="https://twentypack20.github.io/iptv/posters/cheddaru.us.png" group-title="USA - Entertainment",CheddarU
+http://40.160.24.52/CHEDDAR_BUSINESS/index.m3u8
 #EXTINF:-1 tvg-id="CheersPlusFrasier.us" tvg-name="Cheers + Frasier" tvg-logo="https://twentypack20.github.io/iptv/posters/cheersplusfrasier.us.png" group-title="USA - Entertainment",Cheers + Frasier
 https://jmp2.uk/plu-66ba495ffe11e5000881f049.m3u8
 #EXTINF:-1 tvg-id="Cineaventura.us" tvg-name="Cine aventura" tvg-logo="https://twentypack20.github.io/iptv/posters/cineaventura.us.png" group-title="USA - Entertainment",Cine aventura
@@ -371,7 +377,7 @@ https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
 #EXTINF:-1 tvg-id="ConcordTV.us" tvg-name="Concord TV" tvg-logo="https://twentypack20.github.io/iptv/posters/concordtv.us.png" group-title="USA - Entertainment",Concord TV
 https://concordca.cablecast.tv/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="CoziTV.us" tvg-name="Cozi TV" tvg-logo="https://twentypack20.github.io/iptv/posters/cozitv.us.png" group-title="USA - Entertainment",Cozi TV
-http://206.212.244.63/49/index.m3u8
+http://40.160.24.52/COZI_TV/index.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel15.us" tvg-name="CreaTV Channel 15" tvg-logo="https://twentypack20.github.io/iptv/posters/creatvchannel15.us.png" group-title="USA - Entertainment",CreaTV Channel 15
 https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel27.us" tvg-name="CreaTV Channel 27" tvg-logo="https://twentypack20.github.io/iptv/posters/creatvchannel27.us.png" group-title="USA - Entertainment",CreaTV Channel 27
@@ -411,7 +417,7 @@ https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us" tvg-name="FilAmTV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/filamtvnetwork.us.png" group-title="USA - Entertainment",FilAmTV Network
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us" tvg-name="Fox" tvg-logo="https://twentypack20.github.io/iptv/posters/fox.us.png" group-title="USA - Entertainment",Fox
-http://stream.cammonitorplus.net/1799/index.m3u8
+http://40.160.24.52/FOX/index.m3u8
 #EXTINF:-1 tvg-id="FunnyAF.us" tvg-name="Funny AF" tvg-logo="https://twentypack20.github.io/iptv/posters/funnyaf.us.png" group-title="USA - Entertainment",Funny AF
 https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
 #EXTINF:-1 tvg-id="Fuse.us" tvg-name="Fuse" tvg-logo="https://twentypack20.github.io/iptv/posters/fuse.us.png" group-title="USA - Entertainment",Fuse
@@ -422,6 +428,8 @@ https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1 tvg-id="GameShowCentral.us" tvg-name="Game Show Central" tvg-logo="https://twentypack20.github.io/iptv/posters/gameshowcentral.us.png" group-title="USA - Entertainment",Game Show Central
 https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
+#EXTINF:-1 tvg-id="GameShowNetwork.us" tvg-name="Game Show Network" tvg-logo="https://twentypack20.github.io/iptv/posters/gameshownetwork.us.png" group-title="USA - Entertainment",Game Show Network
+http://40.160.24.52/GSN/index.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us" tvg-name="Gillette Public Access Television Channel 190" tvg-logo="https://twentypack20.github.io/iptv/posters/gillettepublicaccesstelevisionchannel190.us.png" group-title="USA - Entertainment",Gillette Public Access Television Channel 190
 https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8
 #EXTINF:-1 tvg-id="GlobalWorldTV.us" tvg-name="GlobalWorldTV" tvg-logo="https://twentypack20.github.io/iptv/posters/globalworldtv.us.png" group-title="USA - Entertainment",GlobalWorldTV
@@ -429,7 +437,7 @@ https://media.streambrothers.com:1936/8052/8052/playlist.m3u8
 #EXTINF:-1 tvg-id="GreatEntertainmentTelevision.us" tvg-name="Great Entertainment Television" tvg-logo="https://twentypack20.github.io/iptv/posters/greatentertainmenttelevision.us.png" group-title="USA - Entertainment",Great Entertainment Television
 http://206.212.244.63/80/index.m3u8
 #EXTINF:-1 tvg-id="Grit.us" tvg-name="Grit" tvg-logo="https://twentypack20.github.io/iptv/posters/grit.us.png" group-title="USA - Entertainment",Grit
-http://206.212.244.63/83/index.m3u8
+http://40.160.24.52/GRIT/index.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us" tvg-name="Grit Xtra" tvg-logo="https://twentypack20.github.io/iptv/posters/gritxtra.us.png" group-title="USA - Entertainment",Grit Xtra
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="HBTV.us" tvg-name="HBTV" tvg-logo="https://twentypack20.github.io/iptv/posters/hbtv.us.png" group-title="USA - Entertainment",HBTV
@@ -568,13 +576,15 @@ https://aegis-cloudfront-1.tubi.video/54f95462-b44d-4c99-b74b-af49467454fa/playl
 #EXTINF:-1 tvg-id="LPTV.us" tvg-name="LPTV" tvg-logo="https://twentypack20.github.io/iptv/posters/lptv.us.png" group-title="USA - Entertainment",LPTV
 https://livestream.telvue.com/lexmedia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia1/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Laff.us" tvg-name="Laff" tvg-logo="https://twentypack20.github.io/iptv/posters/laff.us.png" group-title="USA - Entertainment",Laff
-http://206.212.244.63/101/index.m3u8
+http://40.160.24.53/LAFF_TV/index.m3u8
 #EXTINF:-1 tvg-id="LasVegasTonightwithDaleDavidson.us" tvg-name="Las Vegas Tonight with Dale Davidson" tvg-logo="https://twentypack20.github.io/iptv/posters/lasvegastonightwithdaledavidson.us.png" group-title="USA - Entertainment",Las Vegas Tonight with Dale Davidson
 https://cdn.vegasplus.us/vegas/lasvegastonight/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinoChannelTV.us" tvg-name="Latino Channel TV" tvg-logo="https://twentypack20.github.io/iptv/posters/latinochanneltv.us.png" group-title="USA - Entertainment",Latino Channel TV
 https://cdn.vegasplus.us/vegas/latch/playlist.m3u8
 #EXTINF:-1 tvg-id="Lifetime.us" tvg-name="Lifetime" tvg-logo="https://twentypack20.github.io/iptv/posters/lifetime.us.png" group-title="USA - Entertainment",Lifetime
 http://rezofoot.tv/LIFETIME/index.m3u8
+#EXTINF:-1 tvg-id="LifetimeRealWomen.us" tvg-name="Lifetime Real Women" tvg-logo="https://twentypack20.github.io/iptv/posters/lifetimerealwomen.us.png" group-title="USA - Entertainment",Lifetime Real Women
+http://40.160.24.58/LIFETIME_REAL_WOMEN/index.m3u8
 #EXTINF:-1 tvg-id="LittleGuyanaTV.us" tvg-name="Little Guyana TV" tvg-logo="https://twentypack20.github.io/iptv/posters/littleguyanatv.us.png" group-title="USA - Entertainment",Little Guyana TV
 https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="Littleton8TV.us" tvg-name="Littleton 8 TV" tvg-logo="https://twentypack20.github.io/iptv/posters/littleton8tv.us.png" group-title="USA - Entertainment",Littleton 8 TV
@@ -606,7 +616,7 @@ https://jmp2.uk/plu-64f9cccf110545000837912e.m3u8
 #EXTINF:-1 tvg-id="MTVenEspanol.us" tvg-name="MTV en Espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvenespanol.us.png" group-title="USA - Entertainment",MTV en Espanol
 https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
 #EXTINF:-1 tvg-id="MTV2.us" tvg-name="MTV2" tvg-logo="https://twentypack20.github.io/iptv/posters/mtv2.us.png" group-title="USA - Entertainment",MTV2
-http://198.58.104.90:8989/mtv2/index.m3u8
+http://40.160.24.53/MTV2/index.m3u8
 #EXTINF:-1 tvg-id="Masadrenalina.us" tvg-name="Mas adrenalina" tvg-logo="https://twentypack20.github.io/iptv/posters/masadrenalina.us.png" group-title="USA - Entertainment",Mas adrenalina
 https://jmp2.uk/plu-687fea9a4fa995eff284a1c8.m3u8
 #EXTINF:-1 tvg-id="MeTV.us" tvg-name="MeTV" tvg-logo="https://twentypack20.github.io/iptv/posters/metv.us.png" group-title="USA - Entertainment",MeTV
@@ -759,6 +769,8 @@ https://jmp2.uk/plu-64c220e15dc1660008a79c96.m3u8
 https://jmp2.uk/plu-65c69bf23ef47d0008583967.m3u8
 #EXTINF:-1 tvg-id="UndercoverBossGlobal.us" tvg-name="Undercover Boss Global" tvg-logo="https://twentypack20.github.io/iptv/posters/undercoverbossglobal.us.png" group-title="USA - Entertainment",Undercover Boss Global
 https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="UniversalReality.us" tvg-name="Universal Reality" tvg-logo="https://twentypack20.github.io/iptv/posters/universalreality.us.png" group-title="USA - Entertainment",Universal Reality
+http://200.91.32.158:8080/universalrealityhd/index.m3u8
 #EXTINF:-1 tvg-id="VCAT.us" tvg-name="VCAT" tvg-logo="https://twentypack20.github.io/iptv/posters/vcat.us.png" group-title="USA - Entertainment",VCAT
 https://vallejo.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="VH1QueensofReality.us" tvg-name="VH1 Queens of Reality" tvg-logo="https://twentypack20.github.io/iptv/posters/vh1queensofreality.us.png" group-title="USA - Entertainment",VH1 Queens of Reality
@@ -849,8 +861,6 @@ https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8
 #EXTINF:-1 tvg-id="KidsPangTV.us" tvg-name="Kids Pang TV" tvg-logo="https://twentypack20.github.io/iptv/posters/kidspangtv.us.png" group-title="USA - Kids and Family",Kids Pang TV
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="KidsStreet.us" tvg-name="Kids Street" tvg-logo="https://twentypack20.github.io/iptv/posters/kidsstreet.us.png" group-title="USA - Kids and Family",Kids Street
-http://181.78.121.15:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="LEGOKidsTV.us" tvg-name="LEGO Kids TV" tvg-logo="https://twentypack20.github.io/iptv/posters/legokidstv.us.png" group-title="USA - Kids and Family",LEGO Kids TV
 https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8
 #EXTINF:-1 tvg-id="LegoChannel.us" tvg-name="Lego Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/legochannel.us.png" group-title="USA - Kids and Family",Lego Channel
@@ -935,6 +945,8 @@ https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSPinballNetwork.us" tvg-name="TVS Pinball Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvspinballnetwork.us.png" group-title="USA - Kids and Family",TVS Pinball Network
 https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
+#EXTINF:-1 tvg-id="TeenNick.us" tvg-name="TeenNick" tvg-logo="https://twentypack20.github.io/iptv/posters/teennick.us.png" group-title="USA - Kids and Family",TeenNick
+http://40.160.24.55/TEEN_NICK/index.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us" tvg-name="The Pet Collective" tvg-logo="https://twentypack20.github.io/iptv/posters/thepetcollective.us.png" group-title="USA - Kids and Family",The Pet Collective
 https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us" tvg-name="ToonGoggles" tvg-logo="https://twentypack20.github.io/iptv/posters/toongoggles.us.png" group-title="USA - Kids and Family",ToonGoggles
@@ -988,6 +1000,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 http://206.212.244.63/38/index.m3u8
 #EXTINF:-1 tvg-id="CookingPanda.us" tvg-name="Cooking Panda" tvg-logo="https://twentypack20.github.io/iptv/posters/cookingpanda.us.png" group-title="USA - Lifestyle",Cooking Panda
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+#EXTINF:-1 tvg-id="Dabl.us" tvg-name="Dabl" tvg-logo="https://twentypack20.github.io/iptv/posters/dabl.us.png" group-title="USA - Lifestyle",Dabl
+http://40.160.24.56/DABL/index.m3u8
 #EXTINF:-1 tvg-id="DivaAdria.us" tvg-name="Diva Adria" tvg-logo="https://twentypack20.github.io/iptv/posters/divaadria.us.png" group-title="USA - Lifestyle",Diva Adria
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://lb.dstvmultimedia.com/Diva/index.m3u8
@@ -1028,7 +1042,7 @@ https://dnmfq3sh1jipj.cloudfront.net/DisneyLocalish.m3u8
 #EXTINF:-1 tvg-id="OutdoorAmerica.us" tvg-name="Outdoor America" tvg-logo="https://twentypack20.github.io/iptv/posters/outdooramerica.us.png" group-title="USA - Lifestyle",Outdoor America
 https://d1e354daam8g5r.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="OutdoorChannel.us" tvg-name="Outdoor Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/outdoorchannel.us.png" group-title="USA - Lifestyle",Outdoor Channel
-https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
+http://40.160.24.55/OUTDOOR_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="OutsideTV.us" tvg-name="Outside TV" tvg-logo="https://twentypack20.github.io/iptv/posters/outsidetv.us.png" group-title="USA - Lifestyle",Outside TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8?ads.vf=_zniV8aeQY4
@@ -1064,6 +1078,8 @@ https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00
 https://d3i68hpvh19xjd.cloudfront.net/JamieOliver_GB.m3u8
 #EXTINF:-1 tvg-id="WaypointTV.us" tvg-name="Waypoint TV" tvg-logo="https://twentypack20.github.io/iptv/posters/waypointtv.us.png" group-title="USA - Lifestyle",Waypoint TV
 https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldFishingNetwork.us" tvg-name="World Fishing Network" tvg-logo="https://twentypack20.github.io/iptv/posters/worldfishingnetwork.us.png" group-title="USA - Lifestyle",World Fishing Network
+http://40.160.24.55/WORLD_FISHING_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="bonappetit.us" tvg-name="bon appetit" tvg-logo="https://twentypack20.github.io/iptv/posters/bonappetit.us.png" group-title="USA - Lifestyle",bon appetit
 https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACTV.us" tvg-name="ACTV" tvg-logo="https://twentypack20.github.io/iptv/posters/actv.us.png" group-title="USA - Local / Public",ACTV
@@ -1287,6 +1303,8 @@ https://jmp2.uk/plu-62e91af00c43540007f2bb43.m3u8
 https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="EbonyTVbyLionsgate.us" tvg-name="Ebony TV by Lionsgate" tvg-logo="https://twentypack20.github.io/iptv/posters/ebonytvbylionsgate.us.png" group-title="USA - Movies",Ebony TV by Lionsgate
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
+#EXTINF:-1 tvg-id="FXM.us" tvg-name="FXM" tvg-logo="https://twentypack20.github.io/iptv/posters/fxm.us.png" group-title="USA - Movies",FXM
+http://40.160.24.52/FXM/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseclassictv.us.png" group-title="USA - Movies",FilmRise Classic TV
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseWestern.us" tvg-name="FilmRise Western" tvg-logo="https://twentypack20.github.io/iptv/posters/filmrisewestern.us.png" group-title="USA - Movies",FilmRise Western
@@ -1300,9 +1318,9 @@ https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 #EXTINF:-1 tvg-id="GreatAmericanFaithLiving.us" tvg-name="Great American Faith & Living" tvg-logo="https://twentypack20.github.io/iptv/posters/greatamericanfaithliving.us.png" group-title="USA - Movies",Great American Faith & Living
 http://206.212.244.63/82/index.m3u8
 #EXTINF:-1 tvg-id="GreatAmericanFamily.us" tvg-name="Great American Family" tvg-logo="https://twentypack20.github.io/iptv/posters/greatamericanfamily.us.png" group-title="USA - Movies",Great American Family
-http://206.212.244.63/81/index.m3u8
+http://40.160.24.58/GAC_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkFamily.us" tvg-name="Hallmark Family" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkfamily.us.png" group-title="USA - Movies",Hallmark Family
-http://206.212.244.63/85/index.m3u8
+http://40.160.24.53/HALLMARK_DRAMA/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us" tvg-name="Hallmark Movies & More" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkmoviesmore.us.png" group-title="USA - Movies",Hallmark Movies & More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
 #EXTINF:-1 tvg-id="HallmarkMystery.us" tvg-name="Hallmark Mystery" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkmystery.us.png" group-title="USA - Movies",Hallmark Mystery
@@ -1464,6 +1482,8 @@ https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/universalcinema/playlist.m3u8
 #EXTINF:-1 tvg-id="UniversalComedy.us" tvg-name="Universal Comedy" tvg-logo="https://twentypack20.github.io/iptv/posters/universalcomedy.us.png" group-title="USA - Movies",Universal Comedy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
+#EXTINF:-1 tvg-id="UniversalPremiere.us" tvg-name="Universal Premiere" tvg-logo="https://twentypack20.github.io/iptv/posters/universalpremiere.us.png" group-title="USA - Movies",Universal Premiere
+http://200.91.32.158:8080/universalpremierehd/index.m3u8
 #EXTINF:-1 tvg-id="WantedDeadorAlive.us" tvg-name="Wanted: Dead or Alive" tvg-logo="https://twentypack20.github.io/iptv/posters/wanteddeadoralive.us.png" group-title="USA - Movies",Wanted: Dead or Alive
 https://aegis-cloudfront-1.tubi.video/d5171dc7-f8c6-469c-81eb-e1ffaaed5721/playlist.m3u8
 #EXTINF:-1 tvg-id="WesternTV.us" tvg-name="Western TV" tvg-logo="https://twentypack20.github.io/iptv/posters/westerntv.us.png" group-title="USA - Movies",Western TV
@@ -1480,12 +1500,14 @@ https://30a-tv.com/music.m3u8
 https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AXSTV.us" tvg-name="AXS TV" tvg-logo="https://twentypack20.github.io/iptv/posters/axstv.us.png" group-title="USA - Music",AXS TV
 http://23.239.31.26:8989/axstv/index.m3u8
+#EXTINF:-1 tvg-id="CMCUSACountryMusicChannel.us" tvg-name="CMC-USA Country Music Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/cmcusacountrymusicchannel.us.png" group-title="USA - Music",CMC-USA Country Music Channel
+https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 #EXTINF:-1 tvg-id="CMT.us" tvg-name="CMT" tvg-logo="https://twentypack20.github.io/iptv/posters/cmt.us.png" group-title="USA - Music",CMT
 http://23.237.104.106:8080/USA_CMT/index.m3u8
 #EXTINF:-1 tvg-id="CMTEqualPlay.us" tvg-name="CMT Equal Play" tvg-logo="https://twentypack20.github.io/iptv/posters/cmtequalplay.us.png" group-title="USA - Music",CMT Equal Play
 https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-name="California Music Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/californiamusicchannel.us.png" group-title="USA - Music",California Music Channel
-https://cmc-ono.amagi.tv/playlist.m3u8
+https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Classica.us" tvg-name="Classica" tvg-logo="https://twentypack20.github.io/iptv/posters/classica.us.png" group-title="USA - Music",Classica
 https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8
 #EXTINF:-1 tvg-id="ClubbingTV.us" tvg-name="Clubbing TV" tvg-logo="https://twentypack20.github.io/iptv/posters/clubbingtv.us.png" group-title="USA - Music",Clubbing TV
@@ -1505,7 +1527,7 @@ https://jmp2.uk/plu-654100b4bdf3cf0008aa49c7.m3u8
 #EXTINF:-1 tvg-id="MTVFlowLatino.us" tvg-name="MTV Flow Latino" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvflowlatino.us.png" group-title="USA - Music",MTV Flow Latino
 https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
 #EXTINF:-1 tvg-id="MTVLive.us" tvg-name="MTV Live" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvlive.us.png" group-title="USA - Music",MTV Live
-http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
+http://40.160.24.53/MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="MTVSpankinNew.us" tvg-name="MTV Spankin' New" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvspankinnew.us.png" group-title="USA - Music",MTV Spankin' New
 https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
 #EXTINF:-1 tvg-id="NEWKPOP.us" tvg-name="NEW K-POP" tvg-logo="https://twentypack20.github.io/iptv/posters/newkpop.us.png" group-title="USA - Music",NEW K-POP
@@ -1577,7 +1599,7 @@ https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us" tvg-name="AccuWeather NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernow.us.png" group-title="USA - News",AccuWeather NOW
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNetwork.us" tvg-name="AccuWeather Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accuweathernetwork.us.png" group-title="USA - News",AccuWeather Network
-http://206.212.244.63/674/index.m3u8
+http://40.160.24.52/AccuWeather/index.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="America's Voice" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoice.us.png" group-title="USA - News",America's Voice
 https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 #EXTINF:-1 tvg-id="AmericasVoiceNews.us" tvg-name="America's Voice News" tvg-logo="https://twentypack20.github.io/iptv/posters/americasvoicenews.us.png" group-title="USA - News",America's Voice News
@@ -2068,6 +2090,8 @@ http://206.212.244.63/2486/index.m3u8
 #EXTINF:-1 tvg-id="ACLCornholeTV.us" tvg-name="ACL Cornhole TV" tvg-logo="https://twentypack20.github.io/iptv/posters/aclcornholetv.us.png" group-title="USA - Sports",ACL Cornhole TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/aclco.m3u8?ads.vf=Sl3XhzpgcOy
+#EXTINF:-1 tvg-id="AltitudeSports.us" tvg-name="Altitude Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/altitudesports.us.png" group-title="USA - Sports",Altitude Sports
+http://206.212.244.63/6153/index.m3u8
 #EXTINF:-1 tvg-id="BEKSports.us" tvg-name="BEK Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/beksports.us.png" group-title="USA - Sports",BEK Sports
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us" tvg-name="Bellator MMA" tvg-logo="https://twentypack20.github.io/iptv/posters/bellatormma.us.png" group-title="USA - Sports",Bellator MMA
@@ -2079,6 +2103,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
 #EXTINF:-1 tvg-id="CBSSportsHQ.us" tvg-name="CBS Sports HQ" tvg-logo="https://twentypack20.github.io/iptv/posters/cbssportshq.us.png" group-title="USA - Sports",CBS Sports HQ
 https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
+#EXTINF:-1 tvg-id="CBSSportsNetworkUSA.us" tvg-name="CBS Sports Network USA" tvg-logo="https://twentypack20.github.io/iptv/posters/cbssportsnetworkusa.us.png" group-title="USA - Sports",CBS Sports Network USA
+http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="DraftKingsNetwork.us" tvg-name="DraftKings Network" tvg-logo="https://twentypack20.github.io/iptv/posters/draftkingsnetwork.us.png" group-title="USA - Sports",DraftKings Network
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
 #EXTINF:-1 tvg-id="ESPN8TheOcho.us" tvg-name="ESPN8: The Ocho" tvg-logo="https://twentypack20.github.io/iptv/posters/espn8theocho.us.png" group-title="USA - Sports",ESPN8: The Ocho
@@ -2089,6 +2115,8 @@ http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us" tvg-name="FTF Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/ftfsports.us.png" group-title="USA - Sports",FTF Sports
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
+#EXTINF:-1 tvg-id="FanDuelRacing.us" tvg-name="FanDuel Racing" tvg-logo="https://twentypack20.github.io/iptv/posters/fanduelracing.us.png" group-title="USA - Sports",FanDuel Racing
+http://206.212.244.63/6139/index.m3u8
 #EXTINF:-1 tvg-id="FanDuelTV.us" tvg-name="FanDuel TV" tvg-logo="https://twentypack20.github.io/iptv/posters/fandueltv.us.png" group-title="USA - Sports",FanDuel TV
 http://40.160.24.55/TVG/index.m3u8
 #EXTINF:-1 tvg-id="FloHockey.us" tvg-name="FloHockey" tvg-logo="https://twentypack20.github.io/iptv/posters/flohockey.us.png" group-title="USA - Sports",FloHockey
@@ -2097,6 +2125,8 @@ https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playl
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="Fox Deportes" tvg-logo="https://twentypack20.github.io/iptv/posters/foxdeportes.us.png" group-title="USA - Sports",Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
+#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="Fox Soccer Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/foxsoccerplus.us.png" group-title="USA - Sports",Fox Soccer Plus
+http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://twentypack20.github.io/iptv/posters/foxsports1.us.png" group-title="USA - Sports",Fox Sports 1
 https://streamvidex.qzz.io/videx/fox1usa/index.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us" tvg-name="Fubo Sports Network" tvg-logo="https://twentypack20.github.io/iptv/posters/fubosportsnetwork.us.png" group-title="USA - Sports",Fubo Sports Network
@@ -2118,18 +2148,28 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/p
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="MLB.us" tvg-name="MLB" tvg-logo="https://twentypack20.github.io/iptv/posters/mlb.us.png" group-title="USA - Sports",MLB
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
+#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://twentypack20.github.io/iptv/posters/mlbnetwork.us.png" group-title="USA - Sports",MLB Network
+http://40.160.24.52/MLB_Network/index.m3u8
 #EXTINF:-1 tvg-id="MLBStrikeZone.us" tvg-name="MLB Strike Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/mlbstrikezone.us.png" group-title="USA - Sports",MLB Strike Zone
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="MMATV.us" tvg-name="MMA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/mmatv.us.png" group-title="USA - Sports",MMA TV
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us" tvg-name="MSG" tvg-logo="https://twentypack20.github.io/iptv/posters/msg.us.png" group-title="USA - Sports",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
+#EXTINF:-1 tvg-id="MSG2.us" tvg-name="MSG 2" tvg-logo="https://twentypack20.github.io/iptv/posters/msg2.us.png" group-title="USA - Sports",MSG 2
+http://40.160.24.52/MSG_2/index.m3u8
+#EXTINF:-1 tvg-id="MSGPlus.us" tvg-name="MSG Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/msgplus.us.png" group-title="USA - Sports",MSG Plus
+http://40.160.24.52/MSG_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="MTRSPT1.us" tvg-name="MTRSPT1" tvg-logo="https://twentypack20.github.io/iptv/posters/mtrspt1.us.png" group-title="USA - Sports",MTRSPT1
 https://amg02873-kravemedia-mtrspt1-distrotv-mnsrl.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8
+#EXTINF:-1 tvg-id="MarqueeSportsNetwork.us" tvg-name="Marquee Sports Network" tvg-logo="https://twentypack20.github.io/iptv/posters/marqueesportsnetwork.us.png" group-title="USA - Sports",Marquee Sports Network
+http://40.160.24.52/MARQUEE_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us" tvg-name="Monster Jam" tvg-logo="https://twentypack20.github.io/iptv/posters/monsterjam.us.png" group-title="USA - Sports",Monster Jam
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nbatv.us.png" group-title="USA - Sports",NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 tvg-id="NBCSportsChicago.us" tvg-name="NBC Sports Chicago" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportschicago.us.png" group-title="USA - Sports",NBC Sports Chicago
+http://206.212.244.63/6141/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsnow.us.png" group-title="USA - Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="NESN.us" tvg-name="NESN" tvg-logo="https://twentypack20.github.io/iptv/posters/nesn.us.png" group-title="USA - Sports",NESN
@@ -2173,6 +2213,10 @@ https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now
 #EXTINF:-1 tvg-id="SportsGrid.us" tvg-name="SportsGrid" tvg-logo="https://twentypack20.github.io/iptv/posters/sportsgrid.us.png" group-title="USA - Sports",SportsGrid
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/master.m3u8?ads.vf=8ukz5gCI8vu
+#EXTINF:-1 tvg-id="SportsNetNewYork.us" tvg-name="SportsNet New York" tvg-logo="https://twentypack20.github.io/iptv/posters/sportsnetnewyork.us.png" group-title="USA - Sports",SportsNet New York
+http://40.160.24.55/SNY/index.m3u8
+#EXTINF:-1 tvg-id="SportsmanChannel.us" tvg-name="Sportsman Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/sportsmanchannel.us.png" group-title="USA - Sports",Sportsman Channel
+http://40.160.24.55/Sportsman_Channel/index.m3u8
 #EXTINF:-1 tvg-id="Stadium.us" tvg-name="Stadium" tvg-logo="https://twentypack20.github.io/iptv/posters/stadium.us.png" group-title="USA - Sports",Stadium
 https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Strongman.us" tvg-name="Strongman" tvg-logo="https://twentypack20.github.io/iptv/posters/strongman.us.png" group-title="USA - Sports",Strongman
