@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-12 10:06:02 UTC
+# Generated: 2026-07-13 11:32:58 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -462,6 +462,8 @@ https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8
 https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8
 #EXTINF:-1 tvg-id="HiYAH.us" tvg-name="Hi-YAH!" tvg-logo="https://twentypack20.github.io/iptv/posters/hiyah.us.png" group-title="USA - Entertainment",Hi-YAH!
 https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="HisGloryTV.us" tvg-name="His Glory TV" tvg-logo="https://twentypack20.github.io/iptv/posters/hisglorytv.us.png" group-title="USA - Entertainment",His Glory TV
+https://customer-6itfaqopbksp5p0q.cloudflarestream.com/3972e89fb79bf6d6dd2a16c75455087a/manifest/video.m3u8
 #EXTINF:-1 tvg-id="HotBench.us" tvg-name="Hot Bench" tvg-logo="https://twentypack20.github.io/iptv/posters/hotbench.us.png" group-title="USA - Entertainment",Hot Bench
 https://jmp2.uk/plu-6036e6e7ac69c400072afca2.m3u8
 #EXTINF:-1 tvg-id="HumorMill.us" tvg-name="Humor Mill" tvg-logo="https://twentypack20.github.io/iptv/posters/humormill.us.png" group-title="USA - Entertainment",Humor Mill
@@ -855,6 +857,9 @@ http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
 #EXTINF:-1 tvg-id="DoveChannel.us" tvg-name="Dove Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/dovechannel.us.png" group-title="USA - Kids and Family",Dove Channel
 https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-name="DreamWorks Channel Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/dreamworkschannelasia.us.png" group-title="USA - Kids and Family",DreamWorks Channel Asia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://103.137.83.62:9090/play/30/index.m3u8
 #EXTINF:-1 tvg-id="FETV.us" tvg-name="FETV" tvg-logo="https://twentypack20.github.io/iptv/posters/fetv.us.png" group-title="USA - Kids and Family",FETV
 http://206.212.244.63/60/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us" tvg-name="FilmRise Anime" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseanime.us.png" group-title="USA - Kids and Family",FilmRise Anime
@@ -1035,7 +1040,7 @@ http://206.212.244.63/78/index.m3u8
 #EXTINF:-1 tvg-id="FashionFinds.us" tvg-name="Fashion Finds" tvg-logo="https://twentypack20.github.io/iptv/posters/fashionfinds.us.png" group-title="USA - Lifestyle",Fashion Finds
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us" tvg-name="Fun Roads" tvg-logo="https://twentypack20.github.io/iptv/posters/funroads.us.png" group-title="USA - Lifestyle",Fun Roads
-https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978
 #EXTINF:-1 tvg-id="GlobalFashionChannel.us" tvg-name="Global Fashion Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/globalfashionchannel.us.png" group-title="USA - Lifestyle",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="Go2Travel.us" tvg-name="Go2Travel" tvg-logo="https://twentypack20.github.io/iptv/posters/go2travel.us.png" group-title="USA - Lifestyle",Go2Travel
