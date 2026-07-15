@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-14 10:15:20 UTC
+# Generated: 2026-07-15 10:18:47 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -364,8 +364,6 @@ https://jmp2.uk/plu-66ba495ffe11e5000881f049.m3u8
 https://jmp2.uk/plu-60fb2f47c133270007327375.m3u8
 #EXTINF:-1 tvg-id="Cineenespanol.us" tvg-name="Cine en espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/cineenespanol.us.png" group-title="USA - Entertainment",Cine en espanol
 https://jmp2.uk/plu-5cf96b1c4f1ca3f0629f4bf0.m3u8
-#EXTINF:-1 tvg-id="Circle.us" tvg-name="Circle" tvg-logo="https://twentypack20.github.io/iptv/posters/circle.us.png" group-title="USA - Entertainment",Circle
-https://circle-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CityTVCarlsbad.us" tvg-name="City TV Carlsbad" tvg-logo="https://twentypack20.github.io/iptv/posters/citytvcarlsbad.us.png" group-title="USA - Entertainment",City TV Carlsbad
 https://edge-f.swagit.com/live/carlsbadca/live-3-a-1/playlist.m3u8
 #EXTINF:-1 tvg-id="CityTVLawndale.us" tvg-name="City TV Lawndale" tvg-logo="https://twentypack20.github.io/iptv/posters/citytvlawndale.us.png" group-title="USA - Entertainment",City TV Lawndale
@@ -1378,6 +1376,8 @@ https://jmp2.uk/plu-5db0ad56edc89300090d2ebb.m3u8
 http://23.237.104.106:8080/USA_LMN/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlus.us" tvg-name="MGM+" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplus.us.png" group-title="USA - Movies",MGM+
 http://40.160.24.52/EPIX/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="MGM+ Drive-In" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplusdrivein.us.png" group-title="USA - Movies",MGM+ Drive-In
+http://40.160.24.52/EPIX_DRIVE-IN/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlusHits.us" tvg-name="MGM+ Hits" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplushits.us.png" group-title="USA - Movies",MGM+ Hits
 http://40.160.24.52/EPIX_2/index.m3u8
 #EXTINF:-1 tvg-id="MadeInHollywood.us" tvg-name="Made In Hollywood" tvg-logo="https://twentypack20.github.io/iptv/posters/madeinhollywood.us.png" group-title="USA - Movies",Made In Hollywood
@@ -1473,7 +1473,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="Runtime.us" tvg-name="Runtime" tvg-logo="https://twentypack20.github.io/iptv/posters/runtime.us.png" group-title="USA - Movies",Runtime
 https://jmp2.uk/plu-6086d3f420fc8500075f8dbf.m3u8
 #EXTINF:-1 tvg-id="SYFY.us" tvg-name="SYFY" tvg-logo="https://twentypack20.github.io/iptv/posters/syfy.us.png" group-title="USA - Movies",SYFY
-http://23.237.104.106:8080/USA_SYFY/index.m3u8
+https://gpuserver5.tier1streams.com/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="SamuelGoldwynClassics.us" tvg-name="Samuel Goldwyn Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/samuelgoldwynclassics.us.png" group-title="USA - Movies",Samuel Goldwyn Classics
 https://samuelgoldwyn-classics-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ScaresbyShudder.us" tvg-name="Scares by Shudder" tvg-logo="https://twentypack20.github.io/iptv/posters/scaresbyshudder.us.png" group-title="USA - Movies",Scares by Shudder
@@ -1824,6 +1824,8 @@ https://tgn.bozztv.com/betterlife/betterlife/betterlife/index.m3u8
 https://fastly.live.brightcove.com/6380399588112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk5NTg4MTEyIn0.LYfIeObmX4AEStY_xCnPZwMJHXgOAPFMTKfztq-9F8U/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="CBNNews.us" tvg-name="CBN News" tvg-logo="https://twentypack20.github.io/iptv/posters/cbnnews.us.png" group-title="USA - Religious",CBN News
 https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="CTN.us" tvg-name="CTN" tvg-logo="https://twentypack20.github.io/iptv/posters/ctn.us.png" group-title="USA - Religious",CTN
+https://d3k5y954fiztgy.cloudfront.net/FREECAST/CTN-2b0dd347-f7b0-e7ed-9096-68966d29db50/index.m3u8
 #EXTINF:-1 tvg-id="CatholicFaithNetwork.us" tvg-name="Catholic Faith Network" tvg-logo="https://twentypack20.github.io/iptv/posters/catholicfaithnetwork.us.png" group-title="USA - Religious",Catholic Faith Network
 https://uni8rtmp.tulix.tv/cfntv/cfntv/playlist.m3u8
 #EXTINF:-1 tvg-id="CatholicTV.us" tvg-name="Catholic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/catholictv.us.png" group-title="USA - Religious",Catholic TV
