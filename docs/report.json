@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-17 10:15:23 UTC",
-  "kept": 1134,
-  "candidate_streams_before_dedupe": 2063,
+  "generated": "2026-07-18 09:48:52 UTC",
+  "kept": 1122,
+  "candidate_streams_before_dedupe": 2023,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -9,12 +9,12 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1134,
+  "poster_count": 1122,
   "skipped": {
     "no_channel": 2053,
-    "country": 12060,
+    "country": 12179,
     "language": 581,
-    "category": 270,
+    "category": 266,
     "group": 0,
     "nsfw": 0,
     "closed": 19,
@@ -22,23 +22,23 @@
     "name": 4,
     "url": 0,
     "audio_only": 0,
-    "below_min_quality": 43,
+    "below_min_quality": 44,
     "unknown_quality": 0,
     "poster_failed": 0
   },
   "groups": {
     "USA - Business / Shopping": 20,
     "USA - Documentary / Education": 80,
-    "USA - Entertainment": 307,
+    "USA - Entertainment": 303,
     "USA - Kids and Family": 83,
     "USA - Lifestyle": 57,
-    "USA - Local / Public": 80,
-    "USA - Movies": 131,
+    "USA - Local / Public": 78,
+    "USA - Movies": 127,
     "USA - Music": 37,
     "USA - News": 90,
     "USA - Other": 4,
-    "USA - Religious": 52,
+    "USA - Religious": 53,
     "USA - Series": 115,
-    "USA - Sports": 78
+    "USA - Sports": 75
   }
 }
