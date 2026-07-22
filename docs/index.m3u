@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-21 10:36:48 UTC
+# Generated: 2026-07-22 10:37:59 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1461,7 +1461,7 @@ https://jmp2.uk/plu-696e61287d2afdec4ff2cb75.m3u8
 #EXTINF:-1 tvg-id="Rawhide.us" tvg-name="Rawhide" tvg-logo="https://twentypack20.github.io/iptv/posters/rawhide.us.png" group-title="USA - Movies",Rawhide
 https://jmp2.uk/plu-65660223635c3c00086c2578.m3u8
 #EXTINF:-1 tvg-id="RetroTV.us" tvg-name="Retro TV" tvg-logo="https://twentypack20.github.io/iptv/posters/retrotv.us.png" group-title="USA - Movies",Retro TV
-https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8
+https://freecast-lukentvlive.vgcdn.net/out/v1/665e9f91614b43b0a0654e9317f1d9f3/index.m3u8
 #EXTINF:-1 tvg-id="RetroCrush.us" tvg-name="RetroCrush" tvg-logo="https://twentypack20.github.io/iptv/posters/retrocrush.us.png" group-title="USA - Movies",RetroCrush
 https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RevryHer.us" tvg-name="Revry Her" tvg-logo="https://twentypack20.github.io/iptv/posters/revryher.us.png" group-title="USA - Movies",Revry Her
@@ -1714,7 +1714,7 @@ https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_ch
 #EXTINF:-1 tvg-id="NTDTVEnglish.us" tvg-name="NTD TV English" tvg-logo="https://twentypack20.github.io/iptv/posters/ntdtvenglish.us.png" group-title="USA - News",NTD TV English
 https://ntd02.akamaized.net/NTD-UK/index.m3u8
 #EXTINF:-1 tvg-id="NewsoftheWorld.us" tvg-name="News of the World" tvg-logo="https://twentypack20.github.io/iptv/posters/newsoftheworld.us.png" group-title="USA - News",News of the World
-https://nowhls.wns.live/hls/stream.m3u8
+https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
 #EXTINF:-1 tvg-id="News12NewYork.us" tvg-name="News12 New York" tvg-logo="https://twentypack20.github.io/iptv/posters/news12newyork.us.png" group-title="USA - News",News12 New York
 https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsNation.us" tvg-name="NewsNation" tvg-logo="https://twentypack20.github.io/iptv/posters/newsnation.us.png" group-title="USA - News",NewsNation
@@ -2248,7 +2248,7 @@ https://jmp2.uk/plu-639b4f75d3d35c0007d37b30.m3u8
 #EXTINF:-1 tvg-id="PokerGo.us" tvg-name="PokerGo" tvg-logo="https://twentypack20.github.io/iptv/posters/pokergo.us.png" group-title="USA - Sports",PokerGo
 http://206.212.244.63/4249/index.m3u8
 #EXTINF:-1 tvg-id="REVNAction.us" tvg-name="REV'N Action" tvg-logo="https://twentypack20.github.io/iptv/posters/revnaction.us.png" group-title="USA - Sports",REV'N Action
-https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Revn/index.m3u8
+https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/index.m3u8
 #EXTINF:-1 tvg-id="RacerNetwork.us" tvg-name="Racer Network" tvg-logo="https://twentypack20.github.io/iptv/posters/racernetwork.us.png" group-title="USA - Sports",Racer Network
 https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="RacerSelect.us" tvg-name="Racer Select" tvg-logo="https://twentypack20.github.io/iptv/posters/racerselect.us.png" group-title="USA - Sports",Racer Select
