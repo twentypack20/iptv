@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-25 10:02:43 UTC",
+  "generated": "2026-07-26 10:16:13 UTC",
   "kept": 1146,
-  "candidate_streams_before_dedupe": 2116,
+  "candidate_streams_before_dedupe": 2117,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -11,10 +11,10 @@
   "show_quality_in_name": false,
   "poster_count": 1146,
   "skipped": {
-    "no_channel": 2056,
-    "country": 12770,
+    "no_channel": 2079,
+    "country": 12778,
     "language": 610,
-    "category": 287,
+    "category": 286,
     "group": 0,
     "nsfw": 0,
     "closed": 19,
