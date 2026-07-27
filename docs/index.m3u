@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-26 10:16:13 UTC
+# Generated: 2026-07-27 11:43:09 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1378,8 +1378,10 @@ http://23.237.104.106:8080/USA_LMN/index.m3u8
 https://gpuserver3.tier1streams.com/EPIX/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="MGM+ Drive-In" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplusdrivein.us.png" group-title="USA - Movies",MGM+ Drive-In
 https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusHits.us" tvg-name="MGM+ Hits" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplushits.us.png" group-title="USA - Movies",MGM+ Hits
+https://sra72yz.s.gy/MGM_PLUS_HITS_HD
 #EXTINF:-1 tvg-id="MGMPlusMarquee.us" tvg-name="MGM+ Marquee" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplusmarquee.us.png" group-title="USA - Movies",MGM+ Marquee
-http://108.181.20.255:27347/livehttpplay?channel_id=23075
+https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
 #EXTINF:-1 tvg-id="MadeInHollywood.us" tvg-name="Made In Hollywood" tvg-logo="https://twentypack20.github.io/iptv/posters/madeinhollywood.us.png" group-title="USA - Movies",Made In Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us" tvg-name="Magnificent Movies Network" tvg-logo="https://twentypack20.github.io/iptv/posters/magnificentmoviesnetwork.us.png" group-title="USA - Movies",Magnificent Movies Network
@@ -1483,6 +1485,8 @@ https://jmp2.uk/plu-695c32e61ca20bb8ca802eb9.m3u8
 https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8
 #EXTINF:-1 tvg-id="StarzCinema.us" tvg-name="Starz Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/starzcinema.us.png" group-title="USA - Movies",Starz Cinema
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreAction.us" tvg-name="Starz Encore Action" tvg-logo="https://twentypack20.github.io/iptv/posters/starzencoreaction.us.png" group-title="USA - Movies",Starz Encore Action
+https://sra72yz.s.gy/STARZ_ENCORE_ACTION_EAST_HD
 #EXTINF:-1 tvg-id="StarzEncoreClassic.us" tvg-name="Starz Encore Classic" tvg-logo="https://twentypack20.github.io/iptv/posters/starzencoreclassic.us.png" group-title="USA - Movies",Starz Encore Classic
 https://sra72yz.s.gy/starz-encore-classic
 #EXTINF:-1 tvg-id="SummerofMovies.us" tvg-name="Summer of Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/summerofmovies.us.png" group-title="USA - Movies",Summer of Movies
