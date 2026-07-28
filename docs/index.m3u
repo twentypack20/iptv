@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-27 11:43:09 UTC
+# Generated: 2026-07-28 10:48:19 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -230,9 +230,6 @@ https://gpuserver3.tier1streams.com/AWE/index.m3u8
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEPlus.us" tvg-name="AWE Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/aweplus.us.png" group-title="USA - Entertainment",AWE Plus
 https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8
-#EXTINF:-1 tvg-id="AXNWhite.us" tvg-name="AXN White" tvg-logo="https://twentypack20.github.io/iptv/posters/axnwhite.us.png" group-title="USA - Entertainment",AXN White
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://aes.m3u8simplu.workers.dev/axnwhite/index.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://twentypack20.github.io/iptv/posters/absoluterealitybywetv.us.png" group-title="USA - Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Access19.us" tvg-name="Access 19" tvg-logo="https://twentypack20.github.io/iptv/posters/access19.us.png" group-title="USA - Entertainment",Access 19
@@ -1378,10 +1375,6 @@ http://23.237.104.106:8080/USA_LMN/index.m3u8
 https://gpuserver3.tier1streams.com/EPIX/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="MGM+ Drive-In" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplusdrivein.us.png" group-title="USA - Movies",MGM+ Drive-In
 https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8
-#EXTINF:-1 tvg-id="MGMPlusHits.us" tvg-name="MGM+ Hits" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplushits.us.png" group-title="USA - Movies",MGM+ Hits
-https://sra72yz.s.gy/MGM_PLUS_HITS_HD
-#EXTINF:-1 tvg-id="MGMPlusMarquee.us" tvg-name="MGM+ Marquee" tvg-logo="https://twentypack20.github.io/iptv/posters/mgmplusmarquee.us.png" group-title="USA - Movies",MGM+ Marquee
-https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
 #EXTINF:-1 tvg-id="MadeInHollywood.us" tvg-name="Made In Hollywood" tvg-logo="https://twentypack20.github.io/iptv/posters/madeinhollywood.us.png" group-title="USA - Movies",Made In Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us" tvg-name="Magnificent Movies Network" tvg-logo="https://twentypack20.github.io/iptv/posters/magnificentmoviesnetwork.us.png" group-title="USA - Movies",Magnificent Movies Network
@@ -1485,10 +1478,6 @@ https://jmp2.uk/plu-695c32e61ca20bb8ca802eb9.m3u8
 https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8
 #EXTINF:-1 tvg-id="StarzCinema.us" tvg-name="Starz Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/starzcinema.us.png" group-title="USA - Movies",Starz Cinema
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
-#EXTINF:-1 tvg-id="StarzEncoreAction.us" tvg-name="Starz Encore Action" tvg-logo="https://twentypack20.github.io/iptv/posters/starzencoreaction.us.png" group-title="USA - Movies",Starz Encore Action
-https://sra72yz.s.gy/STARZ_ENCORE_ACTION_EAST_HD
-#EXTINF:-1 tvg-id="StarzEncoreClassic.us" tvg-name="Starz Encore Classic" tvg-logo="https://twentypack20.github.io/iptv/posters/starzencoreclassic.us.png" group-title="USA - Movies",Starz Encore Classic
-https://sra72yz.s.gy/starz-encore-classic
 #EXTINF:-1 tvg-id="SummerofMovies.us" tvg-name="Summer of Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/summerofmovies.us.png" group-title="USA - Movies",Summer of Movies
 https://jmp2.uk/plu-6654adb1f99922000854388c.m3u8
 #EXTINF:-1 tvg-id="SundanceTV.us" tvg-name="Sundance TV" tvg-logo="https://twentypack20.github.io/iptv/posters/sundancetv.us.png" group-title="USA - Movies",Sundance TV
@@ -1519,10 +1508,6 @@ https://carolburnett-vizio.amagi.tv/playlist.m3u8
 https://cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheLoveBoat.us" tvg-name="The Love Boat" tvg-logo="https://twentypack20.github.io/iptv/posters/theloveboat.us.png" group-title="USA - Movies",The Love Boat
 https://jmp2.uk/plu-62e91563ce7ce300076f917e.m3u8
-#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/themoviechannel.us.png" group-title="USA - Movies",The Movie Channel
-https://sra72yz.s.gy/THE_MOVIE_CHANNEL_WEST
-#EXTINF:-1 tvg-id="TheMovieChannelXtra.us" tvg-name="The Movie Channel Xtra" tvg-logo="https://twentypack20.github.io/iptv/posters/themoviechannelxtra.us.png" group-title="USA - Movies",The Movie Channel Xtra
-https://sra72yz.s.gy/THE_MOVIE_CHANNEL_XTRA_WEST
 #EXTINF:-1 tvg-id="TheWildWildWest.us" tvg-name="The Wild Wild West" tvg-logo="https://twentypack20.github.io/iptv/posters/thewildwildwest.us.png" group-title="USA - Movies",The Wild Wild West
 https://jmp2.uk/plu-664e640a0120f40008be4582.m3u8
 #EXTINF:-1 tvg-id="TimelessTV.us" tvg-name="Timeless TV" tvg-logo="https://twentypack20.github.io/iptv/posters/timelesstv.us.png" group-title="USA - Movies",Timeless TV
