@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-30 10:37:31 UTC
+# Generated: 2026-07-31 11:02:05 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -113,7 +113,7 @@ https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="HeroesIcons.us" tvg-name="Heroes & Icons" tvg-logo="https://twentypack20.github.io/iptv/posters/heroesicons.us.png" group-title="USA - Documentary / Education",Heroes & Icons
 http://206.212.244.63/88/index.m3u8
 #EXTINF:-1 tvg-id="History.us" tvg-name="History" tvg-logo="https://twentypack20.github.io/iptv/posters/history.us.png" group-title="USA - Documentary / Education",History
-http://108.181.20.255:27347/livehttpplay?channel_id=23105
+http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="InkMaster.us" tvg-name="Ink Master" tvg-logo="https://twentypack20.github.io/iptv/posters/inkmaster.us.png" group-title="USA - Documentary / Education",Ink Master
 https://jmp2.uk/plu-655f2d713944b60008bc7e90.m3u8
 #EXTINF:-1 tvg-id="JewishLifeTelevision.us" tvg-name="Jewish Life Television" tvg-logo="https://twentypack20.github.io/iptv/posters/jewishlifetelevision.us.png" group-title="USA - Documentary / Education",Jewish Life Television
@@ -1032,7 +1032,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="DuckHuntingTV.us" tvg-name="Duck Hunting TV" tvg-logo="https://twentypack20.github.io/iptv/posters/duckhuntingtv.us.png" group-title="USA - Lifestyle",Duck Hunting TV
 https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINF:-1 tvg-id="FYI.us" tvg-name="FYI" tvg-logo="https://twentypack20.github.io/iptv/posters/fyi.us.png" group-title="USA - Lifestyle",FYI
-http://108.181.20.255:27347/livehttpplay?channel_id=23108
+http://206.212.244.63/78/index.m3u8
 #EXTINF:-1 tvg-id="FashionFinds.us" tvg-name="Fashion Finds" tvg-logo="https://twentypack20.github.io/iptv/posters/fashionfinds.us.png" group-title="USA - Lifestyle",Fashion Finds
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us" tvg-name="Fun Roads" tvg-logo="https://twentypack20.github.io/iptv/posters/funroads.us.png" group-title="USA - Lifestyle",Fun Roads
@@ -1912,8 +1912,6 @@ https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8
 https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8
 #EXTINF:-1 tvg-id="5Cops.us" tvg-name="5 Cops" tvg-logo="https://twentypack20.github.io/iptv/posters/5cops.us.png" group-title="USA - Series",5 Cops
 https://jmp2.uk/plu-5d2c571faeb3e2738ae27933.m3u8
-#EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us" tvg-name="AMC Series Latin America" tvg-logo="https://twentypack20.github.io/iptv/posters/amcserieslatinamerica.us.png" group-title="USA - Series",AMC Series Latin America
-http://177.245.131.133:8080/AMCSERIES/index.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.us" tvg-name="Acapulco Shore" tvg-logo="https://twentypack20.github.io/iptv/posters/acapulcoshore.us.png" group-title="USA - Series",Acapulco Shore
 https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
 #EXTINF:-1 tvg-id="AllRealitybyWEtv.us" tvg-name="All Reality by WE tv" tvg-logo="https://twentypack20.github.io/iptv/posters/allrealitybywetv.us.png" group-title="USA - Series",All Reality by WE tv
