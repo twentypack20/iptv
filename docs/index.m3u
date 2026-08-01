@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-07-31 11:02:05 UTC
+# Generated: 2026-08-01 10:14:22 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -776,7 +776,7 @@ https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
 #EXTINF:-1 tvg-id="TelePam.us" tvg-name="Tele Pam" tvg-logo="https://twentypack20.github.io/iptv/posters/telepam.us.png" group-title="USA - Entertainment",Tele Pam
 https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us" tvg-name="Telemundo" tvg-logo="https://twentypack20.github.io/iptv/posters/telemundo.us.png" group-title="USA - Entertainment",Telemundo
-http://170.254.17.2:80/TELEMUNDO/index.m3u8
+http://45.190.13.8/TelemundoHD/index.m3u8
 #EXTINF:-1 tvg-id="TheBurbankChannel.us" tvg-name="The Burbank Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/theburbankchannel.us.png" group-title="USA - Entertainment",The Burbank Channel
 https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8
 #EXTINF:-1 tvg-id="TheMontereyChannel.us" tvg-name="The Monterey Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/themontereychannel.us.png" group-title="USA - Entertainment",The Monterey Channel
@@ -1853,7 +1853,7 @@ http://144.217.14.88/hls/hope4life.m3u8
 #EXTINF:-1 tvg-id="ItIsWrittenTV.us" tvg-name="It Is Written TV" tvg-logo="https://twentypack20.github.io/iptv/posters/itiswrittentv.us.png" group-title="USA - Religious",It Is Written TV
 https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8
 #EXTINF:-1 tvg-id="ItsSupernaturalNetwork.us" tvg-name="It's Supernatural! Network" tvg-logo="https://twentypack20.github.io/iptv/posters/itssupernaturalnetwork.us.png" group-title="USA - Religious",It's Supernatural! Network
-https://content.uplynk.com/channel/fbc0f835332e476397b12216f9042f78.m3u8
+https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8
 #EXTINF:-1 tvg-id="JBS.us" tvg-name="JBS" tvg-logo="https://twentypack20.github.io/iptv/posters/jbs.us.png" group-title="USA - Religious",JBS
 https://rpn3.bozztv.com/jbstv-srt/srt-push/jbstv/playlist.m3u8
 #EXTINF:-1 tvg-id="KPCBDT171.us" tvg-name="KPCB-DT 17.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kpcbdt171.us.png" group-title="USA - Religious",KPCB-DT 17.1
