@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-03 11:47:44 UTC
+# Generated: 2026-08-04 10:54:09 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -871,6 +871,8 @@ https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
 http://40.160.24.52/FREEFORM/index.m3u8
 #EXTINF:-1 tvg-id="GarfieldandFriends.us" tvg-name="Garfield and Friends" tvg-logo="https://twentypack20.github.io/iptv/posters/garfieldandfriends.us.png" group-title="USA - Kids and Family",Garfield and Friends
 https://jmp2.uk/plu-677f927554f43dad4b3258aa.m3u8
+#EXTINF:-1 tvg-id="GiggleMug.us" tvg-name="Giggle Mug" tvg-logo="https://twentypack20.github.io/iptv/posters/gigglemug.us.png" group-title="USA - Kids and Family",Giggle Mug
+https://tvsen6.aynaott.com/ytv/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="Hallmark Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/hallmarkchannel.us.png" group-title="USA - Kids and Family",Hallmark Channel
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HappyKids.us" tvg-name="HappyKids" tvg-logo="https://twentypack20.github.io/iptv/posters/happykids.us.png" group-title="USA - Kids and Family",HappyKids
@@ -1295,6 +1297,8 @@ http://5.57.74.130:8000/play/a0at/index.m3u8
 http://88.212.15.19/live/test_black/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us" tvg-name="AXN Latin America" tvg-logo="https://twentypack20.github.io/iptv/posters/axnlatinamerica.us.png" group-title="USA - Movies",AXN Latin America
 http://15.204.246.24:8080/AXNHD/index.m3u8
+#EXTINF:-1 tvg-id="ActionMax.us" tvg-name="ActionMax" tvg-logo="https://twentypack20.github.io/iptv/posters/actionmax.us.png" group-title="USA - Movies",ActionMax
+http://40.160.24.52/ACTIONMAX/index.m3u8
 #EXTINF:-1 tvg-id="AmericanHorrors.us" tvg-name="American Horrors" tvg-logo="https://twentypack20.github.io/iptv/posters/americanhorrors.us.png" group-title="USA - Movies",American Horrors
 http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
 #EXTINF:-1 tvg-id="BETCinema.us" tvg-name="BET Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/betcinema.us.png" group-title="USA - Movies",BET Cinema
@@ -1383,6 +1387,8 @@ https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="MaverickBlackCinema.us" tvg-name="Maverick Black Cinema" tvg-logo="https://twentypack20.github.io/iptv/posters/maverickblackcinema.us.png" group-title="USA - Movies",Maverick Black Cinema
 https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MoreMax.us" tvg-name="MoreMax" tvg-logo="https://twentypack20.github.io/iptv/posters/moremax.us.png" group-title="USA - Movies",MoreMax
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us" tvg-name="MovieSphere" tvg-logo="https://twentypack20.github.io/iptv/posters/moviesphere.us.png" group-title="USA - Movies",MovieSphere
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="Movies.us" tvg-name="Movies!" tvg-logo="https://twentypack20.github.io/iptv/posters/movies.us.png" group-title="USA - Movies",Movies!
