@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-05 10:49:50 UTC
+# Generated: 2026-08-06 10:52:45 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -2280,4 +2280,4 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA" tvg-logo="https://twentypack20.github.io/iptv/posters/beinsportsxtra.us.png" group-title="USA - Sports",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beINSportsUSA.us" tvg-name="beIN Sports USA" tvg-logo="https://twentypack20.github.io/iptv/posters/beinsportsusa.us.png" group-title="USA - Sports",beIN Sports USA
-http://23.237.104.106:8080/USA_BEIN/index.m3u8
+http://40.160.24.52/BEIN_SPORTS_HD/index.m3u8
