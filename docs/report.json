@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-07 09:19:01 UTC",
-  "kept": 1133,
-  "candidate_streams_before_dedupe": 1971,
+  "generated": "2026-08-08 09:05:11 UTC",
+  "kept": 1132,
+  "candidate_streams_before_dedupe": 1972,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -9,16 +9,16 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1133,
+  "poster_count": 1132,
   "skipped": {
     "no_channel": 2092,
-    "country": 12655,
-    "language": 600,
-    "category": 263,
+    "country": 12609,
+    "language": 584,
+    "category": 257,
     "group": 0,
     "nsfw": 0,
     "closed": 17,
-    "label": 218,
+    "label": 217,
     "name": 4,
     "url": 0,
     "audio_only": 0,
@@ -38,7 +38,7 @@
     "USA - News": 92,
     "USA - Other": 5,
     "USA - Religious": 53,
-    "USA - Series": 114,
+    "USA - Series": 113,
     "USA - Sports": 76
   }
 }
