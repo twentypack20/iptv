@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-09 09:07:08 UTC
+# Generated: 2026-08-10 09:51:18 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -210,7 +210,7 @@ https://30a-tv.com/feeds/masters/30atv.m3u8
 #EXTINF:-1 tvg-id="AE.us" tvg-name="A&E" tvg-logo="https://twentypack20.github.io/iptv/posters/ae.us.png" group-title="USA - Entertainment",A&E
 http://23.239.31.26:8989/aande/index.m3u8
 #EXTINF:-1 tvg-id="ABC.us" tvg-name="ABC" tvg-logo="https://twentypack20.github.io/iptv/posters/abc.us.png" group-title="USA - Entertainment",ABC
-http://41.205.93.154/ABC/index.m3u8
+http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="AFTV.us" tvg-name="AFTV" tvg-logo="https://twentypack20.github.io/iptv/posters/aftv.us.png" group-title="USA - Entertainment",AFTV
 https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AFV.us" tvg-name="AFV" tvg-logo="https://twentypack20.github.io/iptv/posters/afv.us.png" group-title="USA - Entertainment",AFV
@@ -1306,10 +1306,6 @@ https://jmp2.uk/plu-62e91af00c43540007f2bb43.m3u8
 https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="EbonyTVbyLionsgate.us" tvg-name="Ebony TV by Lionsgate" tvg-logo="https://twentypack20.github.io/iptv/posters/ebonytvbylionsgate.us.png" group-title="USA - Movies",Ebony TV by Lionsgate
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
-#EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="FX Movie Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/fxmoviechannel.us.png" group-title="USA - Movies",FX Movie Channel
-http://40.160.24.52/FXM/index.m3u8
-#EXTINF:-1 tvg-id="FXM.us" tvg-name="FXM" tvg-logo="https://twentypack20.github.io/iptv/posters/fxm.us.png" group-title="USA - Movies",FXM
-https://gpuserver3.tier1streams.com/FXM/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseclassictv.us.png" group-title="USA - Movies",FilmRise Classic TV
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseWestern.us" tvg-name="FilmRise Western" tvg-logo="https://twentypack20.github.io/iptv/posters/filmrisewestern.us.png" group-title="USA - Movies",FilmRise Western
@@ -1660,8 +1656,6 @@ https://gpuserver3.tier1streams.com/ESPN_NEWS/index.m3u8
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewschannel.us.png" group-title="USA - News",Fox News Channel
 http://45.190.28.50/FOX_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsInternational.us" tvg-name="Fox News International" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewsinternational.us.png" group-title="USA - News",Fox News International
-https://gpuserver3.tier1streams.com/FOX/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us" tvg-name="Fox Weather" tvg-logo="https://twentypack20.github.io/iptv/posters/foxweather.us.png" group-title="USA - News",Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://twentypack20.github.io/iptv/posters/freespeechtv.us.png" group-title="USA - News",Free Speech TV
