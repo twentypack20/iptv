@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-10 09:51:18 UTC",
-  "kept": 1118,
-  "candidate_streams_before_dedupe": 1954,
+  "generated": "2026-08-11 09:17:38 UTC",
+  "kept": 1124,
+  "candidate_streams_before_dedupe": 1976,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -9,12 +9,12 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1118,
+  "poster_count": 1124,
   "skipped": {
     "no_channel": 2092,
-    "country": 12669,
+    "country": 12682,
     "language": 584,
-    "category": 255,
+    "category": 261,
     "group": 0,
     "nsfw": 0,
     "closed": 17,
@@ -27,18 +27,18 @@
     "poster_failed": 0
   },
   "groups": {
-    "USA - Business / Shopping": 20,
+    "USA - Business / Shopping": 21,
     "USA - Documentary / Education": 79,
-    "USA - Entertainment": 300,
+    "USA - Entertainment": 302,
     "USA - Kids and Family": 83,
     "USA - Lifestyle": 55,
     "USA - Local / Public": 78,
-    "USA - Movies": 129,
+    "USA - Movies": 131,
     "USA - Music": 37,
     "USA - News": 91,
     "USA - Other": 5,
     "USA - Religious": 53,
     "USA - Series": 113,
-    "USA - Sports": 75
+    "USA - Sports": 76
   }
 }
