@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-12 09:34:21 UTC
+# Generated: 2026-08-13 09:36:43 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -366,8 +366,6 @@ https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
 https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8
 #EXTINF:-1 tvg-id="ComedyDynamics.us" tvg-name="Comedy Dynamics" tvg-logo="https://twentypack20.github.io/iptv/posters/comedydynamics.us.png" group-title="USA - Entertainment",Comedy Dynamics
 https://comedydynamics-plex-ingest.cinedigm.com/playlist.m3u8
-#EXTINF:-1 tvg-id="ComedyTV.us" tvg-name="Comedy TV" tvg-logo="https://twentypack20.github.io/iptv/posters/comedytv.us.png" group-title="USA - Entertainment",Comedy TV
-https://gpuserver3.tier1streams.com/COMEDY_TV/index.m3u8
 #EXTINF:-1 tvg-id="Comet.us" tvg-name="Comet" tvg-logo="https://twentypack20.github.io/iptv/posters/comet.us.png" group-title="USA - Entertainment",Comet
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
 #EXTINF:-1 tvg-id="ConcordTV.us" tvg-name="Concord TV" tvg-logo="https://twentypack20.github.io/iptv/posters/concordtv.us.png" group-title="USA - Entertainment",Concord TV
@@ -981,6 +979,8 @@ https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8
 https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 #EXTINF:-1 tvg-id="BizTV.us" tvg-name="Biz TV" tvg-logo="https://twentypack20.github.io/iptv/posters/biztv.us.png" group-title="USA - Lifestyle",Biz TV
 https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8
+#EXTINF:-1 tvg-id="CleoTV.us" tvg-name="Cleo TV" tvg-logo="https://twentypack20.github.io/iptv/posters/cleotv.us.png" group-title="USA - Lifestyle",Cleo TV
+http://40.160.24.56/Cleo_TV_SD/index.m3u8
 #EXTINF:-1 tvg-id="CookingPanda.us" tvg-name="Cooking Panda" tvg-logo="https://twentypack20.github.io/iptv/posters/cookingpanda.us.png" group-title="USA - Lifestyle",Cooking Panda
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
 #EXTINF:-1 tvg-id="Dabl.us" tvg-name="Dabl" tvg-logo="https://twentypack20.github.io/iptv/posters/dabl.us.png" group-title="USA - Lifestyle",Dabl
@@ -1069,6 +1069,10 @@ https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/pl
 https://reflect-batv.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="BrevardGovernmentAccessTV.us" tvg-name="Brevard Government Access TV" tvg-logo="https://twentypack20.github.io/iptv/posters/brevardgovernmentaccesstv.us.png" group-title="USA - Local / Public",Brevard Government Access TV
 https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/brevardfl/G2111_002/playlist.m3u8
+#EXTINF:-1 tvg-id="CSPAN.us" tvg-name="C-SPAN" tvg-logo="https://twentypack20.github.io/iptv/posters/cspan.us.png" group-title="USA - Local / Public",C-SPAN
+http://40.160.24.56/C-SPAN_HD_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN2.us" tvg-name="C-SPAN 2" tvg-logo="https://twentypack20.github.io/iptv/posters/cspan2.us.png" group-title="USA - Local / Public",C-SPAN 2
+http://40.160.24.56/C-SPAN_2_SD/index.m3u8
 #EXTINF:-1 tvg-id="CGTV.us" tvg-name="CGTV" tvg-logo="https://twentypack20.github.io/iptv/posters/cgtv.us.png" group-title="USA - Local / Public",CGTV
 https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="CMAC3.us" tvg-name="CMAC 3" tvg-logo="https://twentypack20.github.io/iptv/posters/cmac3.us.png" group-title="USA - Local / Public",CMAC 3
@@ -2082,16 +2086,12 @@ http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us" tvg-name="MSG" tvg-logo="https://twentypack20.github.io/iptv/posters/msg.us.png" group-title="USA - Sports",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
-#EXTINF:-1 tvg-id="MSGPlus.us" tvg-name="MSG Plus" tvg-logo="https://twentypack20.github.io/iptv/posters/msgplus.us.png" group-title="USA - Sports",MSG Plus
-https://gpuserver3.tier1streams.com/MSG_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us" tvg-name="Monster Jam" tvg-logo="https://twentypack20.github.io/iptv/posters/monsterjam.us.png" group-title="USA - Sports",Monster Jam
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nbatv.us.png" group-title="USA - Sports",NBA TV
 https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsnow.us.png" group-title="USA - Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="NESN.us" tvg-name="NESN" tvg-logo="https://twentypack20.github.io/iptv/posters/nesn.us.png" group-title="USA - Sports",NESN
-https://gpuserver3.tier1streams.com/NESN/index.m3u8
 #EXTINF:-1 tvg-id="NFLChannel.us" tvg-name="NFL Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/nflchannel.us.png" group-title="USA - Sports",NFL Channel
 https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="NFL Network" tvg-logo="https://twentypack20.github.io/iptv/posters/nflnetwork.us.png" group-title="USA - Sports",NFL Network

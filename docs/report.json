@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 09:34:21 UTC",
+  "generated": "2026-08-13 09:36:43 UTC",
   "kept": 1077,
   "candidate_streams_before_dedupe": 1858,
   "timezone": "America/New_York",
@@ -12,8 +12,8 @@
   "poster_count": 1077,
   "skipped": {
     "no_channel": 1982,
-    "country": 11703,
-    "language": 567,
+    "country": 11707,
+    "language": 568,
     "category": 252,
     "group": 0,
     "nsfw": 0,
@@ -29,16 +29,16 @@
   "groups": {
     "USA - Business / Shopping": 20,
     "USA - Documentary / Education": 79,
-    "USA - Entertainment": 293,
+    "USA - Entertainment": 292,
     "USA - Kids and Family": 82,
-    "USA - Lifestyle": 52,
-    "USA - Local / Public": 72,
+    "USA - Lifestyle": 53,
+    "USA - Local / Public": 74,
     "USA - Movies": 123,
     "USA - Music": 36,
     "USA - News": 88,
     "USA - Other": 3,
     "USA - Religious": 53,
     "USA - Series": 110,
-    "USA - Sports": 66
+    "USA - Sports": 64
   }
 }
