@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-13 09:36:43 UTC
+# Generated: 2026-08-14 09:24:42 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -110,6 +110,8 @@ https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
 https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="History.us" tvg-name="History" tvg-logo="https://twentypack20.github.io/iptv/posters/history.us.png" group-title="USA - Documentary / Education",History
 http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/historyasia.us.png" group-title="USA - Documentary / Education",History Asia
+https://freem3u.xyz/api/live/play.m3u8?vid=9856
 #EXTINF:-1 tvg-id="InkMaster.us" tvg-name="Ink Master" tvg-logo="https://twentypack20.github.io/iptv/posters/inkmaster.us.png" group-title="USA - Documentary / Education",Ink Master
 https://jmp2.uk/plu-655f2d713944b60008bc7e90.m3u8
 #EXTINF:-1 tvg-id="JewishLifeTelevision.us" tvg-name="Jewish Life Television" tvg-logo="https://twentypack20.github.io/iptv/posters/jewishlifetelevision.us.png" group-title="USA - Documentary / Education",Jewish Life Television
