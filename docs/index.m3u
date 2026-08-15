@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-14 09:24:42 UTC
+# Generated: 2026-08-15 08:48:40 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -744,7 +744,7 @@ https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
 #EXTINF:-1 tvg-id="TelePam.us" tvg-name="Tele Pam" tvg-logo="https://twentypack20.github.io/iptv/posters/telepam.us.png" group-title="USA - Entertainment",Tele Pam
 https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us" tvg-name="Telemundo" tvg-logo="https://twentypack20.github.io/iptv/posters/telemundo.us.png" group-title="USA - Entertainment",Telemundo
-http://45.190.13.8/TelemundoHD/index.m3u8
+http://168.228.44.241:9997/play/a07g/index.m3u8
 #EXTINF:-1 tvg-id="TheBurbankChannel.us" tvg-name="The Burbank Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/theburbankchannel.us.png" group-title="USA - Entertainment",The Burbank Channel
 https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8
 #EXTINF:-1 tvg-id="TheMontereyChannel.us" tvg-name="The Monterey Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/themontereychannel.us.png" group-title="USA - Entertainment",The Monterey Channel
@@ -813,8 +813,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll" tvg-logo="https://twentypack20.github.io/iptv/posters/crunchyroll.us.png" group-title="USA - Kids and Family",Crunchyroll
 https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/disneychannel.us.png" group-title="USA - Kids and Family",Disney Channel
-http://190.14.10.19:16000/play/a06z/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us" tvg-name="Disney Junior" tvg-logo="https://twentypack20.github.io/iptv/posters/disneyjunior.us.png" group-title="USA - Kids and Family",Disney Junior
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="Disney XD" tvg-logo="https://twentypack20.github.io/iptv/posters/disneyxd.us.png" group-title="USA - Kids and Family",Disney XD
