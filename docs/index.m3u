@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-15 08:48:40 UTC
+# Generated: 2026-08-16 08:50:09 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -868,7 +868,7 @@ https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-id="Nickelodeonenespanol.us" tvg-name="Nickelodeon en espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/nickelodeonenespanol.us.png" group-title="USA - Kids and Family",Nickelodeon en espanol
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://twentypack20.github.io/iptv/posters/nicktoons.us.png" group-title="USA - Kids and Family",Nicktoons
-http://40.160.24.55/NICKTOONS/index.m3u8
+https://sra72yz.s.gy/NICKTOONS_US.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us" tvg-name="Ninja Kidz TV" tvg-logo="https://twentypack20.github.io/iptv/posters/ninjakidztv.us.png" group-title="USA - Kids and Family",Ninja Kidz TV
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/pbskids.us.png" group-title="USA - Kids and Family",PBS Kids
@@ -1206,8 +1206,7 @@ https://securestream10.champds.com/LIVE/YumaCoAZLIVE/YumaCoAZLIVE.m3u8
 #EXTINF:-1 tvg-id="00sReplay.us" tvg-name="00s Replay" tvg-logo="https://twentypack20.github.io/iptv/posters/00sreplay.us.png" group-title="USA - Movies",00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
 #EXTINF:-1 tvg-id="24HourFreeMovies.us" tvg-name="24 Hour Free Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/24hourfreemovies.us.png" group-title="USA - Movies",24 Hour Free Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
-https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8?ads.vf=7FhdsxqVxOi
+https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 #EXTINF:-1 tvg-id="30ATVClassicMovies.us" tvg-name="30A TV Classic Movies" tvg-logo="https://twentypack20.github.io/iptv/posters/30atvclassicmovies.us.png" group-title="USA - Movies",30A TV Classic Movies
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-id="50CentAction.us" tvg-name="50 Cent Action" tvg-logo="https://twentypack20.github.io/iptv/posters/50centaction.us.png" group-title="USA - Movies",50 Cent Action
@@ -1273,7 +1272,7 @@ https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="EbonyTVbyLionsgate.us" tvg-name="Ebony TV by Lionsgate" tvg-logo="https://twentypack20.github.io/iptv/posters/ebonytvbylionsgate.us.png" group-title="USA - Movies",Ebony TV by Lionsgate
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
 #EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="FX Movie Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/fxmoviechannel.us.png" group-title="USA - Movies",FX Movie Channel
-http://40.160.24.56/FXM_SD/index.m3u8
+https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseclassictv.us.png" group-title="USA - Movies",FilmRise Classic TV
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseWestern.us" tvg-name="FilmRise Western" tvg-logo="https://twentypack20.github.io/iptv/posters/filmrisewestern.us.png" group-title="USA - Movies",FilmRise Western
@@ -1602,7 +1601,7 @@ https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 #EXTINF:-1 tvg-id="EntertainmentTonight.us" tvg-name="Entertainment Tonight" tvg-logo="https://twentypack20.github.io/iptv/posters/entertainmenttonight.us.png" group-title="USA - News",Entertainment Tonight
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewschannel.us.png" group-title="USA - News",Fox News Channel
-http://40.160.24.56/FOX_NEWS_SD/index.m3u8
+http://45.190.28.50/FOX_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us" tvg-name="Fox Weather" tvg-logo="https://twentypack20.github.io/iptv/posters/foxweather.us.png" group-title="USA - News",Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-name="Free Speech TV" tvg-logo="https://twentypack20.github.io/iptv/posters/freespeechtv.us.png" group-title="USA - News",Free Speech TV
@@ -1799,6 +1798,8 @@ https://broadcaster-1.cclouds.in/srt/channel1_abr/playlist.m3u8
 https://broadcaster-1.cclouds.in/srt-4/channel4_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TBN.us" tvg-name="TBN" tvg-logo="https://twentypack20.github.io/iptv/posters/tbn.us.png" group-title="USA - Religious",TBN
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8
+#EXTINF:-1 tvg-id="TBNAsia.us" tvg-name="TBN Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/tbnasia.us.png" group-title="USA - Religious",TBN Asia
+https://streams.comclark.com/pknsd/tbn/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNInspire.us" tvg-name="TBN Inspire" tvg-logo="https://twentypack20.github.io/iptv/posters/tbninspire.us.png" group-title="USA - Religious",TBN Inspire
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TLNMediaChicago.us" tvg-name="TLN Media Chicago" tvg-logo="https://twentypack20.github.io/iptv/posters/tlnmediachicago.us.png" group-title="USA - Religious",TLN Media Chicago
@@ -2053,7 +2054,7 @@ https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-45
 #EXTINF:-1 tvg-id="ESPN8TheOcho.us" tvg-name="ESPN8: The Ocho" tvg-logo="https://twentypack20.github.io/iptv/posters/espn8theocho.us.png" group-title="USA - Sports",ESPN8: The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPNU" tvg-logo="https://twentypack20.github.io/iptv/posters/espnu.us.png" group-title="USA - Sports",ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 tvg-id="FITE247.us" tvg-name="FITE 24/7" tvg-logo="https://twentypack20.github.io/iptv/posters/fite247.us.png" group-title="USA - Sports",FITE 24/7
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us" tvg-name="FTF Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/ftfsports.us.png" group-title="USA - Sports",FTF Sports
