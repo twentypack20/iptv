@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-17 09:03:50 UTC
+# Generated: 2026-08-18 08:56:32 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1718,6 +1718,8 @@ https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8
 https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8
 #EXTINF:-1 tvg-id="EWTN.us" tvg-name="EWTN" tvg-logo="https://twentypack20.github.io/iptv/posters/ewtn.us.png" group-title="USA - Religious",EWTN
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-id="ElevationChurchNetwork.us" tvg-name="Elevation Church Network" tvg-logo="https://twentypack20.github.io/iptv/posters/elevationchurchnetwork.us.png" group-title="USA - Religious",Elevation Church Network
+https://linear-1066.frequency.stream/dist/stirr/1066/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNTV.us" tvg-name="GBN TV" tvg-logo="https://twentypack20.github.io/iptv/posters/gbntv.us.png" group-title="USA - Religious",GBN TV
 https://cdn3.wowza.com/5/Ny9jK1A1Q3h4N1VZ/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="GCNAmerica.us" tvg-name="GCN America" tvg-logo="https://twentypack20.github.io/iptv/posters/gcnamerica.us.png" group-title="USA - Religious",GCN America
@@ -2017,6 +2019,8 @@ https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8
 https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.us" tvg-name="ACC Digital Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accdigitalnetwork.us.png" group-title="USA - Sports",ACC Digital Network
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accnetwork.us.png" group-title="USA - Sports",ACC Network
+http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 tvg-id="BEKSports.us" tvg-name="BEK Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/beksports.us.png" group-title="USA - Sports",BEK Sports
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us" tvg-name="Bellator MMA" tvg-logo="https://twentypack20.github.io/iptv/posters/bellatormma.us.png" group-title="USA - Sports",Bellator MMA
