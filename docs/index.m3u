@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-19 08:58:05 UTC
+# Generated: 2026-08-20 08:59:59 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -867,6 +867,8 @@ https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
 https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us" tvg-name="Ryan and Friends" tvg-logo="https://twentypack20.github.io/iptv/posters/ryanandfriends.us.png" group-title="USA - Kids and Family",Ryan and Friends
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="STomSings.us" tvg-name="S Tom Sings" tvg-logo="https://twentypack20.github.io/iptv/posters/stomsings.us.png" group-title="USA - Kids and Family",S Tom Sings
+https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
 #EXTINF:-1 tvg-id="ShowtimeFamilyZone.us" tvg-name="Showtime Family Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/showtimefamilyzone.us.png" group-title="USA - Kids and Family",Showtime Family Zone
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us" tvg-name="Skwad Play" tvg-logo="https://twentypack20.github.io/iptv/posters/skwadplay.us.png" group-title="USA - Kids and Family",Skwad Play
