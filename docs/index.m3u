@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-20 08:59:59 UTC
+# Generated: 2026-08-21 09:01:54 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -473,6 +473,8 @@ https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playl
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="KITV41.us" tvg-name="KITV 4.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kitv41.us.png" group-title="USA - Entertainment",KITV 4.1
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
+#EXTINF:-1 tvg-id="KMCTTV391.us" tvg-name="KMCT-TV 39.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kmcttv391.us.png" group-title="USA - Entertainment",KMCT-TV 39.1
+https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 #EXTINF:-1 tvg-id="KMGHTV71.us" tvg-name="KMGH-TV 7.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kmghtv71.us.png" group-title="USA - Entertainment",KMGH-TV 7.1
 https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 #EXTINF:-1 tvg-id="KMPHTV261.us" tvg-name="KMPH-TV 26.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kmphtv261.us.png" group-title="USA - Entertainment",KMPH-TV 26.1
@@ -547,6 +549,8 @@ http://tvsen7.aynascope.net/laff/index.m3u8
 https://cdn.vegasplus.us/vegas/lasvegastonight/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinoChannelTV.us" tvg-name="Latino Channel TV" tvg-logo="https://twentypack20.github.io/iptv/posters/latinochanneltv.us.png" group-title="USA - Entertainment",Latino Channel TV
 https://cdn.vegasplus.us/vegas/latch/playlist.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us" tvg-name="Lifetime" tvg-logo="https://twentypack20.github.io/iptv/posters/lifetime.us.png" group-title="USA - Entertainment",Lifetime
+https://tvsen7.aynaott.com/lifetime/index.m3u8
 #EXTINF:-1 tvg-id="LifetimeAsia.us" tvg-name="Lifetime Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/lifetimeasia.us.png" group-title="USA - Entertainment",Lifetime Asia
 http://nmk.ioapk.com:5050/4gtv-live029/index.m3u8
 #EXTINF:-1 tvg-id="LittleGuyanaTV.us" tvg-name="Little Guyana TV" tvg-logo="https://twentypack20.github.io/iptv/posters/littleguyanatv.us.png" group-title="USA - Entertainment",Little Guyana TV
@@ -1948,6 +1952,8 @@ https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playl
 https://jmp2.uk/plu-64f8a22a3efb510008245df0.m3u8
 #EXTINF:-1 tvg-id="TheConners.us" tvg-name="The Conners" tvg-logo="https://twentypack20.github.io/iptv/posters/theconners.us.png" group-title="USA - Series",The Conners
 https://jmp2.uk/plu-66e2a94d167a8b000813485d.m3u8
+#EXTINF:-1 tvg-id="TheDoctors.us" tvg-name="The Doctors" tvg-logo="https://twentypack20.github.io/iptv/posters/thedoctors.us.png" group-title="USA - Series",The Doctors
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
 #EXTINF:-1 tvg-id="TheJudgeJudyChannel.us" tvg-name="The Judge Judy Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/thejudgejudychannel.us.png" group-title="USA - Series",The Judge Judy Channel
 https://jmp2.uk/plu-6283d51144ad8f0007fa382d.m3u8
 #EXTINF:-1 tvg-id="TheNewDetectives.us" tvg-name="The New Detectives" tvg-logo="https://twentypack20.github.io/iptv/posters/thenewdetectives.us.png" group-title="USA - Series",The New Detectives
