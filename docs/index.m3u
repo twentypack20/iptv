@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-21 09:01:54 UTC
+# Generated: 2026-08-22 08:52:25 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -13,7 +13,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2220
 #EXTINF:-1 tvg-id="EntrepreneurTV.us" tvg-name="EntrepreneurTV" tvg-logo="https://twentypack20.github.io/iptv/posters/entrepreneurtv.us.png" group-title="USA - Business / Shopping",EntrepreneurTV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us" tvg-name="Fox Business Network" tvg-logo="https://twentypack20.github.io/iptv/posters/foxbusinessnetwork.us.png" group-title="USA - Business / Shopping",Fox Business Network
-https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
+http://5.254.89.106/6187/index.m3u8
 #EXTINF:-1 tvg-id="GemShoppingNetwork.us" tvg-name="Gem Shopping Network" tvg-logo="https://twentypack20.github.io/iptv/posters/gemshoppingnetwork.us.png" group-title="USA - Business / Shopping",Gem Shopping Network
 https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HSN.us" tvg-name="HSN" tvg-logo="https://twentypack20.github.io/iptv/posters/hsn.us.png" group-title="USA - Business / Shopping",HSN
@@ -44,6 +44,8 @@ https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8
 https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa17-4d71adb80f99)/index.m3u8
 #EXTINF:-1 tvg-id="Atlas.us" tvg-name="Atlas" tvg-logo="https://twentypack20.github.io/iptv/posters/atlas.us.png" group-title="USA - Documentary / Education",Atlas
 https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 tvg-id="BATVEducationalChannel.us" tvg-name="BATV Educational Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/batveducationalchannel.us.png" group-title="USA - Documentary / Education",BATV Educational Channel
+https://livestream.telvue.com/billerica2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="BXArts.us" tvg-name="BX Arts" tvg-logo="https://twentypack20.github.io/iptv/posters/bxarts.us.png" group-title="USA - Documentary / Education",BX Arts
 https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="BXCulture.us" tvg-name="BX Culture" tvg-logo="https://twentypack20.github.io/iptv/posters/bxculture.us.png" group-title="USA - Documentary / Education",BX Culture
@@ -256,6 +258,8 @@ http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
 https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="BATV.us" tvg-name="BATV" tvg-logo="https://twentypack20.github.io/iptv/posters/batv.us.png" group-title="USA - Entertainment",BATV
 https://reflect-batv.cablecast.tv/live-5/live/live.m3u8
+#EXTINF:-1 tvg-id="BATVPublicChannel.us" tvg-name="BATV Public Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/batvpublicchannel.us.png" group-title="USA - Entertainment",BATV Public Channel
+https://livestream.telvue.com/billerica1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBC America" tvg-logo="https://twentypack20.github.io/iptv/posters/bbcamerica.us.png" group-title="USA - Entertainment",BBC America
 http://23.239.31.26:8989/bbcamerica/index.m3u8
 #EXTINF:-1 tvg-id="BETClassicsPlutoTV.us" tvg-name="BET Classics Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/betclassicsplutotv.us.png" group-title="USA - Entertainment",BET Classics Pluto TV
@@ -276,6 +280,8 @@ https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8
 https://bbb-barkt-streamstak.otteravision.com/bbb/barkt/barkt.m3u8
 #EXTINF:-1 tvg-id="BerksCommunityTV.us" tvg-name="Berks Community TV" tvg-logo="https://twentypack20.github.io/iptv/posters/berkscommunitytv.us.png" group-title="USA - Entertainment",Berks Community TV
 https://livestream.telvue.com/berkscmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BestofBATVChannel.us" tvg-name="Best of BATV Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/bestofbatvchannel.us.png" group-title="USA - Entertainment",Best of BATV Channel
+https://livestream.telvue.com/billerica4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="BestofDrPhil.us" tvg-name="Best of Dr Phil" tvg-logo="https://twentypack20.github.io/iptv/posters/bestofdrphil.us.png" group-title="USA - Entertainment",Best of Dr Phil
 https://jmp2.uk/plu-666815f24b9fb400083f7e31.m3u8
 #EXTINF:-1 tvg-id="BestofTheDrewBarrymoreShow.us" tvg-name="Best of The Drew Barrymore Show" tvg-logo="https://twentypack20.github.io/iptv/posters/bestofthedrewbarrymoreshow.us.png" group-title="USA - Entertainment",Best of The Drew Barrymore Show
@@ -1037,6 +1043,8 @@ https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(616d6f49-eaec-6f7e-718
 https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(f97b5ddc-b7e4-dff8-9f10-8c16d0833639)/index.m3u8
 #EXTINF:-1 tvg-id="AccessVisionChannel17.us" tvg-name="AccessVision Channel 17" tvg-logo="https://twentypack20.github.io/iptv/posters/accessvisionchannel17.us.png" group-title="USA - Local / Public",AccessVision Channel 17
 https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BATVGovernmentChannel.us" tvg-name="BATV Government Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/batvgovernmentchannel.us.png" group-title="USA - Local / Public",BATV Government Channel
+https://livestream.telvue.com/billerica3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="BATVGovernmentTV.us" tvg-name="BATV Government TV" tvg-logo="https://twentypack20.github.io/iptv/posters/batvgovernmenttv.us.png" group-title="USA - Local / Public",BATV Government TV
 https://reflect-batv.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="BrevardGovernmentAccessTV.us" tvg-name="Brevard Government Access TV" tvg-logo="https://twentypack20.github.io/iptv/posters/brevardgovernmentaccesstv.us.png" group-title="USA - Local / Public",Brevard Government Access TV
@@ -1750,8 +1758,6 @@ https://broadcaster-1.cclouds.in/srt/channel1_abr/playlist.m3u8
 https://broadcaster-1.cclouds.in/srt-4/channel4_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TBN.us" tvg-name="TBN" tvg-logo="https://twentypack20.github.io/iptv/posters/tbn.us.png" group-title="USA - Religious",TBN
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8
-#EXTINF:-1 tvg-id="TBNAsia.us" tvg-name="TBN Asia" tvg-logo="https://twentypack20.github.io/iptv/posters/tbnasia.us.png" group-title="USA - Religious",TBN Asia
-https://streams.comclark.com/pknsd/tbn/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNInspire.us" tvg-name="TBN Inspire" tvg-logo="https://twentypack20.github.io/iptv/posters/tbninspire.us.png" group-title="USA - Religious",TBN Inspire
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TLNMediaChicago.us" tvg-name="TLN Media Chicago" tvg-logo="https://twentypack20.github.io/iptv/posters/tlnmediachicago.us.png" group-title="USA - Religious",TLN Media Chicago
