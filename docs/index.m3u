@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-22 08:52:25 UTC
+# Generated: 2026-08-23 08:51:37 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1558,6 +1558,8 @@ https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us" tvg-name="Cheddar News" tvg-logo="https://twentypack20.github.io/iptv/posters/cheddarnews.us.png" group-title="USA - News",Cheddar News
 https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
+#EXTINF:-1 tvg-id="ESPNews.us" tvg-name="ESPNews" tvg-logo="https://twentypack20.github.io/iptv/posters/espnews.us.png" group-title="USA - News",ESPNews
+http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="EntertainmentTonight.us" tvg-name="Entertainment Tonight" tvg-logo="https://twentypack20.github.io/iptv/posters/entertainmenttonight.us.png" group-title="USA - News",Entertainment Tonight
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/foxnewschannel.us.png" group-title="USA - News",Fox News Channel
@@ -1700,6 +1702,8 @@ https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ElevationChurchNetwork.us" tvg-name="Elevation Church Network" tvg-logo="https://twentypack20.github.io/iptv/posters/elevationchurchnetwork.us.png" group-title="USA - Religious",Elevation Church Network
 https://linear-1066.frequency.stream/dist/stirr/1066/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="FaithTV.us" tvg-name="Faith TV" tvg-logo="https://twentypack20.github.io/iptv/posters/faithtv.us.png" group-title="USA - Religious",Faith TV
+https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNTV.us" tvg-name="GBN TV" tvg-logo="https://twentypack20.github.io/iptv/posters/gbntv.us.png" group-title="USA - Religious",GBN TV
 https://cdn3.wowza.com/5/Ny9jK1A1Q3h4N1VZ/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="GCNAmerica.us" tvg-name="GCN America" tvg-logo="https://twentypack20.github.io/iptv/posters/gcnamerica.us.png" group-title="USA - Religious",GCN America
