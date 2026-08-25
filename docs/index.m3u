@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-24 09:08:22 UTC
+# Generated: 2026-08-25 09:03:41 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -384,6 +384,8 @@ https://jmp2.uk/plu-651f239d9c7aeb0008286823.m3u8
 https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="DetroitChannel68.us" tvg-name="Detroit Channel 68" tvg-logo="https://twentypack20.github.io/iptv/posters/detroitchannel68.us.png" group-title="USA - Entertainment",Detroit Channel 68
 https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8
+#EXTINF:-1 tvg-id="DiyaTV.us" tvg-name="Diya TV" tvg-logo="https://twentypack20.github.io/iptv/posters/diyatv.us.png" group-title="USA - Entertainment",Diya TV
+https://stream.diyatvinc.com/diya.m3u8
 #EXTINF:-1 tvg-id="DryBarComedyPlus.us" tvg-name="Dry Bar Comedy+" tvg-logo="https://twentypack20.github.io/iptv/posters/drybarcomedyplus.us.png" group-title="USA - Entertainment",Dry Bar Comedy+
 https://drybar-drybarcomedy-1-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="E.us" tvg-name="E!" tvg-logo="https://twentypack20.github.io/iptv/posters/e.us.png" group-title="USA - Entertainment",E!
@@ -2093,8 +2095,10 @@ https://sportsgrid-tribal.amagi.tv/playlist.m3u8
 https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Strongman.us" tvg-name="Strongman" tvg-logo="https://twentypack20.github.io/iptv/posters/strongman.us.png" group-title="USA - Sports",Strongman
 https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="SwerveSports.us" tvg-name="Swerve Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/swervesports.us.png" group-title="USA - Sports",Swerve Sports
+#EXTINF:-1 tvg-id="SwerveCombat.us" tvg-name="Swerve Combat" tvg-logo="https://twentypack20.github.io/iptv/posters/swervecombat.us.png" group-title="USA - Sports",Swerve Combat
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SwerveSports.us" tvg-name="Swerve Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/swervesports.us.png" group-title="USA - Sports",Swerve Sports
+https://linear-253.frequency.stream/dist/stirr/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us" tvg-name="TVS Bowling Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvsbowlingnetwork.us.png" group-title="USA - Sports",TVS Bowling Network
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
 #EXTINF:-1 tvg-id="TVSSportsBureau.us" tvg-name="TVS Sports Bureau" tvg-logo="https://twentypack20.github.io/iptv/posters/tvssportsbureau.us.png" group-title="USA - Sports",TVS Sports Bureau
