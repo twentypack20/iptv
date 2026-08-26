@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25 09:03:41 UTC",
-  "kept": 1056,
-  "candidate_streams_before_dedupe": 1797,
+  "generated": "2026-08-26 09:05:14 UTC",
+  "kept": 1059,
+  "candidate_streams_before_dedupe": 1799,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -9,10 +9,10 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1056,
+  "poster_count": 1059,
   "skipped": {
-    "no_channel": 1977,
-    "country": 12017,
+    "no_channel": 1976,
+    "country": 12039,
     "language": 583,
     "category": 229,
     "group": 0,
@@ -34,10 +34,10 @@
     "USA - Lifestyle": 51,
     "USA - Local / Public": 73,
     "USA - Movies": 116,
-    "USA - Music": 35,
+    "USA - Music": 36,
     "USA - News": 87,
     "USA - Other": 3,
-    "USA - Religious": 55,
+    "USA - Religious": 57,
     "USA - Series": 110,
     "USA - Sports": 62
   }

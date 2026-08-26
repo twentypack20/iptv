@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-25 09:03:41 UTC
+# Generated: 2026-08-26 09:05:14 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1482,6 +1482,8 @@ https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
 https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="VevoTrueSchoolHipHop.us" tvg-name="Vevo True School Hip-Hop" tvg-logo="https://twentypack20.github.io/iptv/posters/vevotrueschoolhiphop.us.png" group-title="USA - Music",Vevo True School Hip-Hop
 https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 tvg-id="VideoMixTV.us" tvg-name="Video Mix TV" tvg-logo="https://twentypack20.github.io/iptv/posters/videomixtv.us.png" group-title="USA - Music",Video Mix TV
+https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
 #EXTINF:-1 tvg-id="XITE90sThrowback.us" tvg-name="XITE 90's Throwback" tvg-logo="https://twentypack20.github.io/iptv/posters/xite90sthrowback.us.png" group-title="USA - Music",XITE 90's Throwback
 https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us" tvg-name="Yo! MTV" tvg-logo="https://twentypack20.github.io/iptv/posters/yomtv.us.png" group-title="USA - Music",Yo! MTV
@@ -1710,6 +1712,8 @@ https://cdn3.wowza.com/5/Ny9jK1A1Q3h4N1VZ/live/myStream/playlist.m3u8
 http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelTruthTV.us" tvg-name="Gospel Truth TV" tvg-logo="https://twentypack20.github.io/iptv/posters/gospeltruthtv.us.png" group-title="USA - Religious",Gospel Truth TV
 https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8
+#EXTINF:-1 tvg-id="GreaterLoveTV.us" tvg-name="Greater Love TV" tvg-logo="https://twentypack20.github.io/iptv/posters/greaterlovetv.us.png" group-title="USA - Religious",Greater Love TV
+https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8
 #EXTINF:-1 tvg-id="HopeChannelInterAmericaEnglish.us" tvg-name="Hope Channel Inter-America English" tvg-logo="https://twentypack20.github.io/iptv/posters/hopechannelinteramericaenglish.us.png" group-title="USA - Religious",Hope Channel Inter-America English
 https://jstre.am/live/jsl:UP9KAdlVrm8.m3u8
 #EXTINF:-1 tvg-id="HopeChannelInternational.us" tvg-name="Hope Channel International" tvg-logo="https://twentypack20.github.io/iptv/posters/hopechannelinternational.us.png" group-title="USA - Religious",Hope Channel International
@@ -1724,6 +1728,8 @@ https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8
 https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8
 #EXTINF:-1 tvg-id="JBS.us" tvg-name="JBS" tvg-logo="https://twentypack20.github.io/iptv/posters/jbs.us.png" group-title="USA - Religious",JBS
 https://rpn3.bozztv.com/jbstv-srt/srt-push/jbstv/playlist.m3u8
+#EXTINF:-1 tvg-id="JoelOsteenNetwork.us" tvg-name="Joel Osteen Network" tvg-logo="https://twentypack20.github.io/iptv/posters/joelosteennetwork.us.png" group-title="USA - Religious",Joel Osteen Network
+https://linear-860.frequency.stream/dist/xumo/860/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="KPCBDT171.us" tvg-name="KPCB-DT 17.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kpcbdt171.us.png" group-title="USA - Religious",KPCB-DT 17.1
 https://2-fss-1.streamhoster.com/pl_122/200562-1176456-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KQSL81.us" tvg-name="KQSL 8.1" tvg-logo="https://twentypack20.github.io/iptv/posters/kqsl81.us.png" group-title="USA - Religious",KQSL 8.1
@@ -2098,7 +2104,7 @@ https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SwerveCombat.us" tvg-name="Swerve Combat" tvg-logo="https://twentypack20.github.io/iptv/posters/swervecombat.us.png" group-title="USA - Sports",Swerve Combat
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="SwerveSports.us" tvg-name="Swerve Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/swervesports.us.png" group-title="USA - Sports",Swerve Sports
-https://linear-253.frequency.stream/dist/stirr/253/hls/master/playlist.m3u8
+https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us" tvg-name="TVS Bowling Network" tvg-logo="https://twentypack20.github.io/iptv/posters/tvsbowlingnetwork.us.png" group-title="USA - Sports",TVS Bowling Network
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
 #EXTINF:-1 tvg-id="TVSSportsBureau.us" tvg-name="TVS Sports Bureau" tvg-logo="https://twentypack20.github.io/iptv/posters/tvssportsbureau.us.png" group-title="USA - Sports",TVS Sports Bureau
