@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-27 19:10:06 UTC
+# Generated: 2026-08-28 20:17:27 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1395,6 +1395,8 @@ https://jmp2.uk/plu-6565fefdc917a50008485cc6.m3u8
 https://carolburnett-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFilmDetective.us" tvg-name="The Film Detective" tvg-logo="https://twentypack20.github.io/iptv/posters/thefilmdetective.us.png" group-title="USA - Movies",The Film Detective
 https://cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheLoop.us" tvg-name="The Loop" tvg-logo="https://twentypack20.github.io/iptv/posters/theloop.us.png" group-title="USA - Movies",The Loop
+https://tgn.bozztv.com/watc57/watc57-theloop/watc57-theloop/index.m3u8
 #EXTINF:-1 tvg-id="TheLoveBoat.us" tvg-name="The Love Boat" tvg-logo="https://twentypack20.github.io/iptv/posters/theloveboat.us.png" group-title="USA - Movies",The Love Boat
 https://jmp2.uk/plu-5f7794a788d29000079d2f07.m3u8
 #EXTINF:-1 tvg-id="TheWildWildWest.us" tvg-name="The Wild Wild West" tvg-logo="https://twentypack20.github.io/iptv/posters/thewildwildwest.us.png" group-title="USA - Movies",The Wild Wild West
@@ -1438,6 +1440,8 @@ https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
 https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
 #EXTINF:-1 tvg-id="GMTV.us" tvg-name="GMTV" tvg-logo="https://twentypack20.github.io/iptv/posters/gmtv.us.png" group-title="USA - Music",GMTV
 https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
+#EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us" tvg-name="Harmony Gospel Music TV" tvg-logo="https://twentypack20.github.io/iptv/posters/harmonygospelmusictv.us.png" group-title="USA - Music",Harmony Gospel Music TV
+https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
 #EXTINF:-1 tvg-id="LIVExLIVE.us" tvg-name="LIVExLIVE" tvg-logo="https://twentypack20.github.io/iptv/posters/livexlive.us.png" group-title="USA - Music",LIVExLIVE
 https://livestream.liveone.com/lc1/p1.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://twentypack20.github.io/iptv/posters/mtvbiggestpop.us.png" group-title="USA - Music",MTV Biggest Pop
@@ -1710,6 +1714,8 @@ https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playli
 https://cdn3.wowza.com/5/Ny9jK1A1Q3h4N1VZ/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="GCNAmerica.us" tvg-name="GCN America" tvg-logo="https://twentypack20.github.io/iptv/posters/gcnamerica.us.png" group-title="USA - Religious",GCN America
 http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="GenesisScienceNetwork.us" tvg-name="Genesis Science Network" tvg-logo="https://twentypack20.github.io/iptv/posters/genesissciencenetwork.us.png" group-title="USA - Religious",Genesis Science Network
+https://2-fss-1.streamhoster.com/pl_122/amlst:206018-2645902/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelTruthTV.us" tvg-name="Gospel Truth TV" tvg-logo="https://twentypack20.github.io/iptv/posters/gospeltruthtv.us.png" group-title="USA - Religious",Gospel Truth TV
 https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8
 #EXTINF:-1 tvg-id="GreaterLoveTV.us" tvg-name="Greater Love TV" tvg-logo="https://twentypack20.github.io/iptv/posters/greaterlovetv.us.png" group-title="USA - Religious",Greater Love TV
@@ -1774,6 +1780,8 @@ https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.is
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/cb165faa-41c9-42ad-83ee-ad5ca9fb927c.m3u8
 #EXTINF:-1 tvg-id="TLNMediaSanFrancisco.us" tvg-name="TLN Media San Francisco" tvg-logo="https://twentypack20.github.io/iptv/posters/tlnmediasanfrancisco.us.png" group-title="USA - Religious",TLN Media San Francisco
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/b29d27bb-88af-42d1-937a-5bdf76b71c17.m3u8
+#EXTINF:-1 tvg-id="ThePointTelevsionNetwork.us" tvg-name="The Point Televsion Network" tvg-logo="https://twentypack20.github.io/iptv/posters/thepointtelevsionnetwork.us.png" group-title="USA - Religious",The Point Televsion Network
+https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8
 #EXTINF:-1 tvg-id="TheWordNetwork.us" tvg-name="The Word Network" tvg-logo="https://twentypack20.github.io/iptv/posters/thewordnetwork.us.png" group-title="USA - Religious",The Word Network
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8
 #EXTINF:-1 tvg-id="W14DKD141.us" tvg-name="W14DK-D 14.1" tvg-logo="https://twentypack20.github.io/iptv/posters/w14dkd141.us.png" group-title="USA - Religious",W14DK-D 14.1
@@ -2008,7 +2016,8 @@ https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.us" tvg-name="ACC Digital Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accdigitalnetwork.us.png" group-title="USA - Sports",ACC Digital Network
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accnetwork.us.png" group-title="USA - Sports",ACC Network
-http://23.239.31.26:8989/accnetwork/index.m3u8
+#EXTVLCOPT:http-referrer=https://directv-iptv-player.vercel.app/
+https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F23.239.31.26%3A8989%2Faccnetwork%2Findex.m3u8
 #EXTINF:-1 tvg-id="BEKSports.us" tvg-name="BEK Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/beksports.us.png" group-title="USA - Sports",BEK Sports
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us" tvg-name="Bellator MMA" tvg-logo="https://twentypack20.github.io/iptv/posters/bellatormma.us.png" group-title="USA - Sports",Bellator MMA
