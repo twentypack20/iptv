@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29 13:54:34 UTC",
-  "kept": 1063,
+  "generated": "2026-08-30 13:53:44 UTC",
+  "kept": 1064,
   "candidate_streams_before_dedupe": 1807,
   "timezone": "America/New_York",
   "tvg_shift": "0",
@@ -9,10 +9,10 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1063,
+  "poster_count": 1064,
   "skipped": {
     "no_channel": 1975,
-    "country": 12086,
+    "country": 12115,
     "language": 582,
     "category": 228,
     "group": 0,
@@ -37,7 +37,7 @@
     "USA - Music": 37,
     "USA - News": 87,
     "USA - Other": 3,
-    "USA - Religious": 59,
+    "USA - Religious": 60,
     "USA - Series": 110,
     "USA - Sports": 62
   }

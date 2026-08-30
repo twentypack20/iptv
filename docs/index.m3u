@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-29 13:54:34 UTC
+# Generated: 2026-08-30 13:53:44 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -31,7 +31,7 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
 #EXTINF:-1 tvg-id="QVC3.us" tvg-name="QVC3" tvg-logo="https://twentypack20.github.io/iptv/posters/qvc3.us.png" group-title="USA - Business / Shopping",QVC3
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
 #EXTINF:-1 tvg-id="SchwabNetwork.us" tvg-name="Schwab Network" tvg-logo="https://twentypack20.github.io/iptv/posters/schwabnetwork.us.png" group-title="USA - Business / Shopping",Schwab Network
-https://tdameritrade-distro.amagi.tv/playlist.m3u8
+https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
 #EXTINF:-1 tvg-id="ShopLC.us" tvg-name="Shop LC" tvg-logo="https://twentypack20.github.io/iptv/posters/shoplc.us.png" group-title="USA - Business / Shopping",Shop LC
 https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
 #EXTINF:-1 tvg-id="TVSConsumerDirect.us" tvg-name="TVS Consumer Direct" tvg-logo="https://twentypack20.github.io/iptv/posters/tvsconsumerdirect.us.png" group-title="USA - Business / Shopping",TVS Consumer Direct
@@ -1760,6 +1760,8 @@ http://145.239.5.177/215/index.m3u8
 https://5d12bc59c4748.streamlock.net/redirect/ocnbroadcasting.com/ocnbroadcasting2?type=m3u8
 #EXTINF:-1 tvg-id="PTLTVNetwork.us" tvg-name="PTL TV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/ptltvnetwork.us.png" group-title="USA - Religious",PTL TV Network
 https://storage.sardius.media/archives/-KyMV-J0vDqnClcSXs8p/events/site_1a4721d3BA/playlist.m3u8
+#EXTINF:-1 tvg-id="RadiantTV.us" tvg-name="RadiantTV" tvg-logo="https://twentypack20.github.io/iptv/posters/radianttv.us.png" group-title="USA - Religious",RadiantTV
+https://rpn.bozztv.com/radiant/radiant/radiant/index.m3u8
 #EXTINF:-1 tvg-id="SBNTV.us" tvg-name="SBN TV" tvg-logo="https://twentypack20.github.io/iptv/posters/sbntv.us.png" group-title="USA - Religious",SBN TV
 https://watch.sardius.media/channels/Ea867F3e1F56B06/site_c5402f016A/live.m3u8
 #EXTINF:-1 tvg-id="SBNTVGlobal.us" tvg-name="SBN TV Global" tvg-logo="https://twentypack20.github.io/iptv/posters/sbntvglobal.us.png" group-title="USA - Religious",SBN TV Global
@@ -2016,8 +2018,7 @@ https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.us" tvg-name="ACC Digital Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accdigitalnetwork.us.png" group-title="USA - Sports",ACC Digital Network
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://twentypack20.github.io/iptv/posters/accnetwork.us.png" group-title="USA - Sports",ACC Network
-#EXTVLCOPT:http-referrer=https://directv-iptv-player.vercel.app/
-https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F23.239.31.26%3A8989%2Faccnetwork%2Findex.m3u8
+http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 tvg-id="BEKSports.us" tvg-name="BEK Sports" tvg-logo="https://twentypack20.github.io/iptv/posters/beksports.us.png" group-title="USA - Sports",BEK Sports
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us" tvg-name="Bellator MMA" tvg-logo="https://twentypack20.github.io/iptv/posters/bellatormma.us.png" group-title="USA - Sports",Bellator MMA
