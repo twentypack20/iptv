@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-30 13:53:44 UTC
+# Generated: 2026-08-31 16:13:48 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -88,8 +88,6 @@ https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="Docurama.us" tvg-name="Docurama" tvg-logo="https://twentypack20.github.io/iptv/posters/docurama.us.png" group-title="USA - Documentary / Education",Docurama
 https://docurama-plex-ingest.cinedigm.com/playlist.m3u8
-#EXTINF:-1 tvg-id="DogTV.us" tvg-name="Dog TV" tvg-logo="https://twentypack20.github.io/iptv/posters/dogtv.us.png" group-title="USA - Documentary / Education",Dog TV
-http://46.151.196.223:14382
 #EXTINF:-1 tvg-id="EBS.us" tvg-name="EBS" tvg-logo="https://twentypack20.github.io/iptv/posters/ebs.us.png" group-title="USA - Documentary / Education",EBS
 https://rpn.bozztv.com/ebstv/ebstv/index.m3u8
 #EXTINF:-1 tvg-id="FBIFiles.us" tvg-name="FBI Files" tvg-logo="https://twentypack20.github.io/iptv/posters/fbifiles.us.png" group-title="USA - Documentary / Education",FBI Files
