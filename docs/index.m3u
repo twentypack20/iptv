@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-08-31 16:13:48 UTC
+# Generated: 2026-09-01 13:33:13 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1708,8 +1708,6 @@ https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 https://linear-1066.frequency.stream/dist/stirr/1066/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="FaithTV.us" tvg-name="Faith TV" tvg-logo="https://twentypack20.github.io/iptv/posters/faithtv.us.png" group-title="USA - Religious",Faith TV
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="GBNTV.us" tvg-name="GBN TV" tvg-logo="https://twentypack20.github.io/iptv/posters/gbntv.us.png" group-title="USA - Religious",GBN TV
-https://cdn3.wowza.com/5/Ny9jK1A1Q3h4N1VZ/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="GCNAmerica.us" tvg-name="GCN America" tvg-logo="https://twentypack20.github.io/iptv/posters/gcnamerica.us.png" group-title="USA - Religious",GCN America
 http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GenesisScienceNetwork.us" tvg-name="Genesis Science Network" tvg-logo="https://twentypack20.github.io/iptv/posters/genesissciencenetwork.us.png" group-title="USA - Religious",Genesis Science Network
