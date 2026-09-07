@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-06 12:13:25 UTC
+# Generated: 2026-09-07 14:19:33 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -351,7 +351,7 @@ https://livestream.telvue.com/cvtv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlis
 #EXTINF:-1 tvg-id="CVTVChannel194.us" tvg-name="CVTV Channel 194" tvg-logo="https://twentypack20.github.io/iptv/posters/cvtvchannel194.us.png" group-title="USA - Entertainment",CVTV Channel 194
 https://livestream.telvue.com/cvtv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CW.us" tvg-name="CW" tvg-logo="https://twentypack20.github.io/iptv/posters/cw.us.png" group-title="USA - Entertainment",CW
-https://messi.damitv.st/papi/ts/cw-usa/playlist.m3u8
+https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="CameraSmileTV.us" tvg-name="Camera Smile TV" tvg-logo="https://twentypack20.github.io/iptv/posters/camerasmiletv.us.png" group-title="USA - Entertainment",Camera Smile TV
 https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8
 #EXTINF:-1 tvg-id="CarChase.us" tvg-name="Car Chase" tvg-logo="https://twentypack20.github.io/iptv/posters/carchase.us.png" group-title="USA - Entertainment",Car Chase
@@ -431,7 +431,7 @@ https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us" tvg-name="FilAmTV Network" tvg-logo="https://twentypack20.github.io/iptv/posters/filamtvnetwork.us.png" group-title="USA - Entertainment",FilAmTV Network
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us" tvg-name="Fox" tvg-logo="https://twentypack20.github.io/iptv/posters/fox.us.png" group-title="USA - Entertainment",Fox
-https://messi.damitv.st/papi/ts/fox-usa/playlist.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="FreebieTV.us" tvg-name="Freebie TV" tvg-logo="https://twentypack20.github.io/iptv/posters/freebietv.us.png" group-title="USA - Entertainment",Freebie TV
 https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Freebie-Plex/187.m3u8
 #EXTINF:-1 tvg-id="FunnyAF.us" tvg-name="Funny AF" tvg-logo="https://twentypack20.github.io/iptv/posters/funnyaf.us.png" group-title="USA - Entertainment",Funny AF
@@ -572,7 +572,7 @@ http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="NBCComedyVault.us" tvg-name="NBC Comedy Vault" tvg-logo="https://twentypack20.github.io/iptv/posters/nbccomedyvault.us.png" group-title="USA - Entertainment",NBC Comedy Vault
 https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="NBCUniverso.us" tvg-name="NBC Universo" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcuniverso.us.png" group-title="USA - Entertainment",NBC Universo
-http://187.102.210.46/universo/index.m3u8
+http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="NCMMainChannel.us" tvg-name="NCM Main Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/ncmmainchannel.us.png" group-title="USA - Entertainment",NCM Main Channel
 https://reflect-npa.cablecast.tv/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="NCTV79.us" tvg-name="NCTV79" tvg-logo="https://twentypack20.github.io/iptv/posters/nctv79.us.png" group-title="USA - Entertainment",NCTV79
@@ -774,7 +774,7 @@ https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="ForeverKids.us" tvg-name="Forever Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/foreverkids.us.png" group-title="USA - Kids and Family",Forever Kids
 https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
 #EXTINF:-1 tvg-id="Freeform.us" tvg-name="Freeform" tvg-logo="https://twentypack20.github.io/iptv/posters/freeform.us.png" group-title="USA - Kids and Family",Freeform
-https://messi.damitv.st/papi/ts/freeform-usa/playlist.m3u8
+http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="GarfieldandFriends.us" tvg-name="Garfield and Friends" tvg-logo="https://twentypack20.github.io/iptv/posters/garfieldandfriends.us.png" group-title="USA - Kids and Family",Garfield and Friends
 https://jmp2.uk/plu-677f927554f43dad4b3258aa.m3u8
 #EXTINF:-1 tvg-id="GiggleMug.us" tvg-name="Giggle Mug" tvg-logo="https://twentypack20.github.io/iptv/posters/gigglemug.us.png" group-title="USA - Kids and Family",Giggle Mug
@@ -853,6 +853,8 @@ https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us" tvg-name="Skwad Play" tvg-logo="https://twentypack20.github.io/iptv/posters/skwadplay.us.png" group-title="USA - Kids and Family",Skwad Play
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71
+#EXTINF:-1 tvg-id="SmurfTV.us" tvg-name="Smurf TV" tvg-logo="https://twentypack20.github.io/iptv/posters/smurftv.us.png" group-title="USA - Kids and Family",Smurf TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
 #EXTINF:-1 tvg-id="SonicTV.us" tvg-name="Sonic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/sonictv.us.png" group-title="USA - Kids and Family",Sonic TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
 #EXTINF:-1 tvg-id="SouthPark.us" tvg-name="South Park" tvg-logo="https://twentypack20.github.io/iptv/posters/southpark.us.png" group-title="USA - Kids and Family",South Park
@@ -2086,8 +2088,6 @@ https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 http://177.234.249.178:8888/GOLTV/index.m3u8
 #EXTINF:-1 tvg-id="GolazoNetwork.us" tvg-name="Golazo Network" tvg-logo="https://twentypack20.github.io/iptv/posters/golazonetwork.us.png" group-title="USA - Sports",Golazo Network
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
-#EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="Golf Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/golfchannel.us.png" group-title="USA - Sports",Golf Channel
-https://messi.damitv.st/papi/ts/golfchannel-usa/playlist.m3u8
 #EXTINF:-1 tvg-id="LacrosseTV.us" tvg-name="Lacrosse TV" tvg-logo="https://twentypack20.github.io/iptv/posters/lacrossetv.us.png" group-title="USA - Sports",Lacrosse TV
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="MLB.us" tvg-name="MLB" tvg-logo="https://twentypack20.github.io/iptv/posters/mlb.us.png" group-title="USA - Sports",MLB
@@ -2178,5 +2178,3 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA" tvg-logo="https://twentypack20.github.io/iptv/posters/beinsportsxtra.us.png" group-title="USA - Sports",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSportsUSA.us" tvg-name="beIN Sports USA" tvg-logo="https://twentypack20.github.io/iptv/posters/beinsportsusa.us.png" group-title="USA - Sports",beIN Sports USA
-https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8
