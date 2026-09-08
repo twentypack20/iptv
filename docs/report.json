@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07 14:19:33 UTC",
+  "generated": "2026-09-08 12:56:01 UTC",
   "kept": 1085,
   "candidate_streams_before_dedupe": 2094,
   "timezone": "America/New_York",
@@ -11,8 +11,8 @@
   "show_quality_in_name": false,
   "poster_count": 1085,
   "skipped": {
-    "no_channel": 1980,
-    "country": 12343,
+    "no_channel": 1982,
+    "country": 12363,
     "language": 589,
     "category": 161,
     "group": 0,
@@ -22,7 +22,7 @@
     "name": 4,
     "url": 0,
     "audio_only": 0,
-    "below_min_quality": 44,
+    "below_min_quality": 45,
     "unknown_quality": 0,
     "poster_failed": 0
   },
