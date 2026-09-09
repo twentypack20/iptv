@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 12:56:01 UTC",
+  "generated": "2026-09-09 13:01:32 UTC",
   "kept": 1085,
   "candidate_streams_before_dedupe": 2094,
   "timezone": "America/New_York",
@@ -12,9 +12,9 @@
   "poster_count": 1085,
   "skipped": {
     "no_channel": 1982,
-    "country": 12363,
-    "language": 589,
-    "category": 161,
+    "country": 12367,
+    "language": 592,
+    "category": 163,
     "group": 0,
     "nsfw": 0,
     "closed": 15,
