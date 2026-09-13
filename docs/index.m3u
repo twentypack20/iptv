@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-12 12:14:55 UTC
+# Generated: 2026-09-13 13:21:59 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -804,17 +804,17 @@ https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1 tvg-id="Naruto.us" tvg-name="Naruto" tvg-logo="https://twentypack20.github.io/iptv/posters/naruto.us.png" group-title="USA - Kids and Family",Naruto
 https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJr.us" tvg-name="Nick Jr." tvg-logo="https://twentypack20.github.io/iptv/posters/nickjr.us.png" group-title="USA - Kids and Family",Nick Jr.
-https://sra72yz.s.gy/NICK_JR_US.m3u8
+http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us" tvg-name="Nick Jr. Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nickjrplutotv.us.png" group-title="USA - Kids and Family",Nick Jr. Pluto TV
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us" tvg-name="Nickelodeon" tvg-logo="https://twentypack20.github.io/iptv/posters/nickelodeon.us.png" group-title="USA - Kids and Family",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonPlutoTV.us" tvg-name="Nickelodeon Pluto TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nickelodeonplutotv.us.png" group-title="USA - Kids and Family",Nickelodeon Pluto TV
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-id="Nickelodeonenespanol.us" tvg-name="Nickelodeon en espanol" tvg-logo="https://twentypack20.github.io/iptv/posters/nickelodeonenespanol.us.png" group-title="USA - Kids and Family",Nickelodeon en espanol
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://twentypack20.github.io/iptv/posters/nicktoons.us.png" group-title="USA - Kids and Family",Nicktoons
-https://sra72yz.s.gy/NICKTOONS_US.m3u8
+http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us" tvg-name="Ninja Kidz TV" tvg-logo="https://twentypack20.github.io/iptv/posters/ninjakidztv.us.png" group-title="USA - Kids and Family",Ninja Kidz TV
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us" tvg-name="PBS Kids" tvg-logo="https://twentypack20.github.io/iptv/posters/pbskids.us.png" group-title="USA - Kids and Family",PBS Kids
@@ -1248,8 +1248,6 @@ https://jmp2.uk/plu-62e91af00c43540007f2bb43.m3u8
 https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="EbonyTVbyLionsgate.us" tvg-name="Ebony TV by Lionsgate" tvg-logo="https://twentypack20.github.io/iptv/posters/ebonytvbylionsgate.us.png" group-title="USA - Movies",Ebony TV by Lionsgate
 https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8
-#EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="FX Movie Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/fxmoviechannel.us.png" group-title="USA - Movies",FX Movie Channel
-https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseclassictv.us.png" group-title="USA - Movies",FilmRise Classic TV
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseForensicFiles.us" tvg-name="FilmRise Forensic Files" tvg-logo="https://twentypack20.github.io/iptv/posters/filmriseforensicfiles.us.png" group-title="USA - Movies",FilmRise Forensic Files
