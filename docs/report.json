@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-13 13:21:59 UTC",
-  "kept": 1085,
-  "candidate_streams_before_dedupe": 2104,
+  "generated": "2026-09-14 15:04:44 UTC",
+  "kept": 1084,
+  "candidate_streams_before_dedupe": 2101,
   "timezone": "America/New_York",
   "tvg_shift": "0",
   "epg_url": "",
@@ -9,12 +9,12 @@
   "exclude_unknown_quality": false,
   "use_generated_posters": true,
   "show_quality_in_name": false,
-  "poster_count": 1085,
+  "poster_count": 1084,
   "skipped": {
-    "no_channel": 1981,
-    "country": 12339,
-    "language": 591,
-    "category": 165,
+    "no_channel": 1986,
+    "country": 12299,
+    "language": 574,
+    "category": 162,
     "group": 0,
     "nsfw": 0,
     "closed": 15,
@@ -39,6 +39,6 @@
     "USA - Other": 3,
     "USA - Religious": 66,
     "USA - Series": 114,
-    "USA - Sports": 67
+    "USA - Sports": 66
   }
 }

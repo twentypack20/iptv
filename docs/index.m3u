@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-13 13:21:59 UTC
+# Generated: 2026-09-14 15:04:44 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -1225,7 +1225,7 @@ https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 #EXTINF:-1 tvg-id="CineRomantico.us" tvg-name="Cine Romantico" tvg-logo="https://twentypack20.github.io/iptv/posters/cineromantico.us.png" group-title="USA - Movies",Cine Romantico
 https://d1si3n1st4nkgb.cloudfront.net/10502/88886011/hls/master.m3u8?ads.xumo_channelId=88886011
 #EXTINF:-1 tvg-id="CineSony.us" tvg-name="Cine Sony" tvg-logo="https://twentypack20.github.io/iptv/posters/cinesony.us.png" group-title="USA - Movies",Cine Sony
-http://177.234.249.178:8888/SONY-MOVIES/index.m3u8
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CinemaxClassics.us" tvg-name="Cinemax Classics" tvg-logo="https://twentypack20.github.io/iptv/posters/cinemaxclassics.us.png" group-title="USA - Movies",Cinemax Classics
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxHits.us" tvg-name="Cinemax Hits" tvg-logo="https://twentypack20.github.io/iptv/posters/cinemaxhits.us.png" group-title="USA - Movies",Cinemax Hits
@@ -2084,8 +2084,6 @@ https://tvsen7.aynascope.net/foxsports2/index.m3u8
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="GloryKickboxing.us" tvg-name="Glory Kickboxing" tvg-logo="https://twentypack20.github.io/iptv/posters/glorykickboxing.us.png" group-title="USA - Sports",Glory Kickboxing
 https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="GolTVLatinAmerica.us" tvg-name="GolTV Latin America" tvg-logo="https://twentypack20.github.io/iptv/posters/goltvlatinamerica.us.png" group-title="USA - Sports",GolTV Latin America
-http://177.234.249.178:8888/GOLTV/index.m3u8
 #EXTINF:-1 tvg-id="GolazoNetwork.us" tvg-name="Golazo Network" tvg-logo="https://twentypack20.github.io/iptv/posters/golazonetwork.us.png" group-title="USA - Sports",Golazo Network
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="LacrosseTV.us" tvg-name="Lacrosse TV" tvg-logo="https://twentypack20.github.io/iptv/posters/lacrossetv.us.png" group-title="USA - Sports",Lacrosse TV
