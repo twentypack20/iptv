@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-14 15:04:44 UTC
+# Generated: 2026-09-15 13:39:56 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="USA - Business / Shopping",30A Investment Pitch
@@ -2090,8 +2090,6 @@ https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="MLB.us" tvg-name="MLB" tvg-logo="https://twentypack20.github.io/iptv/posters/mlb.us.png" group-title="USA - Sports",MLB
 https://pb-2y9ox4r1fy550.akamaized.net/playlist.m3u8
-#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://twentypack20.github.io/iptv/posters/mlbnetwork.us.png" group-title="USA - Sports",MLB Network
-https://messi.damitv.st/papi/ts/mlbnetwork-usa/playlist.m3u8
 #EXTINF:-1 tvg-id="MLBStrikeZone.us" tvg-name="MLB Strike Zone" tvg-logo="https://twentypack20.github.io/iptv/posters/mlbstrikezone.us.png" group-title="USA - Sports",MLB Strike Zone
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="MMATV.us" tvg-name="MMA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/mmatv.us.png" group-title="USA - Sports",MMA TV
@@ -2101,13 +2099,9 @@ http://23.237.104.106:8080/USA_MSG/index.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us" tvg-name="Monster Jam" tvg-logo="https://twentypack20.github.io/iptv/posters/monsterjam.us.png" group-title="USA - Sports",Monster Jam
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://twentypack20.github.io/iptv/posters/nbatv.us.png" group-title="USA - Sports",NBA TV
-https://messi.damitv.st/papi/ts/nbatv-usa/playlist.m3u8
-#EXTINF:-1 tvg-id="NBCSportsBayArea.us" tvg-name="NBC Sports Bay Area" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsbayarea.us.png" group-title="USA - Sports",NBC Sports Bay Area
-https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
+https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsnow.us.png" group-title="USA - Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="NBCSportsPhiladelphia.us" tvg-name="NBC Sports Philadelphia" tvg-logo="https://twentypack20.github.io/iptv/posters/nbcsportsphiladelphia.us.png" group-title="USA - Sports",NBC Sports Philadelphia
-https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
 #EXTINF:-1 tvg-id="NFLChannel.us" tvg-name="NFL Channel" tvg-logo="https://twentypack20.github.io/iptv/posters/nflchannel.us.png" group-title="USA - Sports",NFL Channel
 https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="NFL Network" tvg-logo="https://twentypack20.github.io/iptv/posters/nflnetwork.us.png" group-title="USA - Sports",NFL Network
