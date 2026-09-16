@@ -5,7 +5,6 @@ import hashlib
 import json
 import re
 import urllib.error
-import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,7 +14,7 @@ DOCS_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "supplemental_sources.json"
 STATE_PATH = DOCS_DIR / "health-state.json"
 REPORT_PATH = DOCS_DIR / "health-report.json"
-USER_AGENT = "twentypack20-iptv-health/1.0"
+USER_AGENT = "twentypack20-iptv-health/1.1"
 
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 
@@ -44,7 +43,7 @@ def parse_playlist(text):
     return entries
 
 
-def fetch_text(url, timeout):
+def open_url(url, timeout, read_limit=None):
     req = urllib.request.Request(
         url,
         headers={
@@ -53,7 +52,13 @@ def fetch_text(url, timeout):
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.geturl(), resp.status, resp.headers, resp.read(262144)
+        body = resp.read() if read_limit is None else resp.read(read_limit)
+        return resp.geturl(), resp.status, resp.headers, body
+
+
+def fetch_playlist(url, timeout):
+    final_url, status, headers, body = open_url(url, timeout, read_limit=None)
+    return final_url, status, headers, body.decode("utf-8", errors="replace")
 
 
 def content_kind(url, headers, body):
@@ -85,7 +90,7 @@ def probe_stream(entry, timeout):
     }
 
     try:
-        final_url, status, headers, body = fetch_text(url, timeout)
+        final_url, status, headers, body = open_url(url, timeout, read_limit=262144)
         kind = content_kind(final_url, headers, body)
         result.update(status=status, final_url=final_url, kind=kind)
         if status < 400 and kind in {"hls", "dash", "video"}:
@@ -159,8 +164,7 @@ def main():
         }
 
         try:
-            _, status, headers, body = fetch_text(source["url"], timeout)
-            playlist_text = body.decode("utf-8", errors="replace")
+            _, status, _, playlist_text = fetch_playlist(source["url"], timeout)
             if status >= 400 or "#EXTM3U" not in playlist_text.upper():
                 raise RuntimeError(f"playlist response invalid (HTTP {status})")
             entries = parse_playlist(playlist_text)
@@ -186,8 +190,9 @@ def main():
         prior = (old_state.get("sources") or {}).get(source_id, {})
         prior_bad = int(prior.get("consecutive_bad_runs", 0))
 
-        # Consider a source bad only when the playlist is unreachable, or the sampled stream
-        # success rate falls below 60%. This avoids warnings from one or two transient failures.
+        # One or two dead channels should not trigger an alert. A source is considered
+        # bad only if its playlist is unreachable or fewer than 60% of sampled streams
+        # return a real HLS/DASH/video response.
         run_bad = (not source_report["playlist_ok"]) or (
             source_report["checked"] > 0 and source_report["health_ratio"] < 0.60
         )
