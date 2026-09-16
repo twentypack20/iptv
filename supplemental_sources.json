@@ -1,0 +1,98 @@
+{
+  "core_playlist": "core.m3u",
+  "supplemental_output": "supplemental.m3u",
+  "combined_output": "index.m3u",
+  "group_prefix": "FAST",
+  "exclude_group_contains": [
+    "adult",
+    "xxx",
+    "en español",
+    "latino"
+  ],
+  "exclude_name_contains": [
+    "adult",
+    "xxx"
+  ],
+  "health": {
+    "daily_sample_per_source": 30,
+    "full_scan_weekday_utc": 0,
+    "request_timeout_seconds": 12,
+    "max_workers": 24,
+    "persistent_failure_threshold": 3
+  },
+  "sources": [
+    {
+      "id": "pluto",
+      "name": "Pluto TV US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung TV Plus US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "roku",
+      "name": "The Roku Channel",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi Live TV",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "plex",
+      "name": "Plex Live TV US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
+      "region": "US",
+      "kind": "FAST",
+      "notes": "Community-generated public playlist; monitor token/endpoint health closely."
+    },
+    {
+      "id": "localnow",
+      "name": "Local Now",
+      "enabled": true,
+      "url": "https://www.apsattv.com/localnow.m3u",
+      "region": "US",
+      "kind": "Local"
+    },
+    {
+      "id": "lg",
+      "name": "LG Channels US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/uslg.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "xumo",
+      "name": "Xumo Play US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/xumo.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "vizio",
+      "name": "Vizio WatchFree+ US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/vizio.m3u",
+      "region": "US",
+      "kind": "FAST"
+    }
+  ]
+}
