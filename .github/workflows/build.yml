@@ -63,6 +63,10 @@ jobs:
         run: |
           python scripts/smart_select.py
 
+      - name: Guarantee unique final channel IDs
+        run: |
+          python scripts/ensure_unique_ids.py
+
       - name: Build combined XMLTV guide
         run: |
           python scripts/build_epg.py
@@ -71,6 +75,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import re
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
@@ -87,14 +92,47 @@ jobs:
           if missing:
               raise SystemExit(f'Missing/empty generated outputs: {missing}')
 
-          if not Path('docs/index.m3u').read_text(encoding='utf-8').startswith('#EXTM3U'):
+          index_text = Path('docs/index.m3u').read_text(encoding='utf-8')
+          if not index_text.startswith('#EXTM3U'):
               raise SystemExit('docs/index.m3u is not a valid M3U header')
-          ET.parse('docs/epg.xml')
+
+          extinf_lines = [line for line in index_text.splitlines() if line.startswith('#EXTINF:')]
+          tvg_ids = []
+          for line in extinf_lines:
+              match = re.search(r'tvg-id="([^"]+)"', line)
+              if not match:
+                  raise SystemExit(f'Channel is missing tvg-id: {line[:200]}')
+              tvg_ids.append(match.group(1))
+
+          if len(set(tvg_ids)) != len(tvg_ids):
+              raise SystemExit(
+                  f'docs/index.m3u contains duplicate tvg-id values: '
+                  f'{len(tvg_ids)} channels / {len(set(tvg_ids))} unique IDs'
+              )
+
+          epg_tree = ET.parse('docs/epg.xml')
+          epg_channel_ids = [node.attrib.get('id', '') for node in epg_tree.getroot().findall('channel')]
+          if len(epg_channel_ids) != len(extinf_lines):
+              raise SystemExit(
+                  f'EPG channel count does not match playlist: '
+                  f'{len(epg_channel_ids)} EPG / {len(extinf_lines)} playlist'
+              )
+          if len(set(epg_channel_ids)) != len(epg_channel_ids):
+              raise SystemExit('docs/epg.xml contains duplicate channel IDs')
 
           report = json.loads(Path('docs/selection-report.json').read_text(encoding='utf-8'))
           if report.get('published_channels', 0) < 100:
               raise SystemExit('Published channel count is unexpectedly low')
-          print(f"Validated {report['published_channels']} published channels")
+          if report.get('published_channels') != len(extinf_lines):
+              raise SystemExit(
+                  f'Selection report channel count mismatch: '
+                  f'{report.get("published_channels")} report / {len(extinf_lines)} playlist'
+              )
+
+          print(
+              f"Validated {len(extinf_lines)} published channels, "
+              f"{len(tvg_ids)} unique tvg-id values, and matching XMLTV channels"
+          )
           PY
 
       - name: Commit generated files
