@@ -1,0 +1,44 @@
+name: Check Supplemental IPTV Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 10 * * *"
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check supplemental playlists and streams
+        id: health
+        continue-on-error: true
+        run: |
+          python scripts/health_check.py
+
+      - name: Commit health reports
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update IPTV health report"
+          file_pattern: "docs/health-report.json docs/health-state.json"
+
+      - name: Warn on persistent source degradation
+        if: steps.health.outcome == 'failure'
+        run: |
+          echo "One or more supplemental IPTV sources have crossed the persistent failure threshold."
+          echo "See docs/health-report.json for the affected sources and failed sample streams."
+          exit 1
