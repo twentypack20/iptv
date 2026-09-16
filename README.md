@@ -1,46 +1,78 @@
-# Custom iptv-org Playlist
+# Custom US Live TV Playlist
 
-This repo generates a filtered M3U playlist from iptv-org and publishes it through GitHub Pages.
+This repository builds a broad free US/English live-TV playlist for Stremio and publishes it through GitHub Pages.
 
-## Default filters included
-
-The default `config.json` is set for:
-
-- US-only channels: `keep_countries: ["US"]`
-- English-only feeds when language metadata is available: `keep_languages: ["eng"]`
-- NSFW/adult removed: `exclude_nsfw: true` and `exclude_categories: ["xxx"]`
-- Closed channels removed
-- Obvious audio-only/radio streams removed
-- Streams below 480p removed when quality metadata is available
-- Unknown-quality streams are kept by default, because many public channels do not label quality. Set `exclude_unknown_quality` to `true` if you want to be stricter.
-- All non-adult iptv-org categories included
-- EPG points to the US guide
-- `tvg-shift` is set to `-5` for Eastern Standard Time
-- `timezone` is documented as `America/New_York`
-
-## Output URL
-
-After GitHub Pages is enabled, your playlist URL will be:
+The stable URL remains:
 
 ```text
-https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/index.m3u
+https://twentypack20.github.io/iptv/index.m3u
 ```
 
-## How to publish
+## Playlist layers
 
-1. Create a new GitHub repo.
-2. Upload all these files.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/docs**
-5. Go to **Actions → Build IPTV Playlist → Run workflow**.
-6. Your M3U will be at the GitHub Pages URL above.
+The build keeps two layers separate and then combines them:
 
-## Main files
+- `docs/core.m3u` — filtered iptv-org channels using current channel/feed/stream metadata.
+- `docs/supplemental.m3u` — public/free FAST and local-TV ecosystems such as Pluto TV, Samsung TV Plus, Roku, Tubi, Plex, Local Now, LG Channels, Xumo, and Vizio WatchFree+.
+- `docs/index.m3u` — the combined playlist used by Stremio.
 
-- `config.json` — your filters and groups
-- `scripts/build_playlist.py` — playlist generator
-- `docs/index.m3u` — generated playlist
-- `docs/report.json` — generated build summary
+Supplemental entries retain source provenance through `x-source`, `x-source-name`, and `x-original-group`, and are grouped as `FAST - <source> - <original group>` so provider-specific failures are easy to identify.
+
+## iptv-org core behavior
+
+The core builder keeps the existing safety/quality filters:
+
+- US-targeted channels/feeds.
+- English feeds when language metadata is available.
+- NSFW/adult and closed channels removed.
+- Obvious audio-only/radio streams removed.
+- Streams below 480p removed when quality metadata is available.
+- Unknown-quality streams are retained by default.
+- Geo-blocked, not-24/7, and explicitly offline streams are excluded.
+- Best quality is preferred for duplicate streams.
+
+The expanded builder is feed-aware. iptv-org can represent multiple feeds for one channel, including local/market variants, using IDs such as `channel@feed`. These feeds are no longer collapsed into a single channel solely because the parent channel ID matches.
+
+## Supplemental ecosystems
+
+Supplemental source definitions live in `supplemental_sources.json`. Each source can be enabled or disabled independently without changing the core iptv-org playlist.
+
+These are community/public integrations rather than guaranteed service-provider APIs. Endpoints, tokens, geo restrictions, and provider behavior can change, so the supplemental layer is deliberately isolated from the core playlist and monitored separately.
+
+## Automatic health monitoring
+
+`.github/workflows/health.yml` runs daily.
+
+By default it:
+
+- verifies each supplemental M3U is still reachable and parseable;
+- checks a stable sample of 30 streams per source each day;
+- performs a full configured-source scan once per week;
+- validates that sampled endpoints return HLS, DASH, or direct video rather than an HTML/error page;
+- records failures in `docs/health-report.json`;
+- tracks consecutive degraded runs in `docs/health-state.json`;
+- does **not** remove a source after one transient failure;
+- marks the GitHub Actions run failed only after a source crosses the configured persistent-failure threshold (default: 3 bad runs).
+
+The health thresholds and sample sizes can be changed in `supplemental_sources.json`.
+
+## Build reports
+
+- `docs/report.json` — iptv-org core build/filter summary.
+- `docs/supplemental-report.json` — per-source supplemental fetch/merge summary.
+- `docs/health-report.json` — latest supplemental health results.
+- `docs/health-state.json` — consecutive-failure state used for warnings.
+
+## Important files
+
+- `config.json` — core iptv-org filters and groups.
+- `supplemental_sources.json` — supplemental providers and monitoring policy.
+- `scripts/build_playlist_expanded.py` — feed-aware iptv-org core builder.
+- `scripts/merge_supplemental.py` — supplemental fetcher and combined-playlist builder.
+- `scripts/health_check.py` — supplemental source/stream health monitor.
+- `.github/workflows/build.yml` — daily playlist build.
+- `.github/workflows/health.yml` — daily health monitoring.
+
+## GitHub Pages
+
+GitHub Pages should publish the `/docs` folder from `main`. The existing `index.m3u` URL remains unchanged after the expanded system is deployed.
