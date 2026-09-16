@@ -1,0 +1,171 @@
+{
+  "generated": "2026-09-16 19:16:58 UTC",
+  "core_channels": 1341,
+  "supplemental_channels": 3725,
+  "all_source_channels": 5066,
+  "sources_ok": 9,
+  "sources_failed": 0,
+  "upstream_epg_urls": [
+    "https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/us.xml.gz",
+    "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz",
+    "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz",
+    "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
+    "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml"
+  ],
+  "sources": [
+    {
+      "id": "pluto",
+      "name": "Pluto TV US",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+      "status": "ok",
+      "fetched": 429,
+      "kept": 392,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 37,
+        "url": 0
+      },
+      "epg_urls": [
+        "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz"
+      ],
+      "error": ""
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung TV Plus US",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+      "status": "ok",
+      "fetched": 582,
+      "kept": 540,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 42,
+        "url": 0
+      },
+      "epg_urls": [
+        "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz"
+      ],
+      "error": ""
+    },
+    {
+      "id": "roku",
+      "name": "The Roku Channel",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+      "status": "ok",
+      "fetched": 245,
+      "kept": 245,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 0,
+        "url": 0
+      },
+      "epg_urls": [
+        "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
+      ],
+      "error": ""
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi Live TV",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "status": "ok",
+      "fetched": 179,
+      "kept": 179,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 0,
+        "url": 0
+      },
+      "epg_urls": [
+        "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml"
+      ],
+      "error": ""
+    },
+    {
+      "id": "plex",
+      "name": "Plex Live TV US",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
+      "status": "ok",
+      "fetched": 693,
+      "kept": 692,
+      "duplicates": 0,
+      "filtered": {
+        "name": 1,
+        "group": 0,
+        "url": 0
+      },
+      "epg_urls": [
+        "https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/us.xml.gz"
+      ],
+      "error": ""
+    },
+    {
+      "id": "localnow",
+      "name": "Local Now",
+      "url": "https://www.apsattv.com/localnow.m3u",
+      "status": "ok",
+      "fetched": 447,
+      "kept": 447,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 0,
+        "url": 0
+      },
+      "epg_urls": [],
+      "error": ""
+    },
+    {
+      "id": "lg",
+      "name": "LG Channels US",
+      "url": "https://www.apsattv.com/uslg.m3u",
+      "status": "ok",
+      "fetched": 448,
+      "kept": 447,
+      "duplicates": 0,
+      "filtered": {
+        "name": 1,
+        "group": 0,
+        "url": 0
+      },
+      "epg_urls": [],
+      "error": ""
+    },
+    {
+      "id": "xumo",
+      "name": "Xumo Play US",
+      "url": "https://www.apsattv.com/xumo.m3u",
+      "status": "ok",
+      "fetched": 389,
+      "kept": 373,
+      "duplicates": 0,
+      "filtered": {
+        "name": 0,
+        "group": 16,
+        "url": 0
+      },
+      "epg_urls": [],
+      "error": ""
+    },
+    {
+      "id": "vizio",
+      "name": "Vizio WatchFree+ US",
+      "url": "https://www.apsattv.com/vizio.m3u",
+      "status": "ok",
+      "fetched": 433,
+      "kept": 410,
+      "duplicates": 4,
+      "filtered": {
+        "name": 0,
+        "group": 19,
+        "url": 0
+      },
+      "epg_urls": [],
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "generated": "2026-09-16T19:17:03.606678+00:00",
+  "window_start": "2026-09-16T13:17:03.606678+00:00",
+  "window_end": "2026-09-19T19:17:03.606678+00:00",
+  "playlist_channels": 4882,
+  "epg_channels": 4882,
+  "programmes": 76266,
+  "sources": [
+    {
+      "source": "iptv-org",
+      "selected_channels": 1340,
+      "epg_url": "",
+      "status": "no_epg",
+      "matched_channels": 0,
+      "programmes": 0,
+      "error": ""
+    },
+    {
+      "source": "localnow",
+      "selected_channels": 435,
+      "epg_url": "",
+      "status": "no_epg",
+      "matched_channels": 0,
+      "programmes": 0,
+      "error": ""
+    },
+    {
+      "source": "plex",
+      "selected_channels": 680,
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/us.xml.gz",
+      "status": "ok",
+      "matched_channels": 680,
+      "programmes": 37430,
+      "error": ""
+    },
+    {
+      "source": "pluto",
+      "selected_channels": 236,
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz",
+      "status": "ok",
+      "matched_channels": 236,
+      "programmes": 5133,
+      "error": ""
+    },
+    {
+      "source": "roku",
+      "selected_channels": 235,
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz",
+      "status": "ok",
+      "matched_channels": 234,
+      "programmes": 21236,
+      "error": ""
+    },
+    {
+      "source": "samsung",
+      "selected_channels": 535,
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
+      "status": "ok",
+      "matched_channels": 535,
+      "programmes": 4615,
+      "error": ""
+    },
+    {
+      "source": "tubi",
+      "selected_channels": 179,
+      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml",
+      "status": "ok",
+      "matched_channels": 179,
+      "programmes": 7852,
+      "error": ""
+    },
+    {
+      "source": "xumo",
+      "selected_channels": 373,
+      "epg_url": "",
+      "status": "no_epg",
+      "matched_channels": 0,
+      "programmes": 0,
+      "error": ""
+    }
+  ]
+}
