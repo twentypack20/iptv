@@ -18,12 +18,12 @@
   ],
   "category_rules": [
     {
-      "group": "Live TV - News",
-      "contains": ["news", "opinion", "current affairs"]
-    },
-    {
       "group": "Live TV - Weather",
       "contains": ["weather", "forecast"]
+    },
+    {
+      "group": "Live TV - News",
+      "contains": ["news", "opinion", "current affairs"]
     },
     {
       "group": "Live TV - Sports",
@@ -76,7 +76,6 @@
       "local",
       "city",
       "county",
-      "state",
       "regional",
       "miami",
       "tampa",
