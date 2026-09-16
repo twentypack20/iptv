@@ -1,6 +1,6 @@
 {
   "playlist_name": "Custom IPTV - US English",
-  "output_name": "index.m3u",
+  "output_name": "core.m3u",
 
   "site_base_url": "https://twentypack20.github.io/iptv",
 
@@ -19,6 +19,7 @@
   "exclude_unknown_quality": false,
 
   "dedupe_by_channel": true,
+  "dedupe_by_feed": true,
 
   "use_generated_posters": true,
   "show_quality_in_name": false,
@@ -73,7 +74,6 @@
     "weather"
   ],
 
-  
   "exclude_categories": [
     "xxx",
     "adult"
@@ -90,7 +90,7 @@
     "Audio Only",
     "Audio-only"
   ],
-  
+
   "include_name_contains": [],
 
   "fallback_group": "USA - Other",

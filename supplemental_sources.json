@@ -1,0 +1,198 @@
+{
+  "core_playlist": "core.m3u",
+  "supplemental_output": "supplemental.m3u",
+  "all_sources_output": "all-sources.m3u",
+  "combined_output": "index.m3u",
+  "epg_output": "epg.xml",
+  "site_base_url": "https://twentypack20.github.io/iptv",
+  "group_prefix": "FAST",
+  "exclude_group_contains": [
+    "adult",
+    "xxx",
+    "en español",
+    "latino"
+  ],
+  "exclude_name_contains": [
+    "adult",
+    "xxx"
+  ],
+  "category_rules": [
+    {
+      "group": "Live TV - Weather",
+      "contains": ["weather", "forecast"]
+    },
+    {
+      "group": "Live TV - News",
+      "contains": ["news", "opinion", "current affairs"]
+    },
+    {
+      "group": "Live TV - Sports",
+      "contains": ["sport", "football", "soccer", "basketball", "baseball", "hockey", "golf", "racing", "outdoors"]
+    },
+    {
+      "group": "Live TV - Business",
+      "contains": ["business", "finance", "markets", "shopping"]
+    },
+    {
+      "group": "Live TV - Local / Public",
+      "contains": ["local", "public", "legislative", "government", "community"]
+    },
+    {
+      "group": "Live TV - Movies",
+      "contains": ["movie", "cinema", "film"]
+    },
+    {
+      "group": "Live TV - Kids / Family",
+      "contains": ["kids", "children", "family", "animation", "animated"]
+    },
+    {
+      "group": "Live TV - Documentary / Education",
+      "contains": ["documentary", "education", "science", "history", "nature", "animals", "culture"]
+    },
+    {
+      "group": "Live TV - Lifestyle",
+      "contains": ["lifestyle", "food", "cooking", "home", "travel", "reality", "relax"]
+    },
+    {
+      "group": "Live TV - Music",
+      "contains": ["music"]
+    },
+    {
+      "group": "Live TV - Religious",
+      "contains": ["religious", "faith", "christian"]
+    },
+    {
+      "group": "Live TV - Series / TV",
+      "contains": ["series", "classic tv", "comedy", "drama", "crime", "entertainment"]
+    }
+  ],
+  "fallback_category": "Live TV - Other",
+  "smart_selection": {
+    "enabled": true,
+    "epg_similarity_threshold": 0.8,
+    "epg_minimum_titles": 4,
+    "strip_name_suffixes": ["hd", "fhd", "uhd", "4k", "1080p", "720p", "fast"],
+    "local_keywords": [
+      "local",
+      "city",
+      "county",
+      "regional",
+      "miami",
+      "tampa",
+      "orlando",
+      "jacksonville",
+      "atlanta",
+      "boston",
+      "chicago",
+      "dallas",
+      "denver",
+      "detroit",
+      "houston",
+      "las vegas",
+      "los angeles",
+      "new york",
+      "philadelphia",
+      "phoenix",
+      "san francisco",
+      "seattle",
+      "washington dc"
+    ],
+    "score_weights": {
+      "historical_success": 1000,
+      "resolution_height": 0.2,
+      "bandwidth_mbps": 12,
+      "latency_ms": -0.03,
+      "direct_stream_bonus": 25,
+      "recent_failure_penalty": -150
+    },
+    "confirmed_alias_groups": []
+  },
+  "health": {
+    "daily_sample_per_source": 30,
+    "full_scan_weekday_utc": 0,
+    "request_timeout_seconds": 12,
+    "max_workers": 24,
+    "persistent_failure_threshold": 3,
+    "stream_history_limit": 30
+  },
+  "sources": [
+    {
+      "id": "pluto",
+      "name": "Pluto TV US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung TV Plus US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "roku",
+      "name": "The Roku Channel",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi Live TV",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "plex",
+      "name": "Plex Live TV US",
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
+      "epg_url": "https://github.com/matthuisman/i.mjh.nz/raw/master/Plex/us.xml.gz",
+      "region": "US",
+      "kind": "FAST",
+      "notes": "Community-generated public playlist; monitor token/endpoint health closely."
+    },
+    {
+      "id": "localnow",
+      "name": "Local Now",
+      "enabled": true,
+      "url": "https://www.apsattv.com/localnow.m3u",
+      "region": "US",
+      "kind": "Local"
+    },
+    {
+      "id": "lg",
+      "name": "LG Channels US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/uslg.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "xumo",
+      "name": "Xumo Play US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/xumo.m3u",
+      "region": "US",
+      "kind": "FAST"
+    },
+    {
+      "id": "vizio",
+      "name": "Vizio WatchFree+ US",
+      "enabled": true,
+      "url": "https://www.apsattv.com/vizio.m3u",
+      "region": "US",
+      "kind": "FAST"
+    }
+  ]
+}
