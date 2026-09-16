@@ -43,19 +43,65 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install pillow
 
+      - name: Validate Python syntax
+        run: |
+          python -m py_compile scripts/*.py
+
       - name: Build feed-aware iptv-org core playlist
         run: |
           python scripts/build_playlist_expanded.py
 
-      - name: Merge supplemental FAST and local-TV ecosystems
+      - name: Build full source inventory
         run: |
           python scripts/merge_supplemental.py
+
+      - name: Build EPG fingerprints for safe dedupe
+        run: |
+          python scripts/build_epg_index.py
+
+      - name: Select market-safe best streams
+        run: |
+          python scripts/smart_select.py
+
+      - name: Build combined XMLTV guide
+        run: |
+          python scripts/build_epg.py
+
+      - name: Validate generated outputs
+        run: |
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          required = [
+              Path('docs/core.m3u'),
+              Path('docs/supplemental.m3u'),
+              Path('docs/all-sources.m3u'),
+              Path('docs/index.m3u'),
+              Path('docs/epg.xml'),
+              Path('docs/selection-report.json'),
+              Path('docs/dedupe-candidates.json'),
+          ]
+          missing = [str(path) for path in required if not path.exists() or path.stat().st_size == 0]
+          if missing:
+              raise SystemExit(f'Missing/empty generated outputs: {missing}')
+
+          if not Path('docs/index.m3u').read_text(encoding='utf-8').startswith('#EXTM3U'):
+              raise SystemExit('docs/index.m3u is not a valid M3U header')
+          ET.parse('docs/epg.xml')
+
+          report = json.loads(Path('docs/selection-report.json').read_text(encoding='utf-8'))
+          if report.get('published_channels', 0) < 100:
+              raise SystemExit('Published channel count is unexpectedly low')
+          print(f"Validated {report['published_channels']} published channels")
+          PY
 
       - name: Commit generated files
         if: github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update generated IPTV playlists"
+          commit_message: "Update generated IPTV playlists and EPG"
           file_pattern: "docs/**"
 
       - name: Show generated summary
@@ -63,7 +109,15 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('docs/report.json'), Path('docs/supplemental-report.json')]:
+          for path in [
+              Path('docs/report.json'),
+              Path('docs/supplemental-report.json'),
+              Path('docs/selection-report.json'),
+              Path('docs/epg-report.json'),
+          ]:
               print(f'--- {path} ---')
-              print(path.read_text())
+              data = json.loads(path.read_text())
+              if path.name == 'selection-report.json':
+                  data.pop('collapsed_groups', None)
+              print(json.dumps(data, indent=2))
           PY
