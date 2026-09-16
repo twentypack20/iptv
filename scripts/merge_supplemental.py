@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "supplemental_sources.json"
-USER_AGENT = "twentypack20-iptv-supplemental/1.0"
+USER_AGENT = "twentypack20-iptv-supplemental/1.1"
 
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 
@@ -71,7 +71,9 @@ def format_extinf(attrs, name):
         "group-title",
         "x-source",
         "x-source-name",
+        "x-source-kind",
         "x-original-group",
+        "x-original-tvg-id",
         "tvg-chno",
         "channel-id",
     ]
@@ -138,12 +140,18 @@ def normalize_entry(entry, source, cfg):
     attrs = dict(entry["attrs"])
     original_group = clean_text(attrs.get("group-title") or "")
     prefix = clean_text(cfg.get("group_prefix") or "FAST")
+    source_id = clean_text(source.get("id"))
 
     attrs["group-title"] = source_group(source, original_group, prefix)
-    attrs["x-source"] = clean_text(source.get("id"))
+    attrs["x-source"] = source_id
     attrs["x-source-name"] = clean_text(source.get("name"))
+    attrs["x-source-kind"] = clean_text(source.get("kind") or "FAST")
     if original_group:
         attrs["x-original-group"] = original_group
+
+    original_tvg_id = clean_text(attrs.get("tvg-id") or attrs.get("channel-id") or "")
+    if original_tvg_id:
+        attrs["x-original-tvg-id"] = original_tvg_id
 
     if not attrs.get("tvg-name") and entry.get("name"):
         attrs["tvg-name"] = entry["name"]
@@ -153,6 +161,25 @@ def normalize_entry(entry, source, cfg):
         "name": entry.get("name") or attrs.get("tvg-name") or "Unknown",
         "options": list(entry.get("options") or []),
         "url": entry["url"],
+    }
+
+
+def normalize_core_entry(entry):
+    attrs = dict(entry["attrs"])
+    original_group = clean_text(attrs.get("group-title") or "")
+    original_tvg_id = clean_text(attrs.get("tvg-id") or attrs.get("channel-id") or "")
+    attrs["x-source"] = "iptv-org"
+    attrs["x-source-name"] = "iptv-org"
+    attrs["x-source-kind"] = "Core"
+    if original_group:
+        attrs["x-original-group"] = original_group
+    if original_tvg_id:
+        attrs["x-original-tvg-id"] = original_tvg_id
+    return {
+        "attrs": attrs,
+        "name": entry.get("name") or attrs.get("tvg-name") or "Unknown",
+        "options": list(entry.get("options") or []),
+        "url": entry.get("url") or "",
     }
 
 
@@ -182,7 +209,8 @@ def main():
         raise SystemExit(f"Core playlist does not exist: {core_path}")
 
     core_text = core_path.read_text(encoding="utf-8")
-    core_header, core_entries = parse_playlist(core_text)
+    core_header, parsed_core_entries = parse_playlist(core_text)
+    core_entries = [normalize_core_entry(entry) for entry in parsed_core_entries]
 
     supplemental_entries = []
     source_reports = []
@@ -212,6 +240,9 @@ def main():
             header, entries = parse_playlist(text)
             report["fetched"] = len(entries)
             report["epg_urls"] = parse_header_epg(header)
+            configured_epg = clean_text(source.get("epg_url") or "")
+            if configured_epg and configured_epg not in report["epg_urls"]:
+                report["epg_urls"].append(configured_epg)
             upstream_epg_urls.extend(report["epg_urls"])
 
             if not entries:
@@ -246,38 +277,36 @@ def main():
     )
 
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    supplemental_header = "#EXTM3U"
-    supplemental_comments = [
-        f"Generated: {generated}",
-        "Supplemental public/free FAST and local-TV sources",
-    ]
     supplemental_text = render_playlist(
-        supplemental_header,
+        "#EXTM3U",
         supplemental_entries,
-        supplemental_comments,
+        [
+            f"Generated: {generated}",
+            "Supplemental public/free FAST and local-TV sources",
+        ],
     )
-
     supplemental_path = DOCS_DIR / cfg.get("supplemental_output", "supplemental.m3u")
     supplemental_path.write_text(supplemental_text, encoding="utf-8")
 
-    combined_comments = [
-        f"Generated: {generated}",
-        f"Core channels: {len(core_entries)}",
-        f"Supplemental channels: {len(supplemental_entries)}",
-    ]
-    combined_text = render_playlist(
+    all_entries = core_entries + supplemental_entries
+    all_sources_text = render_playlist(
         core_header,
-        core_entries + supplemental_entries,
-        combined_comments,
+        all_entries,
+        [
+            f"Generated: {generated}",
+            f"Core channels: {len(core_entries)}",
+            f"Supplemental channels: {len(supplemental_entries)}",
+            "Uncollapsed source inventory for health checks and dedupe diagnostics",
+        ],
     )
-    combined_path = DOCS_DIR / cfg.get("combined_output", "index.m3u")
-    combined_path.write_text(combined_text, encoding="utf-8")
+    all_sources_path = DOCS_DIR / cfg.get("all_sources_output", "all-sources.m3u")
+    all_sources_path.write_text(all_sources_text, encoding="utf-8")
 
     report = {
         "generated": generated,
         "core_channels": len(core_entries),
         "supplemental_channels": len(supplemental_entries),
-        "combined_channels": len(core_entries) + len(supplemental_entries),
+        "all_source_channels": len(all_entries),
         "sources_ok": sum(1 for item in source_reports if item["status"] == "ok"),
         "sources_failed": sum(1 for item in source_reports if item["status"] != "ok"),
         "upstream_epg_urls": sorted(set(upstream_epg_urls)),
