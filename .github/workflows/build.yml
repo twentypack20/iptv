@@ -9,8 +9,15 @@ on:
       - main
     paths:
       - "config.json"
+      - "supplemental_sources.json"
       - "scripts/**"
       - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "config.json"
+      - "supplemental_sources.json"
+      - "scripts/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
@@ -36,12 +43,27 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install pillow
 
-      - name: Build playlist and posters
+      - name: Build feed-aware iptv-org core playlist
         run: |
-          python scripts/build_playlist.py
+          python scripts/build_playlist_expanded.py
+
+      - name: Merge supplemental FAST and local-TV ecosystems
+        run: |
+          python scripts/merge_supplemental.py
 
       - name: Commit generated files
+        if: github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update generated IPTV playlist"
+          commit_message: "Update generated IPTV playlists"
           file_pattern: "docs/**"
+
+      - name: Show generated summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in [Path('docs/report.json'), Path('docs/supplemental-report.json')]:
+              print(f'--- {path} ---')
+              print(path.read_text())
+          PY
