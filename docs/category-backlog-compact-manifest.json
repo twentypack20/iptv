@@ -1,91 +1,13 @@
 {
-  "generated": "2026-09-17T12:11:25.915055+00:00",
-  "remaining": 1041,
+  "generated": "2026-09-17T12:34:31.816907+00:00",
+  "remaining": 0,
   "chunk_size": 100,
-  "total_chunks": 11,
+  "total_chunks": 0,
   "columns": [
     "stable_key",
     "source",
     "original_group",
     "channel"
   ],
-  "chunks": [
-    {
-      "chunk_index": 0,
-      "path": "docs/category-backlog-compact/000.tsv",
-      "count": 100,
-      "start": 0,
-      "end_exclusive": 100
-    },
-    {
-      "chunk_index": 1,
-      "path": "docs/category-backlog-compact/001.tsv",
-      "count": 100,
-      "start": 100,
-      "end_exclusive": 200
-    },
-    {
-      "chunk_index": 2,
-      "path": "docs/category-backlog-compact/002.tsv",
-      "count": 100,
-      "start": 200,
-      "end_exclusive": 300
-    },
-    {
-      "chunk_index": 3,
-      "path": "docs/category-backlog-compact/003.tsv",
-      "count": 100,
-      "start": 300,
-      "end_exclusive": 400
-    },
-    {
-      "chunk_index": 4,
-      "path": "docs/category-backlog-compact/004.tsv",
-      "count": 100,
-      "start": 400,
-      "end_exclusive": 500
-    },
-    {
-      "chunk_index": 5,
-      "path": "docs/category-backlog-compact/005.tsv",
-      "count": 100,
-      "start": 500,
-      "end_exclusive": 600
-    },
-    {
-      "chunk_index": 6,
-      "path": "docs/category-backlog-compact/006.tsv",
-      "count": 100,
-      "start": 600,
-      "end_exclusive": 700
-    },
-    {
-      "chunk_index": 7,
-      "path": "docs/category-backlog-compact/007.tsv",
-      "count": 100,
-      "start": 700,
-      "end_exclusive": 800
-    },
-    {
-      "chunk_index": 8,
-      "path": "docs/category-backlog-compact/008.tsv",
-      "count": 100,
-      "start": 800,
-      "end_exclusive": 900
-    },
-    {
-      "chunk_index": 9,
-      "path": "docs/category-backlog-compact/009.tsv",
-      "count": 100,
-      "start": 900,
-      "end_exclusive": 1000
-    },
-    {
-      "chunk_index": 10,
-      "path": "docs/category-backlog-compact/010.tsv",
-      "count": 41,
-      "start": 1000,
-      "end_exclusive": 1041
-    }
-  ]
+  "chunks": []
 }

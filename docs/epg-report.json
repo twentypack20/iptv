@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-17T12:11:26.239013+00:00",
-  "window_start": "2026-09-16T12:11:26.239013+00:00",
-  "window_end": "2026-09-24T12:11:26.239013+00:00",
+  "generated": "2026-09-17T12:34:32.100420+00:00",
+  "window_start": "2026-09-16T12:34:32.100420+00:00",
+  "window_end": "2026-09-24T12:34:32.100420+00:00",
   "configured_history_hours": 24,
   "configured_future_days": 7,
-  "playlist_channels": 4819,
-  "epg_channels": 4819,
-  "channels_with_programmes": 2615,
+  "playlist_channels": 4821,
+  "epg_channels": 4821,
+  "channels_with_programmes": 2617,
   "channels_without_programmes": 2204,
-  "programme_coverage_percent": 54.26,
-  "programmes": 129286,
+  "programme_coverage_percent": 54.28,
+  "programmes": 129277,
   "selection_counts": {
     "external:epgshare-us-locals1": 346,
     "external:epgshare-us-sports": 2,
@@ -17,7 +17,7 @@
     "native:plex": 662,
     "native:pluto": 379,
     "native:roku": 225,
-    "native:samsung": 529,
+    "native:samsung": 531,
     "native:tubi": 147,
     "native:xumo": 319
   },
@@ -77,7 +77,7 @@
       "status": "ok",
       "wanted_channels": 540,
       "matched_channels": 540,
-      "programmes": 4673,
+      "programmes": 4690,
       "error": ""
     },
     {
@@ -126,7 +126,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.367,
+      "score": 25.8,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -146,7 +146,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.715,
+      "score": 26.689,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -156,7 +156,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.656,
+      "score": 26.743,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -226,7 +226,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.877,
+      "score": 24.873,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -236,8 +236,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 5,
+      "score": 24.0,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -286,7 +286,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.367,
+      "score": 24.767,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -296,8 +296,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 227.0,
-      "programmes": 96,
+      "score": 225.0,
+      "programmes": 95,
       "candidate_count": 1
     },
     {
@@ -326,8 +326,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.967,
-      "programmes": 17,
+      "score": 33.267,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -376,8 +376,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.533,
-      "programmes": 16,
+      "score": 35.333,
+      "programmes": 17,
       "candidate_count": 1
     },
     {
@@ -396,8 +396,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.933,
-      "programmes": 5,
+      "score": 26.5,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -436,8 +436,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.9,
-      "programmes": 8,
+      "score": 27.833,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -476,8 +476,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 315.0,
-      "programmes": 137,
+      "score": 313.0,
+      "programmes": 136,
       "candidate_count": 1
     },
     {
@@ -486,8 +486,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 5,
+      "score": 24.0,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -496,7 +496,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.602,
+      "score": 26.574,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -516,7 +516,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.184,
+      "score": 30.257,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -526,7 +526,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.471,
+      "score": 25.665,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -546,7 +546,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.212,
+      "score": 26.082,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -556,8 +556,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
-      "programmes": 6,
+      "score": 30.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -566,7 +566,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.433,
+      "score": 26.4,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -576,7 +576,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.258,
+      "score": 26.251,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -586,8 +586,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.667,
-      "programmes": 5,
+      "score": 30.667,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -596,7 +596,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.667,
+      "score": 26.649,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -606,7 +606,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.934,
+      "score": 26.122,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -626,7 +626,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.493,
+      "score": 29.603,
       "programmes": 11,
       "candidate_count": 1
     },
@@ -636,8 +636,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.322,
-      "programmes": 15,
+      "score": 34.156,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -646,8 +646,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.012,
-      "programmes": 10,
+      "score": 30.46,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -656,7 +656,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.716,
+      "score": 25.916,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -666,7 +666,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.332,
+      "score": 25.361,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -676,7 +676,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.7,
+      "score": 26.8,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -686,8 +686,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 67.587,
-      "programmes": 46,
+      "score": 64.557,
+      "programmes": 44,
       "candidate_count": 1
     },
     {
@@ -696,7 +696,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.807,
+      "score": 33.809,
       "programmes": 16,
       "candidate_count": 1
     },
@@ -706,7 +706,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.4,
+      "score": 34.733,
       "programmes": 17,
       "candidate_count": 1
     },
@@ -716,7 +716,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.733,
+      "score": 33.7,
       "programmes": 16,
       "candidate_count": 1
     },
@@ -726,7 +726,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.833,
+      "score": 28.8,
       "programmes": 10,
       "candidate_count": 1
     },
@@ -746,7 +746,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.613,
+      "score": 25.612,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -756,7 +756,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.722,
+      "score": 26.706,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -796,8 +796,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.306,
-      "programmes": 9,
+      "score": 27.092,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -826,7 +826,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.724,
+      "score": 27.926,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -856,8 +856,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 295.0,
-      "programmes": 116,
+      "score": 293.0,
+      "programmes": 115,
       "candidate_count": 1
     },
     {
@@ -866,8 +866,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 295.0,
-      "programmes": 116,
+      "score": 293.0,
+      "programmes": 115,
       "candidate_count": 1
     },
     {
@@ -1116,7 +1116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.704,
+      "score": 27.718,
       "programmes": 9,
       "candidate_count": 1
     },
@@ -1136,8 +1136,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 314.0,
-      "programmes": 135,
+      "score": 312.0,
+      "programmes": 134,
       "candidate_count": 1
     },
     {
@@ -1156,8 +1156,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 310.0,
-      "programmes": 132,
+      "score": 308.0,
+      "programmes": 131,
       "candidate_count": 1
     },
     {
@@ -1176,8 +1176,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 314.0,
-      "programmes": 136,
+      "score": 312.0,
+      "programmes": 135,
       "candidate_count": 1
     },
     {
@@ -1206,8 +1206,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 301.033,
-      "programmes": 120,
+      "score": 299.033,
+      "programmes": 119,
       "candidate_count": 1
     },
     {
@@ -1216,8 +1216,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 323.0,
-      "programmes": 145,
+      "score": 321.0,
+      "programmes": 144,
       "candidate_count": 1
     },
     {
@@ -1226,7 +1226,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.362,
+      "score": 26.216,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -1324,11 +1324,11 @@
       "tvg_id": "samsung:USBA3800003VP",
       "channel": "Revry",
       "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 66.333,
-      "programmes": 26,
-      "candidate_count": 2
+      "selected_source": "samsung",
+      "match_method": "exact-provider-id",
+      "score": 30.167,
+      "programmes": 11,
+      "candidate_count": 1
     },
     {
       "tvg_id": "xumo:99951591",
@@ -1396,7 +1396,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.008,
+      "score": 24.989,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -1416,8 +1416,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.833,
-      "programmes": 11,
+      "score": 31.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -1486,8 +1486,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.438,
-      "programmes": 4,
+      "score": 30.208,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -1551,23 +1551,13 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "samsung:USBB32000251N",
-      "channel": "TODAY All Day",
-      "selected_type": "native",
-      "selected_source": "samsung",
-      "match_method": "exact-provider-id",
-      "score": 28.5,
-      "programmes": 11,
-      "candidate_count": 1
-    },
-    {
       "tvg_id": "samsung:US370001124",
       "channel": "Tony Robbins",
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.733,
-      "programmes": 4,
+      "score": 26.033,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -1626,7 +1616,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.755,
+      "score": 27.398,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -1636,7 +1626,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
+      "score": 28.0,
       "programmes": 10,
       "candidate_count": 1
     },
@@ -1646,8 +1636,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.933,
-      "programmes": 6,
+      "score": 34.567,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -1676,7 +1666,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.356,
+      "score": 25.715,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -1726,7 +1716,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.733,
+      "score": 26.7,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -1776,7 +1766,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.597,
+      "score": 25.487,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -1806,8 +1796,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.393,
-      "programmes": 12,
+      "score": 31.134,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -1826,7 +1816,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.867,
+      "score": 26.867,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -1846,8 +1836,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.969,
-      "programmes": 12,
+      "score": 28.711,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -1866,8 +1856,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 35.539,
-      "programmes": 17,
+      "score": 33.929,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -1896,7 +1886,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.958,
+      "score": 31.014,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -1906,8 +1896,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.338,
-      "programmes": 10,
+      "score": 29.518,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -1926,7 +1916,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.348,
+      "score": 30.186,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -1946,7 +1936,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.042,
+      "score": 31.049,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -2056,7 +2046,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.067,
+      "score": 22.767,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -2096,8 +2086,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.619,
-      "programmes": 15,
+      "score": 31.614,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -2206,8 +2196,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 39.358,
-      "programmes": 14,
+      "score": 43.241,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -2296,7 +2286,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.941,
+      "score": 31.939,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -2336,8 +2326,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.287,
-      "programmes": 13,
+      "score": 29.701,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -2376,8 +2366,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.0,
-      "programmes": 12,
+      "score": 29.0,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -2386,8 +2376,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 304.0,
-      "programmes": 125,
+      "score": 302.0,
+      "programmes": 124,
       "candidate_count": 1
     },
     {
@@ -2406,7 +2396,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.889,
+      "score": 30.849,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -2426,7 +2416,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.956,
+      "score": 32.938,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -2436,7 +2426,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 36.775,
+      "score": 36.352,
       "programmes": 19,
       "candidate_count": 1
     },
@@ -2456,7 +2446,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.133,
+      "score": 32.2,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -2476,8 +2466,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.133,
-      "programmes": 16,
+      "score": 32.233,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -2506,8 +2496,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 2
     },
     {
@@ -2516,8 +2506,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 1
     },
     {
@@ -2526,8 +2516,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 1
     },
     {
@@ -2536,8 +2526,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 2
     },
     {
@@ -2566,7 +2556,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.172,
+      "score": 31.157,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -2636,8 +2626,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.274,
-      "programmes": 14,
+      "score": 33.13,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -2676,7 +2666,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.19,
+      "score": 32.119,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -2686,8 +2676,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.481,
-      "programmes": 15,
+      "score": 31.601,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -2716,8 +2706,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 31.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -2736,8 +2726,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 10,
+      "score": 28.0,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -2766,7 +2756,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.541,
+      "score": 31.431,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -2776,8 +2766,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 310.0,
-      "programmes": 130,
+      "score": 308.0,
+      "programmes": 129,
       "candidate_count": 1
     },
     {
@@ -2806,7 +2796,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.767,
+      "score": 31.623,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -2846,7 +2836,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.046,
+      "score": 31.016,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -2866,8 +2856,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 27.5,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -2916,8 +2906,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.254,
-      "programmes": 16,
+      "score": 35.021,
+      "programmes": 17,
       "candidate_count": 1
     },
     {
@@ -2956,7 +2946,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.018,
+      "score": 33.92,
       "programmes": 16,
       "candidate_count": 1
     },
@@ -3026,7 +3016,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.759,
+      "score": 27.752,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3056,7 +3046,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.777,
+      "score": 26.842,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3096,8 +3086,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.633,
-      "programmes": 10,
+      "score": 27.033,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -3116,8 +3106,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.494,
-      "programmes": 13,
+      "score": 29.777,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -3136,7 +3126,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.4,
+      "score": 25.433,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -3166,8 +3156,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 21.9,
-      "programmes": 4,
+      "score": 26.1,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -3186,8 +3176,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.133,
-      "programmes": 9,
+      "score": 28.233,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -3296,8 +3286,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.033,
-      "programmes": 10,
+      "score": 28.967,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -3326,8 +3316,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.267,
-      "programmes": 11,
+      "score": 26.265,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -3346,8 +3336,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.61,
-      "programmes": 7,
+      "score": 28.804,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -3416,7 +3406,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.284,
+      "score": 33.279,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -3456,7 +3446,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.761,
+      "score": 26.743,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3466,8 +3456,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.5,
-      "programmes": 4,
+      "score": 22.5,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -3486,7 +3476,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.07,
+      "score": 32.855,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -3506,7 +3496,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.714,
+      "score": 32.713,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -3566,7 +3556,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.453,
+      "score": 25.621,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -3576,7 +3566,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.896,
+      "score": 23.253,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -3626,8 +3616,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 38.0,
-      "programmes": 15,
+      "score": 33.0,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -3656,7 +3646,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.7,
+      "score": 26.733,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3686,8 +3676,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.2,
-      "programmes": 9,
+      "score": 26.333,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -3706,7 +3696,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.633,
+      "score": 26.767,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3756,7 +3746,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.716,
+      "score": 30.767,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -3826,8 +3816,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.571,
-      "programmes": 11,
+      "score": 30.407,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -3836,7 +3826,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.602,
+      "score": 26.991,
       "programmes": 9,
       "candidate_count": 1
     },
@@ -3846,8 +3836,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.867,
-      "programmes": 7,
+      "score": 23.1,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -3856,7 +3846,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.743,
+      "score": 26.68,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3866,7 +3856,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.7,
+      "score": 26.712,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -3946,8 +3936,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 30.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -4006,7 +3996,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.746,
+      "score": 26.769,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4036,8 +4026,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.038,
-      "programmes": 13,
+      "score": 30.007,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -4096,7 +4086,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.133,
+      "score": 25.967,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -4126,7 +4116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.001,
+      "score": 31.003,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -4146,7 +4136,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.7,
+      "score": 26.733,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4176,8 +4166,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.974,
-      "programmes": 13,
+      "score": 29.128,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -4186,7 +4176,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.659,
+      "score": 26.696,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4196,8 +4186,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.8,
-      "programmes": 13,
+      "score": 31.9,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -4216,8 +4206,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.933,
-      "programmes": 17,
+      "score": 34.667,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -4236,8 +4226,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 8,
+      "score": 24.233,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -4246,8 +4236,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 395.0,
-      "programmes": 217,
+      "score": 393.5,
+      "programmes": 216,
       "candidate_count": 1
     },
     {
@@ -4266,7 +4256,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.5,
+      "score": 26.533,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4276,7 +4266,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.777,
+      "score": 25.792,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -4376,7 +4366,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.177,
+      "score": 32.297,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -4416,7 +4406,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.697,
+      "score": 26.707,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4426,8 +4416,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.0,
-      "programmes": 12,
+      "score": 30.0,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -4446,8 +4436,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.333,
-      "programmes": 16,
+      "score": 32.5,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -4516,7 +4506,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.736,
+      "score": 29.811,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -4536,7 +4526,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.137,
+      "score": 26.127,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -4556,8 +4546,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.257,
-      "programmes": 12,
+      "score": 28.528,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -4586,7 +4576,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.572,
+      "score": 23.243,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -4596,7 +4586,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.933,
+      "score": 26.633,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4616,8 +4606,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.633,
-      "programmes": 15,
+      "score": 31.867,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -4686,8 +4676,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.645,
-      "programmes": 8,
+      "score": 29.014,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -4746,7 +4736,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.713,
+      "score": 28.708,
       "programmes": 10,
       "candidate_count": 1
     },
@@ -4766,8 +4756,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.1,
-      "programmes": 8,
+      "score": 28.7,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -4786,8 +4776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.642,
-      "programmes": 9,
+      "score": 28.461,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -4796,7 +4786,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.935,
+      "score": 31.911,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -4866,7 +4856,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.87,
+      "score": 32.787,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -4896,7 +4886,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.717,
+      "score": 26.716,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -4916,8 +4906,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.0,
-      "programmes": 12,
+      "score": 31.0,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -4946,8 +4936,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.867,
-      "programmes": 9,
+      "score": 26.001,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -4976,8 +4966,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 30.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -4996,7 +4986,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 23.5,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -5106,7 +5096,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.433,
+      "score": 31.768,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -5126,7 +5116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.282,
+      "score": 30.486,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -5186,7 +5176,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.733,
+      "score": 26.667,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -5296,7 +5286,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.203,
+      "score": 27.251,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -5406,8 +5396,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.2,
-      "programmes": 5,
+      "score": 25.067,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -5526,8 +5516,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 315.0,
-      "programmes": 136,
+      "score": 313.0,
+      "programmes": 135,
       "candidate_count": 1
     },
     {
@@ -5656,8 +5646,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 288.0,
-      "programmes": 110,
+      "score": 286.0,
+      "programmes": 109,
       "candidate_count": 1
     },
     {
@@ -5736,8 +5726,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 302.0,
-      "programmes": 124,
+      "score": 300.0,
+      "programmes": 123,
       "candidate_count": 1
     },
     {
@@ -5746,8 +5736,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 1
     },
     {
@@ -5906,8 +5896,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 303.0,
-      "programmes": 117,
+      "score": 301.0,
+      "programmes": 116,
       "candidate_count": 1
     },
     {
@@ -5926,8 +5916,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 290.967,
-      "programmes": 112,
+      "score": 288.967,
+      "programmes": 111,
       "candidate_count": 1
     },
     {
@@ -5976,8 +5966,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 287.0,
-      "programmes": 109,
+      "score": 285.0,
+      "programmes": 108,
       "candidate_count": 1
     },
     {
@@ -6246,8 +6236,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 289.0,
-      "programmes": 111,
+      "score": 287.0,
+      "programmes": 110,
       "candidate_count": 1
     },
     {
@@ -6486,8 +6476,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 285.0,
-      "programmes": 107,
+      "score": 283.0,
+      "programmes": 106,
       "candidate_count": 1
     },
     {
@@ -7396,8 +7386,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 1
     },
     {
@@ -7566,8 +7556,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.167,
-      "programmes": 4,
+      "score": 29.101,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -7646,8 +7636,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.5,
-      "programmes": 4,
+      "score": 20.5,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -7746,7 +7736,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.413,
+      "score": 32.276,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -8096,7 +8086,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.854,
+      "score": 29.848,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -8126,7 +8116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.702,
+      "score": 24.827,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -8146,7 +8136,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.5,
+      "score": 23.467,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -8206,8 +8196,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.621,
-      "programmes": 5,
+      "score": 22.365,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -8326,7 +8316,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.439,
+      "score": 25.397,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -8356,8 +8346,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.687,
-      "programmes": 4,
+      "score": 28.319,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -8436,7 +8426,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.846,
+      "score": 25.018,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -8456,7 +8446,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.8,
+      "score": 25.799,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -8596,8 +8586,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.341,
-      "programmes": 4,
+      "score": 27.841,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -8646,8 +8636,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.6,
-      "programmes": 4,
+      "score": 27.233,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -8676,8 +8666,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 4,
+      "score": 22.5,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -8748,6 +8738,16 @@
       "match_method": "confirmed-equivalent-provider",
       "score": 49.5,
       "programmes": 7,
+      "candidate_count": 1
+    },
+    {
+      "tvg_id": "samsung:USBA300017PK",
+      "channel": "Pluto TV Fantastic",
+      "selected_type": "native",
+      "selected_source": "samsung",
+      "match_method": "exact-provider-id",
+      "score": 26.5,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -9016,7 +9016,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.3,
+      "score": 23.6,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -9046,8 +9046,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.474,
-      "programmes": 10,
+      "score": 28.913,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -9176,8 +9176,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.107,
-      "programmes": 4,
+      "score": 25.294,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -9196,7 +9196,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.919,
+      "score": 23.112,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -9216,7 +9216,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.333,
+      "score": 24.992,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -9276,8 +9276,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.492,
-      "programmes": 9,
+      "score": 29.692,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -9516,8 +9516,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 5,
+      "score": 23.0,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -9536,7 +9536,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 26.0,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -9556,7 +9556,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 25.0,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -9566,8 +9566,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
-      "programmes": 5,
+      "score": 27.0,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -9586,7 +9586,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 25.0,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -9606,7 +9606,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.0,
+      "score": 27.0,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -9636,7 +9636,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 25.0,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -9716,7 +9716,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9726,7 +9726,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9736,8 +9736,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 3,
+      "score": 23.0,
+      "programmes": 2,
       "candidate_count": 1
     },
     {
@@ -9756,7 +9756,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9766,7 +9766,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9796,7 +9796,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9806,7 +9806,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
+      "score": 24.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9816,7 +9816,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9826,8 +9826,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 3,
+      "score": 23.0,
+      "programmes": 2,
       "candidate_count": 1
     },
     {
@@ -9846,7 +9846,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -9856,7 +9856,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 3,
       "candidate_count": 1
     },
@@ -10056,8 +10056,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 5,
+      "score": 29.0,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -10076,7 +10076,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.005,
+      "score": 25.483,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -10376,8 +10376,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 30.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -10606,8 +10606,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 2,
+      "score": 32.0,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -10776,8 +10776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 4,
+      "score": 26.0,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -10826,7 +10826,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.0,
+      "score": 23.0,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -10896,7 +10896,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.0,
+      "score": 32.0,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -10976,8 +10976,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 6,
+      "score": 31.0,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -10998,7 +10998,7 @@
       "match_method": "confirmed-equivalent-provider",
       "score": 177.5,
       "programmes": 75,
-      "candidate_count": 4
+      "candidate_count": 5
     },
     {
       "tvg_id": "xumo:99991147",
@@ -11016,7 +11016,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 24.0,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -11426,7 +11426,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.567,
+      "score": 27.9,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -11586,7 +11586,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.685,
+      "score": 26.687,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -11686,7 +11686,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.767,
+      "score": 32.7,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -11976,7 +11976,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.593,
+      "score": 30.682,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -12146,8 +12146,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 11,
+      "score": 32.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -12256,7 +12256,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.892,
+      "score": 33.887,
       "programmes": 16,
       "candidate_count": 1
     },
@@ -12636,7 +12636,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.038,
+      "score": 24.094,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -12856,8 +12856,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.597,
-      "programmes": 15,
+      "score": 34.442,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -13116,7 +13116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.708,
+      "score": 29.778,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -13326,8 +13326,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.7,
-      "programmes": 5,
+      "score": 26.967,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -13386,7 +13386,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.034,
+      "score": 29.114,
       "programmes": 11,
       "candidate_count": 1
     },
@@ -13626,8 +13626,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.992,
-      "programmes": 12,
+      "score": 30.853,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -13706,7 +13706,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.801,
+      "score": 26.804,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -13736,7 +13736,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.691,
+      "score": 26.749,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -13936,7 +13936,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.9,
+      "score": 28.567,
       "programmes": 10,
       "candidate_count": 1
     },
@@ -14096,8 +14096,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.367,
-      "programmes": 6,
+      "score": 21.567,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -14176,7 +14176,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.4,
+      "score": 30.433,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -14306,8 +14306,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.2,
-      "programmes": 5,
+      "score": 26.467,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -14376,7 +14376,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.467,
+      "score": 33.433,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -14946,7 +14946,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.167,
+      "score": 24.433,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -15186,7 +15186,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.273,
+      "score": 33.272,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -15296,8 +15296,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 2
     },
     {
@@ -15306,8 +15306,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 300.0,
-      "programmes": 122,
+      "score": 298.0,
+      "programmes": 121,
       "candidate_count": 2
     },
     {
@@ -15446,7 +15446,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.7,
+      "score": 27.733,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -15806,7 +15806,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.5,
+      "score": 30.0,
       "programmes": 11,
       "candidate_count": 1
     },
@@ -15916,7 +15916,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.076,
+      "score": 26.059,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -16026,7 +16026,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.633,
+      "score": 24.567,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -16236,8 +16236,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.195,
-      "programmes": 14,
+      "score": 31.547,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -16796,7 +16796,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.872,
+      "score": 32.861,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -16906,7 +16906,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.522,
+      "score": 31.489,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -17026,8 +17026,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.529,
-      "programmes": 4,
+      "score": 27.853,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -17146,7 +17146,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.726,
+      "score": 25.72,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -17526,7 +17526,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.741,
+      "score": 26.732,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -17566,7 +17566,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.397,
+      "score": 26.398,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -17896,8 +17896,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.526,
-      "programmes": 8,
+      "score": 25.856,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -17926,7 +17926,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.233,
+      "score": 25.0,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -18036,7 +18036,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.551,
+      "score": 26.554,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -18706,8 +18706,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 346.0,
-      "programmes": 168,
+      "score": 344.0,
+      "programmes": 167,
       "candidate_count": 1
     },
     {
@@ -18716,8 +18716,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 312.0,
-      "programmes": 134,
+      "score": 310.0,
+      "programmes": 133,
       "candidate_count": 1
     },
     {
@@ -18776,8 +18776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.743,
-      "programmes": 4,
+      "score": 28.934,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -18796,7 +18796,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.393,
+      "score": 22.387,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -18856,7 +18856,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.728,
+      "score": 26.674,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -18956,8 +18956,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 284.0,
-      "programmes": 106,
+      "score": 282.0,
+      "programmes": 105,
       "candidate_count": 1
     },
     {
@@ -19106,7 +19106,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.067,
+      "score": 27.7,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -19116,8 +19116,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.067,
-      "programmes": 16,
+      "score": 32.233,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -19126,8 +19126,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 335.0,
-      "programmes": 157,
+      "score": 333.0,
+      "programmes": 156,
       "candidate_count": 1
     },
     {
@@ -19146,7 +19146,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.567,
+      "score": 28.433,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -19166,8 +19166,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.081,
-      "programmes": 8,
+      "score": 25.047,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -19186,7 +19186,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.733,
+      "score": 25.8,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -19286,7 +19286,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.833,
+      "score": 32.9,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -19326,8 +19326,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.6,
-      "programmes": 15,
+      "score": 34.433,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -19386,7 +19386,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.818,
+      "score": 26.789,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -19426,8 +19426,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.7,
-      "programmes": 13,
+      "score": 29.9,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -19446,8 +19446,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.835,
-      "programmes": 7,
+      "score": 25.861,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -19486,8 +19486,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.5,
-      "programmes": 6,
+      "score": 25.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -19526,8 +19526,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.167,
-      "programmes": 16,
+      "score": 32.333,
+      "programmes": 15,
       "candidate_count": 1
     },
     {
@@ -19556,8 +19556,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.133,
-      "programmes": 8,
+      "score": 28.767,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -19656,7 +19656,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.494,
+      "score": 30.581,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -19686,8 +19686,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.163,
-      "programmes": 5,
+      "score": 25.9,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -19696,8 +19696,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 8,
+      "score": 25.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -19706,8 +19706,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.268,
-      "programmes": 11,
+      "score": 28.251,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -19976,8 +19976,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.668,
-      "programmes": 5,
+      "score": 21.501,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -19986,8 +19986,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.033,
-      "programmes": 9,
+      "score": 26.4,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -19996,7 +19996,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.549,
+      "score": 28.377,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -20016,7 +20016,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.633,
+      "score": 26.667,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20066,7 +20066,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.0,
+      "score": 25.8,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -20176,7 +20176,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.926,
+      "score": 31.922,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -20246,8 +20246,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.667,
-      "programmes": 6,
+      "score": 27.333,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -20266,8 +20266,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.063,
-      "programmes": 11,
+      "score": 26.51,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -20356,8 +20356,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 285.0,
-      "programmes": 107,
+      "score": 283.0,
+      "programmes": 106,
       "candidate_count": 1
     },
     {
@@ -20396,8 +20396,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 227.0,
-      "programmes": 96,
+      "score": 225.0,
+      "programmes": 95,
       "candidate_count": 1
     },
     {
@@ -20416,7 +20416,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.133,
+      "score": 26.1,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20426,7 +20426,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.467,
+      "score": 26.433,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20476,7 +20476,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.63,
+      "score": 26.609,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20496,7 +20496,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.233,
+      "score": 29.267,
       "programmes": 12,
       "candidate_count": 1
     },
@@ -20526,7 +20526,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.167,
+      "score": 32.2,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -20566,8 +20566,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.396,
-      "programmes": 14,
+      "score": 30.166,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -20606,8 +20606,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.5,
-      "programmes": 5,
+      "score": 23.0,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -20626,7 +20626,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.1,
+      "score": 24.933,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -20646,7 +20646,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
+      "score": 26.5,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20816,7 +20816,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.3,
+      "score": 26.333,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -20866,8 +20866,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.261,
-      "programmes": 13,
+      "score": 32.128,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -20936,8 +20936,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 287.0,
-      "programmes": 109,
+      "score": 285.0,
+      "programmes": 108,
       "candidate_count": 1
     },
     {
@@ -21146,7 +21146,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.556,
+      "score": 25.469,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -21156,7 +21156,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.767,
+      "score": 30.6,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -21206,7 +21206,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.988,
+      "score": 25.952,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -21236,8 +21236,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.0,
-      "programmes": 8,
+      "score": 26.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -21256,8 +21256,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.177,
-      "programmes": 5,
+      "score": 22.341,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -21306,7 +21306,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.333,
+      "score": 27.267,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -21336,7 +21336,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.998,
+      "score": 24.307,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -21406,7 +21406,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.281,
+      "score": 32.361,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -21416,7 +21416,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.72,
+      "score": 26.71,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -21616,8 +21616,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.487,
-      "programmes": 6,
+      "score": 23.756,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -21646,8 +21646,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 329.0,
-      "programmes": 151,
+      "score": 327.0,
+      "programmes": 150,
       "candidate_count": 1
     },
     {
@@ -21686,8 +21686,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 301.0,
-      "programmes": 123,
+      "score": 299.0,
+      "programmes": 122,
       "candidate_count": 1
     },
     {
@@ -21696,8 +21696,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.0,
-      "programmes": 13,
+      "score": 31.0,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -21706,8 +21706,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.5,
-      "programmes": 9,
+      "score": 25.8,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -21726,7 +21726,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.333,
+      "score": 32.267,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -21776,8 +21776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.367,
-      "programmes": 7,
+      "score": 27.1,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -21826,7 +21826,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.727,
+      "score": 30.781,
       "programmes": 13,
       "candidate_count": 1
     },
@@ -21866,7 +21866,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.872,
+      "score": 32.837,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -21916,8 +21916,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.033,
-      "programmes": 8,
+      "score": 24.133,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -21946,8 +21946,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.42,
-      "programmes": 4,
+      "score": 26.792,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -21976,8 +21976,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us2",
       "match_method": "unique-callsign",
-      "score": 328.867,
-      "programmes": 149,
+      "score": 326.2,
+      "programmes": 148,
       "candidate_count": 1
     },
     {
@@ -22006,8 +22006,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.839,
-      "programmes": 5,
+      "score": 24.773,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -22086,8 +22086,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 318.0,
-      "programmes": 140,
+      "score": 316.0,
+      "programmes": 139,
       "candidate_count": 1
     },
     {
@@ -22136,8 +22136,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.433,
-      "programmes": 9,
+      "score": 29.467,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -22176,8 +22176,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 2,
+      "score": 32.0,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -22246,8 +22246,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.267,
-      "programmes": 8,
+      "score": 28.933,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -22536,8 +22536,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.167,
-      "programmes": 8,
+      "score": 28.833,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -22608,7 +22608,7 @@
       "match_method": "confirmed-equivalent-provider",
       "score": 53.0,
       "programmes": 9,
-      "candidate_count": 2
+      "candidate_count": 1
     },
     {
       "tvg_id": "iptv-org:PlutoTVGameShows.us@SD",
@@ -22666,7 +22666,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.967,
+      "score": 33.067,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -22726,8 +22726,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 6,
+      "score": 29.8,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -22771,6 +22771,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "pluto:674f735a2fb8a100087bf253",
+      "channel": "Revry",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "exact-provider-id",
+      "score": 66.333,
+      "programmes": 26,
+      "candidate_count": 1
+    },
+    {
       "tvg_id": "pluto:6996296087742204bff43147",
       "channel": "Ridiculousness",
       "selected_type": "native",
@@ -22796,7 +22806,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.369,
+      "score": 23.926,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -22826,8 +22836,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 303.0,
-      "programmes": 117,
+      "score": 301.0,
+      "programmes": 116,
       "candidate_count": 1
     },
     {
@@ -22866,8 +22876,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.573,
-      "programmes": 14,
+      "score": 35.196,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -22876,7 +22886,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 34.0,
+      "score": 34.033,
       "programmes": 16,
       "candidate_count": 1
     },
@@ -22896,8 +22906,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 22.16,
-      "programmes": 5,
+      "score": 25.642,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -22906,7 +22916,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.016,
+      "score": 25.017,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -22916,7 +22926,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.301,
+      "score": 25.28,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -22926,8 +22936,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.433,
-      "programmes": 5,
+      "score": 23.567,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -22956,8 +22966,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.367,
-      "programmes": 7,
+      "score": 27.167,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -22966,7 +22976,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.267,
+      "score": 28.433,
       "programmes": 11,
       "candidate_count": 1
     },
@@ -23016,7 +23026,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.3,
+      "score": 25.233,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -23106,7 +23116,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.064,
+      "score": 24.831,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -23136,8 +23146,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.0,
-      "programmes": 6,
+      "score": 28.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -23236,8 +23246,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.733,
-      "programmes": 15,
+      "score": 34.567,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -23316,7 +23326,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.719,
+      "score": 26.722,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -23446,7 +23456,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.68,
+      "score": 24.373,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -23566,8 +23576,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.452,
-      "programmes": 15,
+      "score": 34.005,
+      "programmes": 16,
       "candidate_count": 1
     },
     {
@@ -23656,7 +23666,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.779,
+      "score": 26.774,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -23766,8 +23776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.327,
-      "programmes": 8,
+      "score": 25.413,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -23946,7 +23956,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 25.953,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -23966,8 +23976,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.871,
-      "programmes": 13,
+      "score": 29.941,
+      "programmes": 12,
       "candidate_count": 1
     },
     {
@@ -23986,7 +23996,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.914,
+      "score": 31.949,
       "programmes": 14,
       "candidate_count": 1
     },
@@ -24026,7 +24036,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.867,
+      "score": 26.941,
       "programmes": 8,
       "candidate_count": 1
     },
@@ -24086,8 +24096,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 6,
+      "score": 36.0,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -24166,8 +24176,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 8,
+      "score": 25.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -24226,8 +24236,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 6,
+      "score": 23.5,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -24236,8 +24246,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 4,
+      "score": 27.0,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -24276,8 +24286,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
-      "programmes": 4,
+      "score": 26.0,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -24326,7 +24336,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.0,
+      "score": 29.0,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -24436,8 +24446,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.9,
-      "programmes": 12,
+      "score": 28.9,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -24446,8 +24456,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.502,
-      "programmes": 12,
+      "score": 30.957,
+      "programmes": 13,
       "candidate_count": 1
     },
     {
@@ -24456,8 +24466,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.5,
-      "programmes": 3,
+      "score": 20.0,
+      "programmes": 2,
       "candidate_count": 1
     },
     {
@@ -24476,7 +24486,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
+      "score": 23.0,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -24496,8 +24506,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.667,
-      "programmes": 9,
+      "score": 25.567,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -24506,8 +24516,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.314,
-      "programmes": 10,
+      "score": 29.372,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -24526,8 +24536,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 21.353,
-      "programmes": 3,
+      "score": 27.926,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -24598,7 +24608,17 @@
       "match_method": "exact-provider-id",
       "score": 69.5,
       "programmes": 31,
-      "candidate_count": 2
+      "candidate_count": 1
+    },
+    {
+      "tvg_id": "samsung:US2700001QY",
+      "channel": "FOX Sports",
+      "selected_type": "native",
+      "selected_source": "samsung",
+      "match_method": "exact-provider-id",
+      "score": 31.0,
+      "programmes": 13,
+      "candidate_count": 1
     },
     {
       "tvg_id": "tubi:613695",
@@ -24676,7 +24696,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.0,
+      "score": 29.0,
       "programmes": 9,
       "candidate_count": 1
     },
@@ -24756,8 +24776,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.367,
-      "programmes": 11,
+      "score": 26.5,
+      "programmes": 9,
       "candidate_count": 1
     },
     {
@@ -24766,8 +24786,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 35.497,
-      "programmes": 18,
+      "score": 37.823,
+      "programmes": 19,
       "candidate_count": 1
     },
     {
@@ -24836,7 +24856,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 33.096,
+      "score": 33.086,
       "programmes": 15,
       "candidate_count": 1
     },
@@ -24846,8 +24866,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 4,
+      "score": 22.0,
+      "programmes": 3,
       "candidate_count": 1
     },
     {
@@ -24876,8 +24896,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 9,
+      "score": 33.0,
+      "programmes": 11,
       "candidate_count": 1
     },
     {
@@ -24906,7 +24926,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 30.257,
+      "score": 32.286,
       "programmes": 11,
       "candidate_count": 1
     },
@@ -24956,8 +24976,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.1,
-      "programmes": 5,
+      "score": 29.0,
+      "programmes": 6,
       "candidate_count": 1
     },
     {
@@ -24976,8 +24996,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 23.213,
-      "programmes": 4,
+      "score": 25.336,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -25016,8 +25036,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 31.53,
-      "programmes": 7,
+      "score": 22.615,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -25046,8 +25066,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.9,
-      "programmes": 9,
+      "score": 26.967,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -25096,8 +25116,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 6,
+      "score": 24.0,
+      "programmes": 5,
       "candidate_count": 1
     },
     {
@@ -25126,8 +25146,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.414,
-      "programmes": 6,
+      "score": 38.058,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -25146,7 +25166,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.6,
+      "score": 23.167,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -25156,8 +25176,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 29.0,
-      "programmes": 7,
+      "score": 31.833,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -25196,7 +25216,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.406,
+      "score": 29.919,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -25416,8 +25436,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 9,
+      "score": 29.0,
+      "programmes": 10,
       "candidate_count": 1
     },
     {
@@ -25466,7 +25486,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 25.0,
+      "score": 23.0,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -25487,7 +25507,7 @@
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
       "score": 29.0,
-      "programmes": 7,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -25566,7 +25586,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 28.0,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -25606,7 +25626,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.333,
+      "score": 26.667,
       "programmes": 6,
       "candidate_count": 1
     },
@@ -25676,8 +25696,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 3,
+      "score": 21.0,
+      "programmes": 2,
       "candidate_count": 1
     },
     {
@@ -25696,7 +25716,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.227,
+      "score": 24.522,
       "programmes": 4,
       "candidate_count": 1
     },
@@ -25746,8 +25766,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.133,
-      "programmes": 7,
+      "score": 31.333,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -25826,7 +25846,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.6,
+      "score": 26.7,
       "programmes": 7,
       "candidate_count": 1
     },
@@ -25866,7 +25886,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.667,
+      "score": 27.733,
       "programmes": 9,
       "candidate_count": 1
     },
@@ -25906,8 +25926,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.0,
-      "programmes": 8,
+      "score": 28.0,
+      "programmes": 7,
       "candidate_count": 1
     },
     {
@@ -25926,7 +25946,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.358,
+      "score": 26.793,
       "programmes": 9,
       "candidate_count": 1
     },
@@ -25956,7 +25976,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.0,
+      "score": 30.167,
       "programmes": 2,
       "candidate_count": 1
     },
@@ -26006,8 +26026,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 32.535,
-      "programmes": 15,
+      "score": 32.008,
+      "programmes": 14,
       "candidate_count": 1
     },
     {
@@ -26026,8 +26046,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 26.0,
-      "programmes": 5,
+      "score": 36.333,
+      "programmes": 8,
       "candidate_count": 1
     },
     {
@@ -26076,7 +26096,7 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 24.06,
+      "score": 24.084,
       "programmes": 5,
       "candidate_count": 1
     },
@@ -26146,8 +26166,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 27.8,
-      "programmes": 5,
+      "score": 24.867,
+      "programmes": 4,
       "candidate_count": 1
     },
     {
@@ -26196,8 +26216,8 @@
       "selected_type": "native",
       "selected_source": "samsung",
       "match_method": "exact-provider-id",
-      "score": 28.0,
-      "programmes": 3,
+      "score": 21.0,
+      "programmes": 2,
       "candidate_count": 1
     },
     {

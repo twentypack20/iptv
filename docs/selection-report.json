@@ -1,18 +1,18 @@
 {
-  "generated": "2026-09-17 12:11:25 UTC",
+  "generated": "2026-09-17 12:34:28 UTC",
   "source_inventory": 5075,
-  "published_channels": 4819,
-  "confirmed_duplicate_groups": 229,
-  "ambiguous_duplicate_groups": 709,
-  "removed_confirmed_duplicates": 256,
+  "published_channels": 4821,
+  "confirmed_duplicate_groups": 227,
+  "ambiguous_duplicate_groups": 710,
+  "removed_confirmed_duplicates": 254,
   "selected_sources": {
     "iptv-org": 1327,
     "lg": 447,
     "localnow": 447,
     "plex": 672,
-    "pluto": 247,
+    "pluto": 248,
     "roku": 216,
-    "samsung": 535,
+    "samsung": 536,
     "tubi": 171,
     "vizio": 410,
     "xumo": 347
@@ -3469,56 +3469,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 8
-          }
-        }
-      ]
-    },
-    {
-      "canonical_name": "revry",
-      "selected": {
-        "source": "samsung",
-        "tvg_id": "USBA3800003VP",
-        "name": "Revry",
-        "score": 1205.85,
-        "score_details": {
-          "success_rate": 1.0,
-          "max_height": 1080,
-          "max_bandwidth": 4725600,
-          "avg_latency_ms": 2228.5,
-          "consecutive_failures": 0,
-          "direct": false,
-          "source_order": 2
-        }
-      },
-      "alternatives": [
-        {
-          "source": "samsung",
-          "tvg_id": "USBA3800003VP",
-          "name": "Revry",
-          "score": 1205.85,
-          "score_details": {
-            "success_rate": 1.0,
-            "max_height": 1080,
-            "max_bandwidth": 4725600,
-            "avg_latency_ms": 2228.5,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "674f735a2fb8a100087bf253",
-          "name": "Revry",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -7055,6 +7005,21 @@
             "direct": false,
             "source_order": 1
           }
+        },
+        {
+          "source": "samsung",
+          "tvg_id": "USBB32000251N",
+          "name": "TODAY All Day",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 2
+          }
         }
       ]
     },
@@ -8204,21 +8169,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
-          }
-        },
-        {
-          "source": "samsung",
-          "tvg_id": "USBA300017PK",
-          "name": "Pluto TV Fantastic",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
           }
         }
       ]
@@ -10149,56 +10099,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 8
-          }
-        }
-      ]
-    },
-    {
-      "canonical_name": "fox sports",
-      "selected": {
-        "source": "pluto",
-        "tvg_id": "5a74b8e1e22a61737979c6bf",
-        "name": "FOX Sports",
-        "score": 500.0,
-        "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
-          "consecutive_failures": 0,
-          "direct": false,
-          "source_order": 1
-        }
-      },
-      "alternatives": [
-        {
-          "source": "pluto",
-          "tvg_id": "5a74b8e1e22a61737979c6bf",
-          "name": "FOX Sports",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
-          }
-        },
-        {
-          "source": "samsung",
-          "tvg_id": "US2700001QY",
-          "name": "FOX Sports",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
           }
         }
       ]

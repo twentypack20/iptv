@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 12:11:25 UTC",
+  "generated": "2026-09-17 12:34:28 UTC",
   "policy": "Possible duplicates are retained unless exact URL or strong matching EPG evidence confirms the same feed. Local/market signals block automatic cross-source collapse.",
   "ambiguous_groups": [
     {
@@ -281,8 +281,8 @@
           "left": "pluto:54ff7ba69222cb1c2624c584",
           "right": "samsung:USAJ3400011A8",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.4167
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.5
         },
         {
           "left": "pluto:54ff7ba69222cb1c2624c584",
@@ -302,15 +302,15 @@
           "left": "samsung:USAJ3400011A8",
           "right": "tubi:555124",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2941
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.3529
         },
         {
           "left": "samsung:USAJ3400011A8",
           "right": "xumo:99951533",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2632
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.3158
         },
         {
           "left": "tubi:555124",
@@ -1480,7 +1480,7 @@
           "right": "samsung:USBA34000049Z",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.125
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6245d867ddf1ba983d5b8bf8",
@@ -1508,7 +1508,7 @@
           "right": "samsung:USBA34000049Z",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1429
+          "epg_similarity": 0.1667
         },
         {
           "left": "pluto:5dae0b4841a7d0000938ddbd",
@@ -1536,7 +1536,7 @@
           "right": "tubi:400000299",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.125
         },
         {
           "left": "samsung:USBA34000049Z",
@@ -1550,7 +1550,7 @@
           "right": "xumo:99951559",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.125
         },
         {
           "left": "tubi:400000299",
@@ -1842,8 +1842,8 @@
           "left": "plex:6a1610bebdf296985fd95603-62f42e6cad0081c6ef405723",
           "right": "samsung:USAJ3504701A",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2778
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.3333
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-62f42e6cad0081c6ef405723",
@@ -1856,8 +1856,8 @@
           "left": "samsung:USAJ3504701A",
           "right": "xumo:99991638",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2778
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.3333
         }
       ],
       "partially_collapsed": true
@@ -1943,7 +1943,7 @@
           "right": "tubi:555382",
           "confirmed": false,
           "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2
+          "epg_similarity": 0.2143
         }
       ],
       "partially_collapsed": false
@@ -2541,8 +2541,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6227d1d2c9f485cc7afe8c44",
           "right": "samsung:USBB10000047W",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2353
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.1765
         }
       ],
       "partially_collapsed": false
@@ -2902,8 +2902,8 @@
           "left": "pluto:5ca670f6593a5d78f0e85aed",
           "right": "samsung:USBC450000130",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1667
         }
       ],
       "partially_collapsed": true
@@ -3343,8 +3343,8 @@
           "left": "plex:6a1610bebdf296985fd95603-623d9b0370560b72147a994a",
           "right": "samsung:USBD300008G1",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.4
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-623d9b0370560b72147a994a",
@@ -3371,8 +3371,8 @@
           "left": "pluto:6176fd25e83a5f0007a464c9",
           "right": "samsung:USBD300008G1",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.375
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.6667
         },
         {
           "left": "pluto:6176fd25e83a5f0007a464c9",
@@ -3399,8 +3399,8 @@
           "left": "samsung:USBD300008G1",
           "right": "tubi:684164",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2727
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.4444
         },
         {
           "left": "samsung:USBD300008G1",
@@ -3413,8 +3413,8 @@
           "left": "samsung:USBD300008G1",
           "right": "xumo:9999613",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.4
         },
         {
           "left": "tubi:684164",
@@ -3578,7 +3578,7 @@
           "right": "samsung:USBD700021WG",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1818
+          "epg_similarity": 0.1667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66a2d71b0b91165254efdb40",
@@ -3612,8 +3612,8 @@
           "left": "pluto:5812bfbe4ced4f7b601b12e6",
           "right": "samsung:USBD700021WG",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5714
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.7143
         },
         {
           "left": "pluto:5812bfbe4ced4f7b601b12e6",
@@ -3647,15 +3647,15 @@
           "left": "samsung:USBD700021WG",
           "right": "roku:562baf35c5da56cc91cdea41537b43f9",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.3636
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.4545
         },
         {
           "left": "samsung:USBD700021WG",
           "right": "tubi:653200",
           "confirmed": false,
           "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4444
+          "epg_similarity": 0.4
         },
         {
           "left": "samsung:USBD700021WG",
@@ -3669,7 +3669,7 @@
           "right": "xumo:99951124",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1818
+          "epg_similarity": 0.1667
         },
         {
           "left": "roku:562baf35c5da56cc91cdea41537b43f9",
@@ -3870,8 +3870,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5efe1de5e0b3f5003f5d9f76",
           "right": "samsung:USBD7000145C",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.1667
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.08
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5efe1de5e0b3f5003f5d9f76",
@@ -3898,8 +3898,8 @@
           "left": "samsung:USBD7000145C",
           "right": "tubi:400000169",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.16
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.0769
         },
         {
           "left": "samsung:USBD7000145C",
@@ -3912,8 +3912,8 @@
           "left": "samsung:USBD7000145C",
           "right": "xumo:99951463",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.16
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.0769
         },
         {
           "left": "tubi:400000169",
@@ -4322,7 +4322,7 @@
           "right": "samsung:USAJ3504702A",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.0588
+          "epg_similarity": 0.0667
         },
         {
           "left": "pluto:554158e864526b29254ff105",
@@ -4495,8 +4495,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5eea605574085f0040ddc782",
           "right": "samsung:USAJ3400012FA",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5eea605574085f0040ddc782",
@@ -4516,8 +4516,8 @@
           "left": "pluto:5e54187aae660e00093561d6",
           "right": "samsung:USAJ3400012FA",
           "confirmed": false,
-          "reason": "unconfirmed-epg:7-titles",
-          "epg_similarity": 0.5385
+          "reason": "unconfirmed-epg:9-titles",
+          "epg_similarity": 0.75
         },
         {
           "left": "pluto:5e54187aae660e00093561d6",
@@ -4538,7 +4538,7 @@
           "right": "tubi:673411",
           "confirmed": false,
           "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.4545
+          "epg_similarity": 0.4167
         },
         {
           "left": "samsung:USAJ3400012FA",
@@ -4729,8 +4729,8 @@
           "left": "plex:6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf25",
           "right": "samsung:USBC24000213P",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.3
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf25",
@@ -4764,15 +4764,15 @@
           "left": "samsung:USBC24000213P",
           "right": "roku:923cd8e7aa1e5a5898aad41fdf6a0f0f",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.25
         },
         {
           "left": "samsung:USBC24000213P",
           "right": "tubi:684170",
           "confirmed": false,
           "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2727
+          "epg_similarity": 0.3
         },
         {
           "left": "samsung:USBC24000213P",
@@ -4785,8 +4785,8 @@
           "left": "samsung:USBC24000213P",
           "right": "xumo:99951152",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.3
         },
         {
           "left": "roku:923cd8e7aa1e5a5898aad41fdf6a0f0f",
@@ -5292,7 +5292,7 @@
           "right": "samsung:USBD300003LK",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.2
+          "epg_similarity": 0.1667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-627e347795b0f50af26d78f9",
@@ -5320,7 +5320,7 @@
           "right": "tubi:684165",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.25
+          "epg_similarity": 0.2
         },
         {
           "left": "samsung:USBD300003LK",
@@ -5334,7 +5334,7 @@
           "right": "xumo:9999614",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.2
+          "epg_similarity": 0.1667
         },
         {
           "left": "tubi:684165",
@@ -6842,7 +6842,7 @@
           "right": "tubi:670603",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1667
+          "epg_similarity": 0.1429
         },
         {
           "left": "samsung:USBB4400018LR",
@@ -6927,8 +6927,8 @@
           "left": "plex:6a1610bebdf296985fd95603-674f6a6cf44561420465f9f3",
           "right": "samsung:US400002PS",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.0667
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0312
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-674f6a6cf44561420465f9f3",
@@ -7457,8 +7457,8 @@
           "left": "pluto:65652f7fc0fc88000883537a",
           "right": "samsung:US2000018YI",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.375
         },
         {
           "left": "pluto:65652f7fc0fc88000883537a",
@@ -7471,8 +7471,8 @@
           "left": "samsung:US2000018YI",
           "right": "roku:307b3b9ea321539b9688148fc97a8bfd",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5714
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.4286
         }
       ],
       "partially_collapsed": true
@@ -9121,8 +9121,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6308eda9ac9983739c8a29bb",
           "right": "samsung:USBC600017FG",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.75
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6308eda9ac9983739c8a29bb",
@@ -9135,8 +9135,8 @@
           "left": "samsung:USBC600017FG",
           "right": "xumo:99951178",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.75
         }
       ],
       "partially_collapsed": true
@@ -9626,8 +9626,8 @@
           "left": "plex:6a1610bebdf296985fd95603-684c201a3496598cf4003fbc",
           "right": "samsung:US1300005MK",
           "confirmed": false,
-          "reason": "unconfirmed-epg:6-titles",
-          "epg_similarity": 0.6667
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.5556
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-684c201a3496598cf4003fbc",
@@ -9640,8 +9640,8 @@
           "left": "samsung:US1300005MK",
           "right": "xumo:99951587",
           "confirmed": false,
-          "reason": "unconfirmed-epg:6-titles",
-          "epg_similarity": 0.6667
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.5556
         }
       ],
       "partially_collapsed": true
@@ -9851,8 +9851,8 @@
           "left": "plex:6a1610bebdf296985fd95603-68c86f0bda79d98d977dc90c",
           "right": "samsung:USBA3800003VP",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.7143
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.5714
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-68c86f0bda79d98d977dc90c",
@@ -9871,9 +9871,9 @@
         {
           "left": "pluto:674f735a2fb8a100087bf253",
           "right": "samsung:USBA3800003VP",
-          "confirmed": true,
-          "reason": "epg-match:5-titles",
-          "epg_similarity": 0.8333
+          "confirmed": false,
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.6667
         },
         {
           "left": "pluto:674f735a2fb8a100087bf253",
@@ -9900,8 +9900,8 @@
           "left": "samsung:USBA3800003VP",
           "right": "xumo:99991296",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.7143
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.5714
         },
         {
           "left": "vizio:",
@@ -10017,7 +10017,7 @@
           "right": "samsung:USBD7000189R",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "epg_similarity": 0.5
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5ef51c802ddee5003f1c0225",
@@ -10031,7 +10031,7 @@
           "right": "xumo:99991202",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "epg_similarity": 0.5
         }
       ],
       "partially_collapsed": false
@@ -10212,7 +10212,7 @@
           "right": "samsung:USBD1200022S1",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2857
+          "epg_similarity": 0.25
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5f0641d3e8ffda004033b16e",
@@ -10226,7 +10226,7 @@
           "right": "xumo:99991390",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2857
+          "epg_similarity": 0.25
         }
       ],
       "partially_collapsed": true
@@ -10503,8 +10503,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5fd115b8b7ef8d002dcf1817",
           "right": "samsung:USBB440002055",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1538
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fd115b8b7ef8d002dcf1817",
@@ -10531,8 +10531,8 @@
           "left": "samsung:USBB440002055",
           "right": "tubi:400000000",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0909
         },
         {
           "left": "samsung:USBB440002055",
@@ -10545,8 +10545,8 @@
           "left": "samsung:USBB440002055",
           "right": "xumo:99991358",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1667
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0714
         },
         {
           "left": "tubi:400000000",
@@ -10710,8 +10710,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6827b9579beea89c38b6df55",
           "right": "samsung:US150000550",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.1905
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2381
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6827b9579beea89c38b6df55",
@@ -10731,8 +10731,8 @@
           "left": "pluto:68487fb3f212bedacf5a53e3",
           "right": "samsung:US150000550",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.625
         },
         {
           "left": "pluto:68487fb3f212bedacf5a53e3",
@@ -10759,8 +10759,8 @@
           "left": "samsung:US150000550",
           "right": "xumo:99951439",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2353
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2941
         },
         {
           "left": "vizio:",
@@ -10855,8 +10855,8 @@
           "left": "samsung:USAK3508709A",
           "right": "tubi:673498",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2083
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.1667
         }
       ],
       "partially_collapsed": false
@@ -10911,8 +10911,8 @@
           "left": "pluto:61f33318210549000806a530",
           "right": "samsung:USBA300005MK",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4444
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         }
       ],
       "partially_collapsed": true
@@ -11432,8 +11432,8 @@
           "left": "samsung:USBD700011RE",
           "right": "xumo:99991312",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.0909
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0435
         }
       ],
       "partially_collapsed": false
@@ -11576,8 +11576,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6244cf3c742b0d58cd4f2514",
           "right": "samsung:USBD270001633",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.3571
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2857
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6244cf3c742b0d58cd4f2514",
@@ -11597,8 +11597,8 @@
           "left": "pluto:628e685ba3811100070551a8",
           "right": "samsung:USBD270001633",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.5556
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.4444
         },
         {
           "left": "pluto:628e685ba3811100070551a8",
@@ -11625,8 +11625,8 @@
           "left": "samsung:USBD270001633",
           "right": "xumo:99991709",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.1667
         },
         {
           "left": "vizio:",
@@ -12221,8 +12221,8 @@
           "left": "pluto:5cb0cae7a461406ffe3f5213",
           "right": "samsung:USAJ26000054W",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         }
       ],
       "partially_collapsed": true
@@ -12294,7 +12294,7 @@
           "right": "samsung:USBC36000073J",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.2
+          "epg_similarity": 0.1667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5ef4e1b40d9ad000423c442a",
@@ -12822,8 +12822,8 @@
           "left": "pluto:5f32f26bcd8aea00071240e5",
           "right": "samsung:USBD300011KQ",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.625
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.5
         }
       ],
       "partially_collapsed": false
@@ -13122,8 +13122,8 @@
           "left": "pluto:5da0d75e84830900098a1ea0",
           "right": "samsung:USBC3600001RQ",
           "confirmed": false,
-          "reason": "unconfirmed-epg:6-titles",
-          "epg_similarity": 0.6
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.5
         },
         {
           "left": "pluto:5da0d75e84830900098a1ea0",
@@ -13281,8 +13281,8 @@
           "left": "pluto:5d93b635b43dd1a399b39eee",
           "right": "samsung:USBC3600008WY",
           "confirmed": false,
-          "reason": "unconfirmed-epg:6-titles",
-          "epg_similarity": 0.5455
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.4545
         }
       ],
       "partially_collapsed": false
@@ -13795,8 +13795,8 @@
           "left": "pluto:6508be683a0d700008c534e4",
           "right": "samsung:USBC39000171G",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1111
         },
         {
           "left": "pluto:6508be683a0d700008c534e4",
@@ -13816,15 +13816,15 @@
           "left": "samsung:USBC39000171G",
           "right": "tubi:618762",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.4286
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1429
         },
         {
           "left": "samsung:USBC39000171G",
           "right": "xumo:99951517",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         },
         {
           "left": "tubi:618762",
@@ -14136,8 +14136,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6571f43a1d2aae780d597196",
           "right": "samsung:USBA370000104",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.2222
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6571f43a1d2aae780d597196",
@@ -14150,8 +14150,8 @@
           "left": "pluto:5a6b92f6e22a617379789618",
           "right": "samsung:USBA370000104",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.375
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.25
         },
         {
           "left": "pluto:5a6b92f6e22a617379789618",
@@ -14164,8 +14164,8 @@
           "left": "samsung:USBA370000104",
           "right": "xumo:99991158",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.2222
         }
       ],
       "partially_collapsed": true
@@ -15132,8 +15132,8 @@
           "left": "samsung:USAJ3504714A",
           "right": "xumo:99991220",
           "confirmed": false,
-          "reason": "unconfirmed-epg:7-titles",
-          "epg_similarity": 0.6364
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.5455
         }
       ],
       "partially_collapsed": false
@@ -16125,8 +16125,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5fc70600dd53a6002d8f93ca",
           "right": "samsung:USBB2200014DK",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2727
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.3636
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fc70600dd53a6002d8f93ca",
@@ -16146,8 +16146,8 @@
           "left": "pluto:5df97894467dfa00091c873c",
           "right": "samsung:USBB2200014DK",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.4444
         },
         {
           "left": "pluto:5df97894467dfa00091c873c",
@@ -16167,15 +16167,15 @@
           "left": "samsung:USBB2200014DK",
           "right": "tubi:556174",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2727
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.3636
         },
         {
           "left": "samsung:USBB2200014DK",
           "right": "xumo:99991247",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2727
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.3636
         },
         {
           "left": "tubi:556174",
@@ -16925,9 +16925,9 @@
         {
           "left": "plex:6a1610bebdf296985fd95603-5fc70600598c41002da3dd39",
           "right": "samsung:USBB32000251N",
-          "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.75
+          "confirmed": true,
+          "reason": "epg-match:4-titles",
+          "epg_similarity": 1.0
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fc70600598c41002da3dd39",
@@ -16946,9 +16946,9 @@
         {
           "left": "pluto:5d695f7db53adf96b78e7ce3",
           "right": "samsung:USBB32000251N",
-          "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.75
+          "confirmed": true,
+          "reason": "epg-match:4-titles",
+          "epg_similarity": 1.0
         },
         {
           "left": "pluto:5d695f7db53adf96b78e7ce3",
@@ -16967,16 +16967,16 @@
         {
           "left": "samsung:USBB32000251N",
           "right": "tubi:597678",
-          "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.75
+          "confirmed": true,
+          "reason": "epg-match:4-titles",
+          "epg_similarity": 1.0
         },
         {
           "left": "samsung:USBB32000251N",
           "right": "xumo:99991245",
-          "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.75
+          "confirmed": true,
+          "reason": "epg-match:4-titles",
+          "epg_similarity": 1.0
         },
         {
           "left": "tubi:597678",
@@ -22325,6 +22325,62 @@
       "partially_collapsed": false
     },
     {
+      "canonical_name": "pluto tv fantastic",
+      "entries": [
+        {
+          "source": "iptv-org",
+          "source_kind": "Core",
+          "tvg_id": "PlutoTVFantastic.us@SD",
+          "name": "Pluto TV Fantastic",
+          "group": "USA - Series",
+          "local_signal": "",
+          "url": "https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8"
+        },
+        {
+          "source": "pluto",
+          "source_kind": "FAST",
+          "tvg_id": "5b64a245a202b3337f09e51d",
+          "name": "Pluto TV Fantastic",
+          "group": "Movies",
+          "local_signal": "",
+          "url": "https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8"
+        },
+        {
+          "source": "samsung",
+          "source_kind": "FAST",
+          "tvg_id": "USBA300017PK",
+          "name": "Pluto TV Fantastic",
+          "group": "Movies",
+          "local_signal": "",
+          "url": "https://jmp2.uk/stvp-USBA300017PK"
+        }
+      ],
+      "pair_evidence": [
+        {
+          "left": "iptv-org:PlutoTVFantastic.us@SD",
+          "right": "pluto:5b64a245a202b3337f09e51d",
+          "confirmed": true,
+          "reason": "exact-stream-url",
+          "epg_similarity": 1.0
+        },
+        {
+          "left": "iptv-org:PlutoTVFantastic.us@SD",
+          "right": "samsung:USBA300017PK",
+          "confirmed": false,
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
+        },
+        {
+          "left": "pluto:5b64a245a202b3337f09e51d",
+          "right": "samsung:USBA300017PK",
+          "confirmed": false,
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.75
+        }
+      ],
+      "partially_collapsed": true
+    },
+    {
       "canonical_name": "supernatural drama",
       "entries": [
         {
@@ -22933,7 +22989,7 @@
           "right": "samsung:USBB3500001O6",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1429
+          "epg_similarity": 0.1667
         }
       ],
       "partially_collapsed": true
@@ -24604,8 +24660,8 @@
           "left": "samsung:USBD25000161U",
           "right": "xumo:99991315",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.125
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.2857
         },
         {
           "left": "vizio:",
@@ -24668,7 +24724,7 @@
           "right": "samsung:US1000006HT",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.125
+          "epg_similarity": 0.1429
         }
       ],
       "partially_collapsed": true
@@ -25212,8 +25268,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5fc705f68aba71002d8b7b37",
           "right": "samsung:USAJ2200023Z0",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.4
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fc705f68aba71002d8b7b37",
@@ -25240,22 +25296,22 @@
           "left": "samsung:USAJ2200023Z0",
           "right": "roku:b4273871759a5631bd536d2214f175e5",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2857
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.3571
         },
         {
           "left": "samsung:USAJ2200023Z0",
           "right": "tubi:557344",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.1765
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2353
         },
         {
           "left": "samsung:USAJ2200023Z0",
           "right": "xumo:99951548",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.3571
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.4286
         },
         {
           "left": "roku:b4273871759a5631bd536d2214f175e5",
@@ -26308,8 +26364,8 @@
           "left": "pluto:5de94dacb394a300099fa22a",
           "right": "samsung:US400001M2",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.3571
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2667
         },
         {
           "left": "pluto:5de94dacb394a300099fa22a",
@@ -26329,15 +26385,15 @@
           "left": "samsung:US400001M2",
           "right": "tubi:400000046",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2632
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2
         },
         {
           "left": "samsung:US400001M2",
           "right": "xumo:99991281",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.1905
         },
         {
           "left": "tubi:400000046",
@@ -26800,8 +26856,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5f6142d2fc6ce20041ec3c92",
           "right": "samsung:USAJ3504705A",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1538
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.2308
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5f6142d2fc6ce20041ec3c92",
@@ -26821,8 +26877,8 @@
           "left": "samsung:USAJ3504705A",
           "right": "tubi:613763",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.2
         },
         {
           "left": "samsung:USAJ3504705A",
@@ -27112,8 +27168,8 @@
           "left": "plex:6a1610bebdf296985fd95603-66fbf9cf128ab3f65b259bcb",
           "right": "samsung:US20000131M",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1818
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66fbf9cf128ab3f65b259bcb",
@@ -27126,8 +27182,8 @@
           "left": "samsung:US20000131M",
           "right": "xumo:99951406",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2857
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.5
         }
       ],
       "partially_collapsed": false
@@ -27381,8 +27437,8 @@
           "left": "plex:6a1610bebdf296985fd95603-60a53634126de9002e694bc4",
           "right": "samsung:USAJ4300001Q7",
           "confirmed": false,
-          "reason": "unconfirmed-epg:7-titles",
-          "epg_similarity": 0.3684
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.3158
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-60a53634126de9002e694bc4",
@@ -27409,8 +27465,8 @@
           "left": "samsung:USAJ4300001Q7",
           "right": "xumo:99991387",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.0417
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         },
         {
           "left": "tubi:613758",
@@ -28018,8 +28074,8 @@
           "left": "plex:6a1610bebdf296985fd95603-648095b14e104622d093d902",
           "right": "samsung:US3700002P0",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1667
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-648095b14e104622d093d902",
@@ -28046,8 +28102,8 @@
           "left": "samsung:US3700002P0",
           "right": "xumo:99951232",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1667
         },
         {
           "left": "vizio:",
@@ -28313,7 +28369,7 @@
           "right": "samsung:USBC24000223S",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.25
+          "epg_similarity": 0.2
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf26",
@@ -28341,7 +28397,7 @@
           "right": "tubi:684167",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.25
+          "epg_similarity": 0.2
         },
         {
           "left": "samsung:USBC24000223S",
@@ -28355,7 +28411,7 @@
           "right": "xumo:99951157",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.25
+          "epg_similarity": 0.2
         },
         {
           "left": "tubi:684167",
@@ -29408,7 +29464,7 @@
           "right": "roku:285f3ba210e8561fa5261af0871ace90",
           "confirmed": false,
           "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.3333
+          "epg_similarity": 0.375
         },
         {
           "left": "samsung:USBC4400006BR",
@@ -29422,7 +29478,7 @@
           "right": "xumo:99951375",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.3333
+          "epg_similarity": 0.4
         },
         {
           "left": "roku:285f3ba210e8561fa5261af0871ace90",
@@ -29798,8 +29854,8 @@
           "left": "pluto:66df8aa7abec540008ca8cb6",
           "right": "samsung:USBD700022M5",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1667
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.4
         },
         {
           "left": "pluto:66df8aa7abec540008ca8cb6",
@@ -29826,8 +29882,8 @@
           "left": "samsung:USBD700022M5",
           "right": "tubi:700414",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1667
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.4
         },
         {
           "left": "samsung:USBD700022M5",
@@ -29840,8 +29896,8 @@
           "left": "samsung:USBD700022M5",
           "right": "xumo:99991693",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.2
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.5
         },
         {
           "left": "tubi:700414",
@@ -30057,7 +30113,7 @@
           "right": "samsung:US13000081O",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.1
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
@@ -30071,7 +30127,7 @@
           "right": "xumo:99951588",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.1
         }
       ],
       "partially_collapsed": true
@@ -31444,7 +31500,7 @@
           "right": "samsung:USBD1200021JM",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1667
+          "epg_similarity": 0.2
         }
       ],
       "partially_collapsed": false
@@ -32175,8 +32231,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5fb81660b7ad2d002dcb7335",
           "right": "samsung:USBA300028QU",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2778
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fb81660b7ad2d002dcb7335",
@@ -32196,8 +32252,8 @@
           "left": "pluto:55b179af994403942f3061d6",
           "right": "samsung:USBA300028QU",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2857
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.3571
         },
         {
           "left": "pluto:55b179af994403942f3061d6",
@@ -32224,8 +32280,8 @@
           "left": "samsung:USBA300028QU",
           "right": "xumo:99991194",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2778
         },
         {
           "left": "vizio:",
@@ -32343,8 +32399,8 @@
           "left": "pluto:5d486acc34ceb37d3c458a64",
           "right": "samsung:US1000016Q",
           "confirmed": false,
-          "reason": "unconfirmed-epg:7-titles",
-          "epg_similarity": 0.7778
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.6667
         }
       ],
       "partially_collapsed": false
@@ -33305,8 +33361,8 @@
           "left": "plex:6a1610bebdf296985fd95603-659f04ef27ae392d2e204695",
           "right": "samsung:US2700001QY",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4444
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.3333
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-659f04ef27ae392d2e204695",
@@ -33318,9 +33374,9 @@
         {
           "left": "pluto:5a74b8e1e22a61737979c6bf",
           "right": "samsung:US2700001QY",
-          "confirmed": true,
-          "reason": "epg-match:4-titles",
-          "epg_similarity": 1.0
+          "confirmed": false,
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.75
         },
         {
           "left": "pluto:5a74b8e1e22a61737979c6bf",
@@ -33333,8 +33389,8 @@
           "left": "samsung:US2700001QY",
           "right": "xumo:99991196",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.4444
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.3333
         }
       ],
       "partially_collapsed": true
@@ -33406,7 +33462,7 @@
           "right": "samsung:USBD4200016QR",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.125
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6583507e0938f2993a23375c",
@@ -33419,8 +33475,8 @@
           "left": "samsung:USBD4200016QR",
           "right": "xumo:99951390",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1111
         }
       ],
       "partially_collapsed": false
@@ -33573,8 +33629,8 @@
           "left": "plex:6a1610bebdf296985fd95603-69b047eed42e70e462105dbb",
           "right": "samsung:US400221W2",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.1818
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0833
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-69b047eed42e70e462105dbb",
@@ -33594,15 +33650,15 @@
           "left": "samsung:US400221W2",
           "right": "tubi:400000286",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1
         },
         {
           "left": "samsung:US400221W2",
           "right": "xumo:99951538",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1
         },
         {
           "left": "tubi:400000286",
@@ -33840,7 +33896,7 @@
           "right": "samsung:US1000012ML",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "epg_similarity": 0.3333
         }
       ],
       "partially_collapsed": false
@@ -35790,8 +35846,8 @@
           "left": "plex:6a1610bebdf296985fd95603-630905af0417b7074a4ad95e",
           "right": "samsung:USBC6000108Z",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.2
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-630905af0417b7074a4ad95e",
@@ -35818,8 +35874,8 @@
           "left": "samsung:USBC6000108Z",
           "right": "xumo:99951177",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.2
         },
         {
           "left": "vizio:",
@@ -37082,8 +37138,8 @@
           "left": "plex:6a1610bebdf296985fd95603-608aec5fa09205002da4f28f",
           "right": "samsung:USBC10000129R",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2308
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.3333
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-608aec5fa09205002da4f28f",
@@ -37110,8 +37166,8 @@
           "left": "samsung:USBC10000129R",
           "right": "roku:2a243861dea754eabb13a92e1106a4af",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.1765
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.25
         },
         {
           "left": "samsung:USBC10000129R",
@@ -37124,8 +37180,8 @@
           "left": "samsung:USBC10000129R",
           "right": "xumo:99991303",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.2
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2857
         },
         {
           "left": "roku:2a243861dea754eabb13a92e1106a4af",
@@ -38675,8 +38731,8 @@
           "left": "plex:6a1610bebdf296985fd95603-66628d4a8dfc36b8c8a399c4",
           "right": "samsung:USBD12000255B",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2857
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66628d4a8dfc36b8c8a399c4",
@@ -39748,8 +39804,8 @@
           "left": "plex:6a1610bebdf296985fd95603-5fc706038aba71002d8b7c8e",
           "right": "samsung:USBB400000145",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-5fc706038aba71002d8b7c8e",
@@ -39762,8 +39818,8 @@
           "left": "pluto:65493029ab052400089e9d2f",
           "right": "samsung:USBB400000145",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 1.0
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.5
         },
         {
           "left": "pluto:65493029ab052400089e9d2f",
@@ -39776,8 +39832,8 @@
           "left": "samsung:USBB400000145",
           "right": "xumo:99951462",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1
         }
       ],
       "partially_collapsed": true
@@ -40053,8 +40109,8 @@
           "left": "plex:6a1610bebdf296985fd95603-644c4bc17472b186783f35a0",
           "right": "samsung:US3000006DF",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.375
         }
       ],
       "partially_collapsed": false
@@ -40356,8 +40412,8 @@
           "left": "plex:6a1610bebdf296985fd95603-66f5a92352c50d2f62020f38",
           "right": "samsung:USBC100001175",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.1875
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66f5a92352c50d2f62020f38",
@@ -40370,8 +40426,8 @@
           "left": "samsung:USBC100001175",
           "right": "tubi:692051",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.1875
         }
       ],
       "partially_collapsed": false
@@ -41232,8 +41288,8 @@
           "left": "plex:6a1610bebdf296985fd95603-628ea9fcffe4cec6361f5310",
           "right": "samsung:USBC1300009VM",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2778
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-628ea9fcffe4cec6361f5310",
@@ -41267,15 +41323,15 @@
           "left": "samsung:USBC1300009VM",
           "right": "roku:52c137ae3cdc50768ad7ea3cdaf0f2f4",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2353
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2941
         },
         {
           "left": "samsung:USBC1300009VM",
           "right": "tubi:692114",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2353
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2941
         },
         {
           "left": "samsung:USBC1300009VM",
@@ -41288,8 +41344,8 @@
           "left": "samsung:USBC1300009VM",
           "right": "xumo:99951492",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.3125
         },
         {
           "left": "roku:52c137ae3cdc50768ad7ea3cdaf0f2f4",
@@ -41673,8 +41729,8 @@
           "left": "plex:6a1610bebdf296985fd95603-611152a48f945c002c40021a",
           "right": "samsung:USAJ22000130U",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.4286
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.2857
         }
       ],
       "partially_collapsed": false
@@ -42026,8 +42082,8 @@
           "left": "samsung:US310000101",
           "right": "tubi:400000048",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1429
         },
         {
           "left": "roku:bcd2f34b280f5bae874ed3b487a96e96",
@@ -42320,8 +42376,8 @@
           "left": "plex:6a1610bebdf296985fd95603-644875d7af92c31f4a190bc2",
           "right": "samsung:USBC3900018K6",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.1905
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2381
         }
       ],
       "partially_collapsed": false
@@ -42461,8 +42517,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6759a32270e41582b1b7a236",
           "right": "samsung:US300062TG",
           "confirmed": false,
-          "reason": "unconfirmed-epg:6-titles",
-          "epg_similarity": 0.3158
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2105
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6759a32270e41582b1b7a236",
@@ -42476,7 +42532,7 @@
           "right": "xumo:99951569",
           "confirmed": false,
           "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2
+          "epg_similarity": 0.2222
         }
       ],
       "partially_collapsed": false
@@ -42597,8 +42653,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6785867ad3749c9bdd4d2ed1",
           "right": "samsung:US2600006VY",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.5
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.75
         }
       ],
       "partially_collapsed": false
@@ -42695,8 +42751,8 @@
           "left": "plex:6a1610bebdf296985fd95603-64aed1e9c6085b5faf20ee1f",
           "right": "samsung:US8000024G",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.3333
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.4167
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-64aed1e9c6085b5faf20ee1f",
@@ -42709,8 +42765,8 @@
           "left": "samsung:US8000024G",
           "right": "xumo:99951288",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.2105
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2632
         }
       ],
       "partially_collapsed": false
@@ -42798,8 +42854,8 @@
           "left": "plex:6a1610bebdf296985fd95603-646c0dfbfb58444e4e1e262d",
           "right": "samsung:USBA300034DB",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.4545
+          "reason": "unconfirmed-epg:7-titles",
+          "epg_similarity": 0.5385
         }
       ],
       "partially_collapsed": false
@@ -42994,8 +43050,8 @@
           "left": "plex:6a1610bebdf296985fd95603-6823bfc6e9c807aaef15a7f5",
           "right": "samsung:US130000639",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.6
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-6823bfc6e9c807aaef15a7f5",
@@ -43022,8 +43078,8 @@
           "left": "samsung:US130000639",
           "right": "xumo:99951589",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.6
         },
         {
           "left": "vizio:",
@@ -43410,7 +43466,7 @@
           "right": "samsung:USBD2500017XQ",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "epg_similarity": 0.25
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-69814bbff871095eafc65925",
@@ -43438,7 +43494,7 @@
           "right": "samsung:USBD2500017XQ",
           "confirmed": false,
           "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.375
+          "epg_similarity": 0.4286
         },
         {
           "left": "pluto:63b48016d9dd51000828fa37",
@@ -43466,7 +43522,7 @@
           "right": "roku:ca25dfba8ba45a1bb277c8b0ca8f56c4",
           "confirmed": false,
           "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.375
+          "epg_similarity": 0.4286
         },
         {
           "left": "samsung:USBD2500017XQ",
@@ -43480,7 +43536,7 @@
           "right": "xumo:99991291",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "epg_similarity": 0.25
         },
         {
           "left": "roku:ca25dfba8ba45a1bb277c8b0ca8f56c4",
@@ -43811,7 +43867,7 @@
           "right": "samsung:USBB3200001MG",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.0833
+          "epg_similarity": 0.0769
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-64f0d3ddc2bc9b9001d46ea4",
@@ -43846,14 +43902,14 @@
           "right": "roku:8abbea29b86a5a5da299c7ef2e288cab",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1
+          "epg_similarity": 0.0909
         },
         {
           "left": "samsung:USBB3200001MG",
           "right": "tubi:641290",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.0833
+          "epg_similarity": 0.0769
         },
         {
           "left": "samsung:USBB3200001MG",
@@ -43867,7 +43923,7 @@
           "right": "xumo:99991368",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "epg_similarity": 0.2
         },
         {
           "left": "roku:8abbea29b86a5a5da299c7ef2e288cab",
@@ -43951,7 +44007,7 @@
           "right": "samsung:US4500001DM",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "epg_similarity": 0.3333
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66a2d97c94b6a49cb5054d77",
@@ -43965,7 +44021,7 @@
           "right": "xumo:99951338",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.4
+          "epg_similarity": 0.3333
         }
       ],
       "partially_collapsed": true
@@ -44199,8 +44255,8 @@
           "left": "plex:6a1610bebdf296985fd95603-67a1421f114554261db9e459",
           "right": "samsung:USBC1000004G8",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2174
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.1739
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-67a1421f114554261db9e459",
@@ -44227,8 +44283,8 @@
           "left": "samsung:USBC1000004G8",
           "right": "roku:34e2d8f442ab5fa3aed29436c2f8ed63",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2273
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.1818
         },
         {
           "left": "samsung:USBC1000004G8",
@@ -44241,8 +44297,8 @@
           "left": "samsung:USBC1000004G8",
           "right": "xumo:9995106",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2174
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.1739
         },
         {
           "left": "roku:34e2d8f442ab5fa3aed29436c2f8ed63",
@@ -46714,8 +46770,8 @@
           "left": "plex:6a1610bebdf296985fd95603-65621e98b7d737841f30a4f9",
           "right": "samsung:US37000036P",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:3-titles",
+          "epg_similarity": 0.3333
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-65621e98b7d737841f30a4f9",
@@ -46813,7 +46869,7 @@
           "right": "samsung:US46000120T",
           "confirmed": false,
           "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "epg_similarity": 0.2
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-65282a6091e77473f1a44ff2",
@@ -46834,7 +46890,7 @@
           "right": "tubi:400000011",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1111
+          "epg_similarity": 0.1
         },
         {
           "left": "samsung:US46000120T",
@@ -46914,8 +46970,8 @@
           "left": "plex:6a1610bebdf296985fd95603-66ccac69fdf9cd3a568ef135",
           "right": "samsung:US2900017P2",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1538
         },
         {
           "left": "plex:6a1610bebdf296985fd95603-66ccac69fdf9cd3a568ef135",
@@ -46935,8 +46991,8 @@
           "left": "pluto:677d9adfa9a51b0008497fa0",
           "right": "samsung:US2900017P2",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1429
         },
         {
           "left": "pluto:677d9adfa9a51b0008497fa0",
@@ -46956,15 +47012,15 @@
           "left": "samsung:US2900017P2",
           "right": "tubi:400000106",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1538
         },
         {
           "left": "samsung:US2900017P2",
           "right": "xumo:99951134",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.1538
         },
         {
           "left": "tubi:400000106",
@@ -47305,8 +47361,8 @@
           "left": "samsung:USBB1900006NY",
           "right": "tubi:400000195",
           "confirmed": false,
-          "reason": "unconfirmed-epg:0-titles",
-          "epg_similarity": 0.0
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.1429
         }
       ],
       "partially_collapsed": false
@@ -48145,7 +48201,7 @@
           "right": "samsung:US3200012O8",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.0556
+          "epg_similarity": 0.0588
         }
       ],
       "partially_collapsed": false
@@ -48972,8 +49028,8 @@
           "left": "pluto:61d4b38226b8a50007fe03a6",
           "right": "samsung:USBD3000145P",
           "confirmed": false,
-          "reason": "unconfirmed-epg:7-titles",
-          "epg_similarity": 0.4667
+          "reason": "unconfirmed-epg:6-titles",
+          "epg_similarity": 0.4
         }
       ],
       "partially_collapsed": false
@@ -49014,8 +49070,8 @@
           "left": "pluto:55b285cd2665de274553d66f",
           "right": "samsung:USBB52000022Q",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.125
+          "reason": "unconfirmed-epg:2-titles",
+          "epg_similarity": 0.25
         },
         {
           "left": "pluto:55b285cd2665de274553d66f",
@@ -49029,7 +49085,7 @@
           "right": "xumo:99951223",
           "confirmed": false,
           "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.125
+          "epg_similarity": 0.1111
         }
       ],
       "partially_collapsed": false
@@ -50039,8 +50095,8 @@
           "left": "samsung:US4600011ZJ",
           "right": "tubi:400000247",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2222
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0909
         },
         {
           "left": "samsung:US4600011ZJ",
@@ -50053,8 +50109,8 @@
           "left": "samsung:US4600011ZJ",
           "right": "xumo:99951379",
           "confirmed": false,
-          "reason": "unconfirmed-epg:2-titles",
-          "epg_similarity": 0.2
+          "reason": "unconfirmed-epg:1-titles",
+          "epg_similarity": 0.0833
         },
         {
           "left": "tubi:400000247",
@@ -50107,8 +50163,8 @@
           "left": "samsung:USBD4200011W4",
           "right": "tubi:400000164",
           "confirmed": false,
-          "reason": "unconfirmed-epg:5-titles",
-          "epg_similarity": 0.2941
+          "reason": "unconfirmed-epg:4-titles",
+          "epg_similarity": 0.2353
         }
       ],
       "partially_collapsed": false
@@ -50140,8 +50196,8 @@
           "left": "samsung:US700021SM",
           "right": "xumo:99951413",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.25
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.3125
         }
       ],
       "partially_collapsed": false
@@ -50229,8 +50285,8 @@
           "left": "samsung:USAJ30000148W",
           "right": "tubi:673499",
           "confirmed": false,
-          "reason": "unconfirmed-epg:4-titles",
-          "epg_similarity": 0.1818
+          "reason": "unconfirmed-epg:5-titles",
+          "epg_similarity": 0.2273
         }
       ],
       "partially_collapsed": false
@@ -51134,8 +51190,8 @@
           "left": "samsung:US37000017A",
           "right": "tubi:400000119",
           "confirmed": false,
-          "reason": "unconfirmed-epg:3-titles",
-          "epg_similarity": 0.1765
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         },
         {
           "left": "samsung:US37000017A",
@@ -51148,8 +51204,8 @@
           "left": "samsung:US37000017A",
           "right": "xumo:99951359",
           "confirmed": false,
-          "reason": "unconfirmed-epg:1-titles",
-          "epg_similarity": 0.1
+          "reason": "unconfirmed-epg:0-titles",
+          "epg_similarity": 0.0
         },
         {
           "left": "tubi:400000119",
