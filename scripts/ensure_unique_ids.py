@@ -145,8 +145,14 @@ def main():
         final_group = final_group_for(entry)
         if current != final_group:
             lines[entry["line_index"]] = set_group(lines[entry["line_index"]], final_group)
-            entry["attrs"]["group-title"] = final_group
             normalized_groups += 1
+
+    # Persist and re-read after group normalization so subsequent ID rewriting can never
+    # accidentally operate on stale pre-normalization EXTINF lines.
+    if normalized_groups:
+        INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
+        entries = parse_entries(lines)
 
     initial_ids = [base_id(entry) for entry in entries]
     counts = Counter(initial_ids)
@@ -171,7 +177,9 @@ def main():
     if len(used) != len(entries):
         raise SystemExit("Failed to assign a unique tvg-id to every channel")
 
-    final_entries = parse_entries(lines)
+    INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    final_lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
+    final_entries = parse_entries(final_lines)
     raw_groups = sorted({
         clean(entry["attrs"].get("group-title"))
         for entry in final_entries
@@ -180,7 +188,6 @@ def main():
     if raw_groups:
         raise SystemExit(f"Non-final provider/legacy groups remain: {raw_groups}")
 
-    INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(
         f"Normalized {normalized_groups} raw/legacy group assignments; "
         f"validated {len(entries)} channels with {len(used)} unique tvg-id values; "
