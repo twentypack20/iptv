@@ -147,10 +147,11 @@
       "id": "tubi",
       "name": "Tubi Live TV",
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
-      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml",
+      "url": "https://raw.githubusercontent.com/Mikhel/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/main/tubi_epg.xml",
       "region": "US",
-      "kind": "FAST"
+      "kind": "FAST",
+      "notes": "BuddyChewChew primary generated Tubi file disappeared; using the current compatible Mikhel playlist with BuddyChewChew's live Tubi EPG."
     },
     {
       "id": "plex",
@@ -176,13 +177,15 @@
       "enabled": true,
       "url": "https://www.apsattv.com/uslg.m3u",
       "region": "US",
-      "kind": "FAST"
+      "kind": "FAST",
+      "notes": "Preserve the broader APSAT LG inventory. The available BuddyChewChew LG XMLTV file is currently malformed, so LG guide data is filled only from safely confirmed equivalent/external guide sources for now."
     },
     {
       "id": "xumo",
       "name": "Xumo Play US",
       "enabled": true,
-      "url": "https://www.apsattv.com/xumo.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_playlist.m3u",
+      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz",
       "region": "US",
       "kind": "FAST"
     },

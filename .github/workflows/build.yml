@@ -10,12 +10,14 @@ on:
     paths:
       - "config.json"
       - "supplemental_sources.json"
+      - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/build.yml"
   pull_request:
     paths:
       - "config.json"
       - "supplemental_sources.json"
+      - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/**"
 
@@ -55,9 +57,13 @@ jobs:
         run: |
           python scripts/merge_supplemental.py
 
-      - name: Build EPG fingerprints for safe dedupe
+      - name: Build native EPG fingerprints for safe dedupe
         run: |
           python scripts/build_epg_index.py
+
+      - name: Build external EPG bridge and enrich dedupe fingerprints
+        run: |
+          python scripts/build_epg_bridge.py
 
       - name: Select market-safe best streams
         run: |
@@ -67,9 +73,13 @@ jobs:
         run: |
           python scripts/ensure_unique_ids.py
 
+      - name: Add TiviMate EPG URL to playlist header
+        run: |
+          python scripts/add_epg_header.py
+
       - name: Build combined XMLTV guide
         run: |
-          python scripts/build_epg.py
+          python scripts/build_epg_tivimate.py
 
       - name: Validate generated outputs
         run: |
@@ -85,6 +95,9 @@ jobs:
               Path('docs/all-sources.m3u'),
               Path('docs/index.m3u'),
               Path('docs/epg.xml'),
+              Path('docs/epg.xml.gz'),
+              Path('docs/epg-bridge-report.json'),
+              Path('docs/epg-report.json'),
               Path('docs/selection-report.json'),
               Path('docs/dedupe-candidates.json'),
           ]
@@ -93,8 +106,11 @@ jobs:
               raise SystemExit(f'Missing/empty generated outputs: {missing}')
 
           index_text = Path('docs/index.m3u').read_text(encoding='utf-8')
-          if not index_text.startswith('#EXTM3U'):
+          first_line = index_text.splitlines()[0] if index_text.splitlines() else ''
+          if not first_line.startswith('#EXTM3U'):
               raise SystemExit('docs/index.m3u is not a valid M3U header')
+          if 'https://twentypack20.github.io/iptv/epg.xml' not in first_line:
+              raise SystemExit('docs/index.m3u is missing the TiviMate EPG URL in its header')
 
           extinf_lines = [line for line in index_text.splitlines() if line.startswith('#EXTINF:')]
           tvg_ids = []
@@ -129,9 +145,14 @@ jobs:
                   f'{report.get("published_channels")} report / {len(extinf_lines)} playlist'
               )
 
+          epg_report = json.loads(Path('docs/epg-report.json').read_text(encoding='utf-8'))
+          if epg_report.get('epg_channels') != len(extinf_lines):
+              raise SystemExit('EPG report channel count does not match the playlist')
+
           print(
               f"Validated {len(extinf_lines)} published channels, "
-              f"{len(tvg_ids)} unique tvg-id values, and matching XMLTV channels"
+              f"{len(tvg_ids)} unique tvg-id values, matching XMLTV channels, "
+              f"and {epg_report.get('channels_with_programmes', 0)} channels with programmes"
           )
           PY
 
@@ -150,6 +171,7 @@ jobs:
           for path in [
               Path('docs/report.json'),
               Path('docs/supplemental-report.json'),
+              Path('docs/epg-bridge-report.json'),
               Path('docs/selection-report.json'),
               Path('docs/epg-report.json'),
           ]:
@@ -157,5 +179,7 @@ jobs:
               data = json.loads(path.read_text())
               if path.name == 'selection-report.json':
                   data.pop('collapsed_groups', None)
+              if path.name == 'epg-report.json':
+                  data.pop('selection_details', None)
               print(json.dumps(data, indent=2))
           PY
