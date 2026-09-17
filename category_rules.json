@@ -1,6 +1,12 @@
 {
   "enabled": true,
   "fallback_category": "Live TV - Other",
+  "exact_group_aliases": {
+    "Classic TV": "Live TV - Series / TV",
+    "Crime": "Live TV - Crime / Mystery",
+    "TV & Entertainment": "Live TV - Series / TV",
+    "Westerns": "Live TV - Movies"
+  },
   "epg_minimum_category_observations": 4,
   "epg_dominance_ratio": 0.6,
   "report_example_limit": 300,
