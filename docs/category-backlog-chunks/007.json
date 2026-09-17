@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "generated": "2026-09-17T12:11:25.915055+00:00",
   "chunk_index": 7,
   "total_chunks": 11,
   "start": 700,
@@ -292,45 +292,6 @@
         "\"NEW K-POP\" Plex Live TV US channel",
         "\"NEW K-POP\" live TV channel",
         "\"6a1610bebdf296985fd95603-60d4edd7b2fdec002c14112d\" \"NEW K-POP\""
-      ]
-    },
-    {
-      "stable_key": "plex:b5d0e211f083",
-      "channel": "NFL Channel",
-      "source": "plex",
-      "source_name": "Plex Live TV US",
-      "tvg_id": "plex:6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
-      "original_tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
-      "original_group": "United States",
-      "logo": "https://provider-static.plex.tv/epg/cms/production/a7617b69-6d23-46d0-8e8e-e4ec9fa29d59/NFL_WHITE.png",
-      "programme_samples": 24,
-      "epg_category_counts": {},
-      "sample_titles": [
-        "nfl game of the week",
-        "nfl fantasy football show",
-        "the nfl report",
-        "nfl daily",
-        "nfl highlights",
-        "a football life",
-        "nfl throwback",
-        "nfl throwback",
-        "nfl throwback",
-        "nfl game re airs",
-        "nfl fantasy football show",
-        "the nfl report",
-        "nfl daily",
-        "nfl throwback",
-        "nfl throwback",
-        "going global",
-        "nfl throwback",
-        "nfl game re airs",
-        "weekly game previews",
-        "nfl daily"
-      ],
-      "search_queries": [
-        "\"NFL Channel\" Plex Live TV US channel",
-        "\"NFL Channel\" live TV channel",
-        "\"6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f\" \"NFL Channel\""
       ]
     },
     {
@@ -3678,6 +3639,45 @@
         "\"Ryan and Friends\" Plex Live TV US channel",
         "\"Ryan and Friends\" live TV channel",
         "\"6a1610bebdf296985fd95603-5f91c4ea96a391002df9a664\" \"Ryan and Friends\""
+      ]
+    },
+    {
+      "stable_key": "roku:e6c453439e72",
+      "channel": "Ryan and Friends",
+      "source": "roku",
+      "source_name": "The Roku Channel",
+      "tvg_id": "roku:d1bfe824cfee5369a493d7a8bbd96ec1",
+      "original_tvg_id": "d1bfe824cfee5369a493d7a8bbd96ec1",
+      "original_group": "Other",
+      "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/d1bfe824cfee5369a493d7a8bbd96ec1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1661554205530_RYAN_AND_FRIENDS_260x147.png",
+      "programme_samples": 24,
+      "epg_category_counts": {},
+      "sample_titles": [
+        "jason vlogs pretend play adventures",
+        "ryan s world specials",
+        "kidcity",
+        "ryan s world specials",
+        "toys and colors",
+        "ryan s world specials",
+        "hudson s playground",
+        "like nastya",
+        "ryan s world specials",
+        "ryan s world specials",
+        "jason vlogs pretend play adventures",
+        "ryan s world specials",
+        "kidcity",
+        "ryan s mystery playdate",
+        "the stella show",
+        "ryan s world specials",
+        "toys and colors",
+        "kids diana show",
+        "ryan s world specials",
+        "ryan s world specials"
+      ],
+      "search_queries": [
+        "\"Ryan and Friends\" The Roku Channel channel",
+        "\"Ryan and Friends\" live TV channel",
+        "\"d1bfe824cfee5369a493d7a8bbd96ec1\" \"Ryan and Friends\""
       ]
     }
   ]

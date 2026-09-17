@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "generated": "2026-09-17T12:11:25.915055+00:00",
   "policy": "Research queue for channels still in Live TV - Other after deterministic metadata, EPG, and curated override classification. Items are not moved until evidence is saved in channel_category_overrides.json or a conservative rule matches.",
   "remaining": 1041,
   "chunk_manifest": "docs/category-backlog-manifest.json",
@@ -7,32 +7,32 @@
   "by_source": {
     "iptv-org": 4,
     "lg": 328,
-    "plex": 510,
-    "pluto": 25,
+    "plex": 509,
+    "pluto": 26,
     "roku": 20,
     "samsung": 42,
-    "tubi": 25,
+    "tubi": 24,
     "vizio": 47,
-    "xumo": 40
+    "xumo": 41
   },
   "top_original_groups": {
-    "United States": 510,
+    "United States": 509,
     "(blank)": 328,
     "TV": 25,
     "Sci-Fi & Horror": 19,
+    "Horror & Sci-Fi": 18,
     "Game Shows": 17,
-    "Horror & Sci-Fi": 17,
     "Ambiance": 15,
     "Daytime + Game Shows": 13,
-    "Sci-Fi": 10,
+    "Sci-Fi": 11,
     "Games & Competition": 8,
     "Automotive": 7,
     "CREATORS": 7,
     "Daytime TV": 7,
     "GAME SHOWS": 7,
     "Espa\u00f1ol": 6,
-    "Sci-Fi & Supernatural": 6,
     "MOOD + AMBIANCE": 5,
+    "Sci-Fi & Supernatural": 5,
     "Other": 4,
     "Romance": 4,
     "USA - Other": 4,
@@ -6782,17 +6782,20 @@
       ]
     },
     {
-      "stable_key": "tubi:2ce2e72aaebf",
+      "stable_key": "xumo:ea853a5b58e9",
       "channel": "Alien Nation by DUST",
-      "source": "tubi",
-      "source_name": "Tubi Live TV",
-      "tvg_id": "tubi:692057",
-      "original_tvg_id": "692057",
-      "original_group": "Sci-Fi & Supernatural",
-      "logo": "https://canvas-lb.tubitv.com/opts/t7SMobEbXiF0_Q==/48090b52-3410-4b0e-a2b1-7386e9700c1c/CHgQeDoFMS4xLjlAAQ==",
+      "source": "xumo",
+      "source_name": "Xumo Play US",
+      "tvg_id": "xumo:99991292",
+      "original_tvg_id": "99991292",
+      "original_group": "Horror & Sci-Fi",
+      "logo": "https://image.xumo.com/v1/channels/channel/99991292/168x168.png?type=color_onBlack",
       "programme_samples": 24,
       "epg_category_counts": {},
       "sample_titles": [
+        "evidence of the unexplained",
+        "american monster files",
+        "shenandoah sasquatch",
         "shenandoah sasquatch",
         "on the trail of ufos",
         "sasquatch unearthed mountain state monsters",
@@ -6809,15 +6812,12 @@
         "alien files reopened",
         "alien files reopened",
         "alien files reopened",
-        "special investigations",
-        "special investigations",
-        "special investigations",
-        "evidence of the unexplained"
+        "special investigations"
       ],
       "search_queries": [
-        "\"Alien Nation by DUST\" Tubi Live TV channel",
+        "\"Alien Nation by DUST\" Xumo Play US channel",
         "\"Alien Nation by DUST\" live TV channel",
-        "\"692057\" \"Alien Nation by DUST\""
+        "\"99991292\" \"Alien Nation by DUST\""
       ]
     },
     {
@@ -19644,45 +19644,6 @@
       ]
     },
     {
-      "stable_key": "plex:b5d0e211f083",
-      "channel": "NFL Channel",
-      "source": "plex",
-      "source_name": "Plex Live TV US",
-      "tvg_id": "plex:6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
-      "original_tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
-      "original_group": "United States",
-      "logo": "https://provider-static.plex.tv/epg/cms/production/a7617b69-6d23-46d0-8e8e-e4ec9fa29d59/NFL_WHITE.png",
-      "programme_samples": 24,
-      "epg_category_counts": {},
-      "sample_titles": [
-        "nfl game of the week",
-        "nfl fantasy football show",
-        "the nfl report",
-        "nfl daily",
-        "nfl highlights",
-        "a football life",
-        "nfl throwback",
-        "nfl throwback",
-        "nfl throwback",
-        "nfl game re airs",
-        "nfl fantasy football show",
-        "the nfl report",
-        "nfl daily",
-        "nfl throwback",
-        "nfl throwback",
-        "going global",
-        "nfl throwback",
-        "nfl game re airs",
-        "weekly game previews",
-        "nfl daily"
-      ],
-      "search_queries": [
-        "\"NFL Channel\" Plex Live TV US channel",
-        "\"NFL Channel\" live TV channel",
-        "\"6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f\" \"NFL Channel\""
-      ]
-    },
-    {
       "stable_key": "plex:28160d44922e",
       "channel": "NHRA TV",
       "source": "plex",
@@ -24335,6 +24296,46 @@
         "\"Star Trek: Enterprise\" Pluto TV US channel",
         "\"Star Trek: Enterprise\" live TV channel",
         "\"695c32671ca20bb8ca7fd8f7\" \"Star Trek: Enterprise\""
+      ]
+    },
+    {
+      "stable_key": "pluto:bc10001a0ae6",
+      "channel": "Star Trek: Voyager",
+      "source": "pluto",
+      "source_name": "Pluto TV US",
+      "tvg_id": "pluto:634dacf51d90320007fcd5fa",
+      "original_tvg_id": "634dacf51d90320007fcd5fa",
+      "original_group": "Sci-Fi",
+      "logo": "https://images.pluto.tv/channels/634dacf51d90320007fcd5fa/colorLogoPNG_1758310287876.png",
+      "programme_samples": 17,
+      "epg_category_counts": {
+        "Classic Sci-Fi & Fantasy": 17,
+        "Science fiction": 17,
+        "Series": 17
+      },
+      "sample_titles": [
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager"
+      ],
+      "search_queries": [
+        "\"Star Trek: Voyager\" Pluto TV US channel",
+        "\"Star Trek: Voyager\" live TV channel",
+        "\"634dacf51d90320007fcd5fa\" \"Star Trek: Voyager\""
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "generated": "2026-09-17T12:11:25.915055+00:00",
   "chunk_index": 3,
   "total_chunks": 11,
   "start": 300,
@@ -1150,17 +1150,20 @@
       ]
     },
     {
-      "stable_key": "tubi:2ce2e72aaebf",
+      "stable_key": "xumo:ea853a5b58e9",
       "channel": "Alien Nation by DUST",
-      "source": "tubi",
-      "source_name": "Tubi Live TV",
-      "tvg_id": "tubi:692057",
-      "original_tvg_id": "692057",
-      "original_group": "Sci-Fi & Supernatural",
-      "logo": "https://canvas-lb.tubitv.com/opts/t7SMobEbXiF0_Q==/48090b52-3410-4b0e-a2b1-7386e9700c1c/CHgQeDoFMS4xLjlAAQ==",
+      "source": "xumo",
+      "source_name": "Xumo Play US",
+      "tvg_id": "xumo:99991292",
+      "original_tvg_id": "99991292",
+      "original_group": "Horror & Sci-Fi",
+      "logo": "https://image.xumo.com/v1/channels/channel/99991292/168x168.png?type=color_onBlack",
       "programme_samples": 24,
       "epg_category_counts": {},
       "sample_titles": [
+        "evidence of the unexplained",
+        "american monster files",
+        "shenandoah sasquatch",
         "shenandoah sasquatch",
         "on the trail of ufos",
         "sasquatch unearthed mountain state monsters",
@@ -1177,15 +1180,12 @@
         "alien files reopened",
         "alien files reopened",
         "alien files reopened",
-        "special investigations",
-        "special investigations",
-        "special investigations",
-        "evidence of the unexplained"
+        "special investigations"
       ],
       "search_queries": [
-        "\"Alien Nation by DUST\" Tubi Live TV channel",
+        "\"Alien Nation by DUST\" Xumo Play US channel",
         "\"Alien Nation by DUST\" live TV channel",
-        "\"692057\" \"Alien Nation by DUST\""
+        "\"99991292\" \"Alien Nation by DUST\""
       ]
     },
     {

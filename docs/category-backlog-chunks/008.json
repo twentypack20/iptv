@@ -1,50 +1,11 @@
 {
-  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "generated": "2026-09-17T12:11:25.915055+00:00",
   "chunk_index": 8,
   "total_chunks": 11,
   "start": 800,
   "end_exclusive": 900,
   "count": 100,
   "channels": [
-    {
-      "stable_key": "roku:e6c453439e72",
-      "channel": "Ryan and Friends",
-      "source": "roku",
-      "source_name": "The Roku Channel",
-      "tvg_id": "roku:d1bfe824cfee5369a493d7a8bbd96ec1",
-      "original_tvg_id": "d1bfe824cfee5369a493d7a8bbd96ec1",
-      "original_group": "Other",
-      "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/d1bfe824cfee5369a493d7a8bbd96ec1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1661554205530_RYAN_AND_FRIENDS_260x147.png",
-      "programme_samples": 24,
-      "epg_category_counts": {},
-      "sample_titles": [
-        "jason vlogs pretend play adventures",
-        "ryan s world specials",
-        "kidcity",
-        "ryan s world specials",
-        "toys and colors",
-        "ryan s world specials",
-        "hudson s playground",
-        "like nastya",
-        "ryan s world specials",
-        "ryan s world specials",
-        "jason vlogs pretend play adventures",
-        "ryan s world specials",
-        "kidcity",
-        "ryan s mystery playdate",
-        "the stella show",
-        "ryan s world specials",
-        "toys and colors",
-        "kids diana show",
-        "ryan s world specials",
-        "ryan s world specials"
-      ],
-      "search_queries": [
-        "\"Ryan and Friends\" The Roku Channel channel",
-        "\"Ryan and Friends\" live TV channel",
-        "\"d1bfe824cfee5369a493d7a8bbd96ec1\" \"Ryan and Friends\""
-      ]
-    },
     {
       "stable_key": "plex:b18b00df360b",
       "channel": "Ryan Trahan",
@@ -1312,6 +1273,46 @@
         "\"Star Trek: Enterprise\" Pluto TV US channel",
         "\"Star Trek: Enterprise\" live TV channel",
         "\"695c32671ca20bb8ca7fd8f7\" \"Star Trek: Enterprise\""
+      ]
+    },
+    {
+      "stable_key": "pluto:bc10001a0ae6",
+      "channel": "Star Trek: Voyager",
+      "source": "pluto",
+      "source_name": "Pluto TV US",
+      "tvg_id": "pluto:634dacf51d90320007fcd5fa",
+      "original_tvg_id": "634dacf51d90320007fcd5fa",
+      "original_group": "Sci-Fi",
+      "logo": "https://images.pluto.tv/channels/634dacf51d90320007fcd5fa/colorLogoPNG_1758310287876.png",
+      "programme_samples": 17,
+      "epg_category_counts": {
+        "Classic Sci-Fi & Fantasy": 17,
+        "Science fiction": 17,
+        "Series": 17
+      },
+      "sample_titles": [
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager",
+        "star trek voyager"
+      ],
+      "search_queries": [
+        "\"Star Trek: Voyager\" Pluto TV US channel",
+        "\"Star Trek: Voyager\" live TV channel",
+        "\"634dacf51d90320007fcd5fa\" \"Star Trek: Voyager\""
       ]
     },
     {

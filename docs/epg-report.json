@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T12:05:37.053519+00:00",
-  "window_start": "2026-09-16T12:05:37.053519+00:00",
-  "window_end": "2026-09-24T12:05:37.053519+00:00",
+  "generated": "2026-09-17T12:11:26.239013+00:00",
+  "window_start": "2026-09-16T12:11:26.239013+00:00",
+  "window_end": "2026-09-24T12:11:26.239013+00:00",
   "configured_history_hours": 24,
   "configured_future_days": 7,
   "playlist_channels": 4819,
@@ -9,7 +9,7 @@
   "channels_with_programmes": 2615,
   "channels_without_programmes": 2204,
   "programme_coverage_percent": 54.26,
-  "programmes": 129289,
+  "programmes": 129286,
   "selection_counts": {
     "external:epgshare-us-locals1": 346,
     "external:epgshare-us-sports": 2,
@@ -1271,11 +1271,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PlutoTVHistory.us@US",
+      "tvg_id": "pluto:5a4d35dfa5c02e717a234f86",
       "channel": "Pluto TV History",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 61.5,
       "programmes": 21,
       "candidate_count": 1
@@ -1321,6 +1321,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "samsung:USBA3800003VP",
+      "channel": "Revry",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "confirmed-equivalent-provider",
+      "score": 66.333,
+      "programmes": 26,
+      "candidate_count": 2
+    },
+    {
       "tvg_id": "xumo:99951591",
       "channel": "Secrets of War",
       "selected_type": "native",
@@ -1331,11 +1341,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:SmithsonianChannelSelects.us@SD",
+      "tvg_id": "pluto:5f21ea08007a49000762d349",
       "channel": "Smithsonian Channel Selects",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 56.5,
       "programmes": 17,
       "candidate_count": 1
@@ -2541,11 +2551,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PeppaPig.us@SD",
+      "tvg_id": "pluto:5d14fb6c84dd37df3b4290c5",
       "channel": "Peppa Pig",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 71.633,
       "programmes": 34,
       "candidate_count": 1
@@ -3681,6 +3691,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "pluto:651f239d9c7aeb0008286823",
+      "channel": "Dating Disasters",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "exact-provider-id",
+      "score": 55.0,
+      "programmes": 17,
+      "candidate_count": 1
+    },
+    {
       "tvg_id": "samsung:USBB52000246M",
       "channel": "Deal Zone",
       "selected_type": "native",
@@ -4061,6 +4081,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "pluto:66df8aa7abec540008ca8cb6",
+      "channel": "Homeful",
+      "selected_type": "native",
+      "selected_source": "xumo",
+      "match_method": "confirmed-equivalent-provider",
+      "score": 156.267,
+      "programmes": 54,
+      "candidate_count": 3
+    },
+    {
       "tvg_id": "samsung:USBD700022M5",
       "channel": "Homeful",
       "selected_type": "native",
@@ -4069,16 +4099,6 @@
       "score": 24.133,
       "programmes": 7,
       "candidate_count": 1
-    },
-    {
-      "tvg_id": "tubi:700414",
-      "channel": "Homeful",
-      "selected_type": "native",
-      "selected_source": "xumo",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 156.267,
-      "programmes": 54,
-      "candidate_count": 3
     },
     {
       "tvg_id": "tubi:715952",
@@ -4531,16 +4551,6 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "plex:6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
-      "channel": "PBS Food",
-      "selected_type": "native",
-      "selected_source": "plex",
-      "match_method": "exact-provider-id",
-      "score": 247.809,
-      "programmes": 98,
-      "candidate_count": 2
-    },
-    {
       "tvg_id": "samsung:US13000081O",
       "channel": "PBS Food",
       "selected_type": "native",
@@ -4549,6 +4559,16 @@
       "score": 29.257,
       "programmes": 12,
       "candidate_count": 1
+    },
+    {
+      "tvg_id": "xumo:99951588",
+      "channel": "PBS Food",
+      "selected_type": "native",
+      "selected_source": "plex",
+      "match_method": "confirmed-equivalent-provider",
+      "score": 247.809,
+      "programmes": 98,
+      "candidate_count": 2
     },
     {
       "tvg_id": "plex:6a1610bebdf296985fd95603-684c201a3496598cf4003fbc",
@@ -4601,11 +4621,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PlutoTVBackcountry.us@SD",
+      "tvg_id": "pluto:5cabdf1437b88b26947346b2",
       "channel": "Pluto TV Backcountry",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 65.0,
       "programmes": 26,
       "candidate_count": 1
@@ -4626,6 +4646,16 @@
       "selected_type": "native",
       "selected_source": "pluto",
       "match_method": "confirmed-equivalent-provider",
+      "score": 56.0,
+      "programmes": 17,
+      "candidate_count": 1
+    },
+    {
+      "tvg_id": "pluto:5d8beeb39b5d5d5f8c672530",
+      "channel": "Pluto TV Lives",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "exact-provider-id",
       "score": 56.0,
       "programmes": 17,
       "candidate_count": 1
@@ -5756,8 +5786,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 285.633,
-      "programmes": 107,
+      "score": 283.633,
+      "programmes": 106,
       "candidate_count": 1
     },
     {
@@ -7621,11 +7651,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:ClassicMoviesChannel.us@SD",
+      "tvg_id": "pluto:561c5b0dada51f8004c4d855",
       "channel": "Classic Movies Channel",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 51.0,
       "programmes": 8,
       "candidate_count": 1
@@ -8661,11 +8691,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PlutoTVAction.us@US",
+      "tvg_id": "pluto:561d7d484dc7c8770484914a",
       "channel": "Pluto TV Action",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 50.0,
       "programmes": 7,
       "candidate_count": 1
@@ -8811,11 +8841,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PlutoTVThrillers.us@US",
+      "tvg_id": "pluto:5b4e69e08291147bd04a9fd7",
       "channel": "Pluto TV Thrillers",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 52.0,
       "programmes": 8,
       "candidate_count": 1
@@ -8838,16 +8868,6 @@
       "match_method": "confirmed-equivalent-provider",
       "score": 53.5,
       "programmes": 9,
-      "candidate_count": 1
-    },
-    {
-      "tvg_id": "iptv-org:Rawhide.us@SD",
-      "channel": "Rawhide",
-      "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 56.0,
-      "programmes": 17,
       "candidate_count": 1
     },
     {
@@ -8913,16 +8933,6 @@
     {
       "tvg_id": "iptv-org:StarTrekTheNextGeneration.us@SD",
       "channel": "Star Trek: The Next Generation",
-      "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 56.0,
-      "programmes": 17,
-      "candidate_count": 1
-    },
-    {
-      "tvg_id": "iptv-org:StarTrekVoyager.us@SD",
-      "channel": "Star Trek: Voyager",
       "selected_type": "native",
       "selected_source": "pluto",
       "match_method": "confirmed-equivalent-provider",
@@ -9151,11 +9161,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:MTVSpankinNew.us@US",
+      "tvg_id": "pluto:5d14fdb8ca91eedee1633117",
       "channel": "MTV Spankin' New",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 56.0,
       "programmes": 17,
       "candidate_count": 1
@@ -11286,8 +11296,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us2",
       "match_method": "unique-callsign",
-      "score": 358.533,
-      "programmes": 179,
+      "score": 356.7,
+      "programmes": 178,
       "candidate_count": 1
     },
     {
@@ -11421,7 +11431,7 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "tubi:692057",
+      "tvg_id": "xumo:99991292",
       "channel": "Alien Nation by DUST",
       "selected_type": "native",
       "selected_source": "plex",
@@ -14271,16 +14281,6 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "tubi:684167",
-      "channel": "ION Mystery",
-      "selected_type": "native",
-      "selected_source": "plex",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 197.0,
-      "programmes": 48,
-      "candidate_count": 3
-    },
-    {
       "tvg_id": "plex:6a1610bebdf296985fd95603-6707cfa5da81682f2d1e6837",
       "channel": "Iron Chef",
       "selected_type": "native",
@@ -15271,16 +15271,6 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "plex:6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
-      "channel": "NFL Channel",
-      "selected_type": "native",
-      "selected_source": "plex",
-      "match_method": "exact-provider-id",
-      "score": 189.0,
-      "programmes": 38,
-      "candidate_count": 2
-    },
-    {
       "tvg_id": "plex:6a1610bebdf296985fd95603-60aeb5cd87f9b1002ce12323",
       "channel": "NHRA TV",
       "selected_type": "native",
@@ -16051,6 +16041,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "pluto:634f307c7a068e00072c9982",
+      "channel": "Rawhide",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "exact-provider-id",
+      "score": 56.0,
+      "programmes": 17,
+      "candidate_count": 1
+    },
+    {
       "tvg_id": "plex:6a1610bebdf296985fd95603-66bfb17c144c201b8b61c10d",
       "channel": "RCM",
       "selected_type": "native",
@@ -16553,6 +16553,16 @@
     {
       "tvg_id": "pluto:695c32671ca20bb8ca7fd8f7",
       "channel": "Star Trek: Enterprise",
+      "selected_type": "native",
+      "selected_source": "pluto",
+      "match_method": "exact-provider-id",
+      "score": 56.0,
+      "programmes": 17,
+      "candidate_count": 1
+    },
+    {
+      "tvg_id": "pluto:634dacf51d90320007fcd5fa",
+      "channel": "Star Trek: Voyager",
       "selected_type": "native",
       "selected_source": "pluto",
       "match_method": "exact-provider-id",
@@ -18916,8 +18926,8 @@
       "selected_type": "external",
       "selected_source": "epgshare-us-locals1",
       "match_method": "unique-callsign",
-      "score": 285.633,
-      "programmes": 107,
+      "score": 283.633,
+      "programmes": 106,
       "candidate_count": 1
     },
     {
@@ -20461,16 +20471,6 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:DatingDisasters.us@SD",
-      "channel": "Dating Disasters",
-      "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 55.0,
-      "programmes": 17,
-      "candidate_count": 1
-    },
-    {
       "tvg_id": "samsung:US4100005NW",
       "channel": "Dawson's Creek",
       "selected_type": "native",
@@ -21471,6 +21471,16 @@
       "candidate_count": 1
     },
     {
+      "tvg_id": "xumo:99951157",
+      "channel": "ION Mystery",
+      "selected_type": "native",
+      "selected_source": "plex",
+      "match_method": "confirmed-equivalent-provider",
+      "score": 197.0,
+      "programmes": 48,
+      "candidate_count": 3
+    },
+    {
       "tvg_id": "samsung:USBD300003LK",
       "channel": "ION Plus",
       "selected_type": "native",
@@ -21981,11 +21991,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:Matlock.us@SD",
+      "tvg_id": "pluto:60f754f98185580007eb0754",
       "channel": "Matlock",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 56.0,
       "programmes": 17,
       "candidate_count": 1
@@ -22611,16 +22621,6 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "iptv-org:PlutoTVLives.us@US",
-      "channel": "Pluto TV Lives",
-      "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
-      "score": 56.0,
-      "programmes": 17,
-      "candidate_count": 1
-    },
-    {
       "tvg_id": "iptv-org:PlutoTVMilitary.us@SD",
       "channel": "Pluto TV Military",
       "selected_type": "native",
@@ -22771,21 +22771,11 @@
       "candidate_count": 1
     },
     {
-      "tvg_id": "pluto:674f735a2fb8a100087bf253",
-      "channel": "Revry",
-      "selected_type": "native",
-      "selected_source": "pluto",
-      "match_method": "exact-provider-id",
-      "score": 66.333,
-      "programmes": 26,
-      "candidate_count": 2
-    },
-    {
-      "tvg_id": "iptv-org:Ridiculousness.us@SD",
+      "tvg_id": "pluto:6996296087742204bff43147",
       "channel": "Ridiculousness",
       "selected_type": "native",
       "selected_source": "pluto",
-      "match_method": "confirmed-equivalent-provider",
+      "match_method": "exact-provider-id",
       "score": 71.0,
       "programmes": 33,
       "candidate_count": 1
@@ -25069,6 +25059,16 @@
       "score": 133.067,
       "programmes": 40,
       "candidate_count": 1
+    },
+    {
+      "tvg_id": "xumo:99991738",
+      "channel": "NFL Channel",
+      "selected_type": "native",
+      "selected_source": "plex",
+      "match_method": "confirmed-equivalent-provider",
+      "score": 189.0,
+      "programmes": 38,
+      "candidate_count": 2
     },
     {
       "tvg_id": "tubi:400000008",

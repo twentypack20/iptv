@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "generated": "2026-09-17T12:11:25.915055+00:00",
   "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, curated per-channel overrides can resolve fallback channels, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
   "channels_before": 4819,
@@ -20,9 +20,9 @@
   },
   "moved_by_destination": {
     "Live TV - Anime": 29,
-    "Live TV - Crime / Mystery": 8,
+    "Live TV - Crime / Mystery": 7,
     "Live TV - Lifestyle": 13,
-    "Live TV - Movies": 31,
+    "Live TV - Movies": 32,
     "Live TV - Music": 6,
     "Live TV - Religious": 1,
     "Live TV - Series / TV": 19,
@@ -52,10 +52,10 @@
     "metadata:mgm presents action": 1,
     "metadata:mgm presents horror": 1,
     "metadata:mma": 1,
-    "metadata:mystery": 5,
+    "metadata:mystery": 4,
     "metadata:retrocrush": 1,
     "metadata:sitcom": 1,
-    "metadata:westerns": 28,
+    "metadata:westerns": 29,
     "metadata:wrestling": 2
   },
   "group_counts_before": {
@@ -63,17 +63,17 @@
     "Crime": 1,
     "FAST - LG Channels US": 2,
     "Live TV - Business": 36,
-    "Live TV - Documentary / Education": 289,
+    "Live TV - Documentary / Education": 290,
     "Live TV - Kids / Family": 245,
-    "Live TV - Lifestyle": 367,
+    "Live TV - Lifestyle": 369,
     "Live TV - Local / Public": 601,
-    "Live TV - Movies": 310,
+    "Live TV - Movies": 308,
     "Live TV - Music": 145,
     "Live TV - News": 306,
     "Live TV - Other": 1154,
     "Live TV - Religious": 82,
-    "Live TV - Series / TV": 936,
-    "Live TV - Sports": 318,
+    "Live TV - Series / TV": 934,
+    "Live TV - Sports": 319,
     "Live TV - Weather": 22,
     "TV & Entertainment": 1,
     "United States": 1,
@@ -83,18 +83,18 @@
     "FAST - LG Channels US": 2,
     "Live TV - Anime": 29,
     "Live TV - Business": 36,
-    "Live TV - Crime / Mystery": 8,
-    "Live TV - Documentary / Education": 289,
+    "Live TV - Crime / Mystery": 7,
+    "Live TV - Documentary / Education": 290,
     "Live TV - Kids / Family": 245,
-    "Live TV - Lifestyle": 380,
+    "Live TV - Lifestyle": 382,
     "Live TV - Local / Public": 601,
-    "Live TV - Movies": 341,
+    "Live TV - Movies": 340,
     "Live TV - Music": 151,
     "Live TV - News": 306,
     "Live TV - Other": 1041,
     "Live TV - Religious": 83,
-    "Live TV - Series / TV": 955,
-    "Live TV - Sports": 329,
+    "Live TV - Series / TV": 953,
+    "Live TV - Sports": 330,
     "Live TV - Weather": 22,
     "United States": 1
   },
@@ -745,15 +745,6 @@
       "epg": {}
     },
     {
-      "channel": "ION Mystery",
-      "source": "tubi",
-      "original_group": "Mystery",
-      "from": "Live TV - Other",
-      "to": "Live TV - Crime / Mystery",
-      "method": "metadata:mystery",
-      "epg": {}
-    },
-    {
       "channel": "Iron Chef",
       "source": "plex",
       "original_group": "United States",
@@ -1001,6 +992,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Anime",
       "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Rawhide",
+      "source": "pluto",
+      "original_group": "Westerns",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
       "epg": {}
     },
     {
@@ -1616,6 +1616,22 @@
       "total_category_observations": 34,
       "programme_samples": 17,
       "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Star Trek: Voyager",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 51,
+      "programme_samples": 17,
+      "dominance": 0.3333,
       "categories": [
         {
           "category": "Science fiction",

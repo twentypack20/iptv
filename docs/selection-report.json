@@ -1,21 +1,21 @@
 {
-  "generated": "2026-09-17 12:05:35 UTC",
+  "generated": "2026-09-17 12:11:25 UTC",
   "source_inventory": 5075,
   "published_channels": 4819,
   "confirmed_duplicate_groups": 229,
   "ambiguous_duplicate_groups": 709,
   "removed_confirmed_duplicates": 256,
   "selected_sources": {
-    "iptv-org": 1341,
+    "iptv-org": 1327,
     "lg": 447,
     "localnow": 447,
-    "plex": 674,
-    "pluto": 233,
+    "plex": 672,
+    "pluto": 247,
     "roku": 216,
-    "samsung": 534,
-    "tubi": 174,
+    "samsung": 535,
+    "tubi": 171,
     "vizio": 410,
-    "xumo": 343
+    "xumo": 347
   },
   "collapsed_groups": [
     {
@@ -366,21 +366,36 @@
     {
       "canonical_name": "pluto tv history",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PlutoTVHistory.us@US",
+        "source": "pluto",
+        "tvg_id": "5a4d35dfa5c02e717a234f86",
         "name": "Pluto TV History",
-        "score": 500.0,
+        "score": 1014.51,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 741.9,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5a4d35dfa5c02e717a234f86",
+          "name": "Pluto TV History",
+          "score": 1014.51,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 741.9,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PlutoTVHistory.us@US",
@@ -394,21 +409,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5a4d35dfa5c02e717a234f86",
-          "name": "Pluto TV History",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -516,21 +516,36 @@
     {
       "canonical_name": "smithsonian channel selects",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "SmithsonianChannelSelects.us@SD",
+        "source": "pluto",
+        "tvg_id": "5f21ea08007a49000762d349",
         "name": "Smithsonian Channel Selects",
-        "score": 500.0,
+        "score": 994.5,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 1408.7,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5f21ea08007a49000762d349",
+          "name": "Smithsonian Channel Selects",
+          "score": 994.5,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 1408.7,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "SmithsonianChannelSelects.us@SD",
@@ -544,21 +559,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5f21ea08007a49000762d349",
-          "name": "Smithsonian Channel Selects",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -1331,21 +1331,36 @@
     {
       "canonical_name": "dating disasters",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "DatingDisasters.us@SD",
+        "source": "pluto",
+        "tvg_id": "651f239d9c7aeb0008286823",
         "name": "Dating Disasters",
-        "score": 500.0,
+        "score": 1006.38,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 1012.7,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "651f239d9c7aeb0008286823",
+          "name": "Dating Disasters",
+          "score": 1006.38,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 1012.7,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "DatingDisasters.us@SD",
@@ -1359,21 +1374,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "651f239d9c7aeb0008286823",
-          "name": "Dating Disasters",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -2111,21 +2111,36 @@
     {
       "canonical_name": "ridiculousness",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "Ridiculousness.us@SD",
+        "source": "pluto",
+        "tvg_id": "6996296087742204bff43147",
         "name": "Ridiculousness",
-        "score": 500.0,
+        "score": 1013.8,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 765.3,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "6996296087742204bff43147",
+          "name": "Ridiculousness",
+          "score": 1013.8,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 765.3,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "Ridiculousness.us@SD",
@@ -2139,21 +2154,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "6996296087742204bff43147",
-          "name": "Ridiculousness",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -2911,21 +2911,36 @@
     {
       "canonical_name": "peppa pig",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PeppaPig.us@SD",
+        "source": "pluto",
+        "tvg_id": "5d14fb6c84dd37df3b4290c5",
         "name": "Peppa Pig",
-        "score": 500.0,
+        "score": 1012.77,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 799.9,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5d14fb6c84dd37df3b4290c5",
+          "name": "Peppa Pig",
+          "score": 1012.77,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 799.9,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PeppaPig.us@SD",
@@ -2939,21 +2954,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5d14fb6c84dd37df3b4290c5",
-          "name": "Peppa Pig",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -3326,21 +3326,36 @@
     {
       "canonical_name": "pluto tv backcountry",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PlutoTVBackcountry.us@SD",
+        "source": "pluto",
+        "tvg_id": "5cabdf1437b88b26947346b2",
         "name": "Pluto TV Backcountry",
-        "score": 500.0,
+        "score": 1013.58,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 772.7,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5cabdf1437b88b26947346b2",
+          "name": "Pluto TV Backcountry",
+          "score": 1013.58,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 772.7,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PlutoTVBackcountry.us@SD",
@@ -3354,21 +3369,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5cabdf1437b88b26947346b2",
-          "name": "Pluto TV Backcountry",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -3476,21 +3476,36 @@
     {
       "canonical_name": "revry",
       "selected": {
-        "source": "pluto",
-        "tvg_id": "674f735a2fb8a100087bf253",
+        "source": "samsung",
+        "tvg_id": "USBA3800003VP",
         "name": "Revry",
-        "score": 500.0,
+        "score": 1205.85,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4725600,
+          "avg_latency_ms": 2228.5,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 1
+          "source_order": 2
         }
       },
       "alternatives": [
+        {
+          "source": "samsung",
+          "tvg_id": "USBA3800003VP",
+          "name": "Revry",
+          "score": 1205.85,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4725600,
+            "avg_latency_ms": 2228.5,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 2
+          }
+        },
         {
           "source": "pluto",
           "tvg_id": "674f735a2fb8a100087bf253",
@@ -3504,21 +3519,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
-          }
-        },
-        {
-          "source": "samsung",
-          "tvg_id": "USBA3800003VP",
-          "name": "Revry",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
           }
         }
       ]
@@ -4276,21 +4276,36 @@
     {
       "canonical_name": "classic movies channel",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "ClassicMoviesChannel.us@SD",
+        "source": "pluto",
+        "tvg_id": "561c5b0dada51f8004c4d855",
         "name": "Classic Movies Channel",
-        "score": 500.0,
+        "score": 995.8,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 1365.6,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "561c5b0dada51f8004c4d855",
+          "name": "Classic Movies Channel",
+          "score": 995.8,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 1365.6,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "ClassicMoviesChannel.us@SD",
@@ -4304,21 +4319,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "561c5b0dada51f8004c4d855",
-          "name": "Classic Movies Channel",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -4479,12 +4479,12 @@
         "source": "tubi",
         "tvg_id": "400000056",
         "name": "Ebony TV by Lionsgate",
-        "score": 525.0,
+        "score": 1161.41,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 720,
+          "max_bandwidth": 5188040,
+          "avg_latency_ms": 2328.3,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 4
@@ -4495,12 +4495,12 @@
           "source": "tubi",
           "tvg_id": "400000056",
           "name": "Ebony TV by Lionsgate",
-          "score": 525.0,
+          "score": 1161.41,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 720,
+            "max_bandwidth": 5188040,
+            "avg_latency_ms": 2328.3,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
@@ -4744,12 +4744,12 @@
         "source": "tubi",
         "tvg_id": "692262",
         "name": "Maverick Black Cinema",
-        "score": 525.0,
+        "score": 1160.82,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 720,
+          "max_bandwidth": 3072000,
+          "avg_latency_ms": 1501.6,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 4
@@ -4760,12 +4760,12 @@
           "source": "tubi",
           "tvg_id": "692262",
           "name": "Maverick Black Cinema",
-          "score": 525.0,
+          "score": 1160.82,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 720,
+            "max_bandwidth": 3072000,
+            "avg_latency_ms": 1501.6,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
@@ -4891,21 +4891,36 @@
     {
       "canonical_name": "pluto tv action",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PlutoTVAction.us@US",
+        "source": "pluto",
+        "tvg_id": "561d7d484dc7c8770484914a",
         "name": "Pluto TV Action",
-        "score": 500.0,
+        "score": 1013.68,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 769.5,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "561d7d484dc7c8770484914a",
+          "name": "Pluto TV Action",
+          "score": 1013.68,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 769.5,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PlutoTVAction.us@US",
@@ -4919,21 +4934,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "561d7d484dc7c8770484914a",
-          "name": "Pluto TV Action",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -5541,21 +5541,36 @@
     {
       "canonical_name": "pluto tv thrillers",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PlutoTVThrillers.us@US",
+        "source": "pluto",
+        "tvg_id": "5b4e69e08291147bd04a9fd7",
         "name": "Pluto TV Thrillers",
-        "score": 500.0,
+        "score": 1009.64,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 904.2,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5b4e69e08291147bd04a9fd7",
+          "name": "Pluto TV Thrillers",
+          "score": 1009.64,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 904.2,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PlutoTVThrillers.us@US",
@@ -5569,21 +5584,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5b4e69e08291147bd04a9fd7",
-          "name": "Pluto TV Thrillers",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -5691,21 +5691,36 @@
     {
       "canonical_name": "rawhide",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "Rawhide.us@SD",
+        "source": "pluto",
+        "tvg_id": "634f307c7a068e00072c9982",
         "name": "Rawhide",
-        "score": 500.0,
+        "score": 1013.87,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 763.2,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "634f307c7a068e00072c9982",
+          "name": "Rawhide",
+          "score": 1013.87,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 763.2,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "Rawhide.us@SD",
@@ -5719,21 +5734,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "634f307c7a068e00072c9982",
-          "name": "Rawhide",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -5841,21 +5841,36 @@
     {
       "canonical_name": "star trek voyager",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "StarTrekVoyager.us@SD",
+        "source": "pluto",
+        "tvg_id": "634dacf51d90320007fcd5fa",
         "name": "Star Trek: Voyager",
-        "score": 500.0,
+        "score": 1000.47,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 1209.8,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "634dacf51d90320007fcd5fa",
+          "name": "Star Trek: Voyager",
+          "score": 1000.47,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 1209.8,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "StarTrekVoyager.us@SD",
@@ -5869,21 +5884,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "634dacf51d90320007fcd5fa",
-          "name": "Star Trek: Voyager",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -6291,21 +6291,36 @@
     {
       "canonical_name": "mtv spankin new",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "MTVSpankinNew.us@US",
+        "source": "pluto",
+        "tvg_id": "5d14fdb8ca91eedee1633117",
         "name": "MTV Spankin' New",
-        "score": 500.0,
+        "score": 1013.65,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 770.4,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5d14fdb8ca91eedee1633117",
+          "name": "MTV Spankin' New",
+          "score": 1013.65,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 770.4,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "MTVSpankinNew.us@US",
@@ -6319,21 +6334,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5d14fdb8ca91eedee1633117",
-          "name": "MTV Spankin' New",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -7911,21 +7911,36 @@
     {
       "canonical_name": "matlock",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "Matlock.us@SD",
+        "source": "pluto",
+        "tvg_id": "60f754f98185580007eb0754",
         "name": "Matlock",
-        "score": 500.0,
+        "score": 1014.89,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 729.2,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "60f754f98185580007eb0754",
+          "name": "Matlock",
+          "score": 1014.89,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 729.2,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "Matlock.us@SD",
@@ -7939,21 +7954,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "60f754f98185580007eb0754",
-          "name": "Matlock",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -8276,21 +8276,36 @@
     {
       "canonical_name": "pluto tv lives",
       "selected": {
-        "source": "iptv-org",
-        "tvg_id": "PlutoTVLives.us@US",
+        "source": "pluto",
+        "tvg_id": "5d8beeb39b5d5d5f8c672530",
         "name": "Pluto TV Lives",
-        "score": 500.0,
+        "score": 1014.73,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 734.5,
           "consecutive_failures": 0,
           "direct": false,
-          "source_order": 0
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "5d8beeb39b5d5d5f8c672530",
+          "name": "Pluto TV Lives",
+          "score": 1014.73,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 734.5,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "iptv-org",
           "tvg_id": "PlutoTVLives.us@US",
@@ -8304,21 +8319,6 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 0
-          }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "5d8beeb39b5d5d5f8c672530",
-          "name": "Pluto TV Lives",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
           }
         }
       ]
@@ -9176,21 +9176,36 @@
     {
       "canonical_name": "nfl channel",
       "selected": {
-        "source": "plex",
-        "tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
+        "source": "xumo",
+        "tvg_id": "99991738",
         "name": "NFL Channel",
-        "score": 525.0,
+        "score": 1273.93,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 5625000,
+          "avg_latency_ms": 1152.3,
           "consecutive_failures": 0,
           "direct": true,
-          "source_order": 5
+          "source_order": 8
         }
       },
       "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99991738",
+          "name": "NFL Channel",
+          "score": 1273.93,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 5625000,
+            "avg_latency_ms": 1152.3,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
         {
           "source": "plex",
           "tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
@@ -9204,21 +9219,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
-          }
-        },
-        {
-          "source": "xumo",
-          "tvg_id": "99991738",
-          "name": "NFL Channel",
-          "score": 525.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": true,
-            "source_order": 8
           }
         }
       ]
@@ -9479,12 +9479,12 @@
         "source": "tubi",
         "tvg_id": "400000045",
         "name": "PokerGO",
-        "score": 525.0,
+        "score": 1134.86,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 720,
+          "max_bandwidth": 3000140,
+          "avg_latency_ms": 2338.2,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 4
@@ -9495,12 +9495,12 @@
           "source": "tubi",
           "tvg_id": "400000045",
           "name": "PokerGO",
-          "score": 525.0,
+          "score": 1134.86,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 720,
+            "max_bandwidth": 3000140,
+            "avg_latency_ms": 2338.2,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
@@ -9626,21 +9626,36 @@
     {
       "canonical_name": "ion mystery",
       "selected": {
-        "source": "tubi",
-        "tvg_id": "684167",
+        "source": "xumo",
+        "tvg_id": "99951157",
         "name": "ION Mystery",
-        "score": 525.0,
+        "score": 1268.55,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4730000,
+          "avg_latency_ms": 973.6,
           "consecutive_failures": 0,
           "direct": true,
-          "source_order": 4
+          "source_order": 8
         }
       },
       "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99951157",
+          "name": "ION Mystery",
+          "score": 1268.55,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4730000,
+            "avg_latency_ms": 973.6,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
         {
           "source": "tubi",
           "tvg_id": "684167",
@@ -9669,21 +9684,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
-          }
-        },
-        {
-          "source": "xumo",
-          "tvg_id": "99951157",
-          "name": "ION Mystery",
-          "score": 525.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": true,
-            "source_order": 8
           }
         }
       ]
@@ -9791,21 +9791,36 @@
     {
       "canonical_name": "homeful",
       "selected": {
-        "source": "tubi",
-        "tvg_id": "700414",
+        "source": "pluto",
+        "tvg_id": "66df8aa7abec540008ca8cb6",
         "name": "Homeful",
-        "score": 525.0,
+        "score": 1006.04,
         "score_details": {
-          "success_rate": 0.5,
+          "success_rate": 1.0,
           "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "max_bandwidth": 3063648,
+          "avg_latency_ms": 1024.2,
           "consecutive_failures": 0,
-          "direct": true,
-          "source_order": 4
+          "direct": false,
+          "source_order": 1
         }
       },
       "alternatives": [
+        {
+          "source": "pluto",
+          "tvg_id": "66df8aa7abec540008ca8cb6",
+          "name": "Homeful",
+          "score": 1006.04,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 0,
+            "max_bandwidth": 3063648,
+            "avg_latency_ms": 1024.2,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        },
         {
           "source": "tubi",
           "tvg_id": "700414",
@@ -9835,42 +9850,42 @@
             "direct": true,
             "source_order": 8
           }
-        },
-        {
-          "source": "pluto",
-          "tvg_id": "66df8aa7abec540008ca8cb6",
-          "name": "Homeful",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
-          }
         }
       ]
     },
     {
       "canonical_name": "pbs food",
       "selected": {
-        "source": "plex",
-        "tvg_id": "6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
+        "source": "xumo",
+        "tvg_id": "99951588",
         "name": "PBS Food",
-        "score": 525.0,
+        "score": 1273.57,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4650800,
+          "avg_latency_ms": 774.8,
           "consecutive_failures": 0,
           "direct": true,
-          "source_order": 5
+          "source_order": 8
         }
       },
       "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99951588",
+          "name": "PBS Food",
+          "score": 1273.57,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4650800,
+            "avg_latency_ms": 774.8,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
         {
           "source": "plex",
           "tvg_id": "6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
@@ -9884,21 +9899,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
-          }
-        },
-        {
-          "source": "xumo",
-          "tvg_id": "99951588",
-          "name": "PBS Food",
-          "score": 525.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": true,
-            "source_order": 8
           }
         }
       ]
@@ -10059,12 +10059,12 @@
         "source": "tubi",
         "tvg_id": "400000285",
         "name": "Cowboy+ Sports",
-        "score": 525.0,
+        "score": 1163.91,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 720,
+          "max_bandwidth": 3329040,
+          "avg_latency_ms": 1501.2,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 4
@@ -10075,12 +10075,12 @@
           "source": "tubi",
           "tvg_id": "400000285",
           "name": "Cowboy+ Sports",
-          "score": 525.0,
+          "score": 1163.91,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 720,
+            "max_bandwidth": 3329040,
+            "avg_latency_ms": 1501.2,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
@@ -10356,31 +10356,46 @@
     {
       "canonical_name": "alien nation by dust",
       "selected": {
-        "source": "tubi",
-        "tvg_id": "692057",
+        "source": "xumo",
+        "tvg_id": "99991292",
         "name": "Alien Nation by DUST",
-        "score": 525.0,
+        "score": 1284.94,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4725600,
+          "avg_latency_ms": 425.7,
           "consecutive_failures": 0,
           "direct": true,
-          "source_order": 4
+          "source_order": 8
         }
       },
       "alternatives": [
         {
+          "source": "xumo",
+          "tvg_id": "99991292",
+          "name": "Alien Nation by DUST",
+          "score": 1284.94,
+          "score_details": {
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4725600,
+            "avg_latency_ms": 425.7,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "tubi",
           "tvg_id": "692057",
           "name": "Alien Nation by DUST",
-          "score": 525.0,
+          "score": 1145.97,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 720,
+            "max_bandwidth": 3193687,
+            "avg_latency_ms": 2045.1,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
@@ -10399,21 +10414,6 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
-          }
-        },
-        {
-          "source": "xumo",
-          "tvg_id": "99991292",
-          "name": "Alien Nation by DUST",
-          "score": 525.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": true,
-            "source_order": 8
           }
         }
       ]
@@ -11434,12 +11434,12 @@
         "source": "plex",
         "tvg_id": "6a1610bebdf296985fd95603-68a8ddec619a0c342c8d6181",
         "name": "RCN Noticias",
-        "score": 525.0,
+        "score": 1264.59,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4730000,
+          "avg_latency_ms": 1105.8,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 5
@@ -11450,12 +11450,12 @@
           "source": "plex",
           "tvg_id": "6a1610bebdf296985fd95603-68a8ddec619a0c342c8d6181",
           "name": "RCN Noticias",
-          "score": 525.0,
+          "score": 1264.59,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4730000,
+            "avg_latency_ms": 1105.8,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
@@ -11584,12 +11584,12 @@
         "source": "plex",
         "tvg_id": "6a1610bebdf296985fd95603-672948f0297d4ea7584a2e13",
         "name": "The Martha Stewart Channel",
-        "score": 525.0,
+        "score": 1275.07,
         "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
+          "success_rate": 1.0,
+          "max_height": 1080,
+          "max_bandwidth": 4300000,
+          "avg_latency_ms": 584.3,
           "consecutive_failures": 0,
           "direct": true,
           "source_order": 5
@@ -11600,12 +11600,12 @@
           "source": "plex",
           "tvg_id": "6a1610bebdf296985fd95603-672948f0297d4ea7584a2e13",
           "name": "The Martha Stewart Channel",
-          "score": 525.0,
+          "score": 1275.07,
           "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
+            "success_rate": 1.0,
+            "max_height": 1080,
+            "max_bandwidth": 4300000,
+            "avg_latency_ms": 584.3,
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
