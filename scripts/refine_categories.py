@@ -143,12 +143,20 @@ def main():
 
     epg_index = load_json(EPG_INDEX_PATH, {"sources": {}})
     fallback = clean_text(cfg.get("fallback_category") or "Live TV - Other")
+    exact_aliases = {
+        clean_text(source): clean_text(target)
+        for source, target in (cfg.get("exact_group_aliases") or {}).items()
+        if clean_text(source) and clean_text(target)
+    }
     lines = PLAYLIST_PATH.read_text(encoding="utf-8").splitlines()
 
     before = Counter()
     after = Counter()
     moved = Counter()
     methods = Counter()
+    alias_moves = Counter()
+    moved_from_other = 0
+    exact_group_normalizations = 0
     examples = []
     uncertain_epg = []
     output = []
@@ -165,7 +173,11 @@ def main():
         method = "unchanged"
         epg_details = {}
 
-        if current == fallback:
+        alias_target = exact_aliases.get(current, "")
+        if alias_target:
+            new_group = alias_target
+            method = f"group-alias:{current}"
+        elif current == fallback:
             candidate, reason = metadata_match(
                 name,
                 attrs,
@@ -194,6 +206,11 @@ def main():
             line = set_group(line, new_group)
             moved[new_group] += 1
             methods[method] += 1
+            if current == fallback:
+                moved_from_other += 1
+            else:
+                exact_group_normalizations += 1
+                alias_moves[f"{current} -> {new_group}"] += 1
             if len(examples) < int(cfg.get("report_example_limit", 300)):
                 examples.append(
                     {
@@ -215,13 +232,16 @@ def main():
     generated = datetime.now(timezone.utc).isoformat()
     report = {
         "generated": generated,
-        "policy": "Only channels still in Live TV - Other are eligible. The script only rewrites group-title; existing classifications, selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
+        "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
         "fallback_category": fallback,
         "channels_before": sum(before.values()),
         "channels_after": sum(after.values()),
         "other_before": before.get(fallback, 0),
         "other_after": after.get(fallback, 0),
-        "moved_from_other": sum(moved.values()),
+        "moved_from_other": moved_from_other,
+        "exact_group_normalizations": exact_group_normalizations,
+        "total_reclassified": moved_from_other + exact_group_normalizations,
+        "exact_group_alias_moves": dict(sorted(alias_moves.items())),
         "moved_by_destination": dict(sorted(moved.items())),
         "moved_by_method": dict(sorted(methods.items())),
         "group_counts_before": dict(sorted(before.items())),
