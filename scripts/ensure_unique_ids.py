@@ -9,10 +9,25 @@ ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "docs" / "index.m3u"
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 TVG_ID_RE = re.compile(r'tvg-id="[^"]*"')
+GROUP_RE = re.compile(r'group-title="[^"]*"')
+
+FINAL_GROUP_PREFIX = "Live TV - "
+LEGACY_GROUP_ALIASES = {
+    "Westerns": "Live TV - Movies",
+    "TV & Entertainment": "Live TV - Series / TV",
+    "Classic TV": "Live TV - Series / TV",
+    "Crime": "Live TV - Crime / Mystery",
+}
 
 
 def clean(value):
     return re.sub(r"\s+", " ", str(value or "").strip())
+
+
+def normalize(value):
+    value = clean(value).casefold().replace("&", " and ")
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def safe_slug(value):
@@ -41,6 +56,49 @@ def parse_entries(lines):
             current["url"] = line
             current = None
     return entries
+
+
+def set_group(line, value):
+    escaped = clean(value).replace('"', "'")
+    replacement = f'group-title="{escaped}"'
+    if GROUP_RE.search(line):
+        return GROUP_RE.sub(replacement, line, count=1)
+    if "," in line:
+        prefix, name = line.split(",", 1)
+        return f"{prefix} {replacement},{name}"
+    return f"{line} {replacement}"
+
+
+def final_group_for(entry):
+    attrs = entry["attrs"]
+    current = clean(attrs.get("group-title"))
+    name = normalize(entry.get("name"))
+
+    if current.startswith(FINAL_GROUP_PREFIX):
+        return current
+
+    if current in LEGACY_GROUP_ALIASES:
+        return LEGACY_GROUP_ALIASES[current]
+
+    if current == "FAST - LG Channels US":
+        if "100 000 pyramid" in name or "100000 pyramid" in name:
+            return "Live TV - Game Shows"
+        if "murder she wrote" in name:
+            return "Live TV - Crime / Mystery"
+        raise SystemExit(
+            f"Unclassified raw LG wrapper group survived final classification: {entry['name']}"
+        )
+
+    if current == "United States":
+        if "todo novelas" in name:
+            return "Live TV - Series / TV"
+        raise SystemExit(
+            f"Unclassified raw United States group survived final classification: {entry['name']}"
+        )
+
+    raise SystemExit(
+        f"Unexpected non-final group survived classification: {current!r} / {entry['name']}"
+    )
 
 
 def base_id(entry):
@@ -80,6 +138,16 @@ def main():
 
     lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
     entries = parse_entries(lines)
+
+    normalized_groups = 0
+    for entry in entries:
+        current = clean(entry["attrs"].get("group-title"))
+        final_group = final_group_for(entry)
+        if current != final_group:
+            lines[entry["line_index"]] = set_group(lines[entry["line_index"]], final_group)
+            entry["attrs"]["group-title"] = final_group
+            normalized_groups += 1
+
     initial_ids = [base_id(entry) for entry in entries]
     counts = Counter(initial_ids)
     used = set()
@@ -103,9 +171,19 @@ def main():
     if len(used) != len(entries):
         raise SystemExit("Failed to assign a unique tvg-id to every channel")
 
+    final_entries = parse_entries(lines)
+    raw_groups = sorted({
+        clean(entry["attrs"].get("group-title"))
+        for entry in final_entries
+        if not clean(entry["attrs"].get("group-title")).startswith(FINAL_GROUP_PREFIX)
+    })
+    if raw_groups:
+        raise SystemExit(f"Non-final provider/legacy groups remain: {raw_groups}")
+
     INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(
-        f"Validated {len(entries)} channels with {len(used)} unique tvg-id values; "
+        f"Normalized {normalized_groups} raw/legacy group assignments; "
+        f"validated {len(entries)} channels with {len(used)} unique tvg-id values; "
         f"rewrote {changed} missing/colliding IDs."
     )
 
