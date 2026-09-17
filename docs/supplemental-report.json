@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16 19:16:58 UTC",
+  "generated": "2026-09-17 08:59:41 UTC",
   "core_channels": 1341,
-  "supplemental_channels": 3725,
-  "all_source_channels": 5066,
+  "supplemental_channels": 3734,
+  "all_source_channels": 5075,
   "sources_ok": 9,
   "sources_failed": 0,
   "upstream_epg_urls": [
@@ -10,7 +10,9 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
-    "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml"
+    "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/main/tubi_epg.xml",
+    "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/refs/heads/main/tubi_epg.xml",
+    "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz"
   ],
   "sources": [
     {
@@ -54,8 +56,8 @@
       "name": "The Roku Channel",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
       "status": "ok",
-      "fetched": 245,
-      "kept": 245,
+      "fetched": 227,
+      "kept": 227,
       "duplicates": 0,
       "filtered": {
         "name": 0,
@@ -70,10 +72,10 @@
     {
       "id": "tubi",
       "name": "Tubi Live TV",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "url": "https://raw.githubusercontent.com/Mikhel/app-m3u-generator/main/playlists/tubi_all.m3u",
       "status": "ok",
-      "fetched": 179,
-      "kept": 179,
+      "fetched": 174,
+      "kept": 174,
       "duplicates": 0,
       "filtered": {
         "name": 0,
@@ -81,7 +83,8 @@
         "url": 0
       },
       "epg_urls": [
-        "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml"
+        "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/refs/heads/main/tubi_epg.xml",
+        "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/main/tubi_epg.xml"
       ],
       "error": ""
     },
@@ -138,17 +141,19 @@
     {
       "id": "xumo",
       "name": "Xumo Play US",
-      "url": "https://www.apsattv.com/xumo.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_playlist.m3u",
       "status": "ok",
-      "fetched": 389,
-      "kept": 373,
+      "fetched": 428,
+      "kept": 405,
       "duplicates": 0,
       "filtered": {
         "name": 0,
-        "group": 16,
+        "group": 23,
         "url": 0
       },
-      "epg_urls": [],
+      "epg_urls": [
+        "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_epg.xml.gz"
+      ],
       "error": ""
     },
     {
