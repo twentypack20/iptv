@@ -11,6 +11,7 @@ on:
       - "config.json"
       - "supplemental_sources.json"
       - "category_rules.json"
+      - "channel_category_overrides.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/build.yml"
@@ -19,6 +20,7 @@ on:
       - "config.json"
       - "supplemental_sources.json"
       - "category_rules.json"
+      - "channel_category_overrides.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/**"
@@ -107,6 +109,7 @@ jobs:
               Path('docs/selection-report.json'),
               Path('docs/dedupe-candidates.json'),
               Path('docs/category-report.json'),
+              Path('docs/category-backlog.json'),
           ]
           missing = [str(path) for path in required if not path.exists() or path.stat().st_size == 0]
           if missing:
@@ -158,6 +161,14 @@ jobs:
           if category_report.get('other_after', 0) > category_report.get('other_before', 0):
               raise SystemExit('Category refinement unexpectedly increased Live TV - Other')
 
+          backlog = json.loads(Path('docs/category-backlog.json').read_text(encoding='utf-8'))
+          if backlog.get('remaining') != category_report.get('other_after'):
+              raise SystemExit(
+                  'Category backlog count does not match final Live TV - Other count'
+              )
+          if len(backlog.get('channels') or []) != backlog.get('remaining'):
+              raise SystemExit('Category backlog item count is inconsistent')
+
           epg_report = json.loads(Path('docs/epg-report.json').read_text(encoding='utf-8'))
           if epg_report.get('epg_channels') != len(extinf_lines):
               raise SystemExit('EPG report channel count does not match the playlist')
@@ -166,7 +177,8 @@ jobs:
               f"Validated {len(extinf_lines)} published channels, "
               f"{len(tvg_ids)} unique tvg-id values, matching XMLTV channels, "
               f"{epg_report.get('channels_with_programmes', 0)} channels with programmes, "
-              f"and {category_report.get('moved_from_other', 0)} conservative category refinements"
+              f"{category_report.get('moved_from_other', 0)} conservative category refinements, "
+              f"and {backlog.get('remaining', 0)} channels in the research backlog"
           )
           PY
 
@@ -188,6 +200,7 @@ jobs:
               Path('docs/epg-bridge-report.json'),
               Path('docs/selection-report.json'),
               Path('docs/category-report.json'),
+              Path('docs/category-backlog.json'),
               Path('docs/epg-report.json'),
           ]:
               print(f'--- {path} ---')
@@ -197,6 +210,8 @@ jobs:
               if path.name == 'category-report.json':
                   data.pop('examples', None)
                   data.pop('uncertain_epg_candidates', None)
+              if path.name == 'category-backlog.json':
+                  data.pop('channels', None)
               if path.name == 'epg-report.json':
                   data.pop('selection_details', None)
               print(json.dumps(data, indent=2))
