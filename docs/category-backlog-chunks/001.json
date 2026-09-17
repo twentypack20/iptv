@@ -1,0 +1,1828 @@
+{
+  "generated": "2026-09-17T12:05:36.693518+00:00",
+  "chunk_index": 1,
+  "total_chunks": 11,
+  "start": 100,
+  "end_exclusive": 200,
+  "count": 100,
+  "channels": [
+    {
+      "stable_key": "lg:4c4148fe005b",
+      "channel": "312 Ax Men",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:312 ax men",
+      "original_tvg_id": "lg:312 ax men",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/998/lg/a32532/LG-Logo-PNG-100x100_v2.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"312 Ax Men\" LG Channels US channel",
+        "\"312 Ax Men\" live TV channel",
+        "\"lg:312 ax men\" \"312 Ax Men\""
+      ]
+    },
+    {
+      "stable_key": "lg:d0d3cdb6fa5b",
+      "channel": "313 Duck Dynasty",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:313 duck dynasty",
+      "original_tvg_id": "lg:313 duck dynasty",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/Duck_Dynasty_LG_Logo_white_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"313 Duck Dynasty\" LG Channels US channel",
+        "\"313 Duck Dynasty\" live TV channel",
+        "\"lg:313 duck dynasty\" \"313 Duck Dynasty\""
+      ]
+    },
+    {
+      "stable_key": "lg:77e5367e9c6b",
+      "channel": "314 BBC Adventure",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:314 bbc adventure",
+      "original_tvg_id": "lg:314 bbc adventure",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/bbc/channels/1209-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"314 BBC Adventure\" LG Channels US channel",
+        "\"314 BBC Adventure\" live TV channel",
+        "\"lg:314 bbc adventure\" \"314 BBC Adventure\""
+      ]
+    },
+    {
+      "stable_key": "lg:9fef66ee469f",
+      "channel": "315 Waypoint TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:315 waypoint tv",
+      "original_tvg_id": "lg:315 waypoint tv",
+      "original_group": "",
+      "logo": "https://d97g6zbo9kng8.cloudfront.net/logo_waypoint.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"315 Waypoint TV\" LG Channels US channel",
+        "\"315 Waypoint TV\" live TV channel",
+        "\"lg:315 waypoint tv\" \"315 Waypoint TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:fa5355ed98af",
+      "channel": "316 BOOT",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:316 boot",
+      "original_tvg_id": "lg:316 boot",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/oneworld/channels/boot400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"316 BOOT\" LG Channels US channel",
+        "\"316 BOOT\" live TV channel",
+        "\"lg:316 boot\" \"316 BOOT\""
+      ]
+    },
+    {
+      "stable_key": "lg:cc3923832f5a",
+      "channel": "317 The Incredible Dr. Pol",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:317 the incredible dr pol",
+      "original_tvg_id": "lg:317 the incredible dr pol",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Disney_Lg/DrincPol/DrPOL_TT_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"317 The Incredible Dr. Pol\" LG Channels US channel",
+        "\"317 The Incredible Dr. Pol\" live TV channel",
+        "\"lg:317 the incredible dr pol\" \"317 The Incredible Dr. Pol\""
+      ]
+    },
+    {
+      "stable_key": "lg:2b06a4658f6e",
+      "channel": "318 Dog Whisperer with Cesar Millan",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:318 dog whisperer with cesar millan",
+      "original_tvg_id": "lg:318 dog whisperer with cesar millan",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Dog_whisperer/DW_logo_800X200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"318 Dog Whisperer with Cesar Millan\" LG Channels US channel",
+        "\"318 Dog Whisperer with Cesar Millan\" live TV channel",
+        "\"lg:318 dog whisperer with cesar millan\" \"318 Dog Whisperer with Cesar Millan\""
+      ]
+    },
+    {
+      "stable_key": "lg:3aac6a184e58",
+      "channel": "319 Deal Zone",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:319 deal zone",
+      "original_tvg_id": "lg:319 deal zone",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1099/lg/cf9820/LG-Logo-PNG-100x100_v3.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"319 Deal Zone\" LG Channels US channel",
+        "\"319 Deal Zone\" live TV channel",
+        "\"lg:319 deal zone\" \"319 Deal Zone\""
+      ]
+    },
+    {
+      "stable_key": "lg:24d1ff50b04f",
+      "channel": "320 Storage Wars by A&E",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:320 storage wars by a and e",
+      "original_tvg_id": "lg:320 storage wars by a and e",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1967/lg/915727/LG-Logo-PNG-100x100_v3.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"320 Storage Wars by A&E\" LG Channels US channel",
+        "\"320 Storage Wars by A&E\" live TV channel",
+        "\"lg:320 storage wars by a and e\" \"320 Storage Wars by A&E\""
+      ]
+    },
+    {
+      "stable_key": "lg:432c52f45e24",
+      "channel": "321 Discovery Turbo TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:321 discovery turbo tv",
+      "original_tvg_id": "lg:321 discovery turbo tv",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd/LG/DiscoveryTurboTV/DiscoveryTurboTV_Logo_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"321 Discovery Turbo TV\" LG Channels US channel",
+        "\"321 Discovery Turbo TV\" live TV channel",
+        "\"lg:321 discovery turbo tv\" \"321 Discovery Turbo TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:0f1b56fad6bf",
+      "channel": "322 Torque",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:322 torque",
+      "original_tvg_id": "lg:322 torque",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1052/lg/bfedd1/LG-Logo-PNG-100x100_v3.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"322 Torque\" LG Channels US channel",
+        "\"322 Torque\" live TV channel",
+        "\"lg:322 torque\" \"322 Torque\""
+      ]
+    },
+    {
+      "stable_key": "lg:16cb0e4891e7",
+      "channel": "323 Ice Road Truckers",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:323 ice road truckers",
+      "original_tvg_id": "lg:323 ice road truckers",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/968/lg/23c2a3/LG-Logo-PNG-100x100_v3.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"323 Ice Road Truckers\" LG Channels US channel",
+        "\"323 Ice Road Truckers\" live TV channel",
+        "\"lg:323 ice road truckers\" \"323 Ice Road Truckers\""
+      ]
+    },
+    {
+      "stable_key": "lg:24358f53ad92",
+      "channel": "324 Power Nation",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:324 power nation",
+      "original_tvg_id": "lg:324 power nation",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/raycom/powernation_logo_700x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"324 Power Nation\" LG Channels US channel",
+        "\"324 Power Nation\" live TV channel",
+        "\"lg:324 power nation\" \"324 Power Nation\""
+      ]
+    },
+    {
+      "stable_key": "lg:da2e5be38890",
+      "channel": "325 BBC Top Gear",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:325 bbc top gear",
+      "original_tvg_id": "lg:325 bbc top gear",
+      "original_group": "",
+      "logo": "https://d2i0hcnfudruct.cloudfront.net/BBCTopGear/LG_TopGear_New_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"325 BBC Top Gear\" LG Channels US channel",
+        "\"325 BBC Top Gear\" live TV channel",
+        "\"lg:325 bbc top gear\" \"325 BBC Top Gear\""
+      ]
+    },
+    {
+      "stable_key": "lg:88aad12694de",
+      "channel": "326 Classic Car Auctions",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:326 classic car auctions",
+      "original_tvg_id": "lg:326 classic car auctions",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/LG/ClassicCarAuctions/Classic_Car_Auctions_by_H_logo_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"326 Classic Car Auctions\" LG Channels US channel",
+        "\"326 Classic Car Auctions\" live TV channel",
+        "\"lg:326 classic car auctions\" \"326 Classic Car Auctions\""
+      ]
+    },
+    {
+      "stable_key": "lg:b920a56f10db",
+      "channel": "328 Million Dollar Listing Vault",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:328 million dollar listing vault",
+      "original_tvg_id": "lg:328 million dollar listing vault",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993014/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"328 Million Dollar Listing Vault\" LG Channels US channel",
+        "\"328 Million Dollar Listing Vault\" live TV channel",
+        "\"lg:328 million dollar listing vault\" \"328 Million Dollar Listing Vault\""
+      ]
+    },
+    {
+      "stable_key": "lg:f37e4ae0cc33",
+      "channel": "329 Say Yes to the Dress",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:329 say yes to the dress",
+      "original_tvg_id": "lg:329 say yes to the dress",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd_logo/SYTD_400X200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"329 Say Yes to the Dress\" LG Channels US channel",
+        "\"329 Say Yes to the Dress\" live TV channel",
+        "\"lg:329 say yes to the dress\" \"329 Say Yes to the Dress\""
+      ]
+    },
+    {
+      "stable_key": "lg:d463055c8f70",
+      "channel": "330 Dance Moms",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:330 dance moms",
+      "original_tvg_id": "lg:330 dance moms",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/Dance_Moms_Channel_Logo_Image_200x800.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"330 Dance Moms\" LG Channels US channel",
+        "\"330 Dance Moms\" live TV channel",
+        "\"lg:330 dance moms\" \"330 Dance Moms\""
+      ]
+    },
+    {
+      "stable_key": "lg:fe08c3defaf2",
+      "channel": "331 Love After Lockup We TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:331 love after lockup we tv",
+      "original_tvg_id": "lg:331 love after lockup we tv",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/2043/lg/abd70b/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"331 Love After Lockup We TV\" LG Channels US channel",
+        "\"331 Love After Lockup We TV\" live TV channel",
+        "\"lg:331 love after lockup we tv\" \"331 Love After Lockup We TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:978c6384c26b",
+      "channel": "333 Cheaters",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:333 cheaters",
+      "original_tvg_id": "lg:333 cheaters",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993001/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"333 Cheaters\" LG Channels US channel",
+        "\"333 Cheaters\" live TV channel",
+        "\"lg:333 cheaters\" \"333 Cheaters\""
+      ]
+    },
+    {
+      "stable_key": "lg:03948718ca2f",
+      "channel": "334 Bad Girls Club",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:334 bad girls club",
+      "original_tvg_id": "lg:334 bad girls club",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993043/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"334 Bad Girls Club\" LG Channels US channel",
+        "\"334 Bad Girls Club\" live TV channel",
+        "\"lg:334 bad girls club\" \"334 Bad Girls Club\""
+      ]
+    },
+    {
+      "stable_key": "lg:cd1766395cf6",
+      "channel": "335 Real Housewives Vault",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:335 real housewives vault",
+      "original_tvg_id": "lg:335 real housewives vault",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993012/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"335 Real Housewives Vault\" LG Channels US channel",
+        "\"335 Real Housewives Vault\" live TV channel",
+        "\"lg:335 real housewives vault\" \"335 Real Housewives Vault\""
+      ]
+    },
+    {
+      "stable_key": "lg:1c31e5783ee3",
+      "channel": "336 Bravo Vault",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:336 bravo vault",
+      "original_tvg_id": "lg:336 bravo vault",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993010/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"336 Bravo Vault\" LG Channels US channel",
+        "\"336 Bravo Vault\" live TV channel",
+        "\"lg:336 bravo vault\" \"336 Bravo Vault\""
+      ]
+    },
+    {
+      "stable_key": "lg:371bd2f6e772",
+      "channel": "337 World Of Love Island",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:337 world of love island",
+      "original_tvg_id": "lg:337 world of love island",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/Images/WOLI-LG-Logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"337 World Of Love Island\" LG Channels US channel",
+        "\"337 World Of Love Island\" live TV channel",
+        "\"lg:337 world of love island\" \"337 World Of Love Island\""
+      ]
+    },
+    {
+      "stable_key": "lg:6c412cc166a1",
+      "channel": "338 E! Keeping Up",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:338 e keeping up",
+      "original_tvg_id": "lg:338 e keeping up",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993011/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"338 E! Keeping Up\" LG Channels US channel",
+        "\"338 E! Keeping Up\" live TV channel",
+        "\"lg:338 e keeping up\" \"338 E! Keeping Up\""
+      ]
+    },
+    {
+      "stable_key": "lg:de556321cf4b",
+      "channel": "339 Medical Incredible",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:339 medical incredible",
+      "original_tvg_id": "lg:339 medical incredible",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd/LG/MedicalIncredible/MedicalIncredible-Logo-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"339 Medical Incredible\" LG Channels US channel",
+        "\"339 Medical Incredible\" live TV channel",
+        "\"lg:339 medical incredible\" \"339 Medical Incredible\""
+      ]
+    },
+    {
+      "stable_key": "lg:a833d10a8aa9",
+      "channel": "341 Love After Divorce",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:341 love after divorce",
+      "original_tvg_id": "lg:341 love after divorce",
+      "original_group": "",
+      "logo": "http://accio.its-newid.net/channel/newid_096/lg_channels/img/channel_logo/default/channel_logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"341 Love After Divorce\" LG Channels US channel",
+        "\"341 Love After Divorce\" live TV channel",
+        "\"lg:341 love after divorce\" \"341 Love After Divorce\""
+      ]
+    },
+    {
+      "stable_key": "lg:fe4b6e83d18e",
+      "channel": "342 I am SOLO",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:342 i am solo",
+      "original_tvg_id": "lg:342 i am solo",
+      "original_group": "",
+      "logo": "http://accio.its-newid.net/channel/newid_103/lg_channels/img/channel_logo/default/channel_logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"342 I am SOLO\" LG Channels US channel",
+        "\"342 I am SOLO\" live TV channel",
+        "\"lg:342 i am solo\" \"342 I am SOLO\""
+      ]
+    },
+    {
+      "stable_key": "lg:bf882b931a69",
+      "channel": "344 Bar Rescue",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:344 bar rescue",
+      "original_tvg_id": "lg:344 bar rescue",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/60a3d889a5b3690008dc7fe8/logo_1780596469445.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"344 Bar Rescue\" LG Channels US channel",
+        "\"344 Bar Rescue\" live TV channel",
+        "\"lg:344 bar rescue\" \"344 Bar Rescue\""
+      ]
+    },
+    {
+      "stable_key": "lg:4ae9eea6400f",
+      "channel": "345 The Osbournes",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:345 the osbournes",
+      "original_tvg_id": "lg:345 the osbournes",
+      "original_group": "",
+      "logo": "https://d2mxb63djushzm.cloudfront.net/images/TheOsbournes-LG_LOGO_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"345 The Osbournes\" LG Channels US channel",
+        "\"345 The Osbournes\" live TV channel",
+        "\"lg:345 the osbournes\" \"345 The Osbournes\""
+      ]
+    },
+    {
+      "stable_key": "lg:f49c6040aa8e",
+      "channel": "346 Jersey Shore",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:346 jersey shore",
+      "original_tvg_id": "lg:346 jersey shore",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/609bfa51fbecc1000733152e/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"346 Jersey Shore\" LG Channels US channel",
+        "\"346 Jersey Shore\" live TV channel",
+        "\"lg:346 jersey shore\" \"346 Jersey Shore\""
+      ]
+    },
+    {
+      "stable_key": "lg:71a243931562",
+      "channel": "347 America's Got Talent",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:347 america s got talent",
+      "original_tvg_id": "lg:347 america s got talent",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993062/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"347 America's Got Talent\" LG Channels US channel",
+        "\"347 America's Got Talent\" live TV channel",
+        "\"lg:347 america s got talent\" \"347 America's Got Talent\""
+      ]
+    },
+    {
+      "stable_key": "lg:8fdae50c34a6",
+      "channel": "348 Matched Married Meet",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:348 matched married meet",
+      "original_tvg_id": "lg:348 matched married meet",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/Matched_Married_Meet_Channel_Logo_Image_200x800.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"348 Matched Married Meet\" LG Channels US channel",
+        "\"348 Matched Married Meet\" live TV channel",
+        "\"lg:348 matched married meet\" \"348 Matched Married Meet\""
+      ]
+    },
+    {
+      "stable_key": "lg:7ba894dcee61",
+      "channel": "350 The Amazing Race",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:350 the amazing race",
+      "original_tvg_id": "lg:350 the amazing race",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/5f21e8a6e2f12b000755afdb/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"350 The Amazing Race\" LG Channels US channel",
+        "\"350 The Amazing Race\" live TV channel",
+        "\"lg:350 the amazing race\" \"350 The Amazing Race\""
+      ]
+    },
+    {
+      "stable_key": "lg:6309b32f1ec6",
+      "channel": "351 Survivor",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:351 survivor",
+      "original_tvg_id": "lg:351 survivor",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/5f21e7b24744c60007c1f6fc/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"351 Survivor\" LG Channels US channel",
+        "\"351 Survivor\" live TV channel",
+        "\"lg:351 survivor\" \"351 Survivor\""
+      ]
+    },
+    {
+      "stable_key": "lg:b6d0a7ace7a5",
+      "channel": "352 Ink Master",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:352 ink master",
+      "original_tvg_id": "lg:352 ink master",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/60807fd5db701400078219c2/logo_1731834698797.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"352 Ink Master\" LG Channels US channel",
+        "\"352 Ink Master\" live TV channel",
+        "\"lg:352 ink master\" \"352 Ink Master\""
+      ]
+    },
+    {
+      "stable_key": "lg:087f046dea11",
+      "channel": "353 Project Runway",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:353 project runway",
+      "original_tvg_id": "lg:353 project runway",
+      "original_group": "",
+      "logo": "https://d377v1g4dwmoq.cloudfront.net/Images/S3/ProjectRunway_logo_white-400.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"353 Project Runway\" LG Channels US channel",
+        "\"353 Project Runway\" live TV channel",
+        "\"lg:353 project runway\" \"353 Project Runway\""
+      ]
+    },
+    {
+      "stable_key": "lg:2096a386d0ba",
+      "channel": "354 American Ninja Warrior",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:354 american ninja warrior",
+      "original_tvg_id": "lg:354 american ninja warrior",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993042/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"354 American Ninja Warrior\" LG Channels US channel",
+        "\"354 American Ninja Warrior\" live TV channel",
+        "\"lg:354 american ninja warrior\" \"354 American Ninja Warrior\""
+      ]
+    },
+    {
+      "stable_key": "lg:278781c444d6",
+      "channel": "357 DCC: Making the Team",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:357 dcc making the team",
+      "original_tvg_id": "lg:357 dcc making the team",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/5d40855b3fb0855028c99b6f/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"357 DCC: Making the Team\" LG Channels US channel",
+        "\"357 DCC: Making the Team\" live TV channel",
+        "\"lg:357 dcc making the team\" \"357 DCC: Making the Team\""
+      ]
+    },
+    {
+      "stable_key": "lg:5af4d4e2c627",
+      "channel": "359 Buzzr",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:359 buzzr",
+      "original_tvg_id": "lg:359 buzzr",
+      "original_group": "",
+      "logo": "https://d3p7no563qx06c.cloudfront.net/EPG/S3/images/buzzr_logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"359 Buzzr\" LG Channels US channel",
+        "\"359 Buzzr\" live TV channel",
+        "\"lg:359 buzzr\" \"359 Buzzr\""
+      ]
+    },
+    {
+      "stable_key": "lg:c0c4b7045aff",
+      "channel": "360 The Price Is Right",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:360 the price is right",
+      "original_tvg_id": "lg:360 the price is right",
+      "original_group": "",
+      "logo": "https://d176ihgbrcz7jq.cloudfront.net/TPIR_Barker_Logo_WHT_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"360 The Price Is Right\" LG Channels US channel",
+        "\"360 The Price Is Right\" live TV channel",
+        "\"lg:360 the price is right\" \"360 The Price Is Right\""
+      ]
+    },
+    {
+      "stable_key": "lg:a6d2ba7a969e",
+      "channel": "363 Deal or No Deal",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:363 deal or no deal",
+      "original_tvg_id": "lg:363 deal or no deal",
+      "original_group": "",
+      "logo": "https://d2yv6y0n3qsl5c.cloudfront.net/DORNOD/DOND-LG_LOGO_White_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"363 Deal or No Deal\" LG Channels US channel",
+        "\"363 Deal or No Deal\" live TV channel",
+        "\"lg:363 deal or no deal\" \"363 Deal or No Deal\""
+      ]
+    },
+    {
+      "stable_key": "plex:732dcc5e724f",
+      "channel": "365BLK [FAST]",
+      "source": "plex",
+      "source_name": "Plex Live TV US",
+      "tvg_id": "plex:6a1610bebdf296985fd95603-6745dca72832b870acf53220",
+      "original_tvg_id": "6a1610bebdf296985fd95603-6745dca72832b870acf53220",
+      "original_group": "United States",
+      "logo": "https://provider-static.plex.tv/1/epg/channels/logos/gracenote/15a11cfd0f014785527aa0c87cbf6752.png",
+      "programme_samples": 17,
+      "epg_category_counts": {},
+      "sample_titles": [
+        "mr church",
+        "sudie and simpson",
+        "boiling point",
+        "amos andrew",
+        "a hero ain t nothin but a sandwich",
+        "jazz session at the blue note with chaka khan",
+        "kevin hart what the fit",
+        "words by heart",
+        "and the children shall lead",
+        "lean on me",
+        "for colored girls",
+        "monster s ball",
+        "in the heat of the night",
+        "in the heat of the night",
+        "in the heat of the night",
+        "in the heat of the night",
+        "lee daniels the butler"
+      ],
+      "search_queries": [
+        "\"365BLK [FAST]\" Plex Live TV US channel",
+        "\"365BLK [FAST]\" live TV channel",
+        "\"6a1610bebdf296985fd95603-6745dca72832b870acf53220\" \"365BLK [FAST]\""
+      ]
+    },
+    {
+      "stable_key": "lg:39b2c743dd67",
+      "channel": "368 BritBox Mysteries",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:368 britbox mysteries",
+      "original_tvg_id": "lg:368 britbox mysteries",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/bbc/channels/796-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"368 BritBox Mysteries\" LG Channels US channel",
+        "\"368 BritBox Mysteries\" live TV channel",
+        "\"lg:368 britbox mysteries\" \"368 BritBox Mysteries\""
+      ]
+    },
+    {
+      "stable_key": "lg:56155b2a5795",
+      "channel": "369 Acorn TV Mysteries",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:369 acorn tv mysteries",
+      "original_tvg_id": "lg:369 acorn tv mysteries",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1976/lg/81a71d/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"369 Acorn TV Mysteries\" LG Channels US channel",
+        "\"369 Acorn TV Mysteries\" live TV channel",
+        "\"lg:369 acorn tv mysteries\" \"369 Acorn TV Mysteries\""
+      ]
+    },
+    {
+      "stable_key": "lg:16718a6f5b83",
+      "channel": "371 Mission Impossible",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:371 mission impossible",
+      "original_tvg_id": "lg:371 mission impossible",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/5f77977bd924d80007eee60c/logo_1731835514822.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"371 Mission Impossible\" LG Channels US channel",
+        "\"371 Mission Impossible\" live TV channel",
+        "\"lg:371 mission impossible\" \"371 Mission Impossible\""
+      ]
+    },
+    {
+      "stable_key": "lg:423777d94798",
+      "channel": "372 Las Vegas",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:372 las vegas",
+      "original_tvg_id": "lg:372 las vegas",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993015/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"372 Las Vegas\" LG Channels US channel",
+        "\"372 Las Vegas\" live TV channel",
+        "\"lg:372 las vegas\" \"372 Las Vegas\""
+      ]
+    },
+    {
+      "stable_key": "lg:d15132f78bae",
+      "channel": "373 Lawless",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:373 lawless",
+      "original_tvg_id": "lg:373 lawless",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Lawless/Lawless_lg_logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"373 Lawless\" LG Channels US channel",
+        "\"373 Lawless\" live TV channel",
+        "\"lg:373 lawless\" \"373 Lawless\""
+      ]
+    },
+    {
+      "stable_key": "lg:42549e232c6f",
+      "channel": "374 Nash Bridges",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:374 nash bridges",
+      "original_tvg_id": "lg:374 nash bridges",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Nash%20Bridges/NashBridges_LGLaunch_Guide_Logo_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"374 Nash Bridges\" LG Channels US channel",
+        "\"374 Nash Bridges\" live TV channel",
+        "\"lg:374 nash bridges\" \"374 Nash Bridges\""
+      ]
+    },
+    {
+      "stable_key": "lg:5dc12b8e765e",
+      "channel": "377 Mysteria",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:377 mysteria",
+      "original_tvg_id": "lg:377 mysteria",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/lawandcrime/channels/541-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"377 Mysteria\" LG Channels US channel",
+        "\"377 Mysteria\" live TV channel",
+        "\"lg:377 mysteria\" \"377 Mysteria\""
+      ]
+    },
+    {
+      "stable_key": "lg:5e102ffe2d94",
+      "channel": "379 World's Most Evil Killers",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:379 world s most evil killers",
+      "original_tvg_id": "lg:379 world s most evil killers",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993006/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"379 World's Most Evil Killers\" LG Channels US channel",
+        "\"379 World's Most Evil Killers\" live TV channel",
+        "\"lg:379 world s most evil killers\" \"379 World's Most Evil Killers\""
+      ]
+    },
+    {
+      "stable_key": "lg:f09611aa4d1e",
+      "channel": "380 To Catch a Smuggler",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:380 to catch a smuggler",
+      "original_tvg_id": "lg:380 to catch a smuggler",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Disney_Lg/Tcas/ToCatchASmuggler_Logo_White_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"380 To Catch a Smuggler\" LG Channels US channel",
+        "\"380 To Catch a Smuggler\" live TV channel",
+        "\"lg:380 to catch a smuggler\" \"380 To Catch a Smuggler\""
+      ]
+    },
+    {
+      "stable_key": "lg:5e81e06ef813",
+      "channel": "382 Unsolved Mysteries",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:382 unsolved mysteries",
+      "original_tvg_id": "lg:382 unsolved mysteries",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99992257/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"382 Unsolved Mysteries\" LG Channels US channel",
+        "\"382 Unsolved Mysteries\" live TV channel",
+        "\"lg:382 unsolved mysteries\" \"382 Unsolved Mysteries\""
+      ]
+    },
+    {
+      "stable_key": "lg:d8d13b3e1620",
+      "channel": "383 First 48",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:383 first 48",
+      "original_tvg_id": "lg:383 first 48",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1853/lg/b95848/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"383 First 48\" LG Channels US channel",
+        "\"383 First 48\" live TV channel",
+        "\"lg:383 first 48\" \"383 First 48\""
+      ]
+    },
+    {
+      "stable_key": "lg:2367c8724310",
+      "channel": "385 I (Almost) Got Away with It",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:385 i got away with it",
+      "original_tvg_id": "lg:385 i got away with it",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd/LG_Logo_700x200_I(Almost)GotAwayWithIt.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"385 I (Almost) Got Away with It\" LG Channels US channel",
+        "\"385 I (Almost) Got Away with It\" live TV channel",
+        "\"lg:385 i got away with it\" \"385 I (Almost) Got Away with It\""
+      ]
+    },
+    {
+      "stable_key": "lg:42e7b2b76a64",
+      "channel": "386 Dog The Bounty Hunter",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:386 dog the bounty hunter",
+      "original_tvg_id": "lg:386 dog the bounty hunter",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/Dog_the_Bounty_Hunter_800x200_Logo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"386 Dog The Bounty Hunter\" LG Channels US channel",
+        "\"386 Dog The Bounty Hunter\" live TV channel",
+        "\"lg:386 dog the bounty hunter\" \"386 Dog The Bounty Hunter\""
+      ]
+    },
+    {
+      "stable_key": "lg:97ee7f5d37b4",
+      "channel": "387 A&E Alaska State Troopers",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:387 a and e alaska state troopers",
+      "original_tvg_id": "lg:387 a and e alaska state troopers",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/2181/lg/960f41/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"387 A&E Alaska State Troopers\" LG Channels US channel",
+        "\"387 A&E Alaska State Troopers\" live TV channel",
+        "\"lg:387 a and e alaska state troopers\" \"387 A&E Alaska State Troopers\""
+      ]
+    },
+    {
+      "stable_key": "lg:3e95cbd0f07b",
+      "channel": "390 TruBlu",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:390 trublu",
+      "original_tvg_id": "lg:390 trublu",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1565/lg/142485/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"390 TruBlu\" LG Channels US channel",
+        "\"390 TruBlu\" live TV channel",
+        "\"lg:390 trublu\" \"390 TruBlu\""
+      ]
+    },
+    {
+      "stable_key": "lg:9470fafd718d",
+      "channel": "393 On Patrol: Live",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:393 on patrol live",
+      "original_tvg_id": "lg:393 on patrol live",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/reelz/channels/1287-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"393 On Patrol: Live\" LG Channels US channel",
+        "\"393 On Patrol: Live\" live TV channel",
+        "\"lg:393 on patrol live\" \"393 On Patrol: Live\""
+      ]
+    },
+    {
+      "stable_key": "lg:da0dc6a4d6a6",
+      "channel": "394 A&E Live PD Greatest Shifts",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:394 a and e live pd greatest shifts",
+      "original_tvg_id": "lg:394 a and e live pd greatest shifts",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/2183/lg/ea1ed8/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"394 A&E Live PD Greatest Shifts\" LG Channels US channel",
+        "\"394 A&E Live PD Greatest Shifts\" live TV channel",
+        "\"lg:394 a and e live pd greatest shifts\" \"394 A&E Live PD Greatest Shifts\""
+      ]
+    },
+    {
+      "stable_key": "lg:08ef92e82863",
+      "channel": "395 Live PD Presents",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:395 live pd presents",
+      "original_tvg_id": "lg:395 live pd presents",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/LG/LivePDPresents/Live_PD_Presents_logo_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"395 Live PD Presents\" LG Channels US channel",
+        "\"395 Live PD Presents\" live TV channel",
+        "\"lg:395 live pd presents\" \"395 Live PD Presents\""
+      ]
+    },
+    {
+      "stable_key": "lg:a5578b632962",
+      "channel": "396 JAIL",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:396 jail",
+      "original_tvg_id": "lg:396 jail",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1201/lg/371c00/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"396 JAIL\" LG Channels US channel",
+        "\"396 JAIL\" live TV channel",
+        "\"lg:396 jail\" \"396 JAIL\""
+      ]
+    },
+    {
+      "stable_key": "lg:9ec428906279",
+      "channel": "397 COPS",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:397 cops",
+      "original_tvg_id": "lg:397 cops",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/5e1f7e089f23700009d66303/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"397 COPS\" LG Channels US channel",
+        "\"397 COPS\" live TV channel",
+        "\"lg:397 cops\" \"397 COPS\""
+      ]
+    },
+    {
+      "stable_key": "lg:6fcbc460170b",
+      "channel": "399 Court TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:399 court tv",
+      "original_tvg_id": "lg:399 court tv",
+      "original_group": "",
+      "logo": "http://dki01q1l7yn3y.cloudfront.net/thumbnails-platform-prod/assets/cs::content::channels/0-2048/1516-LG-Logo-PNG-100x100_v2.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"399 Court TV\" LG Channels US channel",
+        "\"399 Court TV\" live TV channel",
+        "\"lg:399 court tv\" \"399 Court TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:8753da3503c5",
+      "channel": "400 Nosey",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:400 nosey",
+      "original_tvg_id": "lg:400 nosey",
+      "original_group": "",
+      "logo": "https://d3icg9l6jqq36d.cloudfront.net/NINTL1/Nosey_LG_Logo_white_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"400 Nosey\" LG Channels US channel",
+        "\"400 Nosey\" live TV channel",
+        "\"lg:400 nosey\" \"400 Nosey\""
+      ]
+    },
+    {
+      "stable_key": "lg:e0f2ab0de9d6",
+      "channel": "401 Confess by Nosey",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:401 confess by nosey",
+      "original_tvg_id": "lg:401 confess by nosey",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Confess_by_Nosey/LG_ConfessByNoseyLogo_White_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"401 Confess by Nosey\" LG Channels US channel",
+        "\"401 Confess by Nosey\" live TV channel",
+        "\"lg:401 confess by nosey\" \"401 Confess by Nosey\""
+      ]
+    },
+    {
+      "stable_key": "lg:23a4ccc92373",
+      "channel": "402 Divorce Court",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:402 divorce court",
+      "original_tvg_id": "lg:402 divorce court",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/foxfirstrun/Divorce_Court_logo_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"402 Divorce Court\" LG Channels US channel",
+        "\"402 Divorce Court\" live TV channel",
+        "\"lg:402 divorce court\" \"402 Divorce Court\""
+      ]
+    },
+    {
+      "stable_key": "lg:838e939d6c1d",
+      "channel": "403 Paternity Court",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:403 paternity court",
+      "original_tvg_id": "lg:403 paternity court",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/mgm/channels/LG_PaternityCourt_ChannelLogo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"403 Paternity Court\" LG Channels US channel",
+        "\"403 Paternity Court\" live TV channel",
+        "\"lg:403 paternity court\" \"403 Paternity Court\""
+      ]
+    },
+    {
+      "stable_key": "lg:5cbc7c6d6046",
+      "channel": "404 The Judge Judy Channel",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:404 the judge judy channel",
+      "original_tvg_id": "lg:404 the judge judy channel",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/6283d51144ad8f0007fa382d/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"404 The Judge Judy Channel\" LG Channels US channel",
+        "\"404 The Judge Judy Channel\" live TV channel",
+        "\"lg:404 the judge judy channel\" \"404 The Judge Judy Channel\""
+      ]
+    },
+    {
+      "stable_key": "lg:971a9aabe93a",
+      "channel": "405 TMZ",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:405 tmz",
+      "original_tvg_id": "lg:405 tmz",
+      "original_group": "",
+      "logo": "https://d2mxb63djushzm.cloudfront.net/images/tmz/the-tmz-channel-logo-800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"405 TMZ\" LG Channels US channel",
+        "\"405 TMZ\" live TV channel",
+        "\"lg:405 tmz\" \"405 TMZ\""
+      ]
+    },
+    {
+      "stable_key": "lg:e04ffd0a576d",
+      "channel": "406 Jubilee",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:406 jubilee",
+      "original_tvg_id": "lg:406 jubilee",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/JubileeLogos_400x200_WHT.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"406 Jubilee\" LG Channels US channel",
+        "\"406 Jubilee\" live TV channel",
+        "\"lg:406 jubilee\" \"406 Jubilee\""
+      ]
+    },
+    {
+      "stable_key": "lg:0b503ff17d4c",
+      "channel": "407 Fox Soul",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:407 fox soul",
+      "original_tvg_id": "lg:407 fox soul",
+      "original_group": "",
+      "logo": "https://d3rimcir91uaav.cloudfront.net/FOX-SOUL_800x200_white.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"407 Fox Soul\" LG Channels US channel",
+        "\"407 Fox Soul\" live TV channel",
+        "\"lg:407 fox soul\" \"407 Fox Soul\""
+      ]
+    },
+    {
+      "stable_key": "lg:94b7010b7b35",
+      "channel": "408 Best of Dr. Phil",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:408 best of dr phil",
+      "original_tvg_id": "lg:408 best of dr phil",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/60f760bbdf090700075d7bfe/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"408 Best of Dr. Phil\" LG Channels US channel",
+        "\"408 Best of Dr. Phil\" live TV channel",
+        "\"lg:408 best of dr phil\" \"408 Best of Dr. Phil\""
+      ]
+    },
+    {
+      "stable_key": "lg:b7a1079611c4",
+      "channel": "409 Car Chase",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:409 car chase",
+      "original_tvg_id": "lg:409 car chase",
+      "original_group": "",
+      "logo": "https://images.pluto.tv/channels/65244c403fd33c0008ffff31/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"409 Car Chase\" LG Channels US channel",
+        "\"409 Car Chase\" live TV channel",
+        "\"lg:409 car chase\" \"409 Car Chase\""
+      ]
+    },
+    {
+      "stable_key": "lg:0b843b1f9dce",
+      "channel": "410 Chaos on Cam by A&E",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:410 chaos on cam by a and e",
+      "original_tvg_id": "lg:410 chaos on cam by a and e",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/aenetworks/LG/ChaosCam/Chaos_On_Cam_By_AE_LG-Logo-PNG-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"410 Chaos on Cam by A&E\" LG Channels US channel",
+        "\"410 Chaos on Cam by A&E\" live TV channel",
+        "\"lg:410 chaos on cam by a and e\" \"410 Chaos on Cam by A&E\""
+      ]
+    },
+    {
+      "stable_key": "lg:cc66343f3abd",
+      "channel": "411 Mayday: Air Disaster",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:411 mayday air disaster",
+      "original_tvg_id": "lg:411 mayday air disaster",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/cineflix/channels/475-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"411 Mayday: Air Disaster\" LG Channels US channel",
+        "\"411 Mayday: Air Disaster\" live TV channel",
+        "\"lg:411 mayday air disaster\" \"411 Mayday: Air Disaster\""
+      ]
+    },
+    {
+      "stable_key": "lg:fa611456bbc9",
+      "channel": "412 Reelz Famous & Infamous",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:412 reelz famous and infamous",
+      "original_tvg_id": "lg:412 reelz famous and infamous",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/reelz/channels/190-FamousInfamousLogo_WhiteStacked_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"412 Reelz Famous & Infamous\" LG Channels US channel",
+        "\"412 Reelz Famous & Infamous\" live TV channel",
+        "\"lg:412 reelz famous and infamous\" \"412 Reelz Famous & Infamous\""
+      ]
+    },
+    {
+      "stable_key": "lg:06c4c732a873",
+      "channel": "413 Dark Side Of",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:413 dark side of",
+      "original_tvg_id": "lg:413 dark side of",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/Images/DarkSide_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"413 Dark Side Of\" LG Channels US channel",
+        "\"413 Dark Side Of\" live TV channel",
+        "\"lg:413 dark side of\" \"413 Dark Side Of\""
+      ]
+    },
+    {
+      "stable_key": "lg:2ca7c79955b0",
+      "channel": "417 Stargate",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:417 stargate",
+      "original_tvg_id": "lg:417 stargate",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/mgm/channels/LG_Stargate_ChannelLogo.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"417 Stargate\" LG Channels US channel",
+        "\"417 Stargate\" live TV channel",
+        "\"lg:417 stargate\" \"417 Stargate\""
+      ]
+    },
+    {
+      "stable_key": "lg:e3b72f47338d",
+      "channel": "418 Xena Warrior Princess",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:418 xena warrior princess",
+      "original_tvg_id": "lg:418 xena warrior princess",
+      "original_group": "",
+      "logo": "https://image.xumo.com/v1/channels/channel/99993064/600x200.png?type=white_cropped",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"418 Xena Warrior Princess\" LG Channels US channel",
+        "\"418 Xena Warrior Princess\" live TV channel",
+        "\"lg:418 xena warrior princess\" \"418 Xena Warrior Princess\""
+      ]
+    },
+    {
+      "stable_key": "lg:1723c00bed5b",
+      "channel": "419 Outersphere",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:419 outersphere",
+      "original_tvg_id": "lg:419 outersphere",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Outersphere/Outersphere_log.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"419 Outersphere\" LG Channels US channel",
+        "\"419 Outersphere\" live TV channel",
+        "\"lg:419 outersphere\" \"419 Outersphere\""
+      ]
+    },
+    {
+      "stable_key": "lg:4f4fc2b5e48e",
+      "channel": "421 Ghosts are Real",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:421 ghosts are real",
+      "original_tvg_id": "lg:421 ghosts are real",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd_logo/GSAR400X200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"421 Ghosts are Real\" LG Channels US channel",
+        "\"421 Ghosts are Real\" live TV channel",
+        "\"lg:421 ghosts are real\" \"421 Ghosts are Real\""
+      ]
+    },
+    {
+      "stable_key": "lg:0c0c98af72a0",
+      "channel": "422 Ghost Hunters",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:422 ghost hunters",
+      "original_tvg_id": "lg:422 ghost hunters",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Ghosthunters/GhostHunters_LGLaunch_Guide_Logo_White_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"422 Ghost Hunters\" LG Channels US channel",
+        "\"422 Ghost Hunters\" live TV channel",
+        "\"lg:422 ghost hunters\" \"422 Ghost Hunters\""
+      ]
+    },
+    {
+      "stable_key": "lg:31e747fcf961",
+      "channel": "423 The Dead Files",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:423 the dead files",
+      "original_tvg_id": "lg:423 the dead files",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/wbd/LG_Logo_700x200_TheDeadFiles.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"423 The Dead Files\" LG Channels US channel",
+        "\"423 The Dead Files\" live TV channel",
+        "\"lg:423 the dead files\" \"423 The Dead Files\""
+      ]
+    },
+    {
+      "stable_key": "lg:16c838750ec1",
+      "channel": "424 Haunt TV US",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:424 haunt tv us",
+      "original_tvg_id": "lg:424 haunt tv us",
+      "original_group": "",
+      "logo": "https://d2y2gft5545ze9.cloudfront.net/HauntTV_200pxHigh_LG_ChannelAssets_White.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"424 Haunt TV US\" LG Channels US channel",
+        "\"424 Haunt TV US\" live TV channel",
+        "\"lg:424 haunt tv us\" \"424 Haunt TV US\""
+      ]
+    },
+    {
+      "stable_key": "lg:551ad50b8ac5",
+      "channel": "425 Alien Nation by DUST",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:425 alien nation by dust",
+      "original_tvg_id": "lg:425 alien nation by dust",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/gunpowderandsky/channels/Alien-Nation_white_logo_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"425 Alien Nation by DUST\" LG Channels US channel",
+        "\"425 Alien Nation by DUST\" live TV channel",
+        "\"lg:425 alien nation by dust\" \"425 Alien Nation by DUST\""
+      ]
+    },
+    {
+      "stable_key": "lg:07aa37e11075",
+      "channel": "430 Yu-Gi-Oh!",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:430 yu gi oh",
+      "original_tvg_id": "lg:430 yu gi oh",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/cineverse/channels/yu-gi-oh-400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"430 Yu-Gi-Oh!\" LG Channels US channel",
+        "\"430 Yu-Gi-Oh!\" live TV channel",
+        "\"lg:430 yu gi oh\" \"430 Yu-Gi-Oh!\""
+      ]
+    },
+    {
+      "stable_key": "lg:f16f13ba6c2c",
+      "channel": "438 NHL",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:438 nhl",
+      "original_tvg_id": "lg:438 nhl",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/NHL/NHL_Logo_400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"438 NHL\" LG Channels US channel",
+        "\"438 NHL\" live TV channel",
+        "\"lg:438 nhl\" \"438 NHL\""
+      ]
+    },
+    {
+      "stable_key": "lg:4aa268f99b27",
+      "channel": "439 World Poker Tour",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:439 world poker tour",
+      "original_tvg_id": "lg:439 world poker tour",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/2131/lg/12ce40/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"439 World Poker Tour\" LG Channels US channel",
+        "\"439 World Poker Tour\" live TV channel",
+        "\"lg:439 world poker tour\" \"439 World Poker Tour\""
+      ]
+    },
+    {
+      "stable_key": "lg:e86a5ab2363d",
+      "channel": "440 Billiard TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:440 billiard tv",
+      "original_tvg_id": "lg:440 billiard tv",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1288/lg/0bc2e9/LG-Logo-PNG-100x100_v2.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"440 Billiard TV\" LG Channels US channel",
+        "\"440 Billiard TV\" live TV channel",
+        "\"lg:440 billiard tv\" \"440 Billiard TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:08e233a7809f",
+      "channel": "441 FIFA+",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:441 fifa",
+      "original_tvg_id": "lg:441 fifa",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1854/lg/319653/LG-Logo-PNG-100x100_v2.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"441 FIFA+\" LG Channels US channel",
+        "\"441 FIFA+\" live TV channel",
+        "\"lg:441 fifa\" \"441 FIFA+\""
+      ]
+    },
+    {
+      "stable_key": "lg:e8aa2666d2ad",
+      "channel": "442 PGA TOUR",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:442 pga tour",
+      "original_tvg_id": "lg:442 pga tour",
+      "original_group": "",
+      "logo": "https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/pgatour/channels/pgatour400x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"442 PGA TOUR\" LG Channels US channel",
+        "\"442 PGA TOUR\" live TV channel",
+        "\"lg:442 pga tour\" \"442 PGA TOUR\""
+      ]
+    },
+    {
+      "stable_key": "lg:e5e37aa829ad",
+      "channel": "443 T2",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:443 t2",
+      "original_tvg_id": "lg:443 t2",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/white_800X200_T2_Logo_4.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"443 T2\" LG Channels US channel",
+        "\"443 T2\" live TV channel",
+        "\"lg:443 t2\" \"443 T2\""
+      ]
+    },
+    {
+      "stable_key": "lg:4f6b1f289100",
+      "channel": "444 Pickleball TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:444 pickleball tv",
+      "original_tvg_id": "lg:444 pickleball tv",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/PickleBall/Pickle_ball_800X200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"444 Pickleball TV\" LG Channels US channel",
+        "\"444 Pickleball TV\" live TV channel",
+        "\"lg:444 pickleball tv\" \"444 Pickleball TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:8b167f16e5b3",
+      "channel": "451 Team USA TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:451 team usa tv",
+      "original_tvg_id": "lg:451 team usa tv",
+      "original_group": "",
+      "logo": "https://d2gqmql520my5n.cloudfront.net/USATV/TeamUSATVLogoWhite_800x200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"451 Team USA TV\" LG Channels US channel",
+        "\"451 Team USA TV\" live TV channel",
+        "\"lg:451 team usa tv\" \"451 Team USA TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:53c21542e859",
+      "channel": "453 Stadium",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:453 stadium",
+      "original_tvg_id": "lg:453 stadium",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/160/lg/651255/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"453 Stadium\" LG Channels US channel",
+        "\"453 Stadium\" live TV channel",
+        "\"lg:453 stadium\" \"453 Stadium\""
+      ]
+    },
+    {
+      "stable_key": "lg:d12726553c4a",
+      "channel": "455 Overtime",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:455 overtime",
+      "original_tvg_id": "lg:455 overtime",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1192/lg/73477a/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"455 Overtime\" LG Channels US channel",
+        "\"455 Overtime\" live TV channel",
+        "\"lg:455 overtime\" \"455 Overtime\""
+      ]
+    },
+    {
+      "stable_key": "lg:a1f36beb431d",
+      "channel": "458 RugbyPass TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:458 rugbypass tv",
+      "original_tvg_id": "lg:458 rugbypass tv",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/1872/lg/c984c0/LG-Logo-PNG-100x100_v1.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"458 RugbyPass TV\" LG Channels US channel",
+        "\"458 RugbyPass TV\" live TV channel",
+        "\"lg:458 rugbypass tv\" \"458 RugbyPass TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:1fc4fb1deb8c",
+      "channel": "461 Bowling TV",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:461 bowling tv",
+      "original_tvg_id": "lg:461 bowling tv",
+      "original_group": "",
+      "logo": "http://img.platform.wurl.dev/channel/2195/lg/c55840/LG-Logo-PNG-100x100_v2.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"461 Bowling TV\" LG Channels US channel",
+        "\"461 Bowling TV\" live TV channel",
+        "\"lg:461 bowling tv\" \"461 Bowling TV\""
+      ]
+    },
+    {
+      "stable_key": "lg:79db99983417",
+      "channel": "466 ESPN 8: The Ocho",
+      "source": "lg",
+      "source_name": "LG Channels US",
+      "tvg_id": "lg:466 espn 8 the ocho",
+      "original_tvg_id": "lg:466 espn 8 the ocho",
+      "original_group": "",
+      "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/ABC_LG/ESPN/Espn_400X200.png",
+      "programme_samples": 0,
+      "epg_category_counts": {},
+      "sample_titles": [],
+      "search_queries": [
+        "\"466 ESPN 8: The Ocho\" LG Channels US channel",
+        "\"466 ESPN 8: The Ocho\" live TV channel",
+        "\"lg:466 espn 8 the ocho\" \"466 ESPN 8: The Ocho\""
+      ]
+    }
+  ]
+}

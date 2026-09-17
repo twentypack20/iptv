@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T11:57:52.055417+00:00",
+  "generated": "2026-09-17T12:05:36.693518+00:00",
   "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, curated per-channel overrides can resolve fallback channels, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
   "channels_before": 4819,
@@ -9,6 +9,7 @@
   "moved_from_other": 113,
   "override_moves": 0,
   "backlog_remaining": 1041,
+  "backlog_chunks": 11,
   "exact_group_normalizations": 5,
   "total_reclassified": 118,
   "exact_group_alias_moves": {

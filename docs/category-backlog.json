@@ -1,7 +1,9 @@
 {
-  "generated": "2026-09-17T11:57:52.055417+00:00",
+  "generated": "2026-09-17T12:05:36.693518+00:00",
   "policy": "Research queue for channels still in Live TV - Other after deterministic metadata, EPG, and curated override classification. Items are not moved until evidence is saved in channel_category_overrides.json or a conservative rule matches.",
   "remaining": 1041,
+  "chunk_manifest": "docs/category-backlog-manifest.json",
+  "total_chunks": 11,
   "by_source": {
     "iptv-org": 4,
     "lg": 328,
