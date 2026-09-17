@@ -147,10 +147,11 @@
       "id": "tubi",
       "name": "Tubi Live TV",
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
-      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_epg.xml",
+      "url": "https://raw.githubusercontent.com/Mikhel/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/tubi-scraper/main/tubi_epg.xml",
       "region": "US",
-      "kind": "FAST"
+      "kind": "FAST",
+      "notes": "BuddyChewChew primary generated Tubi file disappeared; using the current compatible Mikhel playlist with BuddyChewChew's live Tubi EPG."
     },
     {
       "id": "plex",
