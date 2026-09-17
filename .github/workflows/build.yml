@@ -110,6 +110,7 @@ jobs:
               Path('docs/dedupe-candidates.json'),
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),
+              Path('docs/category-backlog-manifest.json'),
           ]
           missing = [str(path) for path in required if not path.exists() or path.stat().st_size == 0]
           if missing:
@@ -163,11 +164,40 @@ jobs:
 
           backlog = json.loads(Path('docs/category-backlog.json').read_text(encoding='utf-8'))
           if backlog.get('remaining') != category_report.get('other_after'):
-              raise SystemExit(
-                  'Category backlog count does not match final Live TV - Other count'
-              )
+              raise SystemExit('Category backlog count does not match final Live TV - Other count')
           if len(backlog.get('channels') or []) != backlog.get('remaining'):
               raise SystemExit('Category backlog item count is inconsistent')
+
+          manifest = json.loads(Path('docs/category-backlog-manifest.json').read_text(encoding='utf-8'))
+          chunks = manifest.get('chunks') or []
+          if manifest.get('remaining') != backlog.get('remaining'):
+              raise SystemExit('Category chunk manifest count does not match backlog')
+          if manifest.get('total_chunks') != len(chunks):
+              raise SystemExit('Category chunk manifest total is inconsistent')
+
+          chunk_total = 0
+          stable_keys = set()
+          for expected_index, item in enumerate(chunks):
+              if item.get('chunk_index') != expected_index:
+                  raise SystemExit('Category backlog chunk indices are not contiguous')
+              path = Path(item.get('path', ''))
+              if not path.exists() or path.stat().st_size == 0:
+                  raise SystemExit(f'Missing/empty category backlog chunk: {path}')
+              data = json.loads(path.read_text(encoding='utf-8'))
+              if data.get('chunk_index') != expected_index:
+                  raise SystemExit(f'Chunk index mismatch in {path}')
+              channels = data.get('channels') or []
+              if data.get('count') != len(channels) or item.get('count') != len(channels):
+                  raise SystemExit(f'Chunk count mismatch in {path}')
+              chunk_total += len(channels)
+              for channel in channels:
+                  key = channel.get('stable_key')
+                  if not key or key in stable_keys:
+                      raise SystemExit(f'Missing/duplicate category backlog stable key: {key}')
+                  stable_keys.add(key)
+
+          if chunk_total != backlog.get('remaining'):
+              raise SystemExit('Category backlog chunks do not cover every unresolved channel')
 
           epg_report = json.loads(Path('docs/epg-report.json').read_text(encoding='utf-8'))
           if epg_report.get('epg_channels') != len(extinf_lines):
@@ -178,7 +208,7 @@ jobs:
               f"{len(tvg_ids)} unique tvg-id values, matching XMLTV channels, "
               f"{epg_report.get('channels_with_programmes', 0)} channels with programmes, "
               f"{category_report.get('moved_from_other', 0)} conservative category refinements, "
-              f"and {backlog.get('remaining', 0)} channels in the research backlog"
+              f"and {backlog.get('remaining', 0)} backlog channels across {len(chunks)} chunks"
           )
           PY
 
@@ -201,6 +231,7 @@ jobs:
               Path('docs/selection-report.json'),
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),
+              Path('docs/category-backlog-manifest.json'),
               Path('docs/epg-report.json'),
           ]:
               print(f'--- {path} ---')
