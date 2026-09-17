@@ -9,109 +9,215 @@
   },
   "epg_minimum_category_observations": 4,
   "epg_dominance_ratio": 0.6,
-  "report_example_limit": 300,
-  "metadata_rules": [
+  "report_example_limit": 500,
+  "research_evidence": [
     {
-      "group": "Live TV - Anime",
-      "contains": ["anime", "retrocrush", "crunchyroll"]
+      "id": "lg-2026-lineup",
+      "url": "https://www.edusters.com/lg-channels/us-nationwide",
+      "note": "Current LG Channels US lineup with channel numbers and categories; used to audit LG sports/news/movies/kids/lifestyle/music groupings."
     },
     {
-      "group": "Live TV - Weather",
-      "contains": ["weather", "forecast"]
+      "id": "lg-official",
+      "url": "https://www.lg.com/us/lg-channels",
+      "note": "LG official channel descriptions used as a first-party cross-check for representative channels."
     },
     {
-      "group": "Live TV - News",
-      "contains": ["news", "current affairs"]
+      "id": "plex-live-tv",
+      "url": "https://watch.plex.tv/live-tv",
+      "note": "Plex Live TV current category taxonomy used to audit Plex genre families."
+    },
+    {
+      "id": "samsung-lineup",
+      "url": "https://samsungtvplus.com/assets/STVP_Channel-List.pdf",
+      "note": "Samsung TV Plus US lineup/category reference used to audit provider-native groups."
+    }
+  ],
+  "source_group_rules": [
+    {
+      "group": "Live TV - Game Shows",
+      "original_groups": ["Game Shows", "Games & Competition", "Reality Competition"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Sci-Fi / Horror",
+      "original_groups": ["Sci-Fi & Horror", "Horror & Sci-Fi", "Sci-Fi & Supernatural", "Horror", "Paranormal"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Automotive",
+      "original_groups": ["Automotive", "Motor Sports"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Ambiance",
+      "original_groups": ["Ambiance", "MOOD + AMBIANCE"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Creators",
+      "original_groups": ["CREATORS", "Gaming & Tech"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Documentary / Education",
+      "original_groups": ["Documentaries", "Environment"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Lifestyle",
+      "original_groups": ["Good Eats", "House/Garden", "Health", "Art", "Auction"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Crime / Mystery",
+      "original_groups": ["Law"],
+      "evidence": "provider-native category"
+    },
+    {
+      "group": "Live TV - Movies",
+      "original_groups": ["Romance"],
+      "evidence": "provider-native category"
     },
     {
       "group": "Live TV - Sports",
-      "contains": ["deportes", "sports", "sport", "football", "soccer", "basketball", "baseball", "hockey", "golf", "racing", "boxing", "mma", "wrestling", "fight network"]
+      "original_groups": ["Card Games"],
+      "evidence": "provider-native category"
+    }
+  ],
+  "research_name_rules": [
+    {
+      "group": "Live TV - Weather",
+      "contains": ["weather", "accuweather", "weatherspy"],
+      "evidence": "channel identity"
+    },
+    {
+      "group": "Live TV - Anime",
+      "contains": ["anime", "retrocrush", "hidive", "yu-gi-oh", "yu gi oh"],
+      "evidence": "channel identity"
+    },
+    {
+      "group": "Live TV - Ambiance",
+      "contains": ["vibes", "fireplace", "spa", "cityscapes", "holidayscapes", "stargaze", "scenery", "campfire", "loupe 4k", "zenlife by stingray", "space live", "cozy café", "cozy cafe"],
+      "evidence": "channel identity/provider genre"
+    },
+    {
+      "group": "Live TV - Creators",
+      "contains": ["mrbeast", "dude perfect", "preston & brianna", "preston and brianna", "ninja kidz", "ryan trahan", "jesser", "zhc", "ssundee", "ben azelart", "law by mike", "futcrunch", "unspeakable", "ryan and friends", "123go", "5-minute crafts", "5 minute crafts", "so yummy", "mythical 24/7", "fairground ai creator tv", "failarmy", "people are awesome"],
+      "evidence": "creator-branded channel identity"
     },
     {
       "group": "Live TV - Business",
-      "contains": ["business", "finance", "markets", "shopping"]
-    },
-    {
-      "group": "Live TV - Movies",
-      "contains": ["mgm presents action", "mgm presents horror", "mgm presents western", "westerns", "western movies", "action movies", "horror movies", "movie channel", "movies", "cinema", "film"]
-    },
-    {
-      "group": "Live TV - Kids / Family",
-      "contains": ["kids", "children", "cartoon", "family channel"]
-    },
-    {
-      "group": "Live TV - Documentary / Education",
-      "contains": ["documentary", "science", "nature", "wildlife", "history", "education"]
-    },
-    {
-      "group": "Live TV - Lifestyle",
-      "contains": ["iron chef", "chef", "cooking", "food", "kitchen", "home and garden", "travel", "lifestyle", "reality"]
-    },
-    {
-      "group": "Live TV - Music",
-      "contains": ["metal rocks", "music", "vevo", "hip hop", "country music", "rock music"]
-    },
-    {
-      "group": "Live TV - Religious",
-      "contains": ["religious", "faith", "christian", "gospel"]
-    },
-    {
-      "group": "Live TV - Crime / Mystery",
-      "contains": ["true crime", "crime", "mystery", "forensic", "investigation", "detective"]
-    },
-    {
-      "group": "Live TV - Series / TV",
-      "contains": ["classic tv", "tv shows", "sitcom", "game show", "talk show", "comedy", "drama"]
-    }
-  ],
-  "epg_category_rules": [
-    {
-      "group": "Live TV - Anime",
-      "contains": ["anime"]
-    },
-    {
-      "group": "Live TV - Weather",
-      "contains": ["weather"]
+      "contains": ["bloomberg tv", "bloomberg business", "yahoo finance", "qvc", "hsn", "shop lc", "prof g", "shark tank"],
+      "evidence": "business/finance/shopping identity"
     },
     {
       "group": "Live TV - News",
-      "contains": ["news", "current affairs"]
+      "contains": ["livenow from fox", "cnn headlines", "reuters", "the hill", "tyt", "real america's voice", "real americas voice", "france 24", "usa today", "noticias", "telemundo al dia", "telemundo al día", "rcn noticias", "univision 24/7", "today all day", "news", "current affairs"],
+      "evidence": "news identity"
     },
     {
       "group": "Live TV - Sports",
-      "contains": ["sports", "sport"]
+      "contains": ["nfl", "mlb", "nhl", "ufc", "dazn", "watchaew", "aew", "f1 channel", "formula 1", "motogp", "pga tour", "fifa+", "fifa ", "golazo", "champions league", "rugby", "bowling", "billiard", "pickleball", "stadium", "overtime", "sportsgrid", "sports network", "sports now", "sportszone", "sports hq", "tennis", "nascar", "nhra", "bassmaster", "cornhole", "poker", "world surf league", "surf", "victory+", "pac-12", "pll network", "strongman", "swerve combat", "monster jam", "red bull tv", "espn 8", "team usa tv", "nesn", "golf", "game & fish tv", "fight", "boxing", "mma", "wrestling", "deportes", "fuel tv", "swac tv", "waypoint tv", "pursuitup", "pursuit up", "outside", "glory kickboxing", "one championship", "cricket gold", "accdn", "acl cornhole", "ryz sports", "tudn", "matthew berry"],
+      "evidence": "sports league/event/channel identity"
     },
     {
-      "group": "Live TV - Movies",
-      "contains": ["movie", "movies", "film"]
+      "group": "Live TV - Game Shows",
+      "contains": ["buzzr", "price is right", "deal or no deal", "supermarket sweep", "game show", "celebrity name game", "fear factor", "american ninja warrior", "america's got talent", "americas got talent", "wipeout", "let's make a deal", "lets make a deal", "impossible - quiz show", "masked singer", "penn & teller: fool us", "penn and teller", "scrambled up", "25 words or less", "world of love island", "love island", "survivor", "amazing race", "ink master", "escape perfecto", "trivia"],
+      "evidence": "game/competition-show identity"
     },
     {
-      "group": "Live TV - Kids / Family",
-      "contains": ["children", "kids", "family", "cartoon"]
+      "group": "Live TV - Automotive",
+      "contains": ["top gear", "discovery turbo", "torque", "powernation", "power nation", "racer select", "fifth gear", "speedvision", "classic car", "mecum", "car chase", "ice road truckers", "motortrend", "mavtv", "hagerty", "cars"],
+      "evidence": "automotive/motoring identity"
     },
     {
-      "group": "Live TV - Documentary / Education",
-      "contains": ["documentary", "education", "science", "nature", "history"]
-    },
-    {
-      "group": "Live TV - Lifestyle",
-      "contains": ["lifestyle", "cooking", "food", "travel", "home", "reality"]
-    },
-    {
-      "group": "Live TV - Music",
-      "contains": ["music"]
-    },
-    {
-      "group": "Live TV - Religious",
-      "contains": ["religious", "religion", "faith"]
+      "group": "Live TV - Sci-Fi / Horror",
+      "contains": ["horror", "scare", "shudder", "the asylum", "universal monsters", "stargate", "xena", "outer limits", "twilight zone", "x-files", "x files", "walking dead", "doctor who", "charmed", "z nation", "farscape", "andromeda", "dark matter", "ghost", "haunt", "alien", "paranormal", "dust", "midnight pulp", "creepshow", "frightflix", "camp spoopy", "supernatural", "fear zone", "mysteries xplored", "unidentified", "monsters are real", "scifi", "sci-fi", "science fiction", "alfred hitchcock"],
+      "evidence": "sci-fi/horror identity"
     },
     {
       "group": "Live TV - Crime / Mystery",
-      "contains": ["crime", "mystery"]
+      "contains": ["cold case", "dateline", "20/20", "48 hours", "law & order", "law and order", "nypd blue", "csi", "first 48", "unsolved mysteries", "forensic", "cops", "jail", "court tv", "crime", "mystery", "mysteria", "detective", "killer", "killers", "bounty hunter", "on patrol", "live pd", "alaska state troopers", "bloodline detectives", "new detectives", "fbi files", "fbi ", "sheriffs", "smuggler", "true crime", "operation repo", "trublu"],
+      "evidence": "crime/mystery identity"
     },
     {
-      "group": "Live TV - Series / TV",
-      "contains": ["series", "drama", "comedy", "sitcom", "entertainment"]
+      "group": "Live TV - Kids / Family",
+      "contains": ["nickelodeon", "nick jr", "baby ", "baby shark", "baby einstein", "kids", "kidoodle", "sonic", "pokemon", "pokémon", "rainbow ruby", "strawberry shortcake", "barney", "garfield", "teletubbies", "toon goggles", "my little pony", "pink panther", "power rangers", "beyblade", "peppa pig", "totally turtles", "super simple songs", "toony planet", "pbs retro", "tg junior", "pocket.watch", "lego", "bob the builder", "shaun the sheep", "zoomo", "all babies", "sensical"],
+      "evidence": "kids/family identity"
+    },
+    {
+      "group": "Live TV - Documentary / Education",
+      "contains": ["ancient aliens", "modern marvels", "modern innovations", "mythbusters", "space & beyond", "space and beyond", "curiosity", "historian", "military", "life below zero", "bbc earth", "wildlife", "wildearth", "wildest", "nature", "naturaleza", "history", "documentary", "science", "universe", "how to", "biography", "earthxtra", "earth day", "inwonder", "magellantv", "real wild", "cosmic frontiers", "survive or die", "untold stories", "discovery", "nat geo", "dinos 24/7", "terra mater", "pbs genealogy", "60 minutes", "unxplained", "cnn originals", "bbc adventure"],
+      "evidence": "documentary/educational identity"
+    },
+    {
+      "group": "Live TV - Lifestyle",
+      "contains": ["martha stewart", "property brothers", "bob ross", "antiques roadshow", "tony robbins", "food", "cooking", "cook's country", "cooks country", "emeril", "bobby flay", "hungry", "no reservations", "travel", "home", "garden", "craftsy", "fashion", "wedding", "say yes to the dress", "love after lockup", "real housewives", "bravo vault", "keeping up", "dance moms", "jersey shore", "project runway", "tiny house", "property & reno", "property and reno", "beach day", "genealogy", "all chewed up", "majordomo", "dr. phil", "dr phil", "wendy williams", "the doctors", "paternity court", "divorce court", "judge judy", "judge nosey", "hot bench", "tmz", "chef", "kitchen", "reality", "lifestyle", "pet collective", "love pets", "dog whisperer", "wicked tuna", "incredible dr. pol", "incredible dr pol", "storage wars", "duck dynasty", "million dollar listing", "bar rescue", "osbournes", "medical incredible", "reno", "fishing", "outdoor", "garden with monty don", "ax men", "acapulco shore"],
+      "evidence": "lifestyle/reality identity"
+    },
+    {
+      "group": "Live TV - Movies",
+      "contains": ["cinevault", "cine ", "cinema", "movie", "movies", "film", "thriller", "romance", "western", "hi-yah", "tribeca", "shout!", "blackpix", "soul flix", "dread tv", "cinelife", "runtime español", "runtime espanol", "movie hub", "pelimex", "todo cine", "grjngo", "action showcase", "hollywood y mas", "hollywood y más"],
+      "evidence": "movie/cinema identity"
+    },
+    {
+      "group": "Live TV - Music",
+      "contains": ["stingray", "xite", "mtv", "qello", "veeps", "billboard", "trace ", "k-pop", "kpop", "country network", "classic rock", "greatest hits", "easy listening", "smooth jazz", "soul storm", "hot country", "flashback 70", "remember the 80", "nothing but the 90", "nothin' but 90", "euro hits", "music", "concert", "rock x metal", "rap game", "reggae", "latin pop"],
+      "evidence": "music identity"
+    },
+    {
+      "group": "Live TV - Local / Public",
+      "contains": ["wabc", "wsoc", "wxii", "wyff", "very carolina", "wapa+", "local now", "abc7 new york", "localish"],
+      "evidence": "local station/market identity"
+    },
+    {
+      "group": "Live TV - Religious",
+      "contains": ["byutv", "faith", "gospel", "christian", "religious"],
+      "evidence": "religious identity"
     }
+  ],
+  "source_defaults": [
+    {"source": "lg", "group": "Live TV - Series / TV", "evidence": "reviewed residual LG entertainment catalog"},
+    {"source": "plex", "group": "Live TV - Series / TV", "evidence": "reviewed residual Plex entertainment catalog"},
+    {"source": "pluto", "group": "Live TV - Series / TV", "evidence": "reviewed residual Pluto entertainment catalog"},
+    {"source": "samsung", "group": "Live TV - Series / TV", "evidence": "reviewed residual Samsung entertainment catalog"},
+    {"source": "tubi", "group": "Live TV - Series / TV", "evidence": "reviewed residual Tubi entertainment catalog"},
+    {"source": "roku", "group": "Live TV - Series / TV", "evidence": "reviewed residual Roku entertainment catalog"},
+    {"source": "xumo", "group": "Live TV - Series / TV", "evidence": "reviewed residual Xumo entertainment catalog"},
+    {"source": "vizio", "group": "Live TV - Series / TV", "evidence": "reviewed residual Vizio entertainment catalog"},
+    {"source": "iptv-org", "group": "Live TV - Series / TV", "evidence": "reviewed residual iptv-org entertainment catalog"},
+    {"source": "localnow", "group": "Live TV - Local / Public", "evidence": "Local Now is market/local programming"}
+  ],
+  "metadata_rules": [
+    {"group": "Live TV - Anime", "contains": ["anime", "retrocrush", "crunchyroll"]},
+    {"group": "Live TV - Weather", "contains": ["weather", "forecast"]},
+    {"group": "Live TV - News", "contains": ["news", "current affairs"]},
+    {"group": "Live TV - Sports", "contains": ["deportes", "sports", "sport", "football", "soccer", "basketball", "baseball", "hockey", "golf", "racing", "boxing", "mma", "wrestling", "fight network"]},
+    {"group": "Live TV - Business", "contains": ["business", "finance", "markets", "shopping"]},
+    {"group": "Live TV - Movies", "contains": ["mgm presents action", "mgm presents horror", "mgm presents western", "westerns", "western movies", "action movies", "horror movies", "movie channel", "movies", "cinema", "film"]},
+    {"group": "Live TV - Kids / Family", "contains": ["kids", "children", "cartoon", "family channel"]},
+    {"group": "Live TV - Documentary / Education", "contains": ["documentary", "science", "nature", "wildlife", "history", "education"]},
+    {"group": "Live TV - Lifestyle", "contains": ["iron chef", "chef", "cooking", "food", "kitchen", "home and garden", "travel", "lifestyle", "reality"]},
+    {"group": "Live TV - Music", "contains": ["metal rocks", "music", "vevo", "hip hop", "country music", "rock music"]},
+    {"group": "Live TV - Religious", "contains": ["religious", "faith", "christian", "gospel"]},
+    {"group": "Live TV - Crime / Mystery", "contains": ["true crime", "crime", "mystery", "forensic", "investigation", "detective"]},
+    {"group": "Live TV - Series / TV", "contains": ["classic tv", "tv shows", "sitcom", "game show", "talk show", "comedy", "drama"]}
+  ],
+  "epg_category_rules": [
+    {"group": "Live TV - Anime", "contains": ["anime"]},
+    {"group": "Live TV - Weather", "contains": ["weather"]},
+    {"group": "Live TV - News", "contains": ["news", "current affairs"]},
+    {"group": "Live TV - Sports", "contains": ["sports", "sport"]},
+    {"group": "Live TV - Game Shows", "contains": ["game show", "games", "competition"]},
+    {"group": "Live TV - Sci-Fi / Horror", "contains": ["science fiction", "sci-fi", "horror", "supernatural"]},
+    {"group": "Live TV - Automotive", "contains": ["automotive", "motoring", "cars"]},
+    {"group": "Live TV - Movies", "contains": ["movie", "movies", "film"]},
+    {"group": "Live TV - Kids / Family", "contains": ["children", "kids", "family", "cartoon"]},
+    {"group": "Live TV - Documentary / Education", "contains": ["documentary", "education", "science", "nature", "history"]},
+    {"group": "Live TV - Lifestyle", "contains": ["lifestyle", "cooking", "food", "travel", "home", "reality"]},
+    {"group": "Live TV - Music", "contains": ["music"]},
+    {"group": "Live TV - Religious", "contains": ["religious", "religion", "faith"]},
+    {"group": "Live TV - Crime / Mystery", "contains": ["crime", "mystery"]},
+    {"group": "Live TV - Series / TV", "contains": ["series", "drama", "comedy", "sitcom", "entertainment"]}
   ]
 }

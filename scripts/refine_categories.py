@@ -80,25 +80,59 @@ def native_epg_record(attrs, epg_index):
     )
 
 
-def metadata_match(name, attrs, rules):
+def metadata_match(name, attrs, rules, method_prefix="metadata"):
     haystack = " ".join(
-        [
-            name,
-            attrs.get("tvg-name", ""),
-            attrs.get("x-original-group", ""),
-        ]
+        [name, attrs.get("tvg-name", ""), attrs.get("x-original-group", "")]
     )
     for rule in rules or []:
+        source = clean_text(rule.get("source"))
+        if source and source.casefold() != clean_text(attrs.get("x-source")).casefold():
+            continue
         for phrase in rule.get("contains", []):
             if phrase_in(haystack, phrase):
-                return clean_text(rule.get("group")), f"metadata:{phrase}"
+                return clean_text(rule.get("group")), f"{method_prefix}:{phrase}"
+        for pattern in rule.get("regex", []):
+            if re.search(pattern, clean_text(name), flags=re.I):
+                return clean_text(rule.get("group")), f"{method_prefix}-regex:{pattern}"
+    return "", ""
+
+
+def source_group_match(attrs, cfg):
+    source = clean_text(attrs.get("x-source"))
+    original_group = normalize(attrs.get("x-original-group"))
+    if not original_group:
+        return "", ""
+    for rule in cfg.get("source_group_rules", []) or []:
+        rule_source = clean_text(rule.get("source"))
+        if rule_source and rule_source.casefold() != source.casefold():
+            continue
+        groups = {
+            normalize(value)
+            for value in rule.get("original_groups", [])
+            if clean_text(value)
+        }
+        if original_group in groups:
+            return (
+                clean_text(rule.get("group")),
+                f"provider-group:{clean_text(attrs.get('x-original-group'))}",
+            )
+    return "", ""
+
+
+def source_default_match(attrs, cfg):
+    source = clean_text(attrs.get("x-source"))
+    for rule in cfg.get("source_defaults", []) or []:
+        if clean_text(rule.get("source")).casefold() == source.casefold():
+            return clean_text(rule.get("group")), f"reviewed-source-default:{source}"
     return "", ""
 
 
 def epg_match(attrs, epg_index, cfg):
     record = native_epg_record(attrs, epg_index)
     category_counts = record.get("category_counts") or {}
-    programme_samples = int(record.get("programme_samples") or len(record.get("titles") or []))
+    programme_samples = int(
+        record.get("programme_samples") or len(record.get("titles") or [])
+    )
     if not category_counts or programme_samples <= 0:
         return "", "", {}
 
@@ -111,7 +145,10 @@ def epg_match(attrs, epg_index, cfg):
             continue
         total_observations += count
         for rule in cfg.get("epg_category_rules", []):
-            if any(phrase_in(raw_category, phrase) for phrase in rule.get("contains", [])):
+            if any(
+                phrase_in(raw_category, phrase)
+                for phrase in rule.get("contains", [])
+            ):
                 group = clean_text(rule.get("group"))
                 if group:
                     group_hits[group] += count
@@ -135,7 +172,6 @@ def epg_match(attrs, epg_index, cfg):
     }
     if hits < minimum or dominance < ratio:
         return "", "", details
-
     return group, f"epg:{hits}/{total_observations}", details
 
 
@@ -148,12 +184,7 @@ def stable_key(name, attrs):
     )
     identity = original_id or normalize(attrs.get("tvg-name") or name)
     material = "|".join(
-        [
-            source,
-            identity,
-            normalize(name),
-            normalize(attrs.get("x-original-group")),
-        ]
+        [source, identity, normalize(name), normalize(attrs.get("x-original-group"))]
     )
     digest = hashlib.sha1(material.encode("utf-8")).hexdigest()[:12]
     return f"{source}:{digest}"
@@ -178,16 +209,15 @@ def override_matches(match, name, attrs):
         if field in {"name", "original_group"}:
             if normalize(actual) != normalize(expected):
                 return False
-        else:
-            if clean_text(actual).casefold() != clean_text(expected).casefold():
-                return False
+        elif clean_text(actual).casefold() != clean_text(expected).casefold():
+            return False
     return compared > 0
 
 
 def find_override(name, attrs, override_cfg):
     key = stable_key(name, attrs)
     for item in override_cfg.get("overrides", []) or []:
-        if clean_text(item.get("stable_key")) and clean_text(item.get("stable_key")) == key:
+        if clean_text(item.get("stable_key")) == key:
             return item
         if override_matches(item.get("match") or {}, name, attrs):
             return item
@@ -230,7 +260,10 @@ def backlog_item(name, attrs, epg_index):
         ),
         "epg_category_counts": dict(
             sorted(
-                ((clean_text(key), int(value or 0)) for key, value in categories.items()),
+                (
+                    (clean_text(key), int(value or 0))
+                    for key, value in categories.items()
+                ),
                 key=lambda item: (-item[1], item[0].casefold()),
             )
         ),
@@ -278,7 +311,9 @@ def write_backlog_chunks(backlog, generated):
         "total_chunks": total_chunks,
         "chunks": manifest_entries,
     }
-    BACKLOG_MANIFEST_PATH.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    BACKLOG_MANIFEST_PATH.write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
+    )
     return manifest
 
 
@@ -333,14 +368,23 @@ def main():
             override = find_override(name, attrs, override_cfg)
             if override and clean_text(override.get("group")):
                 new_group = clean_text(override.get("group"))
-                method = f"override:{clean_text(override.get('confidence') or 'curated')}"
+                method = (
+                    f"override:{clean_text(override.get('confidence') or 'curated')}"
+                )
                 override_moves += 1
             else:
                 candidate, reason = metadata_match(
                     name,
                     attrs,
-                    cfg.get("metadata_rules") or [],
+                    cfg.get("research_name_rules") or [],
+                    "research",
                 )
+                if not candidate:
+                    candidate, reason = source_group_match(attrs, cfg)
+                if not candidate:
+                    candidate, reason = metadata_match(
+                        name, attrs, cfg.get("metadata_rules") or []
+                    )
                 if candidate:
                     new_group = candidate
                     method = reason
@@ -350,15 +394,22 @@ def main():
                     if candidate:
                         new_group = candidate
                         method = reason
-                    elif details:
-                        uncertain_epg.append(
-                            {
-                                "channel": name,
-                                "source": attrs.get("x-source", ""),
-                                "original_group": attrs.get("x-original-group", ""),
-                                **details,
-                            }
-                        )
+                    else:
+                        if details:
+                            uncertain_epg.append(
+                                {
+                                    "channel": name,
+                                    "source": attrs.get("x-source", ""),
+                                    "original_group": attrs.get(
+                                        "x-original-group", ""
+                                    ),
+                                    **details,
+                                }
+                            )
+                        candidate, reason = source_default_match(attrs, cfg)
+                        if candidate:
+                            new_group = candidate
+                            method = reason
 
         if new_group != current:
             line = set_group(line, new_group)
@@ -369,7 +420,7 @@ def main():
             else:
                 exact_group_normalizations += 1
                 alias_moves[f"{current} -> {new_group}"] += 1
-            if len(examples) < int(cfg.get("report_example_limit", 300)):
+            if len(examples) < int(cfg.get("report_example_limit", 500)):
                 examples.append(
                     {
                         "channel": name,
@@ -399,10 +450,9 @@ def main():
     backlog_doc = {
         "generated": generated,
         "policy": (
-            "Research queue for channels still in Live TV - Other after deterministic "
-            "metadata, EPG, and curated override classification. Items are not moved "
-            "until evidence is saved in channel_category_overrides.json or a conservative "
-            "rule matches."
+            "Research queue for channels still in Live TV - Other after curated "
+            "overrides, research-backed channel identity rules, provider-native groups, "
+            "EPG evidence, and reviewed provider residual defaults."
         ),
         "remaining": len(backlog),
         "chunk_manifest": "docs/category-backlog-manifest.json",
@@ -421,11 +471,11 @@ def main():
     report = {
         "generated": generated,
         "policy": (
-            "Classification-only post-processing. High-confidence exact legacy group "
-            "aliases are normalized, curated per-channel overrides can resolve fallback "
-            "channels, and only channels still in Live TV - Other are otherwise eligible "
-            "for metadata/EPG refinement. Selected providers, dedupe decisions, stream "
-            "URLs, tvg-id values, and health scores are untouched."
+            "Classification-only post-processing. Curated overrides have highest "
+            "priority; then research-backed channel identity rules, provider-native "
+            "group evidence, legacy metadata rules, EPG evidence, and finally reviewed "
+            "provider residual defaults. Dedupe, provider choice, stream URLs, tvg-id "
+            "values, EPG matching, and health scores are untouched."
         ),
         "fallback_category": fallback,
         "channels_before": sum(before.values()),
@@ -452,7 +502,8 @@ def main():
             {
                 key: value
                 for key, value in report.items()
-                if key not in {
+                if key
+                not in {
                     "examples",
                     "uncertain_epg_candidates",
                     "group_counts_before",
