@@ -175,10 +175,10 @@
       "id": "lg",
       "name": "LG Channels US",
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/lg-playlist-generator/main/lg_channels_us.m3u",
-      "epg_url": "https://raw.githubusercontent.com/BuddyChewChew/lg-playlist-generator/main/lg_channels_us.xml",
+      "url": "https://www.apsattv.com/uslg.m3u",
       "region": "US",
-      "kind": "FAST"
+      "kind": "FAST",
+      "notes": "Preserve the broader APSAT LG inventory. The available BuddyChewChew LG XMLTV file is currently malformed, so LG guide data is filled only from safely confirmed equivalent/external guide sources for now."
     },
     {
       "id": "xumo",
