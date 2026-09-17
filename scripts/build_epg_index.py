@@ -6,6 +6,7 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -14,7 +15,7 @@ DOCS_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "supplemental_sources.json"
 ALL_SOURCES_PATH = DOCS_DIR / "all-sources.m3u"
 OUTPUT_PATH = DOCS_DIR / "epg-fingerprints.json"
-USER_AGENT = "twentypack20-iptv-epg-index/1.0"
+USER_AGENT = "twentypack20-iptv-epg-index/1.1"
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 
 
@@ -87,7 +88,18 @@ def parse_epg(data, wanted_ids, max_titles=24):
                 title_text = clean_title(title.text if title is not None else "")
                 if title_text:
                     start = clean_text(elem.attrib.get("start", ""))
-                    programmes[channel_id].append({"start": start, "title": title_text})
+                    categories = []
+                    for node in elem.findall("category"):
+                        value = clean_text(node.text)
+                        if value and value not in categories:
+                            categories.append(value)
+                    programmes[channel_id].append(
+                        {
+                            "start": start,
+                            "title": title_text,
+                            "categories": categories,
+                        }
+                    )
             elem.clear()
 
     return names, programmes
@@ -134,10 +146,18 @@ def main():
                     items = programmes.get(channel_id) or []
                     if items:
                         source_result["matched_channels"] += 1
+                    category_counts = Counter(
+                        category
+                        for item in items
+                        for category in (item.get("categories") or [])
+                        if clean_text(category)
+                    )
                     source_result["channels"][channel_id] = {
                         "name": names.get(channel_id, ""),
                         "titles": [item["title"] for item in items],
                         "starts": [item["start"] for item in items],
+                        "programme_samples": len(items),
+                        "category_counts": dict(sorted(category_counts.items())),
                     }
             except Exception as exc:
                 source_result["status"] = "fetch_failed"
