@@ -1,14 +1,16 @@
 {
-  "generated": "2026-09-17T11:26:21.977235+00:00",
-  "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
+  "generated": "2026-09-17T11:57:52.055417+00:00",
+  "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, curated per-channel overrides can resolve fallback channels, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
-  "channels_before": 4791,
-  "channels_after": 4791,
-  "other_before": 1148,
-  "other_after": 1036,
-  "moved_from_other": 112,
+  "channels_before": 4819,
+  "channels_after": 4819,
+  "other_before": 1154,
+  "other_after": 1041,
+  "moved_from_other": 113,
+  "override_moves": 0,
+  "backlog_remaining": 1041,
   "exact_group_normalizations": 5,
-  "total_reclassified": 117,
+  "total_reclassified": 118,
   "exact_group_alias_moves": {
     "Classic TV -> Live TV - Series / TV": 2,
     "Crime -> Live TV - Crime / Mystery": 1,
@@ -19,14 +21,14 @@
     "Live TV - Anime": 29,
     "Live TV - Crime / Mystery": 8,
     "Live TV - Lifestyle": 13,
-    "Live TV - Movies": 30,
+    "Live TV - Movies": 31,
     "Live TV - Music": 6,
     "Live TV - Religious": 1,
     "Live TV - Series / TV": 19,
     "Live TV - Sports": 11
   },
   "moved_by_method": {
-    "epg:24/24": 1,
+    "epg:22/22": 1,
     "epg:34/34": 2,
     "epg:34/51": 6,
     "group-alias:Classic TV": 2,
@@ -52,7 +54,7 @@
     "metadata:mystery": 5,
     "metadata:retrocrush": 1,
     "metadata:sitcom": 1,
-    "metadata:westerns": 27,
+    "metadata:westerns": 28,
     "metadata:wrestling": 2
   },
   "group_counts_before": {
@@ -60,17 +62,17 @@
     "Crime": 1,
     "FAST - LG Channels US": 2,
     "Live TV - Business": 36,
-    "Live TV - Documentary / Education": 286,
-    "Live TV - Kids / Family": 246,
-    "Live TV - Lifestyle": 366,
+    "Live TV - Documentary / Education": 289,
+    "Live TV - Kids / Family": 245,
+    "Live TV - Lifestyle": 367,
     "Live TV - Local / Public": 601,
-    "Live TV - Movies": 304,
+    "Live TV - Movies": 310,
     "Live TV - Music": 145,
-    "Live TV - News": 301,
-    "Live TV - Other": 1148,
+    "Live TV - News": 306,
+    "Live TV - Other": 1154,
     "Live TV - Religious": 82,
-    "Live TV - Series / TV": 930,
-    "Live TV - Sports": 316,
+    "Live TV - Series / TV": 936,
+    "Live TV - Sports": 318,
     "Live TV - Weather": 22,
     "TV & Entertainment": 1,
     "United States": 1,
@@ -81,17 +83,17 @@
     "Live TV - Anime": 29,
     "Live TV - Business": 36,
     "Live TV - Crime / Mystery": 8,
-    "Live TV - Documentary / Education": 286,
-    "Live TV - Kids / Family": 246,
-    "Live TV - Lifestyle": 379,
+    "Live TV - Documentary / Education": 289,
+    "Live TV - Kids / Family": 245,
+    "Live TV - Lifestyle": 380,
     "Live TV - Local / Public": 601,
-    "Live TV - Movies": 334,
+    "Live TV - Movies": 341,
     "Live TV - Music": 151,
-    "Live TV - News": 301,
-    "Live TV - Other": 1036,
+    "Live TV - News": 306,
+    "Live TV - Other": 1041,
     "Live TV - Religious": 83,
-    "Live TV - Series / TV": 949,
-    "Live TV - Sports": 327,
+    "Live TV - Series / TV": 955,
+    "Live TV - Sports": 329,
     "Live TV - Weather": 22,
     "United States": 1
   },
@@ -920,6 +922,15 @@
       "epg": {}
     },
     {
+      "channel": "MGM Presents: Westerns",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
       "channel": "Midsomer Murders",
       "source": "tubi",
       "original_group": "Mystery",
@@ -1157,21 +1168,21 @@
       "original_group": "Daytime + Game Shows",
       "from": "Live TV - Other",
       "to": "Live TV - Series / TV",
-      "method": "epg:24/24",
+      "method": "epg:22/22",
       "epg": {
         "candidate_group": "Live TV - Series / TV",
-        "hits": 24,
-        "total_category_observations": 24,
-        "programme_samples": 12,
+        "hits": 22,
+        "total_category_observations": 22,
+        "programme_samples": 11,
         "dominance": 1.0,
         "categories": [
           {
             "category": "Entertainment",
-            "count": 12
+            "count": 11
           },
           {
             "category": "Series",
-            "count": 12
+            "count": 11
           }
         ]
       }
@@ -1364,14 +1375,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 20,
-      "total_category_observations": 43,
-      "programme_samples": 20,
-      "dominance": 0.4651,
+      "hits": 21,
+      "total_category_observations": 42,
+      "programme_samples": 21,
+      "dominance": 0.5,
       "categories": [
         {
           "category": "Series",
-          "count": 20
+          "count": 21
         }
       ]
     },
@@ -1428,14 +1439,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 20,
-      "total_category_observations": 40,
-      "programme_samples": 20,
+      "hits": 22,
+      "total_category_observations": 44,
+      "programme_samples": 22,
       "dominance": 0.5,
       "categories": [
         {
           "category": "Series",
-          "count": 20
+          "count": 22
         }
       ]
     },
@@ -1476,14 +1487,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 18,
+      "hits": 17,
       "total_category_observations": 39,
-      "programme_samples": 18,
-      "dominance": 0.4615,
+      "programme_samples": 17,
+      "dominance": 0.4359,
       "categories": [
         {
           "category": "Series",
-          "count": 18
+          "count": 17
         }
       ]
     },
@@ -1492,10 +1503,10 @@
       "source": "pluto",
       "original_group": "Hispanic Heritage Month",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 13,
-      "total_category_observations": 23,
-      "programme_samples": 9,
-      "dominance": 0.5652,
+      "hits": 9,
+      "total_category_observations": 19,
+      "programme_samples": 8,
+      "dominance": 0.4737,
       "categories": [
         {
           "category": "Comedy",
@@ -1503,11 +1514,11 @@
         },
         {
           "category": "Drama",
-          "count": 4
+          "count": 2
         },
         {
           "category": "Independent Drama",
-          "count": 3
+          "count": 1
         },
         {
           "category": "Romantic comedy",
@@ -1521,9 +1532,9 @@
       "original_group": "Sci-Fi",
       "candidate_group": "Live TV - Series / TV",
       "hits": 17,
-      "total_category_observations": 39,
+      "total_category_observations": 38,
       "programme_samples": 17,
-      "dominance": 0.4359,
+      "dominance": 0.4474,
       "categories": [
         {
           "category": "Series",
@@ -1536,14 +1547,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Lifestyle",
-      "hits": 12,
-      "total_category_observations": 24,
-      "programme_samples": 12,
+      "hits": 13,
+      "total_category_observations": 26,
+      "programme_samples": 13,
       "dominance": 0.5,
       "categories": [
         {
           "category": "Home & Lifestyle",
-          "count": 12
+          "count": 13
         }
       ]
     },
@@ -1552,14 +1563,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Lifestyle",
-      "hits": 11,
-      "total_category_observations": 22,
-      "programme_samples": 11,
+      "hits": 14,
+      "total_category_observations": 28,
+      "programme_samples": 14,
       "dominance": 0.5,
       "categories": [
         {
           "category": "Home & Lifestyle",
-          "count": 11
+          "count": 14
         }
       ]
     },
@@ -1648,14 +1659,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 22,
+      "hits": 25,
       "total_category_observations": 47,
       "programme_samples": 17,
-      "dominance": 0.4681,
+      "dominance": 0.5319,
       "categories": [
         {
           "category": "Drama",
-          "count": 5
+          "count": 8
         },
         {
           "category": "Series",
