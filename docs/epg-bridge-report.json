@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-17T13:28:43.593411+00:00",
-  "window_start": "2026-09-16T13:28:43.593411+00:00",
-  "window_end": "2026-09-24T13:28:43.593411+00:00",
+  "generated": "2026-09-17T13:42:47.656082+00:00",
+  "window_start": "2026-09-16T13:42:47.656082+00:00",
+  "window_end": "2026-09-24T13:42:47.656082+00:00",
   "external_channels_scanned": 5489,
   "external_channels_retained": 250,
-  "external_programmes_retained": 27621,
+  "external_programmes_retained": 27582,
   "playlist_assignments": 359,
   "assignment_methods": {
     "unique-callsign": 359
@@ -17,7 +17,7 @@
       "status": "ok",
       "channels_scanned": 766,
       "matched_channels": 3,
-      "programmes": 418,
+      "programmes": 417,
       "error": ""
     },
     {
@@ -27,7 +27,7 @@
       "status": "ok",
       "channels_scanned": 4456,
       "matched_channels": 245,
-      "programmes": 27156,
+      "programmes": 27118,
       "error": ""
     },
     {

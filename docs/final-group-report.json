@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T13:29:26.720837+00:00",
+  "generated": "2026-09-17T13:43:35.474619+00:00",
   "policy": "Final publish guard: TiviMate receives content categories only. Raw provider, country, legacy, or wrapper groups are reclassified using curated aliases, channel identity, provider metadata, EPG evidence, and reviewed source defaults. The build fails rather than publish a non-canonical group that cannot be resolved.",
-  "normalized_channels": 8,
+  "normalized_channels": 0,
   "allowed_groups": [
     "Live TV - Ambiance",
     "Live TV - Anime",
@@ -44,72 +44,7 @@
     "Live TV - Sports": 400,
     "Live TV - Weather": 22
   },
-  "methods": {
-    "final-name:100,000 pyramid": 1,
-    "final-name:murder she wrote": 1,
-    "final-name:todo novelas": 1,
-    "group-alias:Classic TV": 2,
-    "group-alias:Crime": 1,
-    "group-alias:TV & Entertainment": 1,
-    "group-alias:Westerns": 1
-  },
-  "changes": [
-    {
-      "channel": "000 Pyramid\" tvg-logo=\"https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Disney_Lg/100000Pyramid/pyramid_logo_400x200.png\" group-title=\"Live TV - Other\" x-source=\"lg\" x-source-name=\"LG Channels US\" x-source-kind=\"FAST\",000 Pyramid\" tvg-logo=\"https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Disney_Lg/100000Pyramid/pyramid_logo_400x200.png\" group-title=\"FAST - LG Channels US\" x-source=\"lg\" x-source-name=\"LG Channels US\" x-source-kind=\"FAST\",364 $100,000 Pyramid",
-      "source": "lg",
-      "from": "FAST - LG Channels US",
-      "to": "Live TV - Game Shows",
-      "method": "final-name:100,000 pyramid"
-    },
-    {
-      "channel": "Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"Live TV - Movies\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-tvg-id=\"6a2b0f2509705ebdf781231d\" x-original-group=\"Westerns\" tvg-chno=\"799\" channel-id=\"6a2b0f2509705ebdf781231d\",Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"FAST - Pluto TV US - Westerns\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-group=\"Westerns\" x-original-tvg-id=\"6a2b0f2509705ebdf781231d\" tvg-chno=\"799\" channel-id=\"6a2b0f2509705ebdf781231d\",Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"Westerns\",Dr. Quinn Medicine Woman",
-      "source": "pluto",
-      "from": "Westerns",
-      "to": "Live TV - Movies",
-      "method": "group-alias:Westerns"
-    },
-    {
-      "channel": "m\u00e1s Pasiones\" tvg-logo=\"https://provider-static.plex.tv/epg/cms/production/f768af86-c0ca-40fa-b79a-bdfe22b54ab3/TN_MP_LOGO_TRANSP_1500x1000_Attribution_White.png\" group-title=\"Live TV - Other\" x-source=\"plex\" x-source-name=\"Plex Live TV US\" x-source-kind=\"FAST\" x-original-tvg-id=\"6a1610bebdf296985fd95603-65257cdf65486aca7aa77716\" x-original-group=\"United States\" channel-id=\"6a1610bebdf296985fd95603-65257cdf65486aca7aa77716\",m\u00e1s Pasiones\" tvg-logo=\"https://provider-static.plex.tv/epg/cms/production/f768af86-c0ca-40fa-b79a-bdfe22b54ab3/TN_MP_LOGO_TRANSP_1500x1000_Attribution_White.png\" group-title=\"FAST - Plex Live TV US - United States\" x-source=\"plex\" x-source-name=\"Plex Live TV US\" x-source-kind=\"FAST\" x-original-group=\"United States\" x-original-tvg-id=\"6a1610bebdf296985fd95603-65257cdf65486aca7aa77716\" channel-id=\"6a1610bebdf296985fd95603-65257cdf65486aca7aa77716\",m\u00e1s Pasiones\" tvg-logo=\"https://provider-static.plex.tv/epg/cms/production/f768af86-c0ca-40fa-b79a-bdfe22b54ab3/TN_MP_LOGO_TRANSP_1500x1000_Attribution_White.png\" group-title=\"United States\",Todo Novelas m\u00e1s Pasiones",
-      "source": "plex",
-      "from": "United States",
-      "to": "Live TV - Series / TV",
-      "method": "final-name:todo novelas"
-    },
-    {
-      "channel": "She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99993020/600x200.png?type=white_cropped\" group-title=\"Live TV - Other\" x-source=\"lg\" x-source-name=\"LG Channels US\" x-source-kind=\"FAST\",She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99993020/600x200.png?type=white_cropped\" group-title=\"FAST - LG Channels US\" x-source=\"lg\" x-source-name=\"LG Channels US\" x-source-kind=\"FAST\",378 Murder, She Wrote",
-      "source": "lg",
-      "from": "FAST - LG Channels US",
-      "to": "Live TV - Crime / Mystery",
-      "method": "final-name:murder she wrote"
-    },
-    {
-      "channel": "M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"Live TV - Series / TV\" x-source=\"roku\" x-source-name=\"The Roku Channel\" x-source-kind=\"FAST\" x-original-tvg-id=\"db95a237643ea0eea113c6c024515df2\" x-original-group=\"TV & Entertainment\" tvg-chno=\"5075\" channel-id=\"db95a237643ea0eea113c6c024515df2\",M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"FAST - The Roku Channel - TV & Entertainment\" x-source=\"roku\" x-source-name=\"The Roku Channel\" x-source-kind=\"FAST\" x-original-group=\"TV & Entertainment\" x-original-tvg-id=\"db95a237643ea0eea113c6c024515df2\" tvg-chno=\"5075\" channel-id=\"db95a237643ea0eea113c6c024515df2\",M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"TV & Entertainment\",Todo Novelas M\u00e1s Pasiones",
-      "source": "roku",
-      "from": "TV & Entertainment",
-      "to": "Live TV - Series / TV",
-      "method": "group-alias:TV & Entertainment"
-    },
-    {
-      "channel": "She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"Live TV - Series / TV\" x-source=\"xumo\" x-source-name=\"Xumo Play US\" x-source-kind=\"FAST\" x-original-tvg-id=\"99951239\" x-original-group=\"Classic TV\",She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"FAST - Xumo Play US - Classic TV\" x-source=\"xumo\" x-source-name=\"Xumo Play US\" x-source-kind=\"FAST\" x-original-group=\"Classic TV\" x-original-tvg-id=\"99951239\",She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"Classic TV\",Murder; She Wrote",
-      "source": "xumo",
-      "from": "Classic TV",
-      "to": "Live TV - Series / TV",
-      "method": "group-alias:Classic TV"
-    },
-    {
-      "channel": "She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"Live TV - Series / TV\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-tvg-id=\"6549337183595c000815ad05\" x-original-group=\"Classic TV\" tvg-chno=\"690\" channel-id=\"6549337183595c000815ad05\",She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"FAST - Pluto TV US - Classic TV\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-group=\"Classic TV\" x-original-tvg-id=\"6549337183595c000815ad05\" tvg-chno=\"690\" channel-id=\"6549337183595c000815ad05\",She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"Classic TV\",Murder She Wrote",
-      "source": "pluto",
-      "from": "Classic TV",
-      "to": "Live TV - Series / TV",
-      "method": "group-alias:Classic TV"
-    },
-    {
-      "channel": "She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"Live TV - Crime / Mystery\" x-source=\"samsung\" x-source-name=\"Samsung TV Plus US\" x-source-kind=\"FAST\" x-original-tvg-id=\"US1800001D1\" x-original-group=\"Crime\" tvg-chno=\"1813\" channel-id=\"US1800001D1\",She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"FAST - Samsung TV Plus US - Crime\" x-source=\"samsung\" x-source-name=\"Samsung TV Plus US\" x-source-kind=\"FAST\" x-original-group=\"Crime\" x-original-tvg-id=\"US1800001D1\" tvg-chno=\"1813\" channel-id=\"US1800001D1\",She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"Crime\",Murder She Wrote",
-      "source": "samsung",
-      "from": "Crime",
-      "to": "Live TV - Crime / Mystery",
-      "method": "group-alias:Crime"
-    }
-  ],
+  "methods": {},
+  "changes": [],
   "unresolved": []
 }

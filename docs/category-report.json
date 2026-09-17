@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T13:29:26.461912+00:00",
+  "generated": "2026-09-17T13:43:34.812442+00:00",
   "policy": "Classification-only post-processing. Curated overrides have highest priority; then research-backed channel identity rules, provider-native group evidence, legacy metadata rules, EPG evidence, and finally reviewed provider residual defaults. Dedupe, provider choice, stream URLs, tvg-id values, EPG matching, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
   "channels_before": 4820,
