@@ -43,14 +43,20 @@ def parse_entries(lines):
         line = raw.rstrip("\n")
         if line.startswith("#EXTINF:"):
             attrs = {key: value for key, value in ATTR_RE.findall(line)}
-            name = line.split(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
+            # Display names can contain commas. Taking the final comma is safer than
+            # splitting at the first comma, which may occur inside an attribute value.
+            name = line.rsplit(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
             current = {
                 "line_index": index,
+                "extgrp_index": None,
                 "attrs": attrs,
                 "name": name,
                 "url": "",
             }
             entries.append(current)
+            continue
+        if current is not None and line.startswith("#EXTGRP:"):
+            current["extgrp_index"] = index
             continue
         if current is not None and line and not line.startswith("#"):
             current["url"] = line
@@ -62,43 +68,35 @@ def set_group(line, value):
     escaped = clean(value).replace('"', "'")
     replacement = f'group-title="{escaped}"'
     if GROUP_RE.search(line):
-        return GROUP_RE.sub(replacement, line, count=1)
+        # Replace every group-title occurrence. Some upstream EXTINF records carry
+        # duplicate group-title attributes; leaving one behind can make players choose
+        # the stale provider group.
+        return GROUP_RE.sub(replacement, line)
     if "," in line:
-        prefix, name = line.split(",", 1)
+        prefix, name = line.rsplit(",", 1)
         return f"{prefix} {replacement},{name}"
     return f"{line} {replacement}"
 
 
 def final_group_for(entry):
-    attrs = entry["attrs"]
-    current = clean(attrs.get("group-title"))
+    current = clean(entry["attrs"].get("group-title"))
     name = normalize(entry.get("name"))
 
     if current.startswith(FINAL_GROUP_PREFIX):
         return current
-
     if current in LEGACY_GROUP_ALIASES:
         return LEGACY_GROUP_ALIASES[current]
-
     if current == "FAST - LG Channels US":
         if "100 000 pyramid" in name or "100000 pyramid" in name:
             return "Live TV - Game Shows"
         if "murder she wrote" in name:
             return "Live TV - Crime / Mystery"
-        raise SystemExit(
-            f"Unclassified raw LG wrapper group survived final classification: {entry['name']}"
-        )
-
+        raise SystemExit(f"Unclassified raw LG wrapper group survived: {entry['name']}")
     if current == "United States":
         if "todo novelas" in name:
             return "Live TV - Series / TV"
-        raise SystemExit(
-            f"Unclassified raw United States group survived final classification: {entry['name']}"
-        )
-
-    raise SystemExit(
-        f"Unexpected non-final group survived classification: {current!r} / {entry['name']}"
-    )
+        raise SystemExit(f"Unclassified raw United States group survived: {entry['name']}")
+    raise SystemExit(f"Unexpected non-final group survived: {current!r} / {entry['name']}")
 
 
 def base_id(entry):
@@ -143,16 +141,18 @@ def main():
     for entry in entries:
         current = clean(entry["attrs"].get("group-title"))
         final_group = final_group_for(entry)
-        if current != final_group:
+        if current != final_group or len(GROUP_RE.findall(lines[entry["line_index"]])) > 1:
             lines[entry["line_index"]] = set_group(lines[entry["line_index"]], final_group)
             normalized_groups += 1
+        if entry.get("extgrp_index") is not None:
+            lines[entry["extgrp_index"]] = f"#EXTGRP:{final_group}"
 
-    # Persist and re-read after group normalization so subsequent ID rewriting can never
-    # accidentally operate on stale pre-normalization EXTINF lines.
-    if normalized_groups:
-        INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
-        lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
-        entries = parse_entries(lines)
+    # Re-read after presentation normalization so ID work operates on the exact final
+    # EXTINF records rather than stale parsed attributes.
+    lines_text = "\n".join(lines) + "\n"
+    INDEX_PATH.write_text(lines_text, encoding="utf-8")
+    lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
+    entries = parse_entries(lines)
 
     initial_ids = [base_id(entry) for entry in entries]
     counts = Counter(initial_ids)
@@ -167,7 +167,6 @@ def main():
             while candidate in used:
                 candidate = f"{initial}:{stable_suffix(entry)}-{ordinal}"
                 ordinal += 1
-
         used.add(candidate)
         old = clean(entry["attrs"].get("tvg-id"))
         if old != candidate:
@@ -185,11 +184,18 @@ def main():
         for entry in final_entries
         if not clean(entry["attrs"].get("group-title")).startswith(FINAL_GROUP_PREFIX)
     })
-    if raw_groups:
-        raise SystemExit(f"Non-final provider/legacy groups remain: {raw_groups}")
+    raw_extgrp = sorted({
+        clean(line[len("#EXTGRP:"):])
+        for line in final_lines
+        if line.startswith("#EXTGRP:") and not clean(line[len("#EXTGRP:"):]).startswith(FINAL_GROUP_PREFIX)
+    })
+    if raw_groups or raw_extgrp:
+        raise SystemExit(
+            f"Non-final groups remain: group-title={raw_groups}, EXTGRP={raw_extgrp}"
+        )
 
     print(
-        f"Normalized {normalized_groups} raw/legacy group assignments; "
+        f"Normalized {normalized_groups} raw/duplicate group assignments; "
         f"validated {len(entries)} channels with {len(used)} unique tvg-id values; "
         f"rewrote {changed} missing/colliding IDs."
     )
