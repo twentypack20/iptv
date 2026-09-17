@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://twentypack20.github.io/iptv/epg.xml" url-tvg="https://twentypack20.github.io/iptv/epg.xml"
-# Generated: 2026-09-17 13:21:33 UTC
+# Generated: 2026-09-17 13:29:22 UTC
 # Smart selection: conservative market-safe dedupe + health/quality ranking
 # Source inventory: 5075
-# Published channels: 4821
+# Published channels: 4820
 #EXTINF:-1 tvg-id="lg:130 yahoo finance" tvg-name="130 Yahoo! Finance" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/yahoo/YFLogo_400x200.png" group-title="Live TV - Business" x-source="lg" x-source-name="LG Channels US" x-source-kind="FAST",130 Yahoo! Finance
 https://amg00119-amg00119c2-lg-us-9090.playouts.now.amagi.tv/playlist/amg00119-yahoofinancefast-yahoofinancecpprod2-lgus/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
 #EXTINF:-1 tvg-id="iptv-org:30AInvestmentPitch.us@SD" tvg-name="30A Investment Pitch" tvg-logo="https://twentypack20.github.io/iptv/posters/30ainvestmentpitch.us.png" group-title="Live TV - Business" x-source="iptv-org" x-source-name="iptv-org" x-source-kind="Core" x-original-tvg-id="30AInvestmentPitch.us@SD" x-original-group="USA - Business / Shopping",30A Investment Pitch
@@ -5832,8 +5832,6 @@ https://d3is52sgpnlx4c.cloudfront.net/10901/88885597/hls/master.m3u8?ads.xumo_ch
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67a147a7114554261db9e45d/?X-Plex-Token=TRN2ZDhzg8LkxmnFoYD2
 #EXTINF:-1 tvg-id="plex:6a1610bebdf296985fd95603-5eea605574085f0040ddc782" tvg-name="Game Show Central" tvg-logo="https://provider-static.plex.tv/epg/cms/production/690eb5a5-8a79-4f7a-8b6d-7ab2a01dc1d5/game-show-centralRDX.png" group-title="Live TV - Game Shows" x-source="plex" x-source-name="Plex Live TV US" x-source-kind="FAST" x-original-tvg-id="6a1610bebdf296985fd95603-5eea605574085f0040ddc782" x-original-group="United States" channel-id="6a1610bebdf296985fd95603-5eea605574085f0040ddc782",Game Show Central
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5eea605574085f0040ddc782/?X-Plex-Token=TRN2ZDhzg8LkxmnFoYD2
-#EXTINF:-1 tvg-id="samsung:USAJ3400012FA" tvg-name="Game Show Central" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400012FA_20260701T005907SQUARE.png" group-title="Live TV - Game Shows" x-source="samsung" x-source-name="Samsung TV Plus US" x-source-kind="FAST" x-original-tvg-id="USAJ3400012FA" x-original-group="Game Shows" tvg-chno="2810" channel-id="USAJ3400012FA",Game Show Central
-https://jmp2.uk/stvp-USAJ3400012FA
 #EXTINF:-1 tvg-id="tubi:673411" tvg-name="Game Show Central" tvg-logo="https://canvas-lb.tubitv.com/opts/ZiXULUiKSeFNHQ==/6f7f3b3f-a050-4254-82eb-2c705dab77a6/CHgQeDoFMS4xLjlAAQ==" group-title="Live TV - Game Shows" x-source="tubi" x-source-name="Tubi Live TV" x-source-kind="FAST" x-original-tvg-id="673411" x-original-group="Games & Competition",Game Show Central
 https://live-manifest.production-public.tubi.io/live/94afd871-77af-49a7-b040-10b1a9cbcddd/playlist.m3u8
 #EXTINF:-1 tvg-id="vizio:game show central" tvg-name="Game Show Central" tvg-logo="https://images.vizio.com/v4/btv/1/1646485316/1/267/150/0.jpg" group-title="Live TV - Game Shows" x-source="vizio" x-source-name="Vizio WatchFree+ US" x-source-kind="FAST" x-original-group="GAME SHOWS",Game Show Central

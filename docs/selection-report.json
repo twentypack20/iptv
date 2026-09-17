@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-17 13:21:33 UTC",
+  "generated": "2026-09-17 13:29:22 UTC",
   "source_inventory": 5075,
-  "published_channels": 4821,
+  "published_channels": 4820,
   "confirmed_duplicate_groups": 227,
   "ambiguous_duplicate_groups": 710,
-  "removed_confirmed_duplicates": 254,
+  "removed_confirmed_duplicates": 255,
   "selected_sources": {
     "iptv-org": 1327,
     "lg": 447,
@@ -12,7 +12,7 @@
     "plex": 672,
     "pluto": 248,
     "roku": 216,
-    "samsung": 536,
+    "samsung": 535,
     "tubi": 171,
     "vizio": 410,
     "xumo": 347
@@ -1589,6 +1589,21 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        },
+        {
+          "source": "samsung",
+          "tvg_id": "USAJ3400012FA",
+          "name": "Game Show Central",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 2
           }
         }
       ]
