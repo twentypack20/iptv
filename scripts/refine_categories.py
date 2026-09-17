@@ -15,6 +15,9 @@ PLAYLIST_PATH = DOCS_DIR / "index.m3u"
 EPG_INDEX_PATH = DOCS_DIR / "epg-fingerprints.json"
 REPORT_PATH = DOCS_DIR / "category-report.json"
 BACKLOG_PATH = DOCS_DIR / "category-backlog.json"
+BACKLOG_MANIFEST_PATH = DOCS_DIR / "category-backlog-manifest.json"
+BACKLOG_CHUNKS_DIR = DOCS_DIR / "category-backlog-chunks"
+BACKLOG_CHUNK_SIZE = 100
 
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 GROUP_RE = re.compile(r'group-title="[^"]*"')
@@ -236,6 +239,49 @@ def backlog_item(name, attrs, epg_index):
     }
 
 
+def write_backlog_chunks(backlog, generated):
+    BACKLOG_CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
+    for stale in BACKLOG_CHUNKS_DIR.glob("*.json"):
+        stale.unlink()
+
+    total_chunks = (len(backlog) + BACKLOG_CHUNK_SIZE - 1) // BACKLOG_CHUNK_SIZE
+    manifest_entries = []
+    for index in range(total_chunks):
+        start = index * BACKLOG_CHUNK_SIZE
+        end = min(len(backlog), start + BACKLOG_CHUNK_SIZE)
+        filename = f"{index:03d}.json"
+        chunk_path = BACKLOG_CHUNKS_DIR / filename
+        chunk_doc = {
+            "generated": generated,
+            "chunk_index": index,
+            "total_chunks": total_chunks,
+            "start": start,
+            "end_exclusive": end,
+            "count": end - start,
+            "channels": backlog[start:end],
+        }
+        chunk_path.write_text(json.dumps(chunk_doc, indent=2), encoding="utf-8")
+        manifest_entries.append(
+            {
+                "chunk_index": index,
+                "path": f"docs/category-backlog-chunks/{filename}",
+                "count": end - start,
+                "start": start,
+                "end_exclusive": end,
+            }
+        )
+
+    manifest = {
+        "generated": generated,
+        "remaining": len(backlog),
+        "chunk_size": BACKLOG_CHUNK_SIZE,
+        "total_chunks": total_chunks,
+        "chunks": manifest_entries,
+    }
+    BACKLOG_MANIFEST_PATH.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    return manifest
+
+
 def main():
     cfg = load_json(CONFIG_PATH, {})
     if not cfg.get("enabled", True):
@@ -349,6 +395,7 @@ def main():
         item["original_group"] or "(blank)" for item in backlog
     )
     generated = datetime.now(timezone.utc).isoformat()
+    chunk_manifest = write_backlog_chunks(backlog, generated)
     backlog_doc = {
         "generated": generated,
         "policy": (
@@ -358,6 +405,8 @@ def main():
             "rule matches."
         ),
         "remaining": len(backlog),
+        "chunk_manifest": "docs/category-backlog-manifest.json",
+        "total_chunks": chunk_manifest["total_chunks"],
         "by_source": dict(sorted(backlog_by_source.items())),
         "top_original_groups": dict(
             sorted(
@@ -386,6 +435,7 @@ def main():
         "moved_from_other": moved_from_other,
         "override_moves": override_moves,
         "backlog_remaining": len(backlog),
+        "backlog_chunks": chunk_manifest["total_chunks"],
         "exact_group_normalizations": exact_group_normalizations,
         "total_reclassified": moved_from_other + exact_group_normalizations,
         "exact_group_alias_moves": dict(sorted(alias_moves.items())),
