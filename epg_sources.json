@@ -1,0 +1,35 @@
+{
+  "history_hours": 24,
+  "future_days": 7,
+  "tivimate_epg_url": "https://twentypack20.github.io/iptv/epg.xml",
+  "allow_unique_name_for_non_local": true,
+  "fallback_sources": [
+    {
+      "id": "epgshare-us1",
+      "name": "EPGShare US National",
+      "tag": "US1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
+      "mapping_url": "https://raw.githubusercontent.com/iptv-org/epg/master/sites/epgshare01.online/epgshare01.online_US1.channels.xml",
+      "kind": "national",
+      "priority": 100
+    },
+    {
+      "id": "epgshare-us-locals",
+      "name": "EPGShare US Locals",
+      "tag": "US_LOCALS2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz",
+      "mapping_url": "https://raw.githubusercontent.com/iptv-org/epg/master/sites/epgshare01.online/epgshare01.online_US_LOCALS2.channels.xml",
+      "kind": "local",
+      "priority": 110
+    },
+    {
+      "id": "epgshare-us-sports",
+      "name": "EPGShare US Sports",
+      "tag": "US_SPORTS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz",
+      "mapping_url": "https://raw.githubusercontent.com/iptv-org/epg/master/sites/epgshare01.online/epgshare01.online_US_SPORTS1.channels.xml",
+      "kind": "sports",
+      "priority": 90
+    }
+  ]
+}
