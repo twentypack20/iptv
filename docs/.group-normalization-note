@@ -1,1 +1,0 @@
-Final playlist publication must contain only Live TV - * presentation groups. Raw provider/legacy groups are normalized or rejected by scripts/ensure_unique_ids.py.
