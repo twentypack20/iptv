@@ -77,6 +77,10 @@ jobs:
         run: |
           python scripts/refine_categories.py
 
+      - name: Build compact category research export
+        run: |
+          python scripts/build_category_compact.py
+
       - name: Guarantee unique final channel IDs
         run: |
           python scripts/ensure_unique_ids.py
@@ -111,6 +115,7 @@ jobs:
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),
               Path('docs/category-backlog-manifest.json'),
+              Path('docs/category-backlog-compact-manifest.json'),
           ]
           missing = [str(path) for path in required if not path.exists() or path.stat().st_size == 0]
           if missing:
@@ -199,6 +204,25 @@ jobs:
           if chunk_total != backlog.get('remaining'):
               raise SystemExit('Category backlog chunks do not cover every unresolved channel')
 
+          compact = json.loads(Path('docs/category-backlog-compact-manifest.json').read_text(encoding='utf-8'))
+          compact_chunks = compact.get('chunks') or []
+          if compact.get('remaining') != backlog.get('remaining'):
+              raise SystemExit('Compact category research count does not match backlog')
+          compact_total = 0
+          for item in compact_chunks:
+              path = Path(item.get('path', ''))
+              if not path.exists() or path.stat().st_size == 0:
+                  raise SystemExit(f'Missing/empty compact category research chunk: {path}')
+              rows = path.read_text(encoding='utf-8').splitlines()
+              if not rows or rows[0] != 'stable_key\tsource\toriginal_group\tchannel':
+                  raise SystemExit(f'Invalid compact category research header: {path}')
+              count = max(0, len(rows) - 1)
+              if count != item.get('count'):
+                  raise SystemExit(f'Compact category research count mismatch: {path}')
+              compact_total += count
+          if compact_total != backlog.get('remaining'):
+              raise SystemExit('Compact category research chunks do not cover every unresolved channel')
+
           epg_report = json.loads(Path('docs/epg-report.json').read_text(encoding='utf-8'))
           if epg_report.get('epg_channels') != len(extinf_lines):
               raise SystemExit('EPG report channel count does not match the playlist')
@@ -208,7 +232,8 @@ jobs:
               f"{len(tvg_ids)} unique tvg-id values, matching XMLTV channels, "
               f"{epg_report.get('channels_with_programmes', 0)} channels with programmes, "
               f"{category_report.get('moved_from_other', 0)} conservative category refinements, "
-              f"and {backlog.get('remaining', 0)} backlog channels across {len(chunks)} chunks"
+              f"and {backlog.get('remaining', 0)} backlog channels across "
+              f"{len(chunks)} full / {len(compact_chunks)} compact chunks"
           )
           PY
 
@@ -232,6 +257,7 @@ jobs:
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),
               Path('docs/category-backlog-manifest.json'),
+              Path('docs/category-backlog-compact-manifest.json'),
               Path('docs/epg-report.json'),
           ]:
               print(f'--- {path} ---')
