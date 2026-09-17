@@ -1,23 +1,73 @@
 {
-  "generated": "2026-09-17 09:00:20 UTC",
+  "generated": "2026-09-17 11:26:20 UTC",
   "source_inventory": 5075,
-  "published_channels": 4852,
-  "confirmed_duplicate_groups": 206,
-  "ambiguous_duplicate_groups": 709,
-  "removed_confirmed_duplicates": 223,
+  "published_channels": 4791,
+  "confirmed_duplicate_groups": 246,
+  "ambiguous_duplicate_groups": 703,
+  "removed_confirmed_duplicates": 284,
   "selected_sources": {
     "iptv-org": 1341,
     "lg": 447,
     "localnow": 447,
     "plex": 668,
-    "pluto": 228,
-    "roku": 216,
-    "samsung": 532,
+    "pluto": 225,
+    "roku": 215,
+    "samsung": 534,
     "tubi": 174,
     "vizio": 410,
-    "xumo": 389
+    "xumo": 330
   },
   "collapsed_groups": [
+    {
+      "canonical_name": "bloomberg tv",
+      "selected": {
+        "source": "tubi",
+        "tvg_id": "555124",
+        "name": "Bloomberg TV+",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 4
+        }
+      },
+      "alternatives": [
+        {
+          "source": "tubi",
+          "tvg_id": "555124",
+          "name": "Bloomberg TV+",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 4
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951533",
+          "name": "Bloomberg TV+",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
     {
       "canonical_name": "britbox mysteries",
       "selected": {
@@ -64,6 +114,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951213",
+          "name": "BritBox Mysteries",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -114,6 +179,71 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951559",
+          "name": "Court TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "documentary",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-62f42e6cad0081c6ef405723",
+        "name": "Documentary+",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-62f42e6cad0081c6ef405723",
+          "name": "Documentary+",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991638",
+          "name": "DOCUMENTARY+",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -214,6 +344,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991320",
+          "name": "Law&Crime",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         },
         {
@@ -882,6 +1027,21 @@
           }
         },
         {
+          "source": "xumo",
+          "tvg_id": "9999613",
+          "name": "Bounce XL",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "pluto",
           "tvg_id": "6176fd25e83a5f0007a464c9",
           "name": "Bounce XL",
@@ -1099,6 +1259,56 @@
       ]
     },
     {
+      "canonical_name": "comedy dynamics",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5efe1de5e0b3f5003f5d9f76",
+        "name": "Comedy Dynamics",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5efe1de5e0b3f5003f5d9f76",
+          "name": "Comedy Dynamics",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951463",
+          "name": "Comedy Dynamics",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "dcc making the team",
       "selected": {
         "source": "iptv-org",
@@ -1245,6 +1455,21 @@
             "direct": true,
             "source_order": 5
           }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991153",
+          "name": "FailArmy",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
         }
       ]
     },
@@ -1349,6 +1574,56 @@
       ]
     },
     {
+      "canonical_name": "grit xtra",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf25",
+        "name": "Grit Xtra",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf25",
+          "name": "Grit Xtra",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951152",
+          "name": "Grit Xtra",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "hot bench",
       "selected": {
         "source": "iptv-org",
@@ -1444,6 +1719,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "9999614",
+          "name": "ION Plus",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -2845,6 +3135,21 @@
             "direct": true,
             "source_order": 5
           }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991174",
+          "name": "The Pet Collective",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
         }
       ]
     },
@@ -2894,6 +3199,106 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "bbc home and garden",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6308eda9ac9983739c8a29bb",
+        "name": "BBC Home & Garden",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6308eda9ac9983739c8a29bb",
+          "name": "BBC Home & Garden",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951178",
+          "name": "BBC Home & Garden",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "pbs travel",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-684c201a3496598cf4003fbc",
+        "name": "PBS Travel",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-684c201a3496598cf4003fbc",
+          "name": "PBS Travel",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951587",
+          "name": "PBS Travel",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -2949,6 +3354,106 @@
       ]
     },
     {
+      "canonical_name": "pursuitup",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-63628eb88e4b18ca22f897dc",
+        "name": "PursuitUP",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-63628eb88e4b18ca22f897dc",
+          "name": "PursuitUP",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991648",
+          "name": "PursuitUp",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "revry",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-68c86f0bda79d98d977dc90c",
+        "name": "Revry",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-68c86f0bda79d98d977dc90c",
+          "name": "Revry",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991296",
+          "name": "Revry",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "spike outdoors",
       "selected": {
         "source": "iptv-org",
@@ -2999,11 +3504,11 @@
       ]
     },
     {
-      "canonical_name": "tastemade",
+      "canonical_name": "the design network",
       "selected": {
-        "source": "xumo",
-        "tvg_id": "99991202",
-        "name": "Tastemade",
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5f0641d3e8ffda004033b16e",
+        "name": "The Design Network",
         "score": 525.0,
         "score_details": {
           "success_rate": 0.5,
@@ -3012,14 +3517,29 @@
           "avg_latency_ms": 0.0,
           "consecutive_failures": 0,
           "direct": true,
-          "source_order": 8
+          "source_order": 5
         }
       },
       "alternatives": [
         {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5f0641d3e8ffda004033b16e",
+          "name": "The Design Network",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
           "source": "xumo",
-          "tvg_id": "99991202",
-          "name": "Tastemade",
+          "tvg_id": "99991390",
+          "name": "The Design Network",
           "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
@@ -3030,20 +3550,55 @@
             "direct": true,
             "source_order": 8
           }
-        },
+        }
+      ]
+    },
+    {
+      "canonical_name": "waypoint tv",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fd115b8b7ef8d002dcf1817",
+        "name": "Waypoint TV",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
         {
-          "source": "samsung",
-          "tvg_id": "USBD7000189R",
-          "name": "Tastemade",
-          "score": 500.0,
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fd115b8b7ef8d002dcf1817",
+          "name": "Waypoint TV",
+          "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
             "max_height": 0,
             "max_bandwidth": 0,
             "avg_latency_ms": 0.0,
             "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991358",
+          "name": "Waypoint TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -3144,6 +3699,56 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "50 cent action",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6827b9579beea89c38b6df55",
+        "name": "50 Cent Action",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6827b9579beea89c38b6df55",
+          "name": "50 Cent Action",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951439",
+          "name": "50 Cent Action",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -6079,6 +6684,56 @@
       ]
     },
     {
+      "canonical_name": "cheddar news",
+      "selected": {
+        "source": "xumo",
+        "tvg_id": "99991220",
+        "name": "Cheddar News",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 8
+        }
+      },
+      "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99991220",
+          "name": "Cheddar News",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
+          "source": "samsung",
+          "tvg_id": "USAJ3504714A",
+          "name": "Cheddar News",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 2
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "fox weather",
       "selected": {
         "source": "plex",
@@ -6417,6 +7072,21 @@
           }
         },
         {
+          "source": "xumo",
+          "tvg_id": "99991245",
+          "name": "TODAY All Day",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "pluto",
           "tvg_id": "5d695f7db53adf96b78e7ce3",
           "name": "TODAY All Day",
@@ -6435,56 +7105,6 @@
           "source": "samsung",
           "tvg_id": "USBB32000251N",
           "name": "TODAY All Day",
-          "score": 500.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
-          }
-        }
-      ]
-    },
-    {
-      "canonical_name": "usa today",
-      "selected": {
-        "source": "plex",
-        "tvg_id": "6a1610bebdf296985fd95603-60df3e18541143002f3b8607",
-        "name": "USA TODAY",
-        "score": 525.0,
-        "score_details": {
-          "success_rate": 0.5,
-          "max_height": 0,
-          "max_bandwidth": 0,
-          "avg_latency_ms": 0.0,
-          "consecutive_failures": 0,
-          "direct": true,
-          "source_order": 5
-        }
-      },
-      "alternatives": [
-        {
-          "source": "plex",
-          "tvg_id": "6a1610bebdf296985fd95603-60df3e18541143002f3b8607",
-          "name": "USA TODAY",
-          "score": 525.0,
-          "score_details": {
-            "success_rate": 0.5,
-            "max_height": 0,
-            "max_bandwidth": 0,
-            "avg_latency_ms": 0.0,
-            "consecutive_failures": 0,
-            "direct": true,
-            "source_order": 5
-          }
-        },
-        {
-          "source": "samsung",
-          "tvg_id": "USBB1500001GD",
-          "name": "USA Today",
           "score": 500.0,
           "score_details": {
             "success_rate": 0.5,
@@ -7435,6 +8055,56 @@
           "source": "pluto",
           "tvg_id": "6532e6a9bdf3cf000887ab29",
           "name": "More True Crime",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "pbs nature",
+      "selected": {
+        "source": "xumo",
+        "tvg_id": "99951195",
+        "name": "PBS Nature",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 8
+        }
+      },
+      "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99951195",
+          "name": "PBS Nature",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
+          "source": "pluto",
+          "tvg_id": "640a64bd73e013000893d4e0",
+          "name": "PBS Nature",
           "score": 500.0,
           "score_details": {
             "success_rate": 0.5,
@@ -8449,6 +9119,56 @@
       ]
     },
     {
+      "canonical_name": "fubo sports network",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fc705f68aba71002d8b7b37",
+        "name": "Fubo Sports Network",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fc705f68aba71002d8b7b37",
+          "name": "Fubo Sports Network",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951548",
+          "name": "Fubo Sports Network",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "golazo network",
       "selected": {
         "source": "iptv-org",
@@ -8494,6 +9214,106 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "nbc sports now",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fc70600598c41002da3dd43",
+        "name": "NBC Sports NOW",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fc70600598c41002da3dd43",
+          "name": "NBC Sports NOW",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951253",
+          "name": "NBC Sports NOW",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "nfl channel",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
+        "name": "NFL Channel",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-61e805952502a7a6fa84d70f",
+          "name": "NFL Channel",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991738",
+          "name": "NFL Channel",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -8579,6 +9399,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 4
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991281",
+          "name": "PGA TOUR",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         },
         {
@@ -8745,6 +9580,21 @@
             "direct": true,
             "source_order": 5
           }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991633",
+          "name": "PokerGO",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
         }
       ]
     },
@@ -8779,6 +9629,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951586",
+          "name": "SportsGrid",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         },
         {
@@ -8945,6 +9810,71 @@
             "direct": true,
             "source_order": 5
           }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951157",
+          "name": "ION Mystery",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "cosmic frontiers",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-63616d4c9fdbf7808e22baee",
+        "name": "Cosmic Frontiers",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-63616d4c9fdbf7808e22baee",
+          "name": "Cosmic Frontiers",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951345",
+          "name": "Cosmic Frontiers",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
         }
       ]
     },
@@ -9032,6 +9962,21 @@
           }
         },
         {
+          "source": "xumo",
+          "tvg_id": "99991693",
+          "name": "Homeful",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "pluto",
           "tvg_id": "66df8aa7abec540008ca8cb6",
           "name": "Homeful",
@@ -9044,6 +9989,56 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "pbs food",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
+        "name": "PBS Food",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-650299cdec4e38daa56e9c7c",
+          "name": "PBS Food",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951588",
+          "name": "PBS Food",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -9094,6 +10089,56 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "shout movies",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-67ddc2c01d30518241f9249d",
+        "name": "Shout! Movies",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-67ddc2c01d30518241f9249d",
+          "name": "Shout! Movies",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951411",
+          "name": "Shout! Movies",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -9214,11 +10259,61 @@
       ]
     },
     {
-      "canonical_name": "fox sports",
+      "canonical_name": "newsmax2",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fb81660b7ad2d002dcb7335",
+        "name": "Newsmax2",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fb81660b7ad2d002dcb7335",
+          "name": "Newsmax2",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991194",
+          "name": "Newsmax2",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "the first",
       "selected": {
         "source": "pluto",
-        "tvg_id": "5a74b8e1e22a61737979c6bf",
-        "name": "FOX Sports",
+        "tvg_id": "5d486acc34ceb37d3c458a64",
+        "name": "The First",
         "score": 500.0,
         "score_details": {
           "success_rate": 0.5,
@@ -9233,8 +10328,8 @@
       "alternatives": [
         {
           "source": "pluto",
-          "tvg_id": "5a74b8e1e22a61737979c6bf",
-          "name": "FOX Sports",
+          "tvg_id": "5d486acc34ceb37d3c458a64",
+          "name": "The First",
           "score": 500.0,
           "score_details": {
             "success_rate": 0.5,
@@ -9248,8 +10343,8 @@
         },
         {
           "source": "samsung",
-          "tvg_id": "US2700001QY",
-          "name": "FOX Sports",
+          "tvg_id": "US1000016Q",
+          "name": "The First",
           "score": 500.0,
           "score_details": {
             "success_rate": 0.5,
@@ -9259,6 +10354,106 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 2
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "cowboy sports",
+      "selected": {
+        "source": "tubi",
+        "tvg_id": "400000285",
+        "name": "Cowboy+ Sports",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 4
+        }
+      },
+      "alternatives": [
+        {
+          "source": "tubi",
+          "tvg_id": "400000285",
+          "name": "Cowboy+ Sports",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 4
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951557",
+          "name": "Cowboy+ Sports",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "fox sports",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-659f04ef27ae392d2e204695",
+        "name": "FOX Sports",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-659f04ef27ae392d2e204695",
+          "name": "FOX Sports",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991196",
+          "name": "FOX Sports",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -9310,6 +10505,121 @@
             "direct": true,
             "source_order": 5
           }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951538",
+          "name": "Scripps Sports Network",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "american crimes",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6467891c73e5e029428f0e16",
+        "name": "American Crimes",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6467891c73e5e029428f0e16",
+          "name": "American Crimes",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951461",
+          "name": "American Crimes",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "acorn tv mysteries",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6848269efd17cd629e5df2e9",
+        "name": "Acorn TV Mysteries",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6848269efd17cd629e5df2e9",
+          "name": "Acorn TV Mysteries",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951478",
+          "name": "Acorn TV Mysteries",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
         }
       ]
     },
@@ -9359,6 +10669,71 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991292",
+          "name": "Alien Nation by DUST",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "amc thrillers",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fc705e2a2236e002d69f36d",
+        "name": "AMC Thrillers",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fc705e2a2236e002d69f36d",
+          "name": "AMC Thrillers",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951377",
+          "name": "AMC Thrillers",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -9459,6 +10834,136 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951231",
+          "name": "BBC Earth",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
+          "source": "pluto",
+          "tvg_id": "656535fc2c46f30008870fae",
+          "name": "BBC Earth",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "bbc food",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-630905af0417b7074a4ad95e",
+        "name": "BBC Food",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-630905af0417b7074a4ad95e",
+          "name": "BBC Food",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951177",
+          "name": "BBC Food",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "bbc news",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-646fab0e43d6d6838db81a6a",
+        "name": "BBC News (North America)",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-646fab0e43d6d6838db81a6a",
+          "name": "BBC News (North America)",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951298",
+          "name": "BBC News",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -9614,6 +11119,56 @@
       ]
     },
     {
+      "canonical_name": "complex tv",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-608aec5fa09205002da4f28f",
+        "name": "Complex TV",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-608aec5fa09205002da4f28f",
+          "name": "Complex TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991303",
+          "name": "Complex TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "dungeons and dragons adventures",
       "selected": {
         "source": "plex",
@@ -9650,6 +11205,56 @@
           "source": "xumo",
           "tvg_id": "99951440",
           "name": "Dungeons & Dragons Adventures",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "el rey rebel",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6335ad3170dc93c71ab5ce09",
+        "name": "El Rey Rebel",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6335ad3170dc93c71ab5ce09",
+          "name": "El Rey Rebel",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951536",
+          "name": "El Rey Rebel",
           "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
@@ -9814,6 +11419,56 @@
       ]
     },
     {
+      "canonical_name": "fluffy tv",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6a3b0dab6766376fae696fa6",
+        "name": "Fluffy TV",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6a3b0dab6766376fae696fa6",
+          "name": "Fluffy TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951287",
+          "name": "Fluffy TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "freetv hits",
       "selected": {
         "source": "plex",
@@ -9866,49 +11521,149 @@
     {
       "canonical_name": "golfpass",
       "selected": {
-        "source": "pluto",
-        "tvg_id": "65493029ab052400089e9d2f",
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5fc706038aba71002d8b7c8e",
         "name": "GolfPass",
-        "score": 500.0,
+        "score": 525.0,
         "score_details": {
           "success_rate": 0.5,
           "max_height": 0,
           "max_bandwidth": 0,
           "avg_latency_ms": 0.0,
           "consecutive_failures": 0,
-          "direct": false,
-          "source_order": 1
+          "direct": true,
+          "source_order": 5
         }
       },
       "alternatives": [
         {
-          "source": "pluto",
-          "tvg_id": "65493029ab052400089e9d2f",
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5fc706038aba71002d8b7c8e",
           "name": "GolfPass",
-          "score": 500.0,
+          "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
             "max_height": 0,
             "max_bandwidth": 0,
             "avg_latency_ms": 0.0,
             "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 1
+            "direct": true,
+            "source_order": 5
           }
         },
         {
-          "source": "samsung",
-          "tvg_id": "USBB400000145",
-          "name": "GolfPass",
-          "score": 500.0,
+          "source": "xumo",
+          "tvg_id": "99951462",
+          "name": "GOLFPASS",
+          "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
             "max_height": 0,
             "max_bandwidth": 0,
             "avg_latency_ms": 0.0,
             "consecutive_failures": 0,
-            "direct": false,
-            "source_order": 2
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "gustotv",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-5f8746eabd529300418246d9",
+        "name": "GUSTOTV",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-5f8746eabd529300418246d9",
+          "name": "GUSTOTV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991328",
+          "name": "GustoTV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "hbo boxing",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-69d93d6e8061ebfbca58c328",
+        "name": "HBO Boxing",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-69d93d6e8061ebfbca58c328",
+          "name": "HBO Boxing",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951469",
+          "name": "HBO Boxing",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -10009,6 +11764,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951158",
+          "name": "ION",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -10112,6 +11882,21 @@
           }
         },
         {
+          "source": "xumo",
+          "tvg_id": "99951492",
+          "name": "LOL Network",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "roku",
           "tvg_id": "52c137ae3cdc50768ad7ea3cdaf0f2f4",
           "name": "LOL Network",
@@ -10124,6 +11909,256 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 3
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "mgm presents",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-6876fa82e50e77c59c8940c2",
+        "name": "MGM Presents",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-6876fa82e50e77c59c8940c2",
+          "name": "MGM Presents",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951573",
+          "name": "MGM Presents",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "mgm presents action",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-689fb42fba3be0bafe349d33",
+        "name": "MGM Presents: Action",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-689fb42fba3be0bafe349d33",
+          "name": "MGM Presents: Action",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951572",
+          "name": "MGM Presents: Action",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "mgm presents westerns",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-689fb8470a486aeba3c7917e",
+        "name": "MGM Presents: Westerns",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-689fb8470a486aeba3c7917e",
+          "name": "MGM Presents: Westerns",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951575",
+          "name": "MGM Presents: Westerns",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "outflix movies",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-64aed1e9c6085b5faf20ee1f",
+        "name": "OUTFLIX MOVIES",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-64aed1e9c6085b5faf20ee1f",
+          "name": "OUTFLIX MOVIES",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951288",
+          "name": "OUTflix Movies",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "paranormal files",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-65e87f35335524a69e8e0ce0",
+        "name": "Paranormal Files",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-65e87f35335524a69e8e0ce0",
+          "name": "Paranormal Files",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991769",
+          "name": "Paranormal Files",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         }
       ]
@@ -10212,6 +12247,21 @@
           }
         },
         {
+          "source": "xumo",
+          "tvg_id": "99951350",
+          "name": "Places & Spaces",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
           "source": "roku",
           "tvg_id": "65506c44c9535b3787d255f333e7b1f7",
           "name": "Places & Spaces",
@@ -10279,6 +12329,56 @@
       ]
     },
     {
+      "canonical_name": "rig tv",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-66a2d97c94b6a49cb5054d77",
+        "name": "Rig TV",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-66a2d97c94b6a49cb5054d77",
+          "name": "Rig TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951338",
+          "name": "Rig TV",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
       "canonical_name": "scares by shudder",
       "selected": {
         "source": "plex",
@@ -10315,6 +12415,56 @@
           "source": "xumo",
           "tvg_id": "99951349",
           "name": "Scares by Shudder",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "stingray naturescape",
+      "selected": {
+        "source": "plex",
+        "tvg_id": "6a1610bebdf296985fd95603-60d324f59adce5002c41dbc5",
+        "name": "Stingray Naturescape",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 5
+        }
+      },
+      "alternatives": [
+        {
+          "source": "plex",
+          "tvg_id": "6a1610bebdf296985fd95603-60d324f59adce5002c41dbc5",
+          "name": "Stingray Naturescape",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99991252",
+          "name": "Stingray Naturescape",
           "score": 525.0,
           "score_details": {
             "success_rate": 0.5,
@@ -10439,6 +12589,21 @@
             "consecutive_failures": 0,
             "direct": true,
             "source_order": 5
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951134",
+          "name": "UFC",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
           }
         },
         {
@@ -10569,6 +12734,156 @@
             "consecutive_failures": 0,
             "direct": false,
             "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "matched married meet by lifetime",
+      "selected": {
+        "source": "xumo",
+        "tvg_id": "99951487",
+        "name": "Matched Married Meet by Lifetime",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 8
+        }
+      },
+      "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99951487",
+          "name": "Matched Married Meet by Lifetime",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
+          "source": "pluto",
+          "tvg_id": "6887a86be3703b7d42b3eca3",
+          "name": "Matched Married Meet by Lifetime",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "tv one stars and stories",
+      "selected": {
+        "source": "tubi",
+        "tvg_id": "400000247",
+        "name": "TV One Stars & Stories",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 4
+        }
+      },
+      "alternatives": [
+        {
+          "source": "tubi",
+          "tvg_id": "400000247",
+          "name": "TV One Stars & Stories",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 4
+          }
+        },
+        {
+          "source": "xumo",
+          "tvg_id": "99951379",
+          "name": "TV One Stars & Stories",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        }
+      ]
+    },
+    {
+      "canonical_name": "america s got talent",
+      "selected": {
+        "source": "xumo",
+        "tvg_id": "99951457",
+        "name": "America's Got Talent",
+        "score": 525.0,
+        "score_details": {
+          "success_rate": 0.5,
+          "max_height": 0,
+          "max_bandwidth": 0,
+          "avg_latency_ms": 0.0,
+          "consecutive_failures": 0,
+          "direct": true,
+          "source_order": 8
+        }
+      },
+      "alternatives": [
+        {
+          "source": "xumo",
+          "tvg_id": "99951457",
+          "name": "America's Got Talent",
+          "score": 525.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": true,
+            "source_order": 8
+          }
+        },
+        {
+          "source": "roku",
+          "tvg_id": "3580b15015379c4256440b0e119d46ed",
+          "name": "America's Got Talent",
+          "score": 500.0,
+          "score_details": {
+            "success_rate": 0.5,
+            "max_height": 0,
+            "max_bandwidth": 0,
+            "avg_latency_ms": 0.0,
+            "consecutive_failures": 0,
+            "direct": false,
+            "source_order": 3
           }
         }
       ]

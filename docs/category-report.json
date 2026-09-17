@@ -1,0 +1,1715 @@
+{
+  "generated": "2026-09-17T11:26:21.977235+00:00",
+  "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
+  "fallback_category": "Live TV - Other",
+  "channels_before": 4791,
+  "channels_after": 4791,
+  "other_before": 1148,
+  "other_after": 1036,
+  "moved_from_other": 112,
+  "exact_group_normalizations": 5,
+  "total_reclassified": 117,
+  "exact_group_alias_moves": {
+    "Classic TV -> Live TV - Series / TV": 2,
+    "Crime -> Live TV - Crime / Mystery": 1,
+    "TV & Entertainment -> Live TV - Series / TV": 1,
+    "Westerns -> Live TV - Movies": 1
+  },
+  "moved_by_destination": {
+    "Live TV - Anime": 29,
+    "Live TV - Crime / Mystery": 8,
+    "Live TV - Lifestyle": 13,
+    "Live TV - Movies": 30,
+    "Live TV - Music": 6,
+    "Live TV - Religious": 1,
+    "Live TV - Series / TV": 19,
+    "Live TV - Sports": 11
+  },
+  "moved_by_method": {
+    "epg:24/24": 1,
+    "epg:34/34": 2,
+    "epg:34/51": 6,
+    "group-alias:Classic TV": 2,
+    "group-alias:Crime": 1,
+    "group-alias:TV & Entertainment": 1,
+    "group-alias:Westerns": 1,
+    "metadata:anime": 27,
+    "metadata:boxing": 2,
+    "metadata:chef": 2,
+    "metadata:crunchyroll": 1,
+    "metadata:deportes": 5,
+    "metadata:fight network": 1,
+    "metadata:forensic": 2,
+    "metadata:game show": 11,
+    "metadata:gospel": 1,
+    "metadata:hip hop": 5,
+    "metadata:iron chef": 2,
+    "metadata:kitchen": 4,
+    "metadata:metal rocks": 1,
+    "metadata:mgm presents action": 1,
+    "metadata:mgm presents horror": 1,
+    "metadata:mma": 1,
+    "metadata:mystery": 5,
+    "metadata:retrocrush": 1,
+    "metadata:sitcom": 1,
+    "metadata:westerns": 27,
+    "metadata:wrestling": 2
+  },
+  "group_counts_before": {
+    "Classic TV": 2,
+    "Crime": 1,
+    "FAST - LG Channels US": 2,
+    "Live TV - Business": 36,
+    "Live TV - Documentary / Education": 286,
+    "Live TV - Kids / Family": 246,
+    "Live TV - Lifestyle": 366,
+    "Live TV - Local / Public": 601,
+    "Live TV - Movies": 304,
+    "Live TV - Music": 145,
+    "Live TV - News": 301,
+    "Live TV - Other": 1148,
+    "Live TV - Religious": 82,
+    "Live TV - Series / TV": 930,
+    "Live TV - Sports": 316,
+    "Live TV - Weather": 22,
+    "TV & Entertainment": 1,
+    "United States": 1,
+    "Westerns": 1
+  },
+  "group_counts_after": {
+    "FAST - LG Channels US": 2,
+    "Live TV - Anime": 29,
+    "Live TV - Business": 36,
+    "Live TV - Crime / Mystery": 8,
+    "Live TV - Documentary / Education": 286,
+    "Live TV - Kids / Family": 246,
+    "Live TV - Lifestyle": 379,
+    "Live TV - Local / Public": 601,
+    "Live TV - Movies": 334,
+    "Live TV - Music": 151,
+    "Live TV - News": 301,
+    "Live TV - Other": 1036,
+    "Live TV - Religious": 83,
+    "Live TV - Series / TV": 949,
+    "Live TV - Sports": 327,
+    "Live TV - Weather": 22,
+    "United States": 1
+  },
+  "examples": [
+    {
+      "channel": "264 CINEVAULT: Westerns",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "266 Xumo Free Westerns",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "267 Pluto TV Westerns",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "343 Love & Hip Hop",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:hip hop",
+      "epg": {}
+    },
+    {
+      "channel": "349 Hell's Kitchen",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:kitchen",
+      "epg": {}
+    },
+    {
+      "channel": "361 Game Show Central",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "370 ION Mystery",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:mystery",
+      "epg": {}
+    },
+    {
+      "channel": "381 Forensic Files",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:forensic",
+      "epg": {}
+    },
+    {
+      "channel": "428 Crunchyroll",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:crunchyroll",
+      "epg": {}
+    },
+    {
+      "channel": "429 ANIME x HIDIVE",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "431 Anime 24/7",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "432 Pluto TV Anime",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "475 HBO Boxing",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:boxing",
+      "epg": {}
+    },
+    {
+      "channel": "545 America's Test Kitchen",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:kitchen",
+      "epg": {}
+    },
+    {
+      "channel": "549 Chef vs Chef",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:chef",
+      "epg": {}
+    },
+    {
+      "channel": "80's Sitcom Flashback",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:sitcom",
+      "epg": {}
+    },
+    {
+      "channel": "807 ITV Deportes",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:deportes",
+      "epg": {}
+    },
+    {
+      "channel": "809 Canela.TV Deportes",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:deportes",
+      "epg": {}
+    },
+    {
+      "channel": "908 Stingray Hip Hop",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:hip hop",
+      "epg": {}
+    },
+    {
+      "channel": "America's Test Kitchen",
+      "source": "tubi",
+      "original_group": "Good Eats",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:kitchen",
+      "epg": {}
+    },
+    {
+      "channel": "Anime 24/7",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Anime All day",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "ANIME x HIDIVE",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "ANIME x HIDIVE",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "ANIME x HIDIVE",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Azteca Deportes Network",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:deportes",
+      "epg": {}
+    },
+    {
+      "channel": "Big Brother Camera 1",
+      "source": "pluto",
+      "original_group": "Big Brother Live",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Lifestyle",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Competition Reality",
+            "count": 17
+          },
+          {
+            "category": "Reality",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Big Brother Camera 2",
+      "source": "pluto",
+      "original_group": "Big Brother Live",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Lifestyle",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Competition Reality",
+            "count": 17
+          },
+          {
+            "category": "Reality",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Big Brother Camera 3",
+      "source": "pluto",
+      "original_group": "Big Brother Live",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Lifestyle",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Competition Reality",
+            "count": 17
+          },
+          {
+            "category": "Reality",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Big Brother Camera 4",
+      "source": "pluto",
+      "original_group": "Big Brother Live",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Lifestyle",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Competition Reality",
+            "count": 17
+          },
+          {
+            "category": "Reality",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Big Brother Quad View",
+      "source": "pluto",
+      "original_group": "Big Brother Live",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Lifestyle",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Competition Reality",
+            "count": 17
+          },
+          {
+            "category": "Reality",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "BizaarTV",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Bonanza-Billies TV",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Boruto: Naruto Next Generations",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "BritBox Mysteries",
+      "source": "tubi",
+      "original_group": "Mystery",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:mystery",
+      "epg": {}
+    },
+    {
+      "channel": "BUZZR",
+      "source": "roku",
+      "original_group": "Game Show",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Canela.TV Deportes",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:deportes",
+      "epg": {}
+    },
+    {
+      "channel": "Chef vs Chef",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:chef",
+      "epg": {}
+    },
+    {
+      "channel": "Circle",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Circle Country",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Crunchyroll",
+      "source": "roku",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Crunchyroll",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "CW Presents WWE NXT",
+      "source": "roku",
+      "original_group": "Pro Wrestling",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:wrestling",
+      "epg": {}
+    },
+    {
+      "channel": "Death Valley Days",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Dungeons & Dragons: Adventures",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Fight Network",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:fight network",
+      "epg": {}
+    },
+    {
+      "channel": "Forensic Files",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:forensic",
+      "epg": {}
+    },
+    {
+      "channel": "FREE Western Network",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Game Show Central",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Game Show Central",
+      "source": "samsung",
+      "original_group": "Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Game Show Central",
+      "source": "tubi",
+      "original_group": "Games & Competition",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Game Show Central",
+      "source": "vizio",
+      "original_group": "GAME SHOWS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "GET.",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Ghost Whisperer",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "epg:34/51",
+      "epg": {
+        "candidate_group": "Live TV - Series / TV",
+        "hits": 34,
+        "total_category_observations": 51,
+        "programme_samples": 17,
+        "dominance": 0.6667,
+        "categories": [
+          {
+            "category": "Drama",
+            "count": 17
+          },
+          {
+            "category": "Series",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Grit XTRA",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Growing Up Hip Hop",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:hip hop",
+      "epg": {}
+    },
+    {
+      "channel": "HBO Boxing",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:boxing",
+      "epg": {}
+    },
+    {
+      "channel": "Hell's Kitchen & Kitchen Nightmares",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:kitchen",
+      "epg": {}
+    },
+    {
+      "channel": "Hip-Hop/R&B",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:hip hop",
+      "epg": {}
+    },
+    {
+      "channel": "Hunter x Hunter",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Inuyasha",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "ION Mystery",
+      "source": "tubi",
+      "original_group": "Mystery",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:mystery",
+      "epg": {}
+    },
+    {
+      "channel": "Iron Chef",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:iron chef",
+      "epg": {}
+    },
+    {
+      "channel": "Iron Chef en espa\u00f1ol",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "metadata:iron chef",
+      "epg": {}
+    },
+    {
+      "channel": "It's Anime",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "ITV Deportes",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:deportes",
+      "epg": {}
+    },
+    {
+      "channel": "It\u2019s Anime",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Johnny Carson TV",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "JoJo's Bizarre Adventure",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Let's Make A Deal",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "epg:34/34",
+      "epg": {
+        "candidate_group": "Live TV - Series / TV",
+        "hits": 34,
+        "total_category_observations": 34,
+        "programme_samples": 17,
+        "dominance": 1.0,
+        "categories": [
+          {
+            "category": "Entertainment",
+            "count": 17
+          },
+          {
+            "category": "Series",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Let's Make a Deal",
+      "source": "roku",
+      "original_group": "Game Show",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Little House on the Prairie",
+      "source": "pluto",
+      "original_group": "Westerns",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Little House on the Prairie",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "McLeod's Daughters",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"Live TV - Other\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-tvg-id=\"6a2b0f2509705ebdf781231d\" x-original-group=\"Westerns\" tvg-chno=\"799\" channel-id=\"6a2b0f2509705ebdf781231d\",Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"FAST - Pluto TV US - Westerns\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-group=\"Westerns\" x-original-tvg-id=\"6a2b0f2509705ebdf781231d\" tvg-chno=\"799\" channel-id=\"6a2b0f2509705ebdf781231d\",Medicine Woman\" tvg-logo=\"https://images.pluto.tv/channels/6a2b0f2509705ebdf781231d/colorLogoPNG_1782946772357.png\" group-title=\"Westerns\",Dr. Quinn Medicine Woman",
+      "source": "pluto",
+      "original_group": "Westerns",
+      "from": "Westerns",
+      "to": "Live TV - Movies",
+      "method": "group-alias:Westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Metal.Rocks",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:metal rocks",
+      "epg": {}
+    },
+    {
+      "channel": "MGM Presents: Action",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:mgm presents action",
+      "epg": {}
+    },
+    {
+      "channel": "MGM Presents: Horror",
+      "source": "xumo",
+      "original_group": "Horror & Sci-Fi",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:mgm presents horror",
+      "epg": {}
+    },
+    {
+      "channel": "MGM Presents: Westerns",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Midsomer Murders",
+      "source": "tubi",
+      "original_group": "Mystery",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:mystery",
+      "epg": {}
+    },
+    {
+      "channel": "MST3K",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Naruto",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Naruto",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "One Piece",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Pam Grier's Soul Flix",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "PFL MMA",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:mma",
+      "epg": {}
+    },
+    {
+      "channel": "Pluto TV Pixel World",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "RetroCrush",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:retrocrush",
+      "epg": {}
+    },
+    {
+      "channel": "RetroCrush",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Sailor Moon",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Sailor Moon",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "Silent Witness and New Tricks",
+      "source": "tubi",
+      "original_group": "Mystery",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "metadata:mystery",
+      "epg": {}
+    },
+    {
+      "channel": "Supermarket Sweep",
+      "source": "roku",
+      "original_group": "Game Show",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Team Liquid",
+      "source": "samsung",
+      "original_group": "Anime & Gaming",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "The Carol Burnett Show",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "The Lone Ranger",
+      "source": "pluto",
+      "original_group": "Westerns",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "The Lone Ranger",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "The Price Is Right: The Barker Era",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "epg:34/34",
+      "epg": {
+        "candidate_group": "Live TV - Series / TV",
+        "hits": 34,
+        "total_category_observations": 34,
+        "programme_samples": 17,
+        "dominance": 1.0,
+        "categories": [
+          {
+            "category": "Entertainment",
+            "count": 17
+          },
+          {
+            "category": "Series",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "channel": "The Price Is Right: The Barker Era",
+      "source": "roku",
+      "original_group": "Game Show",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "The Rifleman",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "The Three Stooges+",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "The Virginian",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "TNA Wrestling Channel",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "metadata:wrestling",
+      "epg": {}
+    },
+    {
+      "channel": "Tony Robbins Network",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "epg:24/24",
+      "epg": {
+        "candidate_group": "Live TV - Series / TV",
+        "hits": 24,
+        "total_category_observations": 24,
+        "programme_samples": 12,
+        "dominance": 1.0,
+        "categories": [
+          {
+            "category": "Entertainment",
+            "count": 12
+          },
+          {
+            "category": "Series",
+            "count": 12
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Universal Westerns",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Western Bound",
+      "source": "vizio",
+      "original_group": "WESTERNS + CLASSICS",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Western Bound Wrangled by INSP",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "Wild West TV",
+      "source": "xumo",
+      "original_group": "Westerns & Country",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
+      "channel": "World Of Love Island",
+      "source": "roku",
+      "original_group": "Game Show",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "XITE Gospel",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Religious",
+      "method": "metadata:gospel",
+      "epg": {}
+    },
+    {
+      "channel": "XITE Hip-Hop Evolution",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Music",
+      "method": "metadata:hip hop",
+      "epg": {}
+    },
+    {
+      "channel": "Xumo Free Game Show TV",
+      "source": "xumo",
+      "original_group": "Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "metadata:game show",
+      "epg": {}
+    },
+    {
+      "channel": "Yu-Gi-Oh!",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "metadata:anime",
+      "epg": {}
+    },
+    {
+      "channel": "M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"Live TV - Series / TV\" x-source=\"roku\" x-source-name=\"The Roku Channel\" x-source-kind=\"FAST\" x-original-tvg-id=\"db95a237643ea0eea113c6c024515df2\" x-original-group=\"TV & Entertainment\" tvg-chno=\"5075\" channel-id=\"db95a237643ea0eea113c6c024515df2\",M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"FAST - The Roku Channel - TV & Entertainment\" x-source=\"roku\" x-source-name=\"The Roku Channel\" x-source-kind=\"FAST\" x-original-group=\"TV & Entertainment\" x-original-tvg-id=\"db95a237643ea0eea113c6c024515df2\" tvg-chno=\"5075\" channel-id=\"db95a237643ea0eea113c6c024515df2\",M\u00e1s Pasiones\" tvg-logo=\"https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png\" group-title=\"TV & Entertainment\",Todo Novelas M\u00e1s Pasiones",
+      "source": "roku",
+      "original_group": "TV & Entertainment",
+      "from": "TV & Entertainment",
+      "to": "Live TV - Series / TV",
+      "method": "group-alias:TV & Entertainment",
+      "epg": {}
+    },
+    {
+      "channel": "She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"Live TV - Series / TV\" x-source=\"xumo\" x-source-name=\"Xumo Play US\" x-source-kind=\"FAST\" x-original-tvg-id=\"99951239\" x-original-group=\"Classic TV\",She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"FAST - Xumo Play US - Classic TV\" x-source=\"xumo\" x-source-name=\"Xumo Play US\" x-source-kind=\"FAST\" x-original-group=\"Classic TV\" x-original-tvg-id=\"99951239\",She Wrote\" tvg-logo=\"https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack\" group-title=\"Classic TV\",Murder; She Wrote",
+      "source": "xumo",
+      "original_group": "Classic TV",
+      "from": "Classic TV",
+      "to": "Live TV - Series / TV",
+      "method": "group-alias:Classic TV",
+      "epg": {}
+    },
+    {
+      "channel": "She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"Live TV - Series / TV\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-tvg-id=\"6549337183595c000815ad05\" x-original-group=\"Classic TV\" tvg-chno=\"690\" channel-id=\"6549337183595c000815ad05\",She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"FAST - Pluto TV US - Classic TV\" x-source=\"pluto\" x-source-name=\"Pluto TV US\" x-source-kind=\"FAST\" x-original-group=\"Classic TV\" x-original-tvg-id=\"6549337183595c000815ad05\" tvg-chno=\"690\" channel-id=\"6549337183595c000815ad05\",She Wrote\" tvg-logo=\"https://images.pluto.tv/channels/6549337183595c000815ad05/colorLogoPNG.png\" group-title=\"Classic TV\",Murder She Wrote",
+      "source": "pluto",
+      "original_group": "Classic TV",
+      "from": "Classic TV",
+      "to": "Live TV - Series / TV",
+      "method": "group-alias:Classic TV",
+      "epg": {}
+    },
+    {
+      "channel": "She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"Live TV - Series / TV\" x-source=\"samsung\" x-source-name=\"Samsung TV Plus US\" x-source-kind=\"FAST\" x-original-tvg-id=\"US1800001D1\" x-original-group=\"Crime\" tvg-chno=\"1813\" channel-id=\"US1800001D1\",She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"FAST - Samsung TV Plus US - Crime\" x-source=\"samsung\" x-source-name=\"Samsung TV Plus US\" x-source-kind=\"FAST\" x-original-group=\"Crime\" x-original-tvg-id=\"US1800001D1\" tvg-chno=\"1813\" channel-id=\"US1800001D1\",She Wrote\" tvg-logo=\"https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20260818T061316SQUARE.png\" group-title=\"Crime\",Murder She Wrote",
+      "source": "samsung",
+      "original_group": "Crime",
+      "from": "Crime",
+      "to": "Live TV - Crime / Mystery",
+      "method": "group-alias:Crime",
+      "epg": {}
+    }
+  ],
+  "uncertain_epg_candidates": [
+    {
+      "channel": "Andromeda",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 51,
+      "programme_samples": 17,
+      "dominance": 0.3333,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Best of Dr. Phil",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "BUZZR",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - News",
+      "hits": 24,
+      "total_category_observations": 48,
+      "programme_samples": 24,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "News & Information",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "channel": "Charmed",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 51,
+      "programme_samples": 17,
+      "dominance": 0.3333,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Confess by Nosey",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 20,
+      "total_category_observations": 43,
+      "programme_samples": 20,
+      "dominance": 0.4651,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "channel": "Deal or No Deal",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Doctor Who Classic",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 24,
+      "total_category_observations": 72,
+      "programme_samples": 24,
+      "dominance": 0.3333,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "channel": "Dora TV",
+      "source": "pluto",
+      "original_group": "Hispanic Heritage Month",
+      "candidate_group": "Live TV - Kids / Family",
+      "hits": 24,
+      "total_category_observations": 48,
+      "programme_samples": 24,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Children",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "channel": "GrowthDay Network",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 20,
+      "total_category_observations": 40,
+      "programme_samples": 20,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "channel": "HSN",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Lifestyle",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Home & Lifestyle",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Judge Nosey",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Lifestyle",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Reality",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Nosey",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 18,
+      "total_category_observations": 39,
+      "programme_samples": 18,
+      "dominance": 0.4615,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "channel": "Pluto TV Hispanic Favorites",
+      "source": "pluto",
+      "original_group": "Hispanic Heritage Month",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 13,
+      "total_category_observations": 23,
+      "programme_samples": 9,
+      "dominance": 0.5652,
+      "categories": [
+        {
+          "category": "Comedy",
+          "count": 5
+        },
+        {
+          "category": "Drama",
+          "count": 4
+        },
+        {
+          "category": "Independent Drama",
+          "count": 3
+        },
+        {
+          "category": "Romantic comedy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "channel": "Pluto TV Sci-Fi",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 17,
+      "total_category_observations": 39,
+      "programme_samples": 17,
+      "dominance": 0.4359,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "QVC",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Lifestyle",
+      "hits": 12,
+      "total_category_observations": 24,
+      "programme_samples": 12,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Home & Lifestyle",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "channel": "QVC2",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Lifestyle",
+      "hits": 11,
+      "total_category_observations": 22,
+      "programme_samples": 11,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Home & Lifestyle",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "channel": "Shop LC",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Lifestyle",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Home & Lifestyle",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Star Trek",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 51,
+      "programme_samples": 17,
+      "dominance": 0.3333,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Star Trek: Enterprise",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Stargate",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 51,
+      "programme_samples": 17,
+      "dominance": 0.3333,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Supermarket Sweep",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 24,
+      "total_category_observations": 48,
+      "programme_samples": 24,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "channel": "Telemundo telenovelas cl\u00e1sicas",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 22,
+      "total_category_observations": 47,
+      "programme_samples": 17,
+      "dominance": 0.4681,
+      "categories": [
+        {
+          "category": "Drama",
+          "count": 5
+        },
+        {
+          "category": "Series",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "The Twilight Zone",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 24,
+      "total_category_observations": 67,
+      "programme_samples": 24,
+      "dominance": 0.3582,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "channel": "The X-Files",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Documentary / Education",
+      "hits": 17,
+      "total_category_observations": 34,
+      "programme_samples": 17,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Science fiction",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "channel": "Universal Monsters",
+      "source": "pluto",
+      "original_group": "Sci-Fi",
+      "candidate_group": "Live TV - Series / TV",
+      "hits": 11,
+      "total_category_observations": 22,
+      "programme_samples": 11,
+      "dominance": 0.5,
+      "categories": [
+        {
+          "category": "Series",
+          "count": 11
+        }
+      ]
+    }
+  ]
+}
