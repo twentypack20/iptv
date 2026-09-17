@@ -10,6 +10,7 @@ on:
     paths:
       - "config.json"
       - "supplemental_sources.json"
+      - "category_rules.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/build.yml"
@@ -17,6 +18,7 @@ on:
     paths:
       - "config.json"
       - "supplemental_sources.json"
+      - "category_rules.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/**"
@@ -69,6 +71,10 @@ jobs:
         run: |
           python scripts/smart_select.py
 
+      - name: Refine fallback channel categories
+        run: |
+          python scripts/refine_categories.py
+
       - name: Guarantee unique final channel IDs
         run: |
           python scripts/ensure_unique_ids.py
@@ -100,6 +106,7 @@ jobs:
               Path('docs/epg-report.json'),
               Path('docs/selection-report.json'),
               Path('docs/dedupe-candidates.json'),
+              Path('docs/category-report.json'),
           ]
           missing = [str(path) for path in required if not path.exists() or path.stat().st_size == 0]
           if missing:
@@ -145,6 +152,12 @@ jobs:
                   f'{report.get("published_channels")} report / {len(extinf_lines)} playlist'
               )
 
+          category_report = json.loads(Path('docs/category-report.json').read_text(encoding='utf-8'))
+          if category_report.get('channels_after') != len(extinf_lines):
+              raise SystemExit('Category report channel count does not match the playlist')
+          if category_report.get('other_after', 0) > category_report.get('other_before', 0):
+              raise SystemExit('Category refinement unexpectedly increased Live TV - Other')
+
           epg_report = json.loads(Path('docs/epg-report.json').read_text(encoding='utf-8'))
           if epg_report.get('epg_channels') != len(extinf_lines):
               raise SystemExit('EPG report channel count does not match the playlist')
@@ -152,7 +165,8 @@ jobs:
           print(
               f"Validated {len(extinf_lines)} published channels, "
               f"{len(tvg_ids)} unique tvg-id values, matching XMLTV channels, "
-              f"and {epg_report.get('channels_with_programmes', 0)} channels with programmes"
+              f"{epg_report.get('channels_with_programmes', 0)} channels with programmes, "
+              f"and {category_report.get('moved_from_other', 0)} conservative category refinements"
           )
           PY
 
@@ -173,12 +187,16 @@ jobs:
               Path('docs/supplemental-report.json'),
               Path('docs/epg-bridge-report.json'),
               Path('docs/selection-report.json'),
+              Path('docs/category-report.json'),
               Path('docs/epg-report.json'),
           ]:
               print(f'--- {path} ---')
               data = json.loads(path.read_text())
               if path.name == 'selection-report.json':
                   data.pop('collapsed_groups', None)
+              if path.name == 'category-report.json':
+                  data.pop('examples', None)
+                  data.pop('uncertain_epg_candidates', None)
               if path.name == 'epg-report.json':
                   data.pop('selection_details', None)
               print(json.dumps(data, indent=2))

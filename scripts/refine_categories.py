@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
-CONFIG_PATH = ROOT / "supplemental_sources.json"
+CONFIG_PATH = ROOT / "category_rules.json"
 PLAYLIST_PATH = DOCS_DIR / "index.m3u"
 EPG_INDEX_PATH = DOCS_DIR / "epg-fingerprints.json"
 REPORT_PATH = DOCS_DIR / "category-report.json"
@@ -98,10 +98,12 @@ def epg_match(attrs, epg_index, cfg):
 
     group_hits = Counter()
     evidence = defaultdict(list)
+    total_observations = 0
     for raw_category, count in category_counts.items():
         count = int(count or 0)
         if count <= 0:
             continue
+        total_observations += count
         for rule in cfg.get("epg_category_rules", []):
             if any(phrase_in(raw_category, phrase) for phrase in rule.get("contains", [])):
                 group = clean_text(rule.get("group"))
@@ -110,34 +112,30 @@ def epg_match(attrs, epg_index, cfg):
                     evidence[group].append({"category": raw_category, "count": count})
                 break
 
-    if not group_hits:
+    if not group_hits or total_observations <= 0:
         return "", "", {}
 
     group, hits = group_hits.most_common(1)[0]
-    minimum = int(cfg.get("epg_minimum_category_observations", 3))
-    ratio = float(cfg.get("epg_dominance_ratio", 0.5))
-    dominance = hits / max(1, programme_samples)
-    if hits < minimum or dominance < ratio:
-        return "", "", {
-            "candidate_group": group,
-            "hits": hits,
-            "programme_samples": programme_samples,
-            "dominance": round(dominance, 4),
-            "categories": evidence[group],
-        }
-
-    return group, f"epg:{hits}/{programme_samples}", {
+    minimum = int(cfg.get("epg_minimum_category_observations", 4))
+    ratio = float(cfg.get("epg_dominance_ratio", 0.6))
+    dominance = hits / max(1, total_observations)
+    details = {
+        "candidate_group": group,
         "hits": hits,
+        "total_category_observations": total_observations,
         "programme_samples": programme_samples,
         "dominance": round(dominance, 4),
         "categories": evidence[group],
     }
+    if hits < minimum or dominance < ratio:
+        return "", "", details
+
+    return group, f"epg:{hits}/{total_observations}", details
 
 
 def main():
     cfg = load_json(CONFIG_PATH, {})
-    classification = cfg.get("category_refinement") or {}
-    if not classification.get("enabled", True):
+    if not cfg.get("enabled", True):
         print(json.dumps({"status": "disabled"}, indent=2))
         return
     if not PLAYLIST_PATH.exists():
@@ -171,13 +169,13 @@ def main():
             candidate, reason = metadata_match(
                 name,
                 attrs,
-                classification.get("metadata_rules") or [],
+                cfg.get("metadata_rules") or [],
             )
             if candidate:
                 new_group = candidate
                 method = reason
             else:
-                candidate, reason, details = epg_match(attrs, epg_index, classification)
+                candidate, reason, details = epg_match(attrs, epg_index, cfg)
                 epg_details = details
                 if candidate:
                     new_group = candidate
@@ -196,7 +194,7 @@ def main():
             line = set_group(line, new_group)
             moved[new_group] += 1
             methods[method] += 1
-            if len(examples) < int(classification.get("report_example_limit", 250)):
+            if len(examples) < int(cfg.get("report_example_limit", 300)):
                 examples.append(
                     {
                         "channel": name,
@@ -217,7 +215,7 @@ def main():
     generated = datetime.now(timezone.utc).isoformat()
     report = {
         "generated": generated,
-        "policy": "Only channels still in the fallback category are refined. Existing classifications, stream selection, dedupe decisions, URLs, IDs, and health scores are left untouched.",
+        "policy": "Only channels still in Live TV - Other are eligible. The script only rewrites group-title; existing classifications, selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
         "fallback_category": fallback,
         "channels_before": sum(before.values()),
         "channels_after": sum(after.values()),
@@ -229,7 +227,7 @@ def main():
         "group_counts_before": dict(sorted(before.items())),
         "group_counts_after": dict(sorted(after.items())),
         "examples": examples,
-        "uncertain_epg_candidates": uncertain_epg[:250],
+        "uncertain_epg_candidates": uncertain_epg[:300],
     }
     REPORT_PATH.write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(
@@ -237,7 +235,12 @@ def main():
             {
                 key: value
                 for key, value in report.items()
-                if key not in {"examples", "uncertain_epg_candidates", "group_counts_before", "group_counts_after"}
+                if key not in {
+                    "examples",
+                    "uncertain_epg_candidates",
+                    "group_counts_before",
+                    "group_counts_after",
+                }
             },
             indent=2,
         )

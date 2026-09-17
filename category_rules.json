@@ -1,0 +1,111 @@
+{
+  "enabled": true,
+  "fallback_category": "Live TV - Other",
+  "epg_minimum_category_observations": 4,
+  "epg_dominance_ratio": 0.6,
+  "report_example_limit": 300,
+  "metadata_rules": [
+    {
+      "group": "Live TV - Anime",
+      "contains": ["anime", "retrocrush", "crunchyroll"]
+    },
+    {
+      "group": "Live TV - Weather",
+      "contains": ["weather", "forecast"]
+    },
+    {
+      "group": "Live TV - News",
+      "contains": ["news", "current affairs"]
+    },
+    {
+      "group": "Live TV - Sports",
+      "contains": ["deportes", "sports", "sport", "football", "soccer", "basketball", "baseball", "hockey", "golf", "racing", "boxing", "mma", "wrestling", "fight network"]
+    },
+    {
+      "group": "Live TV - Business",
+      "contains": ["business", "finance", "markets", "shopping"]
+    },
+    {
+      "group": "Live TV - Movies",
+      "contains": ["mgm presents action", "mgm presents horror", "mgm presents western", "westerns", "western movies", "action movies", "horror movies", "movie channel", "movies", "cinema", "film"]
+    },
+    {
+      "group": "Live TV - Kids / Family",
+      "contains": ["kids", "children", "cartoon", "family channel"]
+    },
+    {
+      "group": "Live TV - Documentary / Education",
+      "contains": ["documentary", "science", "nature", "wildlife", "history", "education"]
+    },
+    {
+      "group": "Live TV - Lifestyle",
+      "contains": ["iron chef", "chef", "cooking", "food", "kitchen", "home and garden", "travel", "lifestyle", "reality"]
+    },
+    {
+      "group": "Live TV - Music",
+      "contains": ["metal rocks", "music", "vevo", "hip hop", "country music", "rock music"]
+    },
+    {
+      "group": "Live TV - Religious",
+      "contains": ["religious", "faith", "christian", "gospel"]
+    },
+    {
+      "group": "Live TV - Crime / Mystery",
+      "contains": ["true crime", "crime", "mystery", "forensic", "investigation", "detective"]
+    },
+    {
+      "group": "Live TV - Series / TV",
+      "contains": ["classic tv", "tv shows", "sitcom", "game show", "talk show", "comedy", "drama"]
+    }
+  ],
+  "epg_category_rules": [
+    {
+      "group": "Live TV - Anime",
+      "contains": ["anime"]
+    },
+    {
+      "group": "Live TV - Weather",
+      "contains": ["weather"]
+    },
+    {
+      "group": "Live TV - News",
+      "contains": ["news", "current affairs"]
+    },
+    {
+      "group": "Live TV - Sports",
+      "contains": ["sports", "sport"]
+    },
+    {
+      "group": "Live TV - Movies",
+      "contains": ["movie", "movies", "film"]
+    },
+    {
+      "group": "Live TV - Kids / Family",
+      "contains": ["children", "kids", "family", "cartoon"]
+    },
+    {
+      "group": "Live TV - Documentary / Education",
+      "contains": ["documentary", "education", "science", "nature", "history"]
+    },
+    {
+      "group": "Live TV - Lifestyle",
+      "contains": ["lifestyle", "cooking", "food", "travel", "home", "reality"]
+    },
+    {
+      "group": "Live TV - Music",
+      "contains": ["music"]
+    },
+    {
+      "group": "Live TV - Religious",
+      "contains": ["religious", "religion", "faith"]
+    },
+    {
+      "group": "Live TV - Crime / Mystery",
+      "contains": ["crime", "mystery"]
+    },
+    {
+      "group": "Live TV - Series / TV",
+      "contains": ["series", "drama", "comedy", "sitcom", "entertainment"]
+    }
+  ]
+}
