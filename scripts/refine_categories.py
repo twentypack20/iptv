@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import hashlib
 import json
 import re
 from collections import Counter, defaultdict
@@ -9,9 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "category_rules.json"
+OVERRIDES_PATH = ROOT / "channel_category_overrides.json"
 PLAYLIST_PATH = DOCS_DIR / "index.m3u"
 EPG_INDEX_PATH = DOCS_DIR / "epg-fingerprints.json"
 REPORT_PATH = DOCS_DIR / "category-report.json"
+BACKLOG_PATH = DOCS_DIR / "category-backlog.json"
 
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 GROUP_RE = re.compile(r'group-title="[^"]*"')
@@ -133,6 +136,106 @@ def epg_match(attrs, epg_index, cfg):
     return group, f"epg:{hits}/{total_observations}", details
 
 
+def stable_key(name, attrs):
+    source = normalize(attrs.get("x-source") or "unknown")
+    original_id = clean_text(
+        attrs.get("x-original-tvg-id")
+        or attrs.get("channel-id")
+        or attrs.get("tvg-id")
+    )
+    identity = original_id or normalize(attrs.get("tvg-name") or name)
+    material = "|".join(
+        [
+            source,
+            identity,
+            normalize(name),
+            normalize(attrs.get("x-original-group")),
+        ]
+    )
+    digest = hashlib.sha1(material.encode("utf-8")).hexdigest()[:12]
+    return f"{source}:{digest}"
+
+
+def override_matches(match, name, attrs):
+    checks = {
+        "source": clean_text(attrs.get("x-source")),
+        "tvg_id": clean_text(attrs.get("tvg-id")),
+        "original_tvg_id": clean_text(
+            attrs.get("x-original-tvg-id") or attrs.get("channel-id")
+        ),
+        "name": clean_text(name),
+        "original_group": clean_text(attrs.get("x-original-group")),
+    }
+    compared = 0
+    for field, expected in (match or {}).items():
+        if field not in checks or expected in (None, ""):
+            continue
+        compared += 1
+        actual = checks[field]
+        if field in {"name", "original_group"}:
+            if normalize(actual) != normalize(expected):
+                return False
+        else:
+            if clean_text(actual).casefold() != clean_text(expected).casefold():
+                return False
+    return compared > 0
+
+
+def find_override(name, attrs, override_cfg):
+    key = stable_key(name, attrs)
+    for item in override_cfg.get("overrides", []) or []:
+        if clean_text(item.get("stable_key")) and clean_text(item.get("stable_key")) == key:
+            return item
+        if override_matches(item.get("match") or {}, name, attrs):
+            return item
+    return None
+
+
+def backlog_item(name, attrs, epg_index):
+    record = native_epg_record(attrs, epg_index)
+    categories = record.get("category_counts") or {}
+    titles = [
+        clean_text(title)
+        for title in (record.get("titles") or [])
+        if clean_text(title)
+    ][:20]
+    source = clean_text(attrs.get("x-source"))
+    source_name = clean_text(attrs.get("x-source-name"))
+    original_group = clean_text(attrs.get("x-original-group"))
+    original_id = clean_text(
+        attrs.get("x-original-tvg-id")
+        or attrs.get("channel-id")
+        or attrs.get("tvg-id")
+    )
+    queries = []
+    if name:
+        queries.append(f'"{name}" {source_name or source} channel')
+        queries.append(f'"{name}" live TV channel')
+    if original_id and original_id not in name:
+        queries.append(f'"{original_id}" "{name}"')
+    return {
+        "stable_key": stable_key(name, attrs),
+        "channel": name,
+        "source": source,
+        "source_name": source_name,
+        "tvg_id": clean_text(attrs.get("tvg-id")),
+        "original_tvg_id": original_id,
+        "original_group": original_group,
+        "logo": clean_text(attrs.get("tvg-logo")),
+        "programme_samples": int(
+            record.get("programme_samples") or len(record.get("titles") or [])
+        ),
+        "epg_category_counts": dict(
+            sorted(
+                ((clean_text(key), int(value or 0)) for key, value in categories.items()),
+                key=lambda item: (-item[1], item[0].casefold()),
+            )
+        ),
+        "sample_titles": titles,
+        "search_queries": queries,
+    }
+
+
 def main():
     cfg = load_json(CONFIG_PATH, {})
     if not cfg.get("enabled", True):
@@ -142,6 +245,7 @@ def main():
         raise SystemExit(f"Missing {PLAYLIST_PATH}; run smart_select.py first")
 
     epg_index = load_json(EPG_INDEX_PATH, {"sources": {}})
+    override_cfg = load_json(OVERRIDES_PATH, {"overrides": []})
     fallback = clean_text(cfg.get("fallback_category") or "Live TV - Other")
     exact_aliases = {
         clean_text(source): clean_text(target)
@@ -157,8 +261,10 @@ def main():
     alias_moves = Counter()
     moved_from_other = 0
     exact_group_normalizations = 0
+    override_moves = 0
     examples = []
     uncertain_epg = []
+    backlog = []
     output = []
 
     for line in lines:
@@ -178,29 +284,35 @@ def main():
             new_group = alias_target
             method = f"group-alias:{current}"
         elif current == fallback:
-            candidate, reason = metadata_match(
-                name,
-                attrs,
-                cfg.get("metadata_rules") or [],
-            )
-            if candidate:
-                new_group = candidate
-                method = reason
+            override = find_override(name, attrs, override_cfg)
+            if override and clean_text(override.get("group")):
+                new_group = clean_text(override.get("group"))
+                method = f"override:{clean_text(override.get('confidence') or 'curated')}"
+                override_moves += 1
             else:
-                candidate, reason, details = epg_match(attrs, epg_index, cfg)
-                epg_details = details
+                candidate, reason = metadata_match(
+                    name,
+                    attrs,
+                    cfg.get("metadata_rules") or [],
+                )
                 if candidate:
                     new_group = candidate
                     method = reason
-                elif details:
-                    uncertain_epg.append(
-                        {
-                            "channel": name,
-                            "source": attrs.get("x-source", ""),
-                            "original_group": attrs.get("x-original-group", ""),
-                            **details,
-                        }
-                    )
+                else:
+                    candidate, reason, details = epg_match(attrs, epg_index, cfg)
+                    epg_details = details
+                    if candidate:
+                        new_group = candidate
+                        method = reason
+                    elif details:
+                        uncertain_epg.append(
+                            {
+                                "channel": name,
+                                "source": attrs.get("x-source", ""),
+                                "original_group": attrs.get("x-original-group", ""),
+                                **details,
+                            }
+                        )
 
         if new_group != current:
             line = set_group(line, new_group)
@@ -224,21 +336,56 @@ def main():
                     }
                 )
 
+        if new_group == fallback:
+            backlog.append(backlog_item(name, attrs, epg_index))
+
         after[new_group] += 1
         output.append(line)
 
     PLAYLIST_PATH.write_text("\n".join(output) + "\n", encoding="utf-8")
 
+    backlog_by_source = Counter(item["source"] or "unknown" for item in backlog)
+    backlog_by_original_group = Counter(
+        item["original_group"] or "(blank)" for item in backlog
+    )
     generated = datetime.now(timezone.utc).isoformat()
+    backlog_doc = {
+        "generated": generated,
+        "policy": (
+            "Research queue for channels still in Live TV - Other after deterministic "
+            "metadata, EPG, and curated override classification. Items are not moved "
+            "until evidence is saved in channel_category_overrides.json or a conservative "
+            "rule matches."
+        ),
+        "remaining": len(backlog),
+        "by_source": dict(sorted(backlog_by_source.items())),
+        "top_original_groups": dict(
+            sorted(
+                backlog_by_original_group.items(),
+                key=lambda item: (-item[1], item[0].casefold()),
+            )[:100]
+        ),
+        "channels": backlog,
+    }
+    BACKLOG_PATH.write_text(json.dumps(backlog_doc, indent=2), encoding="utf-8")
+
     report = {
         "generated": generated,
-        "policy": "Classification-only post-processing. High-confidence exact legacy group aliases are normalized, and only channels still in Live TV - Other are otherwise eligible for metadata/EPG refinement. Selected providers, dedupe decisions, stream URLs, tvg-id values, and health scores are untouched.",
+        "policy": (
+            "Classification-only post-processing. High-confidence exact legacy group "
+            "aliases are normalized, curated per-channel overrides can resolve fallback "
+            "channels, and only channels still in Live TV - Other are otherwise eligible "
+            "for metadata/EPG refinement. Selected providers, dedupe decisions, stream "
+            "URLs, tvg-id values, and health scores are untouched."
+        ),
         "fallback_category": fallback,
         "channels_before": sum(before.values()),
         "channels_after": sum(after.values()),
         "other_before": before.get(fallback, 0),
         "other_after": after.get(fallback, 0),
         "moved_from_other": moved_from_other,
+        "override_moves": override_moves,
+        "backlog_remaining": len(backlog),
         "exact_group_normalizations": exact_group_normalizations,
         "total_reclassified": moved_from_other + exact_group_normalizations,
         "exact_group_alias_moves": dict(sorted(alias_moves.items())),

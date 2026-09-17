@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "policy": "Curated per-channel classifications for channels that remain in Live TV - Other after deterministic metadata and EPG rules. Prefer stable_key when available; source plus provider/original ID is the next safest match. Each override should preserve the evidence used to make the decision.",
+  "allowed_groups": [
+    "Live TV - Anime",
+    "Live TV - Business",
+    "Live TV - Crime / Mystery",
+    "Live TV - Documentary / Education",
+    "Live TV - Kids / Family",
+    "Live TV - Lifestyle",
+    "Live TV - Local / Public",
+    "Live TV - Movies",
+    "Live TV - Music",
+    "Live TV - News",
+    "Live TV - Religious",
+    "Live TV - Series / TV",
+    "Live TV - Sports",
+    "Live TV - Weather"
+  ],
+  "overrides": []
+}
