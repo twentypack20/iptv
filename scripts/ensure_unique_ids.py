@@ -36,6 +36,18 @@ def safe_slug(value):
     return value or "channel"
 
 
+def display_name(line, attrs):
+    # The EXTINF separator is the first comma outside quoted attributes. Channel names
+    # themselves may contain commas (for example "$100,000 Pyramid").
+    quoted = False
+    for index, char in enumerate(line):
+        if char == '"':
+            quoted = not quoted
+        elif char == "," and not quoted:
+            return line[index + 1 :].strip()
+    return attrs.get("tvg-name", "")
+
+
 def parse_entries(lines):
     entries = []
     current = None
@@ -43,9 +55,7 @@ def parse_entries(lines):
         line = raw.rstrip("\n")
         if line.startswith("#EXTINF:"):
             attrs = {key: value for key, value in ATTR_RE.findall(line)}
-            # Display names can contain commas. Taking the final comma is safer than
-            # splitting at the first comma, which may occur inside an attribute value.
-            name = line.rsplit(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
+            name = display_name(line, attrs)
             current = {
                 "line_index": index,
                 "extgrp_index": None,
@@ -72,9 +82,13 @@ def set_group(line, value):
         # duplicate group-title attributes; leaving one behind can make players choose
         # the stale provider group.
         return GROUP_RE.sub(replacement, line)
-    if "," in line:
-        prefix, name = line.rsplit(",", 1)
-        return f"{prefix} {replacement},{name}"
+    # Insert before the first unquoted EXTINF separator.
+    quoted = False
+    for index, char in enumerate(line):
+        if char == '"':
+            quoted = not quoted
+        elif char == "," and not quoted:
+            return f"{line[:index]} {replacement}{line[index:]}"
     return f"{line} {replacement}"
 
 
@@ -87,7 +101,7 @@ def final_group_for(entry):
     if current in LEGACY_GROUP_ALIASES:
         return LEGACY_GROUP_ALIASES[current]
     if current == "FAST - LG Channels US":
-        if "100 000 pyramid" in name or "100000 pyramid" in name:
+        if "pyramid" in name:
             return "Live TV - Game Shows"
         if "murder she wrote" in name:
             return "Live TV - Crime / Mystery"
@@ -147,10 +161,7 @@ def main():
         if entry.get("extgrp_index") is not None:
             lines[entry["extgrp_index"]] = f"#EXTGRP:{final_group}"
 
-    # Re-read after presentation normalization so ID work operates on the exact final
-    # EXTINF records rather than stale parsed attributes.
-    lines_text = "\n".join(lines) + "\n"
-    INDEX_PATH.write_text(lines_text, encoding="utf-8")
+    INDEX_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     lines = INDEX_PATH.read_text(encoding="utf-8").splitlines()
     entries = parse_entries(lines)
 
