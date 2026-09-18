@@ -434,7 +434,7 @@ def score_entry(entry, cfg, health_state, source_order):
 
 def canonical_category(entry, cfg):
     attrs = entry["attrs"]
-    if clean_key(attrs.get("x-source-kind")) == "local":
+    if local_signal(entry, cfg):
         return "Live TV - Local / Public"
     haystack = clean_key(" ".join([
         entry.get("name") or "",
@@ -603,6 +603,13 @@ def select_visible_variants(scored, cfg):
 
 def main():
     cfg = load_json(CONFIG_PATH, {})
+    overrides = load_json(OVERRIDES_PATH, {})
+    cfg["_dedupe_overrides"] = overrides
+    smart = cfg.setdefault("smart_selection", {})
+    smart["confirmed_alias_groups"] = (
+        list(overrides.get("confirmed_name_groups") or [])
+        + list(smart.get("confirmed_alias_groups") or [])
+    )
     if not ALL_SOURCES_PATH.exists():
         raise SystemExit("docs/all-sources.m3u is missing")
 
