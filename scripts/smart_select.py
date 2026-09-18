@@ -287,47 +287,80 @@ def pair_decision(left, right, cfg, epg_index):
     renamed_threshold = float(smart.get("renamed_epg_similarity_threshold", 0.90))
     minimum_titles = int(smart.get("epg_minimum_titles", 4))
     renamed_minimum_titles = int(smart.get("renamed_epg_minimum_titles", 6))
+    strong_aligned = int(smart.get("strong_aligned_epg_minimum", 10))
+    strong_aligned_titles = int(smart.get("strong_aligned_epg_minimum_titles", 4))
+    strong_affinity = float(smart.get("strong_aligned_name_affinity", 0.5))
     suffixes = smart.get("strip_name_suffixes") or []
+    alias_groups = smart.get("confirmed_alias_groups") or []
 
     if left.get("url") and left.get("url") == right.get("url"):
         return True, "exact-stream-url", 1.0
 
-    left_calls = extract_callsigns(left)
-    right_calls = extract_callsigns(right)
-    left_local = local_signal(left, cfg)
-    right_local = local_signal(right, cfg)
-    similarity, overlap, aligned = epg_similarity(left, right, epg_index, minimum_titles)
-
-    if left_local or right_local:
-        shared_calls = left_calls & right_calls
-        if shared_calls:
-            left_areas = broadcast_areas(left)
-            right_areas = broadcast_areas(right)
-            if left_areas and right_areas and not (left_areas & right_areas):
-                return False, "local-market-conflict", similarity
-            return True, "same-local-callsign", max(similarity, 0.95 if aligned else 0.90)
-        return False, f"local-protection:{left_local or '-'}|{right_local or '-'}", similarity
+    if blocked_name_pair(left.get("name"), right.get("name"), cfg, suffixes):
+        similarity, _, _ = epg_similarity(left, right, epg_index, minimum_titles)
+        return False, "researched-blocked-pair", similarity
 
     left_name = normalize_name(left.get("name"), suffixes)
     right_name = normalize_name(right.get("name"), suffixes)
     names_match = left_name == right_name and bool(left_name)
-    aliases_match = False
-    if not names_match:
-        left_alias = alias_group_for(left_name, smart.get("confirmed_alias_groups"), suffixes)
-        right_alias = alias_group_for(right_name, smart.get("confirmed_alias_groups"), suffixes)
-        aliases_match = left_alias is not None and left_alias == right_alias
+    left_alias = alias_group_for(left_name, alias_groups, suffixes)
+    right_alias = alias_group_for(right_name, alias_groups, suffixes)
+    aliases_match = left_alias is not None and left_alias == right_alias
 
-    if similarity >= threshold and overlap >= minimum_titles and (names_match or aliases_match):
+    left_calls = extract_callsigns(left)
+    right_calls = extract_callsigns(right)
+    left_markets = market_keys(left, cfg)
+    right_markets = market_keys(right, cfg)
+    left_local = local_signal(left, cfg)
+    right_local = local_signal(right, cfg)
+    similarity, overlap, aligned = epg_similarity(left, right, epg_index, minimum_titles)
+
+    # Local feeds are mergeable only when station/market identity agrees.
+    if left_local or right_local:
+        if left_calls and right_calls:
+            shared_calls = left_calls & right_calls
+            if not shared_calls:
+                return False, "local-callsign-conflict", similarity
+            if left_markets and right_markets and not (left_markets & right_markets):
+                return False, "local-market-conflict", similarity
+            return True, "same-local-callsign", max(similarity, 0.95 if aligned else 0.90)
+
+        if left_markets and right_markets:
+            if not (left_markets & right_markets):
+                return False, "local-market-conflict", similarity
+            if names_match or aliases_match:
+                return True, "same-local-market-name", max(similarity, 0.90)
+
+        # If only one side has a concrete market signal, preserve both. This
+        # specifically protects city-specific feeds from generic national feeds.
+        return False, f"local-protection:{left_local or '-'}|{right_local or '-'}", similarity
+
+    # Research-backed branding aliases are stronger than fuzzy name matching.
+    if aliases_match:
+        return True, "researched-alias", max(similarity, 0.90)
+
+    if similarity >= threshold and overlap >= minimum_titles and names_match:
         return True, f"name+epg:{overlap}-titles/{aligned}-aligned", similarity
-    if not names_match and not aliases_match:
-        if similarity >= renamed_threshold and overlap >= renamed_minimum_titles and aligned >= 2:
-            return True, f"renamed-epg:{overlap}-titles/{aligned}-aligned", similarity
-        return False, f"different-name-epg:{overlap}-titles/{aligned}-aligned", similarity
 
-    if names_match and source_kind(left) != "local" and source_kind(right) != "local":
+    if names_match:
         return True, "exact-national-name", max(similarity, 0.85)
 
-    return False, f"unconfirmed-epg:{overlap}-titles/{aligned}-aligned", similarity
+    # Strong same-time EPG agreement can prove a renamed feed even when the
+    # overall title-set Jaccard is lower because providers expose different
+    # guide windows. Require meaningful name affinity to avoid merging channels
+    # that merely rerun many of the same programmes.
+    affinity = name_token_affinity(left.get("name"), right.get("name"), suffixes)
+    if (
+        aligned >= strong_aligned
+        and overlap >= strong_aligned_titles
+        and affinity >= strong_affinity
+    ):
+        return True, f"strong-aligned-epg:{overlap}-titles/{aligned}-aligned", max(similarity, 0.90)
+
+    if similarity >= renamed_threshold and overlap >= renamed_minimum_titles and aligned >= 2 and affinity >= strong_affinity:
+        return True, f"renamed-epg:{overlap}-titles/{aligned}-aligned", similarity
+
+    return False, f"different-name-epg:{overlap}-titles/{aligned}-aligned", similarity
 
 
 def load_json(path, fallback):
