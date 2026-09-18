@@ -1,0 +1,14 @@
+{
+  "generated": "2026-09-18 15:44:01 UTC",
+  "policy": {
+    "minimum_resolution_height": 480,
+    "low_resolution_samples": 2,
+    "minimum_success_rate": 0.8,
+    "reliability_min_observations": 12,
+    "reliability_min_span_hours": 48,
+    "dead_consecutive_failures": 4,
+    "dead_failure_span_hours": 48
+  },
+  "quarantined_streams": 0,
+  "streams": []
+}
