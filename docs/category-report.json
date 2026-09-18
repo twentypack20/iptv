@@ -1,37 +1,36 @@
 {
-  "generated": "2026-09-18T15:44:04.221373+00:00",
+  "generated": "2026-09-18T16:47:25.442840+00:00",
   "policy": "Classification-only post-processing. Curated overrides have highest priority; then research-backed channel identity rules, provider-native group evidence, legacy metadata rules, EPG evidence, and finally reviewed provider residual defaults. Dedupe, provider choice, stream URLs, tvg-id values, EPG matching, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
-  "channels_before": 3888,
-  "channels_after": 3888,
-  "other_before": 952,
+  "channels_before": 3851,
+  "channels_after": 3851,
+  "other_before": 966,
   "other_after": 0,
-  "moved_from_other": 952,
+  "moved_from_other": 966,
   "override_moves": 0,
   "backlog_remaining": 0,
   "backlog_chunks": 0,
   "exact_group_normalizations": 0,
-  "total_reclassified": 952,
+  "total_reclassified": 966,
   "exact_group_alias_moves": {},
   "moved_by_destination": {
     "Live TV - Ambiance": 29,
-    "Live TV - Anime": 22,
+    "Live TV - Anime": 24,
     "Live TV - Automotive": 21,
     "Live TV - Business": 5,
     "Live TV - Creators": 21,
     "Live TV - Crime / Mystery": 43,
-    "Live TV - Documentary / Education": 40,
-    "Live TV - Game Shows": 38,
-    "Live TV - Kids / Family": 26,
-    "Live TV - Lifestyle": 85,
-    "Live TV - Local / Public": 4,
-    "Live TV - Movies": 55,
-    "Live TV - Music": 55,
-    "Live TV - News": 19,
+    "Live TV - Documentary / Education": 41,
+    "Live TV - Game Shows": 41,
+    "Live TV - Kids / Family": 27,
+    "Live TV - Lifestyle": 87,
+    "Live TV - Movies": 54,
+    "Live TV - Music": 54,
+    "Live TV - News": 18,
     "Live TV - Religious": 1,
-    "Live TV - Sci-Fi / Horror": 71,
-    "Live TV - Series / TV": 347,
-    "Live TV - Sports": 70
+    "Live TV - Sci-Fi / Horror": 70,
+    "Live TV - Series / TV": 357,
+    "Live TV - Sports": 73
   },
   "moved_by_method": {
     "epg:44/44": 1,
@@ -46,8 +45,9 @@
     "provider-group:Documentaries": 1,
     "provider-group:Environment": 1,
     "provider-group:GAME SHOWS": 1,
+    "provider-group:Game Shows": 1,
     "provider-group:Games & Competition": 1,
-    "provider-group:Good Eats": 2,
+    "provider-group:Good Eats": 1,
     "research:123go": 1,
     "research:20/20": 1,
     "research:25 words or less": 1,
@@ -64,7 +64,7 @@
     "research:american ninja warrior": 2,
     "research:ancient aliens": 2,
     "research:andromeda": 2,
-    "research:anime": 18,
+    "research:anime": 20,
     "research:antiques roadshow": 4,
     "research:ax men": 2,
     "research:baby ": 4,
@@ -95,7 +95,7 @@
     "research:champions league": 1,
     "research:charmed": 1,
     "research:chef": 4,
-    "research:cine ": 8,
+    "research:cine ": 7,
     "research:cinelife": 1,
     "research:cinevault": 3,
     "research:cityscapes": 2,
@@ -109,7 +109,7 @@
     "research:cornhole": 1,
     "research:cosmic frontiers": 1,
     "research:country network": 1,
-    "research:court tv": 3,
+    "research:court tv": 2,
     "research:cozy caf\u00e9": 2,
     "research:cricket gold": 1,
     "research:curiosity": 2,
@@ -153,6 +153,7 @@
     "research:futcrunch": 1,
     "research:game & fish tv": 1,
     "research:game show": 4,
+    "research:garden": 1,
     "research:ghost": 3,
     "research:glory kickboxing": 1,
     "research:grjngo": 1,
@@ -177,8 +178,8 @@
     "research:k-pop": 2,
     "research:keeping up": 2,
     "research:kidoodle": 1,
+    "research:killers": 2,
     "research:kitchen": 4,
-    "research:kpop": 1,
     "research:law & order": 1,
     "research:law by mike": 1,
     "research:let's make a deal": 2,
@@ -188,6 +189,7 @@
     "research:loupe 4k": 1,
     "research:love after lockup": 2,
     "research:love pets": 2,
+    "research:majordomo": 1,
     "research:martha stewart": 2,
     "research:masked singer": 1,
     "research:matthew berry": 1,
@@ -199,7 +201,7 @@
     "research:mma": 1,
     "research:modern innovations": 1,
     "research:modern marvels": 1,
-    "research:monster jam": 3,
+    "research:monster jam": 2,
     "research:monsters are real": 1,
     "research:motogp": 2,
     "research:mrbeast": 1,
@@ -217,7 +219,7 @@
     "research:nhl": 1,
     "research:nick jr": 1,
     "research:no reservations": 2,
-    "research:noticias": 5,
+    "research:noticias": 4,
     "research:nypd blue": 1,
     "research:on patrol": 2,
     "research:one championship": 1,
@@ -240,8 +242,9 @@
     "research:pickleball": 1,
     "research:pink panther": 1,
     "research:pll network": 1,
+    "research:pocket.watch": 1,
     "research:pokemon": 1,
-    "research:poker": 2,
+    "research:poker": 5,
     "research:power nation": 1,
     "research:power rangers": 1,
     "research:powernation": 2,
@@ -257,6 +260,7 @@
     "research:rainbow ruby": 1,
     "research:real america's voice": 1,
     "research:real housewives": 2,
+    "research:real wild": 1,
     "research:retrocrush": 1,
     "research:reuters": 2,
     "research:romance": 4,
@@ -267,7 +271,6 @@
     "research:sci-fi": 5,
     "research:scrambled up": 1,
     "research:shark tank": 2,
-    "research:sheriffs": 1,
     "research:shop lc": 1,
     "research:shout!": 1,
     "research:shudder": 2,
@@ -285,12 +288,12 @@
     "research:stargate": 3,
     "research:stargaze": 1,
     "research:stingray": 22,
-    "research:storage wars": 1,
+    "research:storage wars": 2,
     "research:strawberry shortcake": 2,
     "research:strongman": 1,
     "research:super simple songs": 1,
     "research:supermarket sweep": 2,
-    "research:supernatural": 3,
+    "research:supernatural": 2,
     "research:survive or die": 1,
     "research:survivor": 1,
     "research:swac tv": 1,
@@ -330,9 +333,7 @@
     "research:veeps": 1,
     "research:vibes": 12,
     "research:victory+": 1,
-    "research:wabc": 1,
     "research:walking dead": 3,
-    "research:wapa+": 1,
     "research:watchaew": 1,
     "research:waypoint tv": 1,
     "research:wendy williams": 2,
@@ -341,9 +342,9 @@
     "research:wildearth": 2,
     "research:wildest": 2,
     "research:wipeout": 1,
+    "research:world of love island": 2,
+    "research:world surf league": 1,
     "research:wrestling": 1,
-    "research:wxii": 1,
-    "research:wyff": 1,
     "research:x-files": 1,
     "research:xena": 1,
     "research:xite": 16,
@@ -351,49 +352,48 @@
     "research:z nation": 1,
     "research:zenlife by stingray": 2,
     "research:zhc": 1,
-    "reviewed-source-default:lg": 97,
-    "reviewed-source-default:plex": 223,
+    "reviewed-source-default:lg": 101,
+    "reviewed-source-default:plex": 230,
     "reviewed-source-default:pluto": 9,
     "reviewed-source-default:roku": 1,
     "reviewed-source-default:tubi": 4,
-    "reviewed-source-default:vizio": 10,
-    "reviewed-source-default:xumo": 1
+    "reviewed-source-default:vizio": 10
   },
   "group_counts_before": {
-    "Live TV - Business": 32,
-    "Live TV - Documentary / Education": 225,
-    "Live TV - Kids / Family": 173,
-    "Live TV - Lifestyle": 260,
-    "Live TV - Local / Public": 578,
-    "Live TV - Movies": 255,
-    "Live TV - Music": 118,
-    "Live TV - News": 252,
-    "Live TV - Other": 952,
-    "Live TV - Religious": 75,
-    "Live TV - Series / TV": 734,
-    "Live TV - Sports": 221,
-    "Live TV - Weather": 13
+    "Live TV - Business": 33,
+    "Live TV - Documentary / Education": 200,
+    "Live TV - Kids / Family": 196,
+    "Live TV - Lifestyle": 257,
+    "Live TV - Local / Public": 727,
+    "Live TV - Movies": 254,
+    "Live TV - Music": 116,
+    "Live TV - News": 169,
+    "Live TV - Other": 966,
+    "Live TV - Religious": 72,
+    "Live TV - Series / TV": 604,
+    "Live TV - Sports": 245,
+    "Live TV - Weather": 12
   },
   "group_counts_after": {
     "Live TV - Ambiance": 29,
-    "Live TV - Anime": 22,
+    "Live TV - Anime": 24,
     "Live TV - Automotive": 21,
-    "Live TV - Business": 37,
+    "Live TV - Business": 38,
     "Live TV - Creators": 21,
     "Live TV - Crime / Mystery": 43,
-    "Live TV - Documentary / Education": 265,
-    "Live TV - Game Shows": 38,
-    "Live TV - Kids / Family": 199,
-    "Live TV - Lifestyle": 345,
-    "Live TV - Local / Public": 582,
-    "Live TV - Movies": 310,
-    "Live TV - Music": 173,
-    "Live TV - News": 271,
-    "Live TV - Religious": 76,
-    "Live TV - Sci-Fi / Horror": 71,
-    "Live TV - Series / TV": 1081,
-    "Live TV - Sports": 291,
-    "Live TV - Weather": 13
+    "Live TV - Documentary / Education": 241,
+    "Live TV - Game Shows": 41,
+    "Live TV - Kids / Family": 223,
+    "Live TV - Lifestyle": 344,
+    "Live TV - Local / Public": 727,
+    "Live TV - Movies": 308,
+    "Live TV - Music": 170,
+    "Live TV - News": 187,
+    "Live TV - Religious": 73,
+    "Live TV - Sci-Fi / Horror": 70,
+    "Live TV - Series / TV": 961,
+    "Live TV - Sports": 318,
+    "Live TV - Weather": 12
   },
   "examples": [
     {
@@ -451,6 +451,15 @@
       "epg": {}
     },
     {
+      "channel": "106 Third Watch",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:lg",
+      "epg": {}
+    },
+    {
       "channel": "107 Cold Case Files",
       "source": "lg",
       "original_group": "",
@@ -475,6 +484,24 @@
       "from": "Live TV - Other",
       "to": "Live TV - Sports",
       "method": "research:matthew berry",
+      "epg": {}
+    },
+    {
+      "channel": "111 Majordomo TV with David Chang",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "research:majordomo",
+      "epg": {}
+    },
+    {
+      "channel": "114 Mohr Stories with Jay Mohr",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:lg",
       "epg": {}
     },
     {
@@ -568,15 +595,6 @@
       "epg": {}
     },
     {
-      "channel": "152 WABC ABC7 New York",
-      "source": "lg",
-      "original_group": "",
-      "from": "Live TV - Other",
-      "to": "Live TV - Local / Public",
-      "method": "research:wabc",
-      "epg": {}
-    },
-    {
       "channel": "162 Dateline 24/7",
       "source": "lg",
       "original_group": "",
@@ -649,7 +667,7 @@
       "epg": {}
     },
     {
-      "channel": "208 White Collar [Backup]",
+      "channel": "208 White Collar",
       "source": "lg",
       "original_group": "",
       "from": "Live TV - Other",
@@ -1243,6 +1261,15 @@
       "epg": {}
     },
     {
+      "channel": "318 Dog Whisperer with Cesar Millan",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Lifestyle",
+      "method": "research:dog whisperer",
+      "epg": {}
+    },
+    {
       "channel": "319 Deal Zone",
       "source": "lg",
       "original_group": "",
@@ -1384,6 +1411,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Lifestyle",
       "method": "research:bravo vault",
+      "epg": {}
+    },
+    {
+      "channel": "337 World Of Love Island",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Game Shows",
+      "method": "research:world of love island",
       "epg": {}
     },
     {
@@ -1558,15 +1594,6 @@
       "epg": {}
     },
     {
-      "channel": "372 Las Vegas",
-      "source": "lg",
-      "original_group": "",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:lg",
-      "epg": {}
-    },
-    {
       "channel": "373 Lawless",
       "source": "lg",
       "original_group": "",
@@ -1591,6 +1618,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Crime / Mystery",
       "method": "research:mysteria",
+      "epg": {}
+    },
+    {
+      "channel": "379 World's Most Evil Killers",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Crime / Mystery",
+      "method": "research:killers",
       "epg": {}
     },
     {
@@ -1627,6 +1663,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Crime / Mystery",
       "method": "research:first 48",
+      "epg": {}
+    },
+    {
+      "channel": "385 I (Almost) Got Away with It",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:lg",
       "epg": {}
     },
     {
@@ -1927,6 +1972,15 @@
       "epg": {}
     },
     {
+      "channel": "439 World Poker Tour",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Sports",
+      "method": "research:poker",
+      "epg": {}
+    },
+    {
       "channel": "440 Billiard TV",
       "source": "lg",
       "original_group": "",
@@ -2113,6 +2167,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Sports",
       "method": "research:monster jam",
+      "epg": {}
+    },
+    {
+      "channel": "485 DP World Tour",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:lg",
       "epg": {}
     },
     {
@@ -2692,15 +2755,6 @@
       "epg": {}
     },
     {
-      "channel": "805 Telemundo Noticias Florida",
-      "source": "lg",
-      "original_group": "",
-      "from": "Live TV - Other",
-      "to": "Live TV - News",
-      "method": "research:noticias",
-      "epg": {}
-    },
-    {
       "channel": "806 FIFA+ en Espa\u00f1ol",
       "source": "lg",
       "original_group": "",
@@ -2923,15 +2977,6 @@
       "from": "Live TV - Other",
       "to": "Live TV - Series / TV",
       "method": "reviewed-source-default:lg",
-      "epg": {}
-    },
-    {
-      "channel": "856 NEW KPOP",
-      "source": "lg",
-      "original_group": "",
-      "from": "Live TV - Other",
-      "to": "Live TV - Music",
-      "method": "research:kpop",
       "epg": {}
     },
     {
@@ -3175,6 +3220,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Movies",
       "method": "research:action showcase",
+      "epg": {}
+    },
+    {
+      "channel": "998 LG Channels Showcase West",
+      "source": "lg",
+      "original_group": "",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:lg",
       "epg": {}
     },
     {
@@ -4145,16 +4199,7 @@
       "epg": {}
     },
     {
-      "channel": "Cine Romantico [Backup]",
-      "source": "roku",
-      "original_group": "Romance",
-      "from": "Live TV - Other",
-      "to": "Live TV - Movies",
-      "method": "research:cine ",
-      "epg": {}
-    },
-    {
-      "channel": "Cine Rom\u00e1ntico",
+      "channel": "Cine Rom\u00e1ntico [Backup]",
       "source": "plex",
       "original_group": "United States",
       "from": "Live TV - Other",
@@ -4289,6 +4334,15 @@
       "epg": {}
     },
     {
+      "channel": "Come Dine With Me",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:plex",
+      "epg": {}
+    },
+    {
       "channel": "Complex TV [Backup]",
       "source": "plex",
       "original_group": "United States",
@@ -4361,18 +4415,9 @@
       "epg": {}
     },
     {
-      "channel": "Court TV Legendary Trials",
+      "channel": "Court TV Legendary Trials [Backup]",
       "source": "plex",
       "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Crime / Mystery",
-      "method": "research:court tv",
-      "epg": {}
-    },
-    {
-      "channel": "Court TV Legendary Trials [Backup]",
-      "source": "roku",
-      "original_group": "Law",
       "from": "Live TV - Other",
       "to": "Live TV - Crime / Mystery",
       "method": "research:court tv",
@@ -4586,15 +4631,6 @@
       "epg": {}
     },
     {
-      "channel": "Dog Whisperer [Backup]",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Lifestyle",
-      "method": "research:dog whisperer",
-      "epg": {}
-    },
-    {
       "channel": "Don't Tell The Bride [Backup]",
       "source": "plex",
       "original_group": "United States",
@@ -4623,6 +4659,15 @@
           }
         ]
       }
+    },
+    {
+      "channel": "DP World Tour",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:plex",
+      "epg": {}
     },
     {
       "channel": "Dr. G: Medical Examiner",
@@ -4814,7 +4859,7 @@
       "epg": {}
     },
     {
-      "channel": "Emoci\u00f3n Atres",
+      "channel": "Emoci\u00f3n Atres [Backup]",
       "source": "plex",
       "original_group": "United States",
       "from": "Live TV - Other",
@@ -4937,51 +4982,6 @@
       "from": "Live TV - Other",
       "to": "Live TV - Game Shows",
       "method": "research:fear factor",
-      "epg": {}
-    },
-    {
-      "channel": "Fear Factor [Backup]",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Game Shows",
-      "method": "research:fear factor",
-      "epg": {}
-    },
-    {
-      "channel": "Fear Factor USA",
-      "source": "tubi",
-      "original_group": "Games & Competition",
-      "from": "Live TV - Other",
-      "to": "Live TV - Game Shows",
-      "method": "research:fear factor",
-      "epg": {}
-    },
-    {
-      "channel": "Fear Zone",
-      "source": "samsung",
-      "original_group": "Sci-Fi & Horror",
-      "from": "Live TV - Other",
-      "to": "Live TV - Sci-Fi / Horror",
-      "method": "research:horror",
-      "epg": {}
-    },
-    {
-      "channel": "FIFA+ [Backup]",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Sports",
-      "method": "research:fifa+",
-      "epg": {}
-    },
-    {
-      "channel": "Fifth Gear (UK)",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Automotive",
-      "method": "research:fifth gear",
       "epg": {}
     }
   ],

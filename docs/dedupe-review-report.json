@@ -1,0 +1,183 @@
+{
+  "generated": "2026-09-18 16:47:21 UTC",
+  "candidate_pairs_evaluated": 4294,
+  "confirmed_pairs": 4272,
+  "ambiguous_pairs": 22,
+  "exact_name_ambiguous_pairs": 1,
+  "confirmed_by_reason": {
+    "exact-national-name": 3176,
+    "researched-alias": 420,
+    "exact-stream-url": 253,
+    "same-local-callsign": 160,
+    "same-local-market-name": 117,
+    "name+epg:9-titles/24-aligned": 10,
+    "name+epg:5-titles/24-aligned": 8,
+    "name+epg:24-titles/24-aligned": 6,
+    "name+epg:4-titles/0-aligned": 6,
+    "name+epg:4-titles/24-aligned": 6,
+    "name+epg:6-titles/24-aligned": 6,
+    "name+epg:5-titles/20-aligned": 5,
+    "name+epg:11-titles/24-aligned": 3,
+    "name+epg:13-titles/24-aligned": 3,
+    "name+epg:4-titles/12-aligned": 3,
+    "name+epg:4-titles/18-aligned": 3,
+    "name+epg:7-titles/24-aligned": 3,
+    "name+epg:8-titles/4-aligned": 3,
+    "name+epg:10-titles/23-aligned": 2,
+    "name+epg:11-titles/14-aligned": 2,
+    "name+epg:11-titles/19-aligned": 2,
+    "name+epg:16-titles/19-aligned": 2,
+    "name+epg:16-titles/23-aligned": 2,
+    "name+epg:23-titles/24-aligned": 2,
+    "name+epg:4-titles/1-aligned": 2,
+    "name+epg:4-titles/10-aligned": 2,
+    "name+epg:4-titles/17-aligned": 2,
+    "name+epg:4-titles/20-aligned": 2,
+    "name+epg:4-titles/4-aligned": 2,
+    "name+epg:4-titles/7-aligned": 2,
+    "name+epg:5-titles/0-aligned": 2,
+    "name+epg:5-titles/19-aligned": 2,
+    "name+epg:6-titles/13-aligned": 2,
+    "name+epg:8-titles/14-aligned": 2,
+    "name+epg:8-titles/18-aligned": 2,
+    "name+epg:9-titles/22-aligned": 2,
+    "name+epg:9-titles/7-aligned": 2,
+    "name+epg:10-titles/24-aligned": 1,
+    "name+epg:11-titles/17-aligned": 1,
+    "name+epg:11-titles/21-aligned": 1,
+    "name+epg:12-titles/0-aligned": 1,
+    "name+epg:12-titles/20-aligned": 1,
+    "name+epg:12-titles/24-aligned": 1,
+    "name+epg:13-titles/23-aligned": 1,
+    "name+epg:14-titles/21-aligned": 1,
+    "name+epg:15-titles/23-aligned": 1,
+    "name+epg:15-titles/24-aligned": 1,
+    "name+epg:19-titles/24-aligned": 1,
+    "name+epg:20-titles/0-aligned": 1,
+    "name+epg:20-titles/21-aligned": 1,
+    "name+epg:20-titles/23-aligned": 1,
+    "name+epg:21-titles/0-aligned": 1,
+    "name+epg:21-titles/21-aligned": 1,
+    "name+epg:22-titles/22-aligned": 1,
+    "name+epg:4-titles/13-aligned": 1,
+    "name+epg:4-titles/23-aligned": 1,
+    "name+epg:4-titles/8-aligned": 1,
+    "name+epg:5-titles/11-aligned": 1,
+    "name+epg:5-titles/12-aligned": 1,
+    "name+epg:5-titles/16-aligned": 1,
+    "name+epg:5-titles/2-aligned": 1,
+    "name+epg:5-titles/6-aligned": 1,
+    "name+epg:6-titles/0-aligned": 1,
+    "name+epg:6-titles/10-aligned": 1,
+    "name+epg:6-titles/12-aligned": 1,
+    "name+epg:6-titles/19-aligned": 1,
+    "name+epg:6-titles/2-aligned": 1,
+    "name+epg:6-titles/23-aligned": 1,
+    "name+epg:6-titles/3-aligned": 1,
+    "name+epg:7-titles/12-aligned": 1,
+    "name+epg:7-titles/16-aligned": 1,
+    "name+epg:7-titles/17-aligned": 1,
+    "name+epg:7-titles/20-aligned": 1,
+    "name+epg:7-titles/23-aligned": 1,
+    "name+epg:8-titles/10-aligned": 1,
+    "name+epg:8-titles/13-aligned": 1,
+    "name+epg:8-titles/16-aligned": 1,
+    "name+epg:8-titles/24-aligned": 1,
+    "name+epg:9-titles/12-aligned": 1,
+    "name+epg:9-titles/19-aligned": 1
+  },
+  "ambiguous_by_reason": {
+    "researched-blocked-pair": 19,
+    "local-market-conflict": 2,
+    "local-protection:generic-local-risk|generic-local-risk": 1
+  },
+  "ambiguous_by_source_pair": {
+    "plex <-> xumo": 5,
+    "plex <-> roku": 4,
+    "plex <-> tubi": 4,
+    "roku <-> samsung": 2,
+    "roku <-> xumo": 2,
+    "vizio <-> xumo": 2,
+    "localnow <-> vizio": 1,
+    "plex <-> samsung": 1,
+    "samsung <-> xumo": 1
+  },
+  "researched_alias_groups": 46,
+  "researched_blocked_pairs": 15,
+  "remaining_high_epg_candidates": [
+    {
+      "left": "plex:6a1610bebdf296985fd95603-62a22a2ed95f6a0c0146cc73",
+      "right": "xumo:99991282",
+      "left_name": "Local Now Charlotte",
+      "right_name": "Local Now",
+      "candidate_reasons": [
+        "shared-epg-titles:10"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 1.0
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-65f0de01046e6131ecc31845",
+      "right": "roku:427be38e736e5c6e92bd1cec086e941a",
+      "left_name": "\u00daN TV",
+      "right_name": "\u00daNICA TV",
+      "candidate_reasons": [
+        "shared-epg-titles:7"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 1.0
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-616df1e90dfa27ee465797fa",
+      "right": "xumo:99991399",
+      "left_name": "CineLife",
+      "right_name": "Magnolia Selects",
+      "candidate_reasons": [
+        "shared-epg-titles:20"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 0.9167
+    },
+    {
+      "left": "samsung:USBB11000015Q",
+      "right": "roku:b5cde121f98257329346020e2a60295a",
+      "left_name": "Moonbug",
+      "right_name": "Moonbug Kids",
+      "candidate_reasons": [
+        "shared-epg-titles:7"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 0.7778
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-66ea085d9502c5778b828d41",
+      "right": "xumo:99991337",
+      "left_name": "FilmRise Free Movies",
+      "right_name": "FilmRise",
+      "candidate_reasons": [
+        "shared-epg-titles:13"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 0.5385
+    }
+  ],
+  "remaining_review_queue": [
+    {
+      "left": "vizio:",
+      "right": "xumo:99991282",
+      "left_name": "Local Now",
+      "right_name": "Local Now",
+      "candidate_reasons": [
+        "normalized-name"
+      ],
+      "confirmed": false,
+      "reason": "local-protection:generic-local-risk|generic-local-risk",
+      "epg_similarity": 0.0
+    }
+  ]
+}

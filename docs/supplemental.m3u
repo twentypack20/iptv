@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated: 2026-09-18 15:43:24 UTC
+# Generated: 2026-09-18 16:46:04 UTC
 # Supplemental public/free FAST and local-TV sources
 #EXTINF:-1 tvg-name="000 Pyramid" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/Disney_Lg/100000Pyramid/pyramid_logo_400x200.png" group-title="FAST - LG Channels US" x-source="lg" x-source-name="LG Channels US" x-source-kind="FAST",000 Pyramid
 https://amg00497-amg00497c43-amgplt0023.playout.now3.amagi.tv/ts-us-w2-n2/playlist/amg00497-amg00497c43-amgplt0023/playlist.m3u8?ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.appversion=[APP_VERSION]&ads.bundleid=[APP_BUNDLE]&ads.country=[COUNTRY]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.devicetype=[DEVICE_TYPE]&ads.dmake=[DEVICE_MAKE]&ads.donotsell=[DNS]&ads.fck=[FCK]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.givn=[NONCE]&ads.hoteltype=[HOTEL_TYPE]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.lat=[LMT]&ads.targetad=[TARGETAD_ALLOWED]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]&coppa=0&network_name=LG Electronics USA Inc
