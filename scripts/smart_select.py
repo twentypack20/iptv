@@ -91,7 +91,8 @@ def format_extinf(entry):
 
 
 def normalize_name(name, suffixes):
-    value = clean_key(name).replace("&", " and ")
+    value = unicodedata.normalize("NFKD", clean_text(name)).encode("ascii", "ignore").decode("ascii")
+    value = value.casefold().replace("&", " and ")
     value = re.sub(r"\([^)]*\)", " ", value)
     value = re.sub(r"\[[^]]*\]", " ", value)
     value = re.sub(r"[^a-z0-9]+", " ", value)
@@ -122,14 +123,21 @@ def stream_key(entry):
 
 def extract_callsigns(entry):
     attrs = entry["attrs"]
-    text = " ".join([entry.get("name") or "", attrs.get("tvg-name") or "", attrs.get("x-original-tvg-id") or ""])
+    # Callsigns are case-sensitive on purpose. Turning "Kids" into "KIDS" created
+    # false station matches in the previous implementation.
+    fields = [
+        entry.get("name") or "",
+        attrs.get("tvg-name") or "",
+        attrs.get("x-original-tvg-id") or "",
+    ]
     values = set()
-    for match in CALLSIGN_RE.finditer(text.upper()):
-        base, suffix, sub = match.groups()
-        if suffix == "DT" and sub:
-            values.add(f"{base}-DT{sub}")
-        else:
-            values.add(base)
+    for text in fields:
+        for match in CALLSIGN_RE.finditer(text):
+            base, suffix, sub = match.groups()
+            if suffix == "DT" and sub:
+                values.add(f"{base}-DT{sub}")
+            else:
+                values.add(base)
     return values
 
 
@@ -138,12 +146,15 @@ def broadcast_areas(entry):
     return {clean_key(x) for x in re.split(r"[;,|]", raw) if clean_text(x)}
 
 
-def local_signal(entry, cfg):
-    if source_kind(entry) == "local":
-        return "source-kind:local"
-    callsigns = extract_callsigns(entry)
-    if callsigns:
-        return "callsign:" + ",".join(sorted(callsigns))
+def phrase_in_text(phrase, text):
+    phrase = normalize_name(phrase, [])
+    text = normalize_name(text, [])
+    if not phrase or not text:
+        return False
+    return re.search(rf"(?:^|\s){re.escape(phrase)}(?:$|\s)", text) is not None
+
+
+def market_keys(entry, cfg):
     attrs = entry["attrs"]
     text = " ".join([
         entry.get("name") or "",
@@ -152,14 +163,77 @@ def local_signal(entry, cfg):
         attrs.get("group-title") or "",
         attrs.get("x-broadcast-area") or "",
     ])
-    lowered = clean_key(text)
+    markets = set()
+    for market in (cfg.get("smart_selection", {}).get("local_markets") or []):
+        if phrase_in_text(market, text):
+            markets.add(normalize_name(market, []))
+    for area in broadcast_areas(entry):
+        if area.startswith(("s/us-", "ct/us-", "city/us-")):
+            markets.add(area)
+    return markets
+
+
+def local_signal(entry, cfg):
+    callsigns = extract_callsigns(entry)
+    if callsigns:
+        return "callsign:" + ",".join(sorted(callsigns))
+
+    markets = market_keys(entry, cfg)
+    if markets:
+        return "market:" + ",".join(sorted(markets))
+
+    attrs = entry["attrs"]
+    text = " ".join([
+        entry.get("name") or "",
+        attrs.get("tvg-name") or "",
+        attrs.get("x-original-group") or "",
+        attrs.get("group-title") or "",
+        attrs.get("x-broadcast-area") or "",
+    ])
     for keyword in (cfg.get("smart_selection", {}).get("local_keywords") or []):
-        if clean_key(keyword) in lowered:
-            return f"keyword:{keyword}"
-    protected_names = {normalize_name(x, []) for x in (cfg.get("smart_selection", {}).get("local_network_names") or [])}
+        if phrase_in_text(keyword, text):
+            return f"keyword:{normalize_name(keyword, [])}"
+
+    protected_names = {
+        normalize_name(x, [])
+        for x in ((cfg.get("_dedupe_overrides") or {}).get("generic_local_names") or [])
+    }
     if normalize_name(entry.get("name"), []) in protected_names:
-        return "network-local-risk"
+        return "generic-local-risk"
+
+    # "Local Now" is a provider as well as a brand. Its playlist contains many
+    # national FAST channels, so source-kind=Local alone is not evidence that
+    # every channel is a local-market feed.
     return ""
+
+
+def name_token_affinity(left_name, right_name, suffixes):
+    left = set(normalize_name(left_name, suffixes).split())
+    right = set(normalize_name(right_name, suffixes).split())
+    if not left or not right:
+        return 0.0
+    return len(left & right) / len(left | right)
+
+
+def alias_group_for(name_key, alias_groups, suffixes):
+    for index, group in enumerate(alias_groups or []):
+        normalized = {normalize_name(item, suffixes) for item in group if clean_text(item)}
+        if name_key in normalized:
+            return index
+    return None
+
+
+def blocked_name_pair(left_name, right_name, cfg, suffixes):
+    left_key = normalize_name(left_name, suffixes)
+    right_key = normalize_name(right_name, suffixes)
+    for pair in ((cfg.get("_dedupe_overrides") or {}).get("blocked_name_pairs") or []):
+        if len(pair) != 2:
+            continue
+        a = normalize_name(pair[0], suffixes)
+        b = normalize_name(pair[1], suffixes)
+        if {left_key, right_key} == {a, b}:
+            return True
+    return False
 
 
 def epg_record(entry, epg_index):
