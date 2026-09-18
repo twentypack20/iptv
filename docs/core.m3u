@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-17 13:42:36 UTC
+# Generated: 2026-09-18 12:59:03 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 # Core source: iptv-org (feed-aware)
@@ -346,8 +346,6 @@ https://townnews.g-mana.live/media/14d1fd2c-0548-4803-80ad-6657831a7981/main.m3u
 https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WWAY" tvg-name="ABC - WWAY" tvg-logo="https://twentypack20.github.io/iptv/posters/abc.us.png" group-title="USA - Entertainment",ABC - WWAY
 https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8
-#EXTINF:-1 tvg-id="ABC.us@West" tvg-name="ABC - West" tvg-logo="https://twentypack20.github.io/iptv/posters/abc.us.png" group-title="USA - Entertainment",ABC - West
-http://stream.cammonitorplus.net/1797/index.m3u8
 #EXTINF:-1 tvg-id="AFTV.us@SD" tvg-name="AFTV" tvg-logo="https://twentypack20.github.io/iptv/posters/aftv.us.png" group-title="USA - Entertainment",AFTV
 https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AFV.us@SD" tvg-name="AFV" tvg-logo="https://twentypack20.github.io/iptv/posters/afv.us.png" group-title="USA - Entertainment",AFV
@@ -905,7 +903,7 @@ https://cdn.vegasplus.us/vegas/mpin/playlist.m3u8
 #EXTINF:-1 tvg-id="ParanormalState.us@UK" tvg-name="Paranormal State" tvg-logo="https://twentypack20.github.io/iptv/posters/paranormalstate.us.png" group-title="USA - Entertainment",Paranormal State
 https://jmp2.uk/plu-60804d85858bd00007c5d591.m3u8
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" tvg-name="People Are Awesome" tvg-logo="https://twentypack20.github.io/iptv/posters/peopleareawesome.us.png" group-title="USA - Entertainment",People Are Awesome
-https://jukin-peopleareawesome-2-au.samsung.wurl.tv/playlist.m3u8
+https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@Poland" tvg-name="People Are Awesome - Poland" tvg-logo="https://twentypack20.github.io/iptv/posters/peopleareawesome.us.png" group-title="USA - Entertainment",People Are Awesome - Poland
 https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="PhillyCAM.us@SD" tvg-name="PhillyCAM" tvg-logo="https://twentypack20.github.io/iptv/posters/phillycam.us.png" group-title="USA - Entertainment",PhillyCAM
@@ -2673,6 +2671,8 @@ https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@Plus2" tvg-name="Tennis Channel - +2" tvg-logo="https://twentypack20.github.io/iptv/posters/tennischannel.us.png" group-title="USA - Sports",Tennis Channel - +2
 https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-name="Tennis Channel 2" tvg-logo="https://twentypack20.github.io/iptv/posters/tennischannel2.us.png" group-title="USA - Sports",Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="USANetwork.us@East" tvg-name="USA Network" tvg-logo="https://twentypack20.github.io/iptv/posters/usanetwork.us.png" group-title="USA - Sports",USA Network
 http://190.11.225.124:5000/live/usa_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-name="Unbeaten" tvg-logo="https://twentypack20.github.io/iptv/posters/unbeaten.us.png" group-title="USA - Sports",Unbeaten

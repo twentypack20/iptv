@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-17T13:43:34.812442+00:00",
+  "generated": "2026-09-18T12:59:58.208531+00:00",
   "policy": "Classification-only post-processing. Curated overrides have highest priority; then research-backed channel identity rules, provider-native group evidence, legacy metadata rules, EPG evidence, and finally reviewed provider residual defaults. Dedupe, provider choice, stream URLs, tvg-id values, EPG matching, and health scores are untouched.",
   "fallback_category": "Live TV - Other",
-  "channels_before": 4820,
-  "channels_after": 4820,
-  "other_before": 1153,
+  "channels_before": 4813,
+  "channels_after": 4813,
+  "other_before": 1152,
   "other_after": 0,
-  "moved_from_other": 1153,
+  "moved_from_other": 1152,
   "override_moves": 0,
   "backlog_remaining": 0,
   "backlog_chunks": 0,
   "exact_group_normalizations": 5,
-  "total_reclassified": 1158,
+  "total_reclassified": 1157,
   "exact_group_alias_moves": {
     "Classic TV -> Live TV - Series / TV": 2,
     "Crime -> Live TV - Crime / Mystery": 1,
@@ -20,25 +20,26 @@
   },
   "moved_by_destination": {
     "Live TV - Ambiance": 31,
-    "Live TV - Anime": 31,
-    "Live TV - Automotive": 28,
+    "Live TV - Anime": 32,
+    "Live TV - Automotive": 27,
     "Live TV - Business": 10,
-    "Live TV - Creators": 24,
-    "Live TV - Crime / Mystery": 51,
+    "Live TV - Creators": 23,
+    "Live TV - Crime / Mystery": 53,
     "Live TV - Documentary / Education": 45,
     "Live TV - Game Shows": 69,
     "Live TV - Kids / Family": 31,
-    "Live TV - Lifestyle": 100,
+    "Live TV - Lifestyle": 102,
     "Live TV - Local / Public": 5,
-    "Live TV - Movies": 65,
+    "Live TV - Movies": 66,
     "Live TV - Music": 59,
     "Live TV - News": 21,
     "Live TV - Religious": 1,
-    "Live TV - Sci-Fi / Horror": 94,
-    "Live TV - Series / TV": 413,
-    "Live TV - Sports": 80
+    "Live TV - Sci-Fi / Horror": 93,
+    "Live TV - Series / TV": 411,
+    "Live TV - Sports": 78
   },
   "moved_by_method": {
+    "epg:44/44": 1,
     "group-alias:Classic TV": 2,
     "group-alias:Crime": 1,
     "group-alias:TV & Entertainment": 1,
@@ -48,7 +49,7 @@
     "metadata:metal rocks": 1,
     "metadata:mgm presents action": 1,
     "metadata:sitcom": 1,
-    "metadata:westerns": 24,
+    "metadata:westerns": 25,
     "provider-group:Ambiance": 1,
     "provider-group:CREATORS": 1,
     "provider-group:Documentaries": 1,
@@ -75,7 +76,7 @@
     "research:american ninja warrior": 2,
     "research:ancient aliens": 2,
     "research:andromeda": 2,
-    "research:anime": 27,
+    "research:anime": 28,
     "research:antiques roadshow": 5,
     "research:ax men": 2,
     "research:baby ": 5,
@@ -83,7 +84,7 @@
     "research:barney": 1,
     "research:bassmaster": 1,
     "research:bbc adventure": 1,
-    "research:bbc earth": 1,
+    "research:bbc earth": 2,
     "research:beach day": 2,
     "research:ben azelart": 1,
     "research:beyblade": 1,
@@ -126,7 +127,7 @@
     "research:cozy caf\u00e9": 2,
     "research:cricket gold": 1,
     "research:csi": 1,
-    "research:curiosity": 2,
+    "research:curiosity": 1,
     "research:dance moms": 2,
     "research:dark matter": 1,
     "research:dateline": 2,
@@ -180,7 +181,7 @@
     "research:hollywood y mas": 1,
     "research:hollywood y m\u00e1s": 1,
     "research:horror": 45,
-    "research:hot bench": 1,
+    "research:hot bench": 2,
     "research:how to": 2,
     "research:hsn": 2,
     "research:hungry": 1,
@@ -229,9 +230,8 @@
     "research:mtv": 3,
     "research:my little pony": 1,
     "research:mysteria": 2,
-    "research:mystery": 4,
+    "research:mystery": 6,
     "research:mythbusters": 2,
-    "research:mythical 24/7": 1,
     "research:nascar": 1,
     "research:nat geo": 1,
     "research:naturaleza": 2,
@@ -239,7 +239,6 @@
     "research:new detectives": 1,
     "research:nfl": 1,
     "research:nhl": 1,
-    "research:nhra": 1,
     "research:nick jr": 1,
     "research:nickelodeon": 1,
     "research:ninja kidz": 2,
@@ -262,7 +261,7 @@
     "research:penn & teller: fool us": 1,
     "research:people are awesome": 1,
     "research:peppa pig": 1,
-    "research:pet collective": 1,
+    "research:pet collective": 2,
     "research:pga tour": 2,
     "research:pickleball": 1,
     "research:pink panther": 1,
@@ -282,7 +281,7 @@
     "research:pursuitup": 1,
     "research:qello": 1,
     "research:qvc": 2,
-    "research:racer select": 3,
+    "research:racer select": 2,
     "research:rainbow ruby": 1,
     "research:real america's voice": 1,
     "research:real housewives": 2,
@@ -301,7 +300,7 @@
     "research:sheriffs": 1,
     "research:shop lc": 1,
     "research:shout!": 1,
-    "research:shudder": 2,
+    "research:shudder": 1,
     "research:smooth jazz": 1,
     "research:smuggler": 1,
     "research:so yummy": 1,
@@ -312,7 +311,7 @@
     "research:space live": 1,
     "research:speedvision": 2,
     "research:ssundee": 1,
-    "research:stadium": 2,
+    "research:stadium": 1,
     "research:stargate": 3,
     "research:stargaze": 1,
     "research:stingray": 22,
@@ -325,7 +324,7 @@
     "research:survive or die": 1,
     "research:survivor": 2,
     "research:swac tv": 1,
-    "research:swerve combat": 2,
+    "research:swerve combat": 1,
     "research:team usa tv": 1,
     "research:telemundo al dia": 1,
     "research:telemundo al d\u00eda": 1,
@@ -352,7 +351,7 @@
     "research:tudn": 1,
     "research:twilight zone": 1,
     "research:tyt": 1,
-    "research:ufc": 1,
+    "research:ufc": 2,
     "research:unidentified": 1,
     "research:universal monsters": 2,
     "research:univision 24/7": 1,
@@ -389,7 +388,7 @@
     "research:zenlife by stingray": 4,
     "research:zhc": 1,
     "reviewed-source-default:lg": 109,
-    "reviewed-source-default:plex": 260,
+    "reviewed-source-default:plex": 257,
     "reviewed-source-default:pluto": 12,
     "reviewed-source-default:roku": 1,
     "reviewed-source-default:tubi": 4,
@@ -401,18 +400,18 @@
     "Crime": 1,
     "FAST - LG Channels US": 2,
     "Live TV - Business": 36,
-    "Live TV - Documentary / Education": 289,
-    "Live TV - Kids / Family": 245,
-    "Live TV - Lifestyle": 369,
+    "Live TV - Documentary / Education": 288,
+    "Live TV - Kids / Family": 246,
+    "Live TV - Lifestyle": 375,
     "Live TV - Local / Public": 601,
-    "Live TV - Movies": 309,
+    "Live TV - Movies": 300,
     "Live TV - Music": 145,
-    "Live TV - News": 306,
-    "Live TV - Other": 1153,
+    "Live TV - News": 310,
+    "Live TV - Other": 1152,
     "Live TV - Religious": 82,
-    "Live TV - Series / TV": 935,
-    "Live TV - Sports": 320,
-    "Live TV - Weather": 22,
+    "Live TV - Series / TV": 929,
+    "Live TV - Sports": 318,
+    "Live TV - Weather": 23,
     "TV & Entertainment": 1,
     "United States": 1,
     "Westerns": 1
@@ -420,24 +419,24 @@
   "group_counts_after": {
     "FAST - LG Channels US": 2,
     "Live TV - Ambiance": 31,
-    "Live TV - Anime": 31,
-    "Live TV - Automotive": 28,
+    "Live TV - Anime": 32,
+    "Live TV - Automotive": 27,
     "Live TV - Business": 46,
-    "Live TV - Creators": 24,
-    "Live TV - Crime / Mystery": 51,
-    "Live TV - Documentary / Education": 334,
+    "Live TV - Creators": 23,
+    "Live TV - Crime / Mystery": 53,
+    "Live TV - Documentary / Education": 333,
     "Live TV - Game Shows": 69,
-    "Live TV - Kids / Family": 276,
-    "Live TV - Lifestyle": 469,
+    "Live TV - Kids / Family": 277,
+    "Live TV - Lifestyle": 477,
     "Live TV - Local / Public": 606,
-    "Live TV - Movies": 374,
+    "Live TV - Movies": 366,
     "Live TV - Music": 204,
-    "Live TV - News": 327,
+    "Live TV - News": 331,
     "Live TV - Religious": 83,
-    "Live TV - Sci-Fi / Horror": 94,
-    "Live TV - Series / TV": 1348,
-    "Live TV - Sports": 400,
-    "Live TV - Weather": 22,
+    "Live TV - Sci-Fi / Horror": 93,
+    "Live TV - Series / TV": 1340,
+    "Live TV - Sports": 396,
+    "Live TV - Weather": 23,
     "United States": 1
   },
   "examples": [
@@ -3854,15 +3853,6 @@
     },
     {
       "channel": "AMC Thrillers",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:plex",
-      "epg": {}
-    },
-    {
-      "channel": "AMC Thrillers",
       "source": "xumo",
       "original_group": "Horror & Sci-Fi",
       "from": "Live TV - Other",
@@ -4168,6 +4158,15 @@
       "epg": {}
     },
     {
+      "channel": "BBC Earth",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Documentary / Education",
+      "method": "research:bbc earth",
+      "epg": {}
+    },
+    {
       "channel": "BBC Game Shows",
       "source": "plex",
       "original_group": "United States",
@@ -4246,6 +4245,40 @@
       "from": "Live TV - Other",
       "to": "Live TV - Sci-Fi / Horror",
       "method": "research:paranormal",
+      "epg": {}
+    },
+    {
+      "channel": "Beyond the Gates",
+      "source": "pluto",
+      "original_group": "Daytime + Game Shows",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "epg:44/44",
+      "epg": {
+        "candidate_group": "Live TV - Series / TV",
+        "hits": 44,
+        "total_category_observations": 44,
+        "programme_samples": 22,
+        "dominance": 1.0,
+        "categories": [
+          {
+            "category": "Drama",
+            "count": 22
+          },
+          {
+            "category": "Series",
+            "count": 22
+          }
+        ]
+      }
+    },
+    {
+      "channel": "Big A Anime",
+      "source": "pluto",
+      "original_group": "Anime",
+      "from": "Live TV - Other",
+      "to": "Live TV - Anime",
+      "method": "research:anime",
       "epg": {}
     },
     {
@@ -4426,6 +4459,15 @@
       "epg": {}
     },
     {
+      "channel": "Bonanza",
+      "source": "pluto",
+      "original_group": "Westerns",
+      "from": "Live TV - Other",
+      "to": "Live TV - Movies",
+      "method": "metadata:westerns",
+      "epg": {}
+    },
+    {
       "channel": "Bonanza-Billies TV",
       "source": "plex",
       "original_group": "United States",
@@ -4471,6 +4513,15 @@
       "epg": {}
     },
     {
+      "channel": "Bounce XL",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:plex",
+      "epg": {}
+    },
+    {
       "channel": "Bowling TV",
       "source": "plex",
       "original_group": "United States",
@@ -4495,6 +4546,15 @@
       "from": "Live TV - Other",
       "to": "Live TV - Lifestyle",
       "method": "research:bravo vault",
+      "epg": {}
+    },
+    {
+      "channel": "BritBox Mysteries",
+      "source": "plex",
+      "original_group": "United States",
+      "from": "Live TV - Other",
+      "to": "Live TV - Series / TV",
+      "method": "reviewed-source-default:plex",
       "epg": {}
     },
     {
@@ -4967,51 +5027,6 @@
           }
         ]
       }
-    },
-    {
-      "channel": "Confess by Nosey",
-      "source": "xumo",
-      "original_group": "Daytime TV",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:xumo",
-      "epg": {}
-    },
-    {
-      "channel": "Continuum",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:plex",
-      "epg": {}
-    },
-    {
-      "channel": "Cops en Espa\u00f1ol",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Crime / Mystery",
-      "method": "research:cops",
-      "epg": {}
-    },
-    {
-      "channel": "Coraz\u00f3n",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:plex",
-      "epg": {}
-    },
-    {
-      "channel": "Corner Gas",
-      "source": "plex",
-      "original_group": "United States",
-      "from": "Live TV - Other",
-      "to": "Live TV - Series / TV",
-      "method": "reviewed-source-default:plex",
-      "epg": {}
     }
   ],
   "uncertain_epg_candidates": [
@@ -5117,9 +5132,9 @@
       "original_group": "Hispanic Heritage Month",
       "candidate_group": "Live TV - Kids / Family",
       "hits": 24,
-      "total_category_observations": 48,
+      "total_category_observations": 49,
       "programme_samples": 24,
-      "dominance": 0.5,
+      "dominance": 0.4898,
       "categories": [
         {
           "category": "Children",
@@ -5132,14 +5147,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
-      "hits": 22,
-      "total_category_observations": 44,
-      "programme_samples": 22,
+      "hits": 18,
+      "total_category_observations": 36,
+      "programme_samples": 18,
       "dominance": 0.5,
       "categories": [
         {
           "category": "Series",
-          "count": 22
+          "count": 18
         }
       ]
     },
@@ -5149,9 +5164,9 @@
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Series / TV",
       "hits": 17,
-      "total_category_observations": 39,
+      "total_category_observations": 36,
       "programme_samples": 17,
-      "dominance": 0.4359,
+      "dominance": 0.4722,
       "categories": [
         {
           "category": "Series",
@@ -5165,25 +5180,17 @@
       "original_group": "Hispanic Heritage Month",
       "candidate_group": "Live TV - Series / TV",
       "hits": 9,
-      "total_category_observations": 19,
+      "total_category_observations": 21,
       "programme_samples": 8,
-      "dominance": 0.4737,
+      "dominance": 0.4286,
       "categories": [
         {
-          "category": "Comedy",
+          "category": "Drama",
           "count": 5
         },
         {
-          "category": "Drama",
-          "count": 2
-        },
-        {
           "category": "Independent Drama",
-          "count": 1
-        },
-        {
-          "category": "Romantic comedy",
-          "count": 1
+          "count": 4
         }
       ]
     },
@@ -5192,14 +5199,14 @@
       "source": "pluto",
       "original_group": "Daytime + Game Shows",
       "candidate_group": "Live TV - Lifestyle",
-      "hits": 14,
-      "total_category_observations": 28,
-      "programme_samples": 14,
+      "hits": 15,
+      "total_category_observations": 30,
+      "programme_samples": 15,
       "dominance": 0.5,
       "categories": [
         {
           "category": "Home & Lifestyle",
-          "count": 14
+          "count": 15
         }
       ]
     },

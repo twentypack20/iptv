@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17 13:42:42 UTC",
+  "generated": "2026-09-18 12:59:09 UTC",
   "core_channels": 1341,
-  "supplemental_channels": 3734,
-  "all_source_channels": 5075,
+  "supplemental_channels": 3741,
+  "all_source_channels": 5082,
   "sources_ok": 9,
   "sources_failed": 0,
   "upstream_epg_urls": [
@@ -20,8 +20,8 @@
       "name": "Pluto TV US",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
       "status": "ok",
-      "fetched": 429,
-      "kept": 392,
+      "fetched": 430,
+      "kept": 393,
       "duplicates": 0,
       "filtered": {
         "name": 0,
@@ -74,8 +74,8 @@
       "name": "Tubi Live TV",
       "url": "https://raw.githubusercontent.com/Mikhel/app-m3u-generator/main/playlists/tubi_all.m3u",
       "status": "ok",
-      "fetched": 174,
-      "kept": 174,
+      "fetched": 176,
+      "kept": 176,
       "duplicates": 0,
       "filtered": {
         "name": 0,
@@ -143,8 +143,8 @@
       "name": "Xumo Play US",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/main/playlists/xumo_playlist.m3u",
       "status": "ok",
-      "fetched": 428,
-      "kept": 405,
+      "fetched": 432,
+      "kept": 409,
       "duplicates": 0,
       "filtered": {
         "name": 0,

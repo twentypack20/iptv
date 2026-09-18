@@ -1,13 +1,13 @@
 {
-  "generated": "2026-09-17T13:42:47.656082+00:00",
-  "window_start": "2026-09-16T13:42:47.656082+00:00",
-  "window_end": "2026-09-24T13:42:47.656082+00:00",
+  "generated": "2026-09-18T12:59:14.428445+00:00",
+  "window_start": "2026-09-17T12:59:14.428445+00:00",
+  "window_end": "2026-09-25T12:59:14.428445+00:00",
   "external_channels_scanned": 5489,
   "external_channels_retained": 250,
-  "external_programmes_retained": 27582,
-  "playlist_assignments": 359,
+  "external_programmes_retained": 27898,
+  "playlist_assignments": 361,
   "assignment_methods": {
-    "unique-callsign": 359
+    "unique-callsign": 361
   },
   "sources": [
     {
@@ -17,7 +17,7 @@
       "status": "ok",
       "channels_scanned": 766,
       "matched_channels": 3,
-      "programmes": 417,
+      "programmes": 405,
       "error": ""
     },
     {
@@ -27,7 +27,7 @@
       "status": "ok",
       "channels_scanned": 4456,
       "matched_channels": 245,
-      "programmes": 27118,
+      "programmes": 27446,
       "error": ""
     },
     {
