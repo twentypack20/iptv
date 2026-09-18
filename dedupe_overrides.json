@@ -169,6 +169,15 @@
     [
       "Real America's Voice",
       "America's Voice News"
+    ],
+    [
+      "HerSphere by Lionsgate",
+      "Hersphere",
+      "HerSphere"
+    ],
+    [
+      "Lawless",
+      "Lawless by Lionsgate"
     ]
   ],
   "blocked_name_pairs": [
@@ -227,6 +236,10 @@
     [
       "SPARK TV",
       "Spark TV Light & Love"
+    ],
+    [
+      "CineLife",
+      "Magnolia Selects"
     ]
   ],
   "generic_local_names": [
