@@ -50,7 +50,7 @@ def load_json(path, fallback):
 
 def parse_extinf(line):
     attrs = {key: value for key, value in ATTR_RE.findall(line)}
-    name = line.split(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
+    name = line.rsplit(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
     return attrs, clean_text(name)
 
 
@@ -60,7 +60,7 @@ def set_group(line, group):
     if GROUP_RE.search(line):
         return GROUP_RE.sub(replacement, line, count=1)
     if "," in line:
-        prefix, name = line.split(",", 1)
+        prefix, name = line.rsplit(",", 1)
         return f"{prefix} {replacement},{name}"
     return f"{line} {replacement}"
 
