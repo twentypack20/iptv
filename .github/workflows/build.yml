@@ -12,6 +12,7 @@ on:
       - "supplemental_sources.json"
       - "category_rules.json"
       - "channel_category_overrides.json"
+      - "dedupe_overrides.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/build.yml"
@@ -21,6 +22,7 @@ on:
       - "supplemental_sources.json"
       - "category_rules.json"
       - "channel_category_overrides.json"
+      - "dedupe_overrides.json"
       - "epg_sources.json"
       - "scripts/**"
       - ".github/workflows/**"
@@ -49,9 +51,10 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install pillow
 
-      - name: Validate Python syntax
+      - name: Validate Python syntax and dedupe rules
         run: |
           python -m py_compile scripts/*.py
+          python scripts/test_dedupe_rules.py
 
       - name: Build feed-aware iptv-org core playlist
         run: |
@@ -112,6 +115,7 @@ jobs:
               Path('docs/epg-report.json'),
               Path('docs/selection-report.json'),
               Path('docs/dedupe-candidates.json'),
+              Path('docs/dedupe-review-report.json'),
               Path('docs/quarantine-report.json'),
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),
@@ -255,6 +259,7 @@ jobs:
               Path('docs/supplemental-report.json'),
               Path('docs/epg-bridge-report.json'),
               Path('docs/selection-report.json'),
+              Path('docs/dedupe-review-report.json'),
               Path('docs/quarantine-report.json'),
               Path('docs/category-report.json'),
               Path('docs/category-backlog.json'),

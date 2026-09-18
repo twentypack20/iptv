@@ -19,51 +19,118 @@
   "category_rules": [
     {
       "group": "Live TV - Weather",
-      "contains": ["weather", "forecast"]
+      "contains": [
+        "weather",
+        "forecast"
+      ]
     },
     {
       "group": "Live TV - News",
-      "contains": ["news", "opinion", "current affairs"]
+      "contains": [
+        "news",
+        "opinion",
+        "current affairs"
+      ]
     },
     {
       "group": "Live TV - Sports",
-      "contains": ["sport", "football", "soccer", "basketball", "baseball", "hockey", "golf", "racing", "outdoors"]
+      "contains": [
+        "sport",
+        "football",
+        "soccer",
+        "basketball",
+        "baseball",
+        "hockey",
+        "golf",
+        "racing",
+        "outdoors"
+      ]
     },
     {
       "group": "Live TV - Business",
-      "contains": ["business", "finance", "markets", "shopping"]
+      "contains": [
+        "business",
+        "finance",
+        "markets",
+        "shopping"
+      ]
     },
     {
       "group": "Live TV - Local / Public",
-      "contains": ["local", "public", "legislative", "government", "community"]
+      "contains": [
+        "local",
+        "public",
+        "legislative",
+        "government",
+        "community"
+      ]
     },
     {
       "group": "Live TV - Movies",
-      "contains": ["movie", "cinema", "film"]
+      "contains": [
+        "movie",
+        "cinema",
+        "film"
+      ]
     },
     {
       "group": "Live TV - Kids / Family",
-      "contains": ["kids", "children", "family", "animation", "animated"]
+      "contains": [
+        "kids",
+        "children",
+        "family",
+        "animation",
+        "animated"
+      ]
     },
     {
       "group": "Live TV - Documentary / Education",
-      "contains": ["documentary", "education", "science", "history", "nature", "animals", "culture"]
+      "contains": [
+        "documentary",
+        "education",
+        "science",
+        "history",
+        "nature",
+        "animals",
+        "culture"
+      ]
     },
     {
       "group": "Live TV - Lifestyle",
-      "contains": ["lifestyle", "food", "cooking", "home", "travel", "reality", "relax"]
+      "contains": [
+        "lifestyle",
+        "food",
+        "cooking",
+        "home",
+        "travel",
+        "reality",
+        "relax"
+      ]
     },
     {
       "group": "Live TV - Music",
-      "contains": ["music"]
+      "contains": [
+        "music"
+      ]
     },
     {
       "group": "Live TV - Religious",
-      "contains": ["religious", "faith", "christian"]
+      "contains": [
+        "religious",
+        "faith",
+        "christian"
+      ]
     },
     {
       "group": "Live TV - Series / TV",
-      "contains": ["series", "classic tv", "comedy", "drama", "crime", "entertainment"]
+      "contains": [
+        "series",
+        "classic tv",
+        "comedy",
+        "drama",
+        "crime",
+        "entertainment"
+      ]
     }
   ],
   "fallback_category": "Live TV - Other",
@@ -75,39 +142,37 @@
     "renamed_epg_minimum_titles": 6,
     "epg_candidate_min_shared_titles": 4,
     "epg_candidate_max_title_frequency": 12,
-    "strip_name_suffixes": ["hd", "fhd", "uhd", "4k", "1080p", "720p", "fast"],
-    "local_network_names": ["ABC", "CBS", "NBC", "FOX", "PBS", "CW", "The CW", "Telemundo", "Univision", "MyNetworkTV"],
+    "strip_name_suffixes": [
+      "hd",
+      "fhd",
+      "uhd",
+      "4k",
+      "1080p",
+      "720p",
+      "fast"
+    ],
+    "local_network_names": [
+      "ABC",
+      "CBS",
+      "NBC",
+      "FOX",
+      "PBS",
+      "CW",
+      "The CW",
+      "Telemundo",
+      "Univision",
+      "MyNetworkTV"
+    ],
     "local_keywords": [
-      "local",
-      "city",
       "county",
-      "regional",
-      "miami",
-      "tampa",
-      "orlando",
-      "jacksonville",
-      "atlanta",
-      "boston",
-      "chicago",
-      "dallas",
-      "denver",
-      "detroit",
-      "houston",
-      "las vegas",
-      "los angeles",
-      "new york",
-      "philadelphia",
-      "phoenix",
-      "san francisco",
-      "seattle",
-      "washington dc"
+      "regional"
     ],
     "visible_variants_per_identity": 2,
     "max_visible_variants_per_identity": 3,
     "third_variant_min_observations": 6,
     "third_variant_success_threshold": 0.9,
     "reliability_prior": 0.85,
-    "reliability_prior_weight": 3.0,
+    "reliability_prior_weight": 3,
     "score_weights": {
       "historical_success": 1000,
       "resolution_height": 0.2,
@@ -117,7 +182,46 @@
       "recent_failure_penalty": -150,
       "stale_manifest_penalty": -75
     },
-    "confirmed_alias_groups": []
+    "confirmed_alias_groups": [],
+    "local_markets": [
+      "atlanta",
+      "austin",
+      "baltimore",
+      "bay area",
+      "boston",
+      "california",
+      "chicago",
+      "colorado",
+      "dallas",
+      "denver",
+      "detroit",
+      "florida",
+      "houston",
+      "jacksonville",
+      "las vegas",
+      "los angeles",
+      "miami",
+      "milwaukee",
+      "minnesota",
+      "new york",
+      "noreste",
+      "orlando",
+      "philadelphia",
+      "phoenix",
+      "pittsburgh",
+      "sacramento",
+      "san diego",
+      "san francisco",
+      "seattle",
+      "south florida",
+      "tampa",
+      "tampa bay",
+      "texas",
+      "washington dc"
+    ],
+    "strong_aligned_epg_minimum": 10,
+    "strong_aligned_epg_minimum_titles": 4,
+    "strong_aligned_name_affinity": 0.5
   },
   "quality_gate": {
     "minimum_resolution_height": 480,
