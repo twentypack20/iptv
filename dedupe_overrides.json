@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "notes": "Research-backed identity overrides for cross-provider FAST dedupe. Keep this conservative: confirmed groups are same-channel branding variants; blocked pairs are known/likely distinct feeds that should never be merged merely from overlapping EPG titles.",
+  "confirmed_name_groups": [
+    [
+      "ONE Championship TV",
+      "ONE Championship"
+    ],
+    [
+      "TV One Crime & Justice",
+      "TV One CRIME & JUSTICE FAST CHANNEL"
+    ],
+    [
+      "TVOne Stars & Stories",
+      "TV One Stars & Stories"
+    ],
+    [
+      "The Grio",
+      "theGrio",
+      "TheGrio"
+    ],
+    [
+      "OuterSphere",
+      "OuterSphere by Lionsgate"
+    ],
+    [
+      "MovieSphere",
+      "MovieSphere by Lionsgate",
+      "MOVIESPHERE"
+    ],
+    [
+      "Vice",
+      "Vice Entertainment"
+    ],
+    [
+      "NASCAR",
+      "NASCAR Channel"
+    ],
+    [
+      "Creator Television",
+      "Creator TV"
+    ],
+    [
+      "Wu Tang Collection",
+      "The Wu Tang Collection TV"
+    ],
+    [
+      "Cheddar",
+      "Cheddar News"
+    ],
+    [
+      "Naturescape",
+      "Stingray Naturescape"
+    ],
+    [
+      "Newsmax2",
+      "Newsmax 2",
+      "NEWSMAX2"
+    ],
+    [
+      "HauntTV",
+      "Haunt TV"
+    ],
+    [
+      "Lifetime Movies Love & Drama",
+      "Lifetime Love & Drama"
+    ],
+    [
+      "ElectricNOW",
+      "Electric Now"
+    ],
+    [
+      "MyTime Movie Network",
+      "My Time Movie Network"
+    ],
+    [
+      "Love Nature",
+      "Love Nature English",
+      "Love Nature 4K"
+    ],
+    [
+      "Dove",
+      "Dove Channel"
+    ],
+    [
+      "Real Madrid",
+      "Real Madrid TV"
+    ],
+    [
+      "Field & Stream",
+      "Field & Stream TV"
+    ],
+    [
+      "Western Bound",
+      "Western Bound Wrangled by INSP"
+    ],
+    [
+      "Golazo Network",
+      "CBS Sports Golazo Network"
+    ],
+    [
+      "Shop LC",
+      "ShopLC"
+    ],
+    [
+      "Estrella TV",
+      "EstrellaTV"
+    ],
+    [
+      "Telemundo al Dia",
+      "Telemundo Al Día"
+    ],
+    [
+      "Emoción Atres",
+      "EMOCIÓN ATRES TV"
+    ],
+    [
+      "JoySauce",
+      "JoySauce Network"
+    ],
+    [
+      "The Pet Collective",
+      "Pet Collective"
+    ],
+    [
+      "Stingray Classica Stream",
+      "Classica"
+    ],
+    [
+      "Spark TV Light & Love",
+      "SparkTV: Light & Love"
+    ],
+    [
+      "Spark TV Luz y Amor",
+      "Spark TV - Luz & Amor"
+    ],
+    [
+      "Grjngo - Western Movies",
+      "Grjngo"
+    ],
+    [
+      "Laff More",
+      "Laff More!"
+    ],
+    [
+      "Mystery Science Theater 3000",
+      "Mystery Science Theater 3000 (MST3K)"
+    ],
+    [
+      "Yahoo! Finance",
+      "Yahoo Finance"
+    ],
+    [
+      "Law & Crime",
+      "Law&Crime"
+    ],
+    [
+      "America's Funniest Home Videos",
+      "America’s Funniest Home Videos"
+    ],
+    [
+      "How To",
+      "How-To"
+    ],
+    [
+      "Tennis Channel - +2",
+      "Tennis Channel 2"
+    ],
+    [
+      "Real America's Voice",
+      "America's Voice News"
+    ]
+  ],
+  "blocked_name_pairs": [
+    [
+      "Estrella Games",
+      "EstrellaTV"
+    ],
+    [
+      "Estrella Games",
+      "Estrella TV"
+    ],
+    [
+      "FilmRise Action",
+      "FilmRise Free Movies"
+    ],
+    [
+      "FilmRise Action",
+      "FilmRise"
+    ],
+    [
+      "FilmRise Free Movies",
+      "FilmRise"
+    ],
+    [
+      "Gravitas Movies",
+      "FilmRise Free Movies"
+    ],
+    [
+      "Gravitas Movies",
+      "FilmRise"
+    ],
+    [
+      "Very Carolina by WXII",
+      "KCCI Very Iowa Des Moines 8"
+    ],
+    [
+      "Very Carolina by WYFF 4",
+      "KCCI Very Iowa Des Moines 8"
+    ],
+    [
+      "Local Now Charlotte",
+      "Local Now"
+    ],
+    [
+      "ÚN TV",
+      "ÚNICA TV"
+    ],
+    [
+      "Moonbug",
+      "Moonbug Kids"
+    ],
+    [
+      "SPARK TV",
+      "SparkTV: Light & Love"
+    ],
+    [
+      "SPARK TV",
+      "Spark TV Light & Love"
+    ]
+  ],
+  "generic_local_names": [
+    "ABC",
+    "CBS",
+    "NBC",
+    "FOX",
+    "PBS",
+    "CW",
+    "The CW",
+    "Telemundo",
+    "Univision",
+    "MyNetworkTV",
+    "Local Now"
+  ]
+}
