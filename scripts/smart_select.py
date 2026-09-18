@@ -273,14 +273,6 @@ def epg_similarity(left, right, epg_index, minimum_titles):
     return title_similarity, len(intersection), aligned
 
 
-def alias_group_for(name_key, alias_groups, suffixes):
-    for index, group in enumerate(alias_groups or []):
-        normalized = {normalize_name(item, suffixes) for item in group if clean_text(item)}
-        if name_key in normalized:
-            return index
-    return None
-
-
 def pair_decision(left, right, cfg, epg_index):
     smart = cfg.get("smart_selection", {})
     threshold = float(smart.get("epg_similarity_threshold", 0.8))
@@ -768,15 +760,65 @@ def main():
     )
 
     ambiguous_pairs = [item for item in pair_evidence if not item.get("confirmed")]
+    confirmed_pairs = [item for item in pair_evidence if item.get("confirmed")]
     candidate_report = {
         "generated": generated,
-        "policy": "Candidate discovery uses normalized names, exact URLs, callsigns, confirmed aliases, and shared EPG titles. Exact URLs, same local callsigns without market conflict, exact national FAST names, or strong aligned EPG evidence can confirm identity. Uncertain pairs remain separate.",
+        "policy": "Candidate discovery uses normalized names, exact URLs, real station callsigns, researched aliases, market identity, and shared/aligned EPG schedules. Local Now is treated as a provider, not proof that every channel is local. Known false-positive pairs are blocked. Uncertain pairs remain separate.",
         "candidate_pairs_evaluated": len(pair_evidence),
-        "confirmed_pairs": sum(1 for item in pair_evidence if item.get("confirmed")),
+        "confirmed_pairs": len(confirmed_pairs),
         "ambiguous_pairs": ambiguous_pairs,
     }
     (DOCS_DIR / "dedupe-candidates.json").write_text(
         json.dumps(candidate_report, indent=2), encoding="utf-8"
+    )
+
+    reason_counts = defaultdict(int)
+    source_pair_counts = defaultdict(int)
+    exact_name_ambiguous = 0
+    for item in ambiguous_pairs:
+        reason_counts[clean_text(item.get("reason") or "unknown")] += 1
+        left_source = clean_text(item.get("left", "").split(":", 1)[0])
+        right_source = clean_text(item.get("right", "").split(":", 1)[0])
+        source_pair = " <-> ".join(sorted([left_source, right_source]))
+        source_pair_counts[source_pair] += 1
+        if clean_key(item.get("left_name")) == clean_key(item.get("right_name")):
+            exact_name_ambiguous += 1
+
+    confirmed_reason_counts = defaultdict(int)
+    for item in confirmed_pairs:
+        confirmed_reason_counts[clean_text(item.get("reason") or "unknown")] += 1
+
+    review_report = {
+        "generated": generated,
+        "candidate_pairs_evaluated": len(pair_evidence),
+        "confirmed_pairs": len(confirmed_pairs),
+        "ambiguous_pairs": len(ambiguous_pairs),
+        "exact_name_ambiguous_pairs": exact_name_ambiguous,
+        "confirmed_by_reason": dict(sorted(
+            confirmed_reason_counts.items(),
+            key=lambda item: (-item[1], item[0]),
+        )),
+        "ambiguous_by_reason": dict(sorted(
+            reason_counts.items(),
+            key=lambda item: (-item[1], item[0]),
+        )),
+        "ambiguous_by_source_pair": dict(sorted(
+            source_pair_counts.items(),
+            key=lambda item: (-item[1], item[0]),
+        )),
+        "researched_alias_groups": len(overrides.get("confirmed_name_groups") or []),
+        "researched_blocked_pairs": len(overrides.get("blocked_name_pairs") or []),
+        "remaining_high_epg_candidates": [
+            item for item in sorted(
+                ambiguous_pairs,
+                key=lambda row: float(row.get("epg_similarity") or 0),
+                reverse=True,
+            )
+            if float(item.get("epg_similarity") or 0) >= 0.5
+        ][:100],
+    }
+    (DOCS_DIR / "dedupe-review-report.json").write_text(
+        json.dumps(review_report, indent=2), encoding="utf-8"
     )
 
     quarantine_report = {
