@@ -30,7 +30,7 @@ def parse_playlist(path):
             continue
         if line.startswith("#EXTINF:"):
             attrs = {key: value for key, value in ATTR_RE.findall(line)}
-            name = line.split(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
+            name = line.rsplit(",", 1)[1].strip() if "," in line else attrs.get("tvg-name", "")
             current = {"attrs": attrs, "name": name}
             continue
         if current is None or line.startswith("#"):
