@@ -71,7 +71,12 @@
     "enabled": true,
     "epg_similarity_threshold": 0.8,
     "epg_minimum_titles": 4,
+    "renamed_epg_similarity_threshold": 0.9,
+    "renamed_epg_minimum_titles": 6,
+    "epg_candidate_min_shared_titles": 4,
+    "epg_candidate_max_title_frequency": 12,
     "strip_name_suffixes": ["hd", "fhd", "uhd", "4k", "1080p", "720p", "fast"],
+    "local_network_names": ["ABC", "CBS", "NBC", "FOX", "PBS", "CW", "The CW", "Telemundo", "Univision", "MyNetworkTV"],
     "local_keywords": [
       "local",
       "city",
@@ -97,23 +102,43 @@
       "seattle",
       "washington dc"
     ],
+    "visible_variants_per_identity": 2,
+    "max_visible_variants_per_identity": 3,
+    "third_variant_min_observations": 6,
+    "third_variant_success_threshold": 0.9,
+    "reliability_prior": 0.85,
+    "reliability_prior_weight": 3.0,
     "score_weights": {
       "historical_success": 1000,
       "resolution_height": 0.2,
       "bandwidth_mbps": 12,
       "latency_ms": -0.03,
       "direct_stream_bonus": 25,
-      "recent_failure_penalty": -150
+      "recent_failure_penalty": -150,
+      "stale_manifest_penalty": -75
     },
     "confirmed_alias_groups": []
   },
+  "quality_gate": {
+    "minimum_resolution_height": 480,
+    "low_resolution_samples": 2,
+    "minimum_success_rate": 0.8,
+    "reliability_min_observations": 12,
+    "reliability_min_span_hours": 48,
+    "dead_consecutive_failures": 4,
+    "dead_failure_span_hours": 48
+  },
   "health": {
-    "daily_sample_per_source": 30,
+    "source_sample_per_run": 20,
+    "published_sample_per_run": 1800,
+    "published_full_scan_hour_utc": 8,
     "full_scan_weekday_utc": 0,
     "request_timeout_seconds": 12,
-    "max_workers": 24,
+    "max_workers": 32,
     "persistent_failure_threshold": 3,
-    "stream_history_limit": 30
+    "stream_history_limit": 24,
+    "ffprobe_unknowns_per_run": 20,
+    "stale_state_days": 45
   },
   "sources": [
     {

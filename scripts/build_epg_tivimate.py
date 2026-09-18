@@ -19,7 +19,7 @@ def playlist(path):
     for line in path.read_text(encoding='utf-8').replace('\r','').split('\n'):
         line=line.strip()
         if line.startswith('#EXTINF:'):
-            a={k:v for k,v in ATTR.findall(line)}; n=line.split(',',1)[1].strip() if ',' in line else a.get('tvg-name',''); cur={'attrs':a,'name':clean(n)}
+            a={k:v for k,v in ATTR.findall(line)}; n=line.rsplit(',',1)[1].strip() if ',' in line else a.get('tvg-name',''); cur={'attrs':a,'name':clean(n)}
         elif cur is not None and line and not line.startswith('#'):
             cur['url']=line; out.append(cur); cur=None
     return out
@@ -105,11 +105,19 @@ def main():
         try:
             rep=json.loads(SELECT.read_text())
             for g in rep.get('collapsed_groups',[]):
-                q=g.get('selected') or {}; ss=clean(q.get('source')); sr=clean(q.get('tvg_id')); oids=set(outputs.get((ss,sr),set()))
-                if not oids: continue
-                for x in g.get('alternatives',[]):
+                chosen=g.get('selected') or []
+                if isinstance(chosen,dict): chosen=[chosen]
+                candidates=list(chosen)+(g.get('alternatives') or [])
+                target_oids=set()
+                for q in chosen:
+                    ss,sr=clean(q.get('source')),clean(q.get('tvg_id'))
+                    if ss and sr: target_oids.update(outputs.get((ss,sr),set()))
+                if not target_oids: continue
+                for x in candidates:
                     xs,xr=clean(x.get('source')),clean(x.get('tvg_id'))
-                    if xs and xr: wanted[xs].add(xr); outputs[(xs,xr)].update(oids)
+                    if xs and xr:
+                        wanted[xs].add(xr)
+                        outputs[(xs,xr)].update(target_oids)
         except Exception: pass
     native_reports=[]
     for sid,ids in sorted(wanted.items()):

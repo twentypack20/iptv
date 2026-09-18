@@ -3,7 +3,7 @@ name: Check Supplemental IPTV Health
 on:
   workflow_dispatch:
   schedule:
-    - cron: "47 6 * * *"
+    - cron: "17 */4 * * *"
 
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
         run: |
           python -m py_compile scripts/health_check.py
 
-      - name: Check supplemental playlists and streams
+      - name: Check supplemental playlists and published streams
         id: health
         continue-on-error: true
         run: |
