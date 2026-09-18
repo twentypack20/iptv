@@ -816,6 +816,14 @@ def main():
             )
             if float(item.get("epg_similarity") or 0) >= 0.5
         ][:100],
+        "remaining_review_queue": [
+            item for item in ambiguous_pairs
+            if not (
+                clean_text(item.get("reason")).startswith("researched-blocked-pair")
+                or clean_text(item.get("reason")).startswith("local-market-conflict")
+                or clean_text(item.get("reason")).startswith("local-callsign-conflict")
+            )
+        ],
     }
     (DOCS_DIR / "dedupe-review-report.json").write_text(
         json.dumps(review_report, indent=2), encoding="utf-8"
