@@ -3,6 +3,7 @@
 import itertools
 import json
 import re
+import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -11,11 +12,12 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 CONFIG_PATH = ROOT / "supplemental_sources.json"
+OVERRIDES_PATH = ROOT / "dedupe_overrides.json"
 ALL_SOURCES_PATH = DOCS_DIR / "all-sources.m3u"
 EPG_INDEX_PATH = DOCS_DIR / "epg-fingerprints.json"
 HEALTH_STATE_PATH = DOCS_DIR / "health-state.json"
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
-CALLSIGN_RE = re.compile(r"\b([KW][A-Z]{3,4})(?:-(TV|DT)(\d+)?)?\b", re.I)
+CALLSIGN_RE = re.compile(r"\b([KW][A-Z]{3})(?:-(TV|DT)(\d+)?)?\b")
 
 
 class UnionFind:
