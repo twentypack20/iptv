@@ -437,7 +437,16 @@ def rank_entries(component, cfg, health_state, source_order):
         ),
         reverse=True,
     )
-    return scored
+    deduped = []
+    seen_urls = set()
+    for item in scored:
+        url_key = clean_text(item[2].get("url"))
+        if url_key and url_key in seen_urls:
+            continue
+        if url_key:
+            seen_urls.add(url_key)
+        deduped.append(item)
+    return deduped
 
 
 def select_visible_variants(scored, cfg):
