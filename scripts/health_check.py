@@ -130,30 +130,38 @@ def media_sequence(text):
 
 def probe_hls(final_url, body, timeout):
     text = body.decode("utf-8", errors="ignore")
-    max_height, max_bandwidth, variants = hls_master_quality(text)
-    media_url = final_url
-    media_text = text
-    extra_latency = 0.0
-    if variants:
-        media_url = urllib.parse.urljoin(final_url, variants[0][2])
-        media_url, status, _, media_body, elapsed = fetch_bytes(media_url, timeout, 262144)
-        extra_latency += elapsed
-        if status >= 400:
-            raise RuntimeError(f"variant playlist HTTP {status}")
-        media_text = media_body.decode("utf-8", errors="ignore")
-        if "#EXTM3U" not in media_text.upper():
-            raise RuntimeError("variant URL did not return an HLS playlist")
-    sequence = media_sequence(media_text)
-    segment_ref = first_media_uri(media_text)
-    if not segment_ref:
-        return max_height, max_bandwidth, extra_latency, 0.0, False, sequence
-    segment_url = urllib.parse.urljoin(media_url, segment_ref)
-    _, status, _, segment_body, segment_latency = fetch_bytes(
-        segment_url, timeout, 65536, {"Range": "bytes=0-65535"}
-    )
-    if status >= 400 or not segment_body:
-        raise RuntimeError(f"first media segment unavailable (HTTP {status})")
-    return max_height, max_bandwidth, extra_latency, segment_latency, True, sequence
+    advertised_height, advertised_bandwidth, variants = hls_master_quality(text)
+
+    def verify_media(media_url, media_text, base_latency, height, bandwidth):
+        sequence = media_sequence(media_text)
+        segment_ref = first_media_uri(media_text)
+        if not segment_ref:
+            raise RuntimeError("media playlist contained no segment")
+        segment_url = urllib.parse.urljoin(media_url, segment_ref)
+        _, status, _, segment_body, segment_latency = fetch_bytes(
+            segment_url, timeout, 65536, {"Range": "bytes=0-65535"}
+        )
+        if status >= 400 or not segment_body:
+            raise RuntimeError(f"first media segment unavailable (HTTP {status})")
+        return height, bandwidth, base_latency, segment_latency, True, sequence
+
+    if not variants:
+        return verify_media(final_url, text, 0.0, advertised_height, advertised_bandwidth)
+
+    last_error = None
+    for bandwidth, height, variant_ref in variants[:4]:
+        try:
+            media_url = urllib.parse.urljoin(final_url, variant_ref)
+            media_url, status, _, media_body, elapsed = fetch_bytes(media_url, timeout, 262144)
+            if status >= 400:
+                raise RuntimeError(f"variant playlist HTTP {status}")
+            media_text = media_body.decode("utf-8", errors="ignore")
+            if "#EXTM3U" not in media_text.upper():
+                raise RuntimeError("variant URL did not return an HLS playlist")
+            return verify_media(media_url, media_text, elapsed, height, bandwidth)
+        except Exception as exc:
+            last_error = exc
+    raise RuntimeError(f"all tested HLS variants failed: {last_error}")
 
 
 def probe_stream(entry, timeout):
@@ -303,7 +311,11 @@ def evaluate_quarantine(record, cfg):
 
 
 def update_stream_state(previous, result, history_limit, now_iso, quarantine_cfg):
-    history = list(previous.get("history") or [])[-max(history_limit - 1, 0):]
+    history = list(previous.get("history") or [])
+    if history and history[-1].get("checked") == now_iso:
+        history = history[:-1]
+    keep = max(history_limit - 1, 0)
+    history = history[-keep:] if keep else []
     history.append({
         "ok": bool(result["ok"]),
         "latency_ms": result.get("startup_latency_ms") or 0,
