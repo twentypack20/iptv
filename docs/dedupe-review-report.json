@@ -1,106 +1,122 @@
 {
-  "generated": "2026-09-18 16:47:21 UTC",
-  "candidate_pairs_evaluated": 4294,
-  "confirmed_pairs": 4272,
-  "ambiguous_pairs": 22,
+  "generated": "2026-09-19 13:13:47 UTC",
+  "candidate_pairs_evaluated": 4311,
+  "confirmed_pairs": 4280,
+  "ambiguous_pairs": 31,
   "exact_name_ambiguous_pairs": 1,
   "confirmed_by_reason": {
-    "exact-national-name": 3176,
-    "researched-alias": 420,
+    "exact-national-name": 3201,
+    "researched-alias": 412,
     "exact-stream-url": 253,
-    "same-local-callsign": 160,
+    "same-local-callsign": 170,
     "same-local-market-name": 117,
-    "name+epg:9-titles/24-aligned": 10,
-    "name+epg:5-titles/24-aligned": 8,
-    "name+epg:24-titles/24-aligned": 6,
-    "name+epg:4-titles/0-aligned": 6,
-    "name+epg:4-titles/24-aligned": 6,
-    "name+epg:6-titles/24-aligned": 6,
-    "name+epg:5-titles/20-aligned": 5,
+    "name+epg:5-titles/24-aligned": 9,
+    "name+epg:4-titles/24-aligned": 8,
+    "name+epg:4-titles/0-aligned": 4,
+    "name+epg:8-titles/24-aligned": 4,
     "name+epg:11-titles/24-aligned": 3,
-    "name+epg:13-titles/24-aligned": 3,
-    "name+epg:4-titles/12-aligned": 3,
-    "name+epg:4-titles/18-aligned": 3,
-    "name+epg:7-titles/24-aligned": 3,
-    "name+epg:8-titles/4-aligned": 3,
-    "name+epg:10-titles/23-aligned": 2,
-    "name+epg:11-titles/14-aligned": 2,
-    "name+epg:11-titles/19-aligned": 2,
-    "name+epg:16-titles/19-aligned": 2,
-    "name+epg:16-titles/23-aligned": 2,
-    "name+epg:23-titles/24-aligned": 2,
-    "name+epg:4-titles/1-aligned": 2,
-    "name+epg:4-titles/10-aligned": 2,
+    "name+epg:4-titles/19-aligned": 3,
+    "name+epg:4-titles/20-aligned": 3,
+    "name+epg:4-titles/23-aligned": 3,
+    "name+epg:6-titles/24-aligned": 3,
+    "name+epg:9-titles/12-aligned": 3,
+    "name+epg:10-titles/24-aligned": 2,
+    "name+epg:11-titles/18-aligned": 2,
+    "name+epg:14-titles/24-aligned": 2,
     "name+epg:4-titles/17-aligned": 2,
-    "name+epg:4-titles/20-aligned": 2,
-    "name+epg:4-titles/4-aligned": 2,
-    "name+epg:4-titles/7-aligned": 2,
-    "name+epg:5-titles/0-aligned": 2,
-    "name+epg:5-titles/19-aligned": 2,
-    "name+epg:6-titles/13-aligned": 2,
-    "name+epg:8-titles/14-aligned": 2,
-    "name+epg:8-titles/18-aligned": 2,
-    "name+epg:9-titles/22-aligned": 2,
-    "name+epg:9-titles/7-aligned": 2,
-    "name+epg:10-titles/24-aligned": 1,
+    "name+epg:5-titles/1-aligned": 2,
+    "name+epg:5-titles/13-aligned": 2,
+    "name+epg:5-titles/16-aligned": 2,
+    "name+epg:5-titles/18-aligned": 2,
+    "name+epg:5-titles/8-aligned": 2,
+    "name+epg:6-titles/12-aligned": 2,
+    "name+epg:8-titles/10-aligned": 2,
+    "name+epg:8-titles/17-aligned": 2,
+    "name+epg:9-titles/19-aligned": 2,
+    "name+epg:9-titles/24-aligned": 2,
+    "strong-aligned-epg:4-titles/11-aligned": 2,
+    "strong-aligned-epg:5-titles/24-aligned": 2,
+    "name+epg:10-titles/22-aligned": 1,
+    "name+epg:10-titles/23-aligned": 1,
+    "name+epg:11-titles/11-aligned": 1,
+    "name+epg:11-titles/15-aligned": 1,
     "name+epg:11-titles/17-aligned": 1,
     "name+epg:11-titles/21-aligned": 1,
-    "name+epg:12-titles/0-aligned": 1,
-    "name+epg:12-titles/20-aligned": 1,
-    "name+epg:12-titles/24-aligned": 1,
+    "name+epg:12-titles/1-aligned": 1,
+    "name+epg:12-titles/16-aligned": 1,
+    "name+epg:12-titles/6-aligned": 1,
+    "name+epg:13-titles/19-aligned": 1,
+    "name+epg:13-titles/20-aligned": 1,
     "name+epg:13-titles/23-aligned": 1,
-    "name+epg:14-titles/21-aligned": 1,
-    "name+epg:15-titles/23-aligned": 1,
-    "name+epg:15-titles/24-aligned": 1,
-    "name+epg:19-titles/24-aligned": 1,
-    "name+epg:20-titles/0-aligned": 1,
-    "name+epg:20-titles/21-aligned": 1,
-    "name+epg:20-titles/23-aligned": 1,
+    "name+epg:16-titles/0-aligned": 1,
+    "name+epg:17-titles/16-aligned": 1,
+    "name+epg:17-titles/21-aligned": 1,
+    "name+epg:18-titles/23-aligned": 1,
+    "name+epg:19-titles/1-aligned": 1,
+    "name+epg:20-titles/1-aligned": 1,
     "name+epg:21-titles/0-aligned": 1,
-    "name+epg:21-titles/21-aligned": 1,
     "name+epg:22-titles/22-aligned": 1,
+    "name+epg:22-titles/24-aligned": 1,
+    "name+epg:4-titles/12-aligned": 1,
     "name+epg:4-titles/13-aligned": 1,
-    "name+epg:4-titles/23-aligned": 1,
-    "name+epg:4-titles/8-aligned": 1,
-    "name+epg:5-titles/11-aligned": 1,
-    "name+epg:5-titles/12-aligned": 1,
-    "name+epg:5-titles/16-aligned": 1,
-    "name+epg:5-titles/2-aligned": 1,
-    "name+epg:5-titles/6-aligned": 1,
+    "name+epg:4-titles/21-aligned": 1,
+    "name+epg:4-titles/3-aligned": 1,
+    "name+epg:4-titles/4-aligned": 1,
+    "name+epg:4-titles/5-aligned": 1,
+    "name+epg:4-titles/6-aligned": 1,
+    "name+epg:4-titles/7-aligned": 1,
+    "name+epg:5-titles/0-aligned": 1,
+    "name+epg:5-titles/10-aligned": 1,
+    "name+epg:5-titles/19-aligned": 1,
+    "name+epg:5-titles/20-aligned": 1,
+    "name+epg:5-titles/22-aligned": 1,
+    "name+epg:5-titles/23-aligned": 1,
+    "name+epg:5-titles/9-aligned": 1,
     "name+epg:6-titles/0-aligned": 1,
-    "name+epg:6-titles/10-aligned": 1,
-    "name+epg:6-titles/12-aligned": 1,
+    "name+epg:6-titles/1-aligned": 1,
     "name+epg:6-titles/19-aligned": 1,
-    "name+epg:6-titles/2-aligned": 1,
-    "name+epg:6-titles/23-aligned": 1,
-    "name+epg:6-titles/3-aligned": 1,
+    "name+epg:6-titles/21-aligned": 1,
+    "name+epg:6-titles/4-aligned": 1,
     "name+epg:7-titles/12-aligned": 1,
-    "name+epg:7-titles/16-aligned": 1,
     "name+epg:7-titles/17-aligned": 1,
-    "name+epg:7-titles/20-aligned": 1,
-    "name+epg:7-titles/23-aligned": 1,
-    "name+epg:8-titles/10-aligned": 1,
+    "name+epg:7-titles/21-aligned": 1,
+    "name+epg:7-titles/24-aligned": 1,
     "name+epg:8-titles/13-aligned": 1,
-    "name+epg:8-titles/16-aligned": 1,
-    "name+epg:8-titles/24-aligned": 1,
-    "name+epg:9-titles/12-aligned": 1,
-    "name+epg:9-titles/19-aligned": 1
+    "name+epg:8-titles/23-aligned": 1,
+    "name+epg:9-titles/14-aligned": 1,
+    "name+epg:9-titles/16-aligned": 1,
+    "name+epg:9-titles/23-aligned": 1,
+    "strong-aligned-epg:5-titles/15-aligned": 1,
+    "strong-aligned-epg:6-titles/20-aligned": 1
   },
   "ambiguous_by_reason": {
-    "researched-blocked-pair": 19,
+    "researched-blocked-pair": 9,
+    "local-callsign-conflict": 5,
+    "different-name-epg:4-titles/4-aligned": 3,
+    "different-name-epg:4-titles/7-aligned": 3,
+    "different-name-epg:4-titles/0-aligned": 2,
+    "different-name-epg:6-titles/17-aligned": 2,
     "local-market-conflict": 2,
+    "different-name-epg:4-titles/5-aligned": 1,
+    "different-name-epg:5-titles/2-aligned": 1,
+    "different-name-epg:5-titles/9-aligned": 1,
+    "different-name-epg:9-titles/19-aligned": 1,
     "local-protection:generic-local-risk|generic-local-risk": 1
   },
   "ambiguous_by_source_pair": {
-    "plex <-> xumo": 5,
-    "plex <-> roku": 4,
-    "plex <-> tubi": 4,
-    "roku <-> samsung": 2,
-    "roku <-> xumo": 2,
+    "plex <-> xumo": 7,
+    "plex <-> roku": 6,
+    "plex <-> tubi": 5,
+    "roku <-> xumo": 3,
     "vizio <-> xumo": 2,
     "localnow <-> vizio": 1,
-    "plex <-> samsung": 1,
-    "samsung <-> xumo": 1
+    "plex <-> pluto": 1,
+    "pluto <-> samsung": 1,
+    "pluto <-> tubi": 1,
+    "pluto <-> xumo": 1,
+    "roku <-> samsung": 1,
+    "roku <-> tubi": 1,
+    "tubi <-> xumo": 1
   },
   "researched_alias_groups": 46,
   "researched_blocked_pairs": 15,
@@ -123,23 +139,23 @@
       "left_name": "\u00daN TV",
       "right_name": "\u00daNICA TV",
       "candidate_reasons": [
-        "shared-epg-titles:7"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 1.0
+      "epg_similarity": 0.8571
     },
     {
-      "left": "plex:6a1610bebdf296985fd95603-616df1e90dfa27ee465797fa",
-      "right": "xumo:99991399",
-      "left_name": "CineLife",
-      "right_name": "Magnolia Selects",
+      "left": "plex:6a1610bebdf296985fd95603-606605549dbfca002d2ae873",
+      "right": "pluto:59b722526996084038c01e1b",
+      "left_name": "TNA Wrestling Channel",
+      "right_name": "TNA Wrestling",
       "candidate_reasons": [
-        "shared-epg-titles:20"
+        "shared-epg-titles:5"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.9167
+      "reason": "different-name-epg:5-titles/9-aligned",
+      "epg_similarity": 0.8333
     },
     {
       "left": "samsung:USBB11000015Q",
@@ -147,26 +163,230 @@
       "left_name": "Moonbug",
       "right_name": "Moonbug Kids",
       "candidate_reasons": [
-        "shared-epg-titles:7"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.7778
+      "epg_similarity": 0.6667
     },
     {
-      "left": "plex:6a1610bebdf296985fd95603-66ea085d9502c5778b828d41",
+      "left": "roku:d6f71998860459eca1bed73db5988330",
       "right": "xumo:99991337",
       "left_name": "FilmRise Free Movies",
       "right_name": "FilmRise",
       "candidate_reasons": [
-        "shared-epg-titles:13"
+        "shared-epg-titles:12"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.5385
+      "epg_similarity": 0.65
+    },
+    {
+      "left": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "right": "tubi:400000056",
+      "left_name": "Ebony",
+      "right_name": "Ebony TV by Lionsgate",
+      "candidate_reasons": [
+        "shared-epg-titles:9"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:9-titles/19-aligned",
+      "epg_similarity": 0.6429
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-65621e98b7d737841f30a4f9",
+      "right": "roku:aee4056540505e84a2196b4d2263b745",
+      "left_name": "TruBlu",
+      "right_name": "TruBlu Crime Channel",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/0-aligned",
+      "epg_similarity": 0.5
+    },
+    {
+      "left": "pluto:632b619c8d2a6c0007ff534e",
+      "right": "samsung:USBC1000017D8",
+      "left_name": "KIRO Seattle",
+      "right_name": "WSOC Charlotte",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "local-callsign-conflict",
+      "epg_similarity": 0.5
     }
   ],
   "remaining_review_queue": [
+    {
+      "left": "plex:6a1610bebdf296985fd95603-5ef11486d33ab9004048a1cd",
+      "right": "roku:86c08261fc015a58866210bea63eb8f4",
+      "left_name": "Always Funny",
+      "right_name": "Always Funny Videos",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3636
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-6a4af875410e0eea561f76af",
+      "right": "roku:04be54c79d1f55d0909e684f64f9fb57",
+      "left_name": "Azteca Deportes Network",
+      "right_name": "Azteca Deportes Network LITE 3",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/0-aligned",
+      "epg_similarity": 0.4444
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-64a8903d273b89c4e7396553",
+      "right": "xumo:99991387",
+      "left_name": "beIN Sports Xtra en Espa\u00f1ol",
+      "right_name": "beIN SPORTS XTRA",
+      "candidate_reasons": [
+        "shared-epg-titles:5"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:5-titles/2-aligned",
+      "epg_similarity": 0.1852
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-6533de63bd43e1c8b1865152",
+      "right": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "left_name": "Ebony TV by Lionsgate",
+      "right_name": "Ebony",
+      "candidate_reasons": [
+        "shared-epg-titles:6"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:6-titles/17-aligned",
+      "epg_similarity": 0.4286
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-624c37af6281708eabbbe26b",
+      "right": "tubi:400000286",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.2667
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-624c37af6281708eabbbe26b",
+      "right": "xumo:99951538",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.2667
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-69b047eed42e70e462105dbb",
+      "right": "xumo:99951158",
+      "left_name": "Scripps Sports Network",
+      "right_name": "ION",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.3077
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-606605549dbfca002d2ae873",
+      "right": "pluto:59b722526996084038c01e1b",
+      "left_name": "TNA Wrestling Channel",
+      "right_name": "TNA Wrestling",
+      "candidate_reasons": [
+        "shared-epg-titles:5"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:5-titles/9-aligned",
+      "epg_similarity": 0.8333
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-65621e98b7d737841f30a4f9",
+      "right": "roku:aee4056540505e84a2196b4d2263b745",
+      "left_name": "TruBlu",
+      "right_name": "TruBlu Crime Channel",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/0-aligned",
+      "epg_similarity": 0.5
+    },
+    {
+      "left": "pluto:65453f30085df200085883d8",
+      "right": "tubi:400000286",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3333
+    },
+    {
+      "left": "pluto:65453f30085df200085883d8",
+      "right": "xumo:99951538",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3333
+    },
+    {
+      "left": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "right": "tubi:400000056",
+      "left_name": "Ebony",
+      "right_name": "Ebony TV by Lionsgate",
+      "candidate_reasons": [
+        "shared-epg-titles:9"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:9-titles/19-aligned",
+      "epg_similarity": 0.6429
+    },
+    {
+      "left": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "right": "xumo:99951293",
+      "left_name": "Ebony",
+      "right_name": "Ebony TV by Lionsgate",
+      "candidate_reasons": [
+        "shared-epg-titles:6"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:6-titles/17-aligned",
+      "epg_similarity": 0.4
+    },
+    {
+      "left": "tubi:400000286",
+      "right": "xumo:99951158",
+      "left_name": "Scripps Sports Network",
+      "right_name": "ION",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/5-aligned",
+      "epg_similarity": 0.2667
+    },
     {
       "left": "vizio:",
       "right": "xumo:99991282",

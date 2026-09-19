@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 16:47:21 UTC",
+  "generated": "2026-09-19 13:13:47 UTC",
   "policy": {
     "minimum_resolution_height": 480,
     "low_resolution_samples": 2,
@@ -9,6 +9,151 @@
     "dead_consecutive_failures": 4,
     "dead_failure_span_hours": 48
   },
-  "quarantined_streams": 0,
-  "streams": []
+  "quarantined_streams": 12,
+  "streams": [
+    {
+      "source": "iptv-org",
+      "tvg_id": "CommunityTVChannel189.us@SD",
+      "name": "CommunityTV Channel 189",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-18T22:39:09.975143+00:00",
+      "url": "https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8"
+    },
+    {
+      "source": "xumo",
+      "tvg_id": "99951585",
+      "name": "Driftwood",
+      "reason": "confirmed-below-480p",
+      "sample_count": 3,
+      "success_rate": 1.0,
+      "recent_median_height": 432,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "https://live-content.xumo.com/4519/content/XM0DMG7H46V8XB/29437998/master.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "FlowersTVUSA.us@SD",
+      "name": "Flowers TV USA",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 396,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-18T22:39:09.975143+00:00",
+      "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8"
+    },
+    {
+      "source": "xumo",
+      "tvg_id": "99991349",
+      "name": "It's Showtime at the Apollo",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 432,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T04:44:33.557028+00:00",
+      "url": "https://live-content.xumo.com/1836/content/XM08RFC5V0ZUHI/21861691/master.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "LakeHavasuCity4.us@SD",
+      "name": "Lake Havasu City 4",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/lakehavasucity/G0643_003/playlist.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "NBC.us@WTVJ",
+      "name": "NBC - WTVJ",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "NickJr.us@East",
+      "name": "Nick Jr.",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 404,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "http://212.5.144.156:8080/nickjr/index.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "PCTV28.us@SD",
+      "name": "PCTV 28",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-18T22:39:09.975143+00:00",
+      "url": "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_002/playlist.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "TVSHollywoodHistory.us@SD",
+      "name": "TVS Hollywood History",
+      "reason": "confirmed-below-480p",
+      "sample_count": 3,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T04:44:33.557028+00:00",
+      "url": "https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "TVSMusicNetwork.us@SD",
+      "name": "TVS Music Network",
+      "reason": "confirmed-below-480p",
+      "sample_count": 4,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8"
+    },
+    {
+      "source": "iptv-org",
+      "tvg_id": "TVSPinballNetwork.us@SD",
+      "name": "TVS Pinball Network",
+      "reason": "confirmed-below-480p",
+      "sample_count": 3,
+      "success_rate": 1.0,
+      "recent_median_height": 360,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-19T12:33:28.980057+00:00",
+      "url": "https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8"
+    },
+    {
+      "source": "xumo",
+      "tvg_id": "99991639",
+      "name": "Xumo Free Game Show TV",
+      "reason": "confirmed-below-480p",
+      "sample_count": 2,
+      "success_rate": 1.0,
+      "recent_median_height": 432,
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-18T22:39:09.975143+00:00",
+      "url": "https://live-content.xumo.com/2041/content/XM0G6Q4XRYBILF/22017822/master.m3u8"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 #EXTM3U tvg-shift="0"
-# Generated: 2026-09-18 16:45:57 UTC
+# Generated: 2026-09-19 13:12:31 UTC
 # Playlist: Custom IPTV - US English
 # Timezone: America/New_York
 # Core source: iptv-org (feed-aware)
@@ -2589,8 +2589,6 @@ https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playl
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-name="Fox Sports 1" tvg-logo="https://twentypack20.github.io/iptv/posters/foxsports1.us.png" group-title="USA - Sports",Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-name="Fox Sports 2" tvg-logo="https://twentypack20.github.io/iptv/posters/foxsports2.us.png" group-title="USA - Sports",Fox Sports 2
-https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-name="Fubo Sports Network" tvg-logo="https://twentypack20.github.io/iptv/posters/fubosportsnetwork.us.png" group-title="USA - Sports",Fubo Sports Network
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="GloryKickboxing.us@Poland" tvg-name="Glory Kickboxing - Poland" tvg-logo="https://twentypack20.github.io/iptv/posters/glorykickboxing.us.png" group-title="USA - Sports",Glory Kickboxing - Poland

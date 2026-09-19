@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18 16:47:21 UTC",
+  "generated": "2026-09-19 13:13:47 UTC",
   "policy": "Candidate discovery uses normalized names, exact URLs, real station callsigns, researched aliases, market identity, and shared/aligned EPG schedules. Local Now is treated as a provider, not proof that every channel is local. Known false-positive pairs are blocked. Uncertain pairs remain separate.",
-  "candidate_pairs_evaluated": 4294,
-  "confirmed_pairs": 4272,
+  "candidate_pairs_evaluated": 4311,
+  "confirmed_pairs": 4280,
   "ambiguous_pairs": [
     {
       "left": "localnow:LN_6C752984-0F88-4C23-9872-503354F92E63",
@@ -17,68 +17,80 @@
       "epg_similarity": 0.0
     },
     {
+      "left": "plex:6a1610bebdf296985fd95603-5ef11486d33ab9004048a1cd",
+      "right": "roku:86c08261fc015a58866210bea63eb8f4",
+      "left_name": "Always Funny",
+      "right_name": "Always Funny Videos",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3636
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-6a4af875410e0eea561f76af",
+      "right": "roku:04be54c79d1f55d0909e684f64f9fb57",
+      "left_name": "Azteca Deportes Network",
+      "right_name": "Azteca Deportes Network LITE 3",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/0-aligned",
+      "epg_similarity": 0.4444
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-64a8903d273b89c4e7396553",
+      "right": "xumo:99991387",
+      "left_name": "beIN Sports Xtra en Espa\u00f1ol",
+      "right_name": "beIN SPORTS XTRA",
+      "candidate_reasons": [
+        "shared-epg-titles:5"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:5-titles/2-aligned",
+      "epg_similarity": 0.1852
+    },
+    {
       "left": "plex:6a1610bebdf296985fd95603-616df1e90dfa27ee465797fa",
       "right": "xumo:99991399",
       "left_name": "CineLife",
       "right_name": "Magnolia Selects",
       "candidate_reasons": [
-        "shared-epg-titles:20"
+        "shared-epg-titles:11"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.9167
+      "epg_similarity": 0.4615
     },
     {
-      "left": "plex:6a1610bebdf296985fd95603-64fb9149bb3e0baa5dcc0944",
-      "right": "tubi:400000031",
-      "left_name": "Estrella Games",
-      "right_name": "EstrellaTV",
+      "left": "plex:6a1610bebdf296985fd95603-6533de63bd43e1c8b1865152",
+      "right": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "left_name": "Ebony TV by Lionsgate",
+      "right_name": "Ebony",
       "candidate_reasons": [
-        "shared-epg-titles:4"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2222
-    },
-    {
-      "left": "plex:6a1610bebdf296985fd95603-60089d98f682a3002c34829f",
-      "right": "tubi:400000030",
-      "left_name": "Estrella TV",
-      "right_name": "Estrella Games",
-      "candidate_reasons": [
-        "shared-epg-titles:4"
-      ],
-      "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2353
-    },
-    {
-      "left": "plex:6a1610bebdf296985fd95603-66ea0504c24d95b51b7cd189",
-      "right": "roku:d6f71998860459eca1bed73db5988330",
-      "left_name": "FilmRise Action",
-      "right_name": "FilmRise Free Movies",
-      "candidate_reasons": [
-        "shared-epg-titles:5"
-      ],
-      "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1579
-    },
-    {
-      "left": "plex:6a1610bebdf296985fd95603-66ea0504c24d95b51b7cd189",
-      "right": "xumo:99991337",
-      "left_name": "FilmRise Action",
-      "right_name": "FilmRise",
-      "candidate_reasons": [
-        "shared-epg-titles:4"
-      ],
-      "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1
+      "reason": "different-name-epg:6-titles/17-aligned",
+      "epg_similarity": 0.4286
     },
     {
       "left": "plex:6a1610bebdf296985fd95603-66ea085d9502c5778b828d41",
-      "right": "samsung:USBD700011RE",
+      "right": "xumo:99991337",
+      "left_name": "FilmRise Free Movies",
+      "right_name": "FilmRise",
+      "candidate_reasons": [
+        "shared-epg-titles:10"
+      ],
+      "confirmed": false,
+      "reason": "researched-blocked-pair",
+      "epg_similarity": 0.4545
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-66ea085d9502c5778b828d41",
+      "right": "xumo:99991312",
       "left_name": "FilmRise Free Movies",
       "right_name": "Gravitas Movies",
       "candidate_reasons": [
@@ -86,43 +98,31 @@
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2
+      "epg_similarity": 0.1481
     },
     {
-      "left": "plex:6a1610bebdf296985fd95603-66ea085d9502c5778b828d41",
-      "right": "xumo:99991337",
-      "left_name": "FilmRise Free Movies",
-      "right_name": "FilmRise",
-      "candidate_reasons": [
-        "shared-epg-titles:13"
-      ],
-      "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.5385
-    },
-    {
-      "left": "plex:6a1610bebdf296985fd95603-5efe1de7e0b3f5003f5d9f8e",
-      "right": "roku:d6f71998860459eca1bed73db5988330",
-      "left_name": "Gravitas Movies",
-      "right_name": "FilmRise Free Movies",
-      "candidate_reasons": [
-        "shared-epg-titles:5"
-      ],
-      "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2222
-    },
-    {
-      "left": "plex:6a1610bebdf296985fd95603-5efe1de7e0b3f5003f5d9f8e",
-      "right": "xumo:99991337",
-      "left_name": "Gravitas Movies",
-      "right_name": "FilmRise",
+      "left": "plex:6a1610bebdf296985fd95603-624c37af6281708eabbbe26b",
+      "right": "tubi:400000286",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
       "candidate_reasons": [
         "shared-epg-titles:4"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1379
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.2667
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-624c37af6281708eabbbe26b",
+      "right": "xumo:99951538",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.2667
     },
     {
       "left": "plex:6a1610bebdf296985fd95603-62a22a2ed95f6a0c0146cc73",
@@ -137,40 +137,100 @@
       "epg_similarity": 1.0
     },
     {
+      "left": "plex:6a1610bebdf296985fd95603-69b047eed42e70e462105dbb",
+      "right": "xumo:99951158",
+      "left_name": "Scripps Sports Network",
+      "right_name": "ION",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/4-aligned",
+      "epg_similarity": 0.3077
+    },
+    {
       "left": "plex:6a1610bebdf296985fd95603-614a11bfa6f839154ee3306d",
       "right": "roku:eb1dbd690001553eacdf32d7b155b933",
       "left_name": "Spark TV Light & Love",
       "right_name": "SPARK TV",
       "candidate_reasons": [
-        "shared-epg-titles:5"
+        "shared-epg-titles:4"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1852
+      "epg_similarity": 0.1818
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-606605549dbfca002d2ae873",
+      "right": "pluto:59b722526996084038c01e1b",
+      "left_name": "TNA Wrestling Channel",
+      "right_name": "TNA Wrestling",
+      "candidate_reasons": [
+        "shared-epg-titles:5"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:5-titles/9-aligned",
+      "epg_similarity": 0.8333
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-65621e98b7d737841f30a4f9",
+      "right": "roku:aee4056540505e84a2196b4d2263b745",
+      "left_name": "TruBlu",
+      "right_name": "TruBlu Crime Channel",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/0-aligned",
+      "epg_similarity": 0.5
     },
     {
       "left": "plex:6a1610bebdf296985fd95603-62441750cc4140a6505193e4",
-      "right": "tubi:603907",
+      "right": "tubi:603906",
       "left_name": "Very Carolina by WXII",
-      "right_name": "KCCI Very Iowa Des Moines 8",
+      "right_name": "WBAL Very Baltimore 11",
       "candidate_reasons": [
         "shared-epg-titles:7"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
+      "reason": "local-callsign-conflict",
       "epg_similarity": 0.2258
     },
     {
-      "left": "plex:6a1610bebdf296985fd95603-6243f13c02c2415bd217305a",
-      "right": "tubi:603907",
-      "left_name": "Very Carolina by WYFF 4",
-      "right_name": "KCCI Very Iowa Des Moines 8",
+      "left": "plex:6a1610bebdf296985fd95603-62441750cc4140a6505193e4",
+      "right": "tubi:603917",
+      "left_name": "Very Carolina by WXII",
+      "right_name": "WGAL Very Lancaster 8",
       "candidate_reasons": [
-        "shared-epg-titles:8"
+        "shared-epg-titles:7"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2963
+      "reason": "local-callsign-conflict",
+      "epg_similarity": 0.2333
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-6243f13c02c2415bd217305a",
+      "right": "tubi:603906",
+      "left_name": "Very Carolina by WYFF 4",
+      "right_name": "WBAL Very Baltimore 11",
+      "candidate_reasons": [
+        "shared-epg-titles:5"
+      ],
+      "confirmed": false,
+      "reason": "local-callsign-conflict",
+      "epg_similarity": 0.1515
+    },
+    {
+      "left": "plex:6a1610bebdf296985fd95603-6243f13c02c2415bd217305a",
+      "right": "tubi:603917",
+      "left_name": "Very Carolina by WYFF 4",
+      "right_name": "WGAL Very Lancaster 8",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "local-callsign-conflict",
+      "epg_similarity": 0.1212
     },
     {
       "left": "plex:6a1610bebdf296985fd95603-65f0de01046e6131ecc31845",
@@ -178,11 +238,47 @@
       "left_name": "\u00daN TV",
       "right_name": "\u00daNICA TV",
       "candidate_reasons": [
-        "shared-epg-titles:7"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 1.0
+      "epg_similarity": 0.8571
+    },
+    {
+      "left": "pluto:65453f30085df200085883d8",
+      "right": "tubi:400000286",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3333
+    },
+    {
+      "left": "pluto:65453f30085df200085883d8",
+      "right": "xumo:99951538",
+      "left_name": "ION",
+      "right_name": "Scripps Sports Network",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/7-aligned",
+      "epg_similarity": 0.3333
+    },
+    {
+      "left": "pluto:632b619c8d2a6c0007ff534e",
+      "right": "samsung:USBC1000017D8",
+      "left_name": "KIRO Seattle",
+      "right_name": "WSOC Charlotte",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "local-callsign-conflict",
+      "epg_similarity": 0.5
     },
     {
       "left": "samsung:USBB11000015Q",
@@ -190,35 +286,35 @@
       "left_name": "Moonbug",
       "right_name": "Moonbug Kids",
       "candidate_reasons": [
-        "shared-epg-titles:7"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.7778
+      "epg_similarity": 0.6667
     },
     {
-      "left": "samsung:USBD700011RE",
-      "right": "roku:d6f71998860459eca1bed73db5988330",
-      "left_name": "Gravitas Movies",
-      "right_name": "FilmRise Free Movies",
+      "left": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "right": "tubi:400000056",
+      "left_name": "Ebony",
+      "right_name": "Ebony TV by Lionsgate",
       "candidate_reasons": [
-        "shared-epg-titles:5"
+        "shared-epg-titles:9"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.2381
+      "reason": "different-name-epg:9-titles/19-aligned",
+      "epg_similarity": 0.6429
     },
     {
-      "left": "samsung:USBD700011RE",
-      "right": "xumo:99991337",
-      "left_name": "Gravitas Movies",
-      "right_name": "FilmRise",
+      "left": "roku:d0c6ac240cb8529992ee3340e5b7f102",
+      "right": "xumo:99951293",
+      "left_name": "Ebony",
+      "right_name": "Ebony TV by Lionsgate",
       "candidate_reasons": [
-        "shared-epg-titles:4"
+        "shared-epg-titles:6"
       ],
       "confirmed": false,
-      "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1818
+      "reason": "different-name-epg:6-titles/17-aligned",
+      "epg_similarity": 0.4
     },
     {
       "left": "roku:eb1dbd690001553eacdf32d7b155b933",
@@ -230,7 +326,7 @@
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.1724
+      "epg_similarity": 0.1786
     },
     {
       "left": "roku:d6f71998860459eca1bed73db5988330",
@@ -238,11 +334,23 @@
       "left_name": "FilmRise Free Movies",
       "right_name": "FilmRise",
       "candidate_reasons": [
-        "shared-epg-titles:11"
+        "shared-epg-titles:12"
       ],
       "confirmed": false,
       "reason": "researched-blocked-pair",
-      "epg_similarity": 0.4483
+      "epg_similarity": 0.65
+    },
+    {
+      "left": "tubi:400000286",
+      "right": "xumo:99951158",
+      "left_name": "Scripps Sports Network",
+      "right_name": "ION",
+      "candidate_reasons": [
+        "shared-epg-titles:4"
+      ],
+      "confirmed": false,
+      "reason": "different-name-epg:4-titles/5-aligned",
+      "epg_similarity": 0.2667
     },
     {
       "left": "vizio:",
